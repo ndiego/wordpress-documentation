@@ -11,7 +11,7 @@ redirect_from:
 
 # Image
 
-Use the Image block to easily add an image to your page.
+Use the Image block to add an image to your page.
 
 ## Add an Image block
 
@@ -28,8 +28,8 @@ Alternatively, you can quickly add the Image block by typing `/image` and pressi
 
 After adding the Image block, you have a few options to choose to get started.
 
--   **Upload** an image or video from your device.
--   Choose **Media Library** to select an existing image or video on your site.
+-   **Upload** an image from your device.
+-   Choose **Media Library** to select an existing image on your site.
 -   Select **Insert from URL** to add an image from a specific web address.
 
 ![Image block options when first adding to the page to upload, add from media library, or insert an image from a URL.](https://wordpress.org/documentation/files/2019/03/image-block-add-image-options.png)
@@ -57,7 +57,7 @@ You can drag and drop images from your computer onto a blank page or inside an e
 
 #### Media tab
 
-You can select images from the **Media** tab in the WordPress block inserter. If your theme supports [Openverse](https://openverse.org), you can also select free-to-use images from the WordPress Openverse library. If Openverse is not available, the option will not appear in the inserter.
+You can select images from the **Media** tab in the WordPress block inserter. The tab also lists [Openverse](https://openverse.org), a library of free-to-use images, unless your site turns it off. When Openverse is turned off, it does not appear in the inserter.
 
 1.  Click the + **Block Inserter** in the top-left corner.
 2.  Select the **Media** tab.
@@ -96,7 +96,7 @@ To resize an image:
 *Resize an image by dragging its handles.*
 
 > [!NOTE]
-> [Detailed instructions on adding blocks](../../write/blocks/add-a-block.md)
+> [Set an exact size with Width and Height](#width-and-height)
 
 ## Block toolbar
 
@@ -180,8 +180,8 @@ The block toolbar provides a quick action for applying duotone colors to images,
 You can choose link options to apply to an image. Options include the following:
 
 -   **Search field** – Paste a URL or search for a page, post, or other content on your site to link the image.
--   **Link images to image file** – Link image to the image file in a new browser window.
--   **Link images to attachment page** – Link the image to its WordPress media [attachment](#step-4--attachment-details) page.
+-   **Link to image file** – Link the image to the image file.
+-   **Link to attachment page** – Link the image to its attachment page. Sites installed with WordPress 6.4 or later have attachment pages turned off, and then this link goes to the image file.
 -   **Enlarge on click** – Lets visitors open the image in a larger view, known as a lightbox, without leaving the page to see more detail.
 
 ### Crop
@@ -215,11 +215,7 @@ Select **Save** to apply your changes, or **Cancel** to discard them and close t
 
 While editing, use **Reset**, **Undo**, and **Redo** at the bottom of the media editor.
 
-![Notification with action to undo changes to the image block](https://wordpress.org/documentation/files/2019/03/image-block-undo-crop-changes.png)
-
-*Undo action notice at the bottom of the block editor after applying image crop changes.*
-
-After applying changes to an image, you can revert them using the Undo option in the action notice or the Undo button in the top-left of the block editor next to the **+ Block Inserter** button.
+After you save changes in the Media Editor, you can revert them with the **Undo** button in the top-left of the block editor, next to the **+ Block Inserter** button.
 
 ### Add text over image
 
@@ -249,7 +245,7 @@ Click the **Add caption** button in the block toolbar to show or hide a caption 
 
 ### Replace
 
-Use the **Replace** button to select a new image from the Media Library, **Upload** a new image, or **Reset** the image block back to it’s initial setup options.
+Use the **Replace** button to select a new image from the Media Library, **Upload** a new image, or **Reset** the image block back to its initial setup options.
 
 ![Dropdown of image block replace options](https://wordpress.org/documentation/files/2019/03/image-block-replace-option.png)
 
@@ -322,7 +318,7 @@ Use the **Title** attribute to describe the role of this image on the page, howe
 
 ### Styles tab
 
-The **Styles** section appears if your theme includes custom image style options. The available styles may vary, but common options include **Default** and **Rounded**. The Rounded style adds rounded corners to the image.
+The **Styles** section lists the block's styles. WordPress includes **Default** and **Rounded**, and your theme can add or remove styles. The Rounded style adds rounded corners to the image.
 
 ![Image block style settings including dimensions, duotone, aspect ratio, and more.](https://wordpress.org/documentation/files/2019/03/image-block-style-settings-1.png)
 
@@ -386,7 +382,7 @@ The Image block provides border settings options to add border color, width, rad
 
 ### Overview
 
-When creating or editing a WordPress page or blog post, you can easily add images at any time using the WordPress Media Uploader tool. Here’s how to add an image, step-by-step, using the media uploader:
+When creating or editing a WordPress page or blog post, you can add images at any time using the WordPress Media Uploader tool. Here’s how to add an image, step-by-step, using the media uploader:
 
 ### Step 1 – Placing your cursor
 
@@ -414,7 +410,7 @@ You can add or select the image you want to add to your page or post by choosing
 -   **Upload Files:** Upload the image you want to use from your computer by dragging it into the upload area.
 -   **Media Library:** Select from any previously uploaded images in the media library by clicking on the one you wish to add to your page or post.
 
-![](https://wordpress.org/documentation/files/2018/11/media-uploader.png)
+![The media uploader with the Upload Files and Media Library tabs.](https://wordpress.org/documentation/files/2018/11/media-uploader.png)
 
 Once you have selected or uploaded the image you want to add, You will see a checkbox next to the thumbnail confirming your selection, and see information about it displayed in the Attachment Details pane on the right hand side of the media uploader interface.
 
@@ -426,13 +422,13 @@ Once you have selected or uploaded the image you want to add, You will see a che
 
 The **Attachment Details** pane displays a small un-cropped thumbnail of the image, as well as important information such as the filename, date uploaded, and image dimensions in pixels.
 
-There are also action links that allow you to **Edit Image**, which takes you to the page, or to **Delete Permanently** to remove the image from your site.
+There are also action links that allow you to **Edit Image**, which opens the image editor, or to **Delete Permanently** to remove the image from your site.
 
 In addition, you can edit the following media information:
 
 -   **Title:** The title of this media.
 -   **Caption:** The caption for this image. The text you enter here will be displayed below the image.
--   **Alternate Text:** Enter the Alt text for the image, e.g. “The Mona Lisa” to describe the media.
+-   **Alternative Text:** Enter the alt text for the image, for example “The Mona Lisa”, to describe the media.
 -   **Description:** A description for this particular media.
 
 For more information on these media settings, see the [Edit Media](../../write/media/edit-media.md) page.
@@ -484,7 +480,7 @@ The Size settings determine the size of the image you are adding to your site. B
 
 You can visit the **[Settings > Media](../../manage/settings/media.md)** section of your WordPress dashboard to customize the above image sizes.
 
-#### Step 5 – Inserting the image
+### Step 6 – Inserting the image
 
 ![Selecting the edit image option whenever hovering over an image](https://wordpress.org/documentation/files/2018/11/400px-re-edit-image.png)
 

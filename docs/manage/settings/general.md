@@ -9,9 +9,9 @@ redirect_from:
 
 # General settings
 
-The **Settings > General** screen holds the most basic settings for your site: its title and address, who may register an account, the language of the dashboard, and how dates and times are calculated and shown. It is the screen that opens when you select **Settings** in the dashboard.
+The **Settings > General** screen holds the most basic settings for your site: its title, icon and address, who may register an account, the site's language, and how dates and times are calculated and shown. It is the screen that opens when you select **Settings** in the dashboard.
 
-![The Settings > General screen with the site title, tagline and address fields.](https://wordpress.org/documentation/files/2018/11/general-settings.jpg)
+![The Settings > General screen with the Site Title, Tagline, Site Icon, address and Administration Email Address fields.](../../assets/screenshots/settings-general/settings-general.webp)
 
 ## The settings on this screen
 
@@ -22,6 +22,10 @@ Enter the name of your site (or blog) here. Most themes show this title at the t
 ### Tagline
 
 In a few words, say what your site is about. A tagline is a short phrase or sentence that sums up the site; many themes show it next to the site title. It is empty by default.
+
+### Site icon
+
+The small square image that browsers show in tabs and bookmarks, and that phones show when someone adds your site to the home screen. Select **Choose a Site Icon** to upload or pick an image that is square and at least 512 by 512 pixels; once one is set, **Change Site Icon** and **Remove Site Icon** replace the button. See [Site icon](../../design/site-editor/site-icon.md).
 
 ### WordPress address (URL)
 
@@ -46,7 +50,7 @@ This address may receive notifications about:
 
 The Administration Email Address is different from the email address associated with an individual user account.
 
-Changing this setting does not change the email address used to log in to WordPress. User account email addresses can be managed under Users → Profile.
+Changing this setting does not change the email address used to log in to WordPress. Manage the email address of your own account under **Users > Profile**.
 
 When you change the Administration Email Address, WordPress sends a confirmation email to the new address. The new address does not become active until the confirmation link in that email is clicked. Until then, the existing administration email address remains active.
 
@@ -74,11 +78,11 @@ Select the default [Role](../users/roles-and-capabilities.md) that is assigned t
 
 ### Site language
 
-The WordPress dashboard language.
+The language of your site. WordPress uses it on the front end and as the default language of the dashboard; each user can choose a different dashboard language under **Users > Profile**.
 
 ### Timezone
 
-From the drop-down box, choose a city in the same timezone as you. For example, under America, select New York if you reside in the Eastern Timezone of the United States that observes daylight saving time. If you can’t identify a city in your timezone, select one of the **Etc GMT** settings that represents the number of hours by which your time differs from [Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time). Click the **Save Changes** button and the [UTC time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) and “Local time” will display to confirm the correct Timezone was selected.
+From the drop-down box, choose a city in the same timezone as you. For example, under America, select New York if you reside in the Eastern Timezone of the United States that observes daylight saving time. If you can’t identify a city in your timezone, select one of the **UTC** offsets under **Manual Offsets**, such as **UTC+5**, that represents the number of hours by which your time differs from [Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time). Click the **Save Changes** button and the [UTC time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) and “Local time” will display to confirm the correct Timezone was selected.
 
 ### Date format
 

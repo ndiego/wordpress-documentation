@@ -27,6 +27,8 @@ Go to your site's address followed by `/wp-admin/`, for example `https://example
 
 After you log in, you land on the **Dashboard**. This is the administration area of your site, sometimes called the back end or wp-admin. Visitors never see it.
 
+The screenshots on this page show an example site that already has posts, pages and comments, so your new site looks emptier.
+
 ![The WordPress dashboard after logging in, with the admin menu on the left, the toolbar across the top, and the Site Health Status, At a Glance, Activity, Quick Draft, and WordPress Events and News boxes in the main area.](../assets/screenshots/your-first-site/dashboard.webp)
 
 The dashboard has three parts.
@@ -82,7 +84,7 @@ Go back to the dashboard: select your site's name in the toolbar again, then **D
 5. Select **Publish** again in that panel. WordPress confirms that the post is live.
 6. Select **View Post** to see it on your site.
 
-This is your post's own page, as visitors see it. The post also appears at the top of the list of latest posts.
+This is your post's own page, as visitors see it. The screenshot shows a longer post on the example site; yours shows the title and paragraph you wrote. The post also appears at the top of the list of latest posts.
 
 ![A published post as a visitor sees it: the site title, tagline and navigation at the top, then the post's image, title, date, categories and first paragraph. The toolbar is visible at the top because the author is logged in.](../assets/screenshots/your-first-site/front-end.webp)
 
@@ -94,7 +96,7 @@ You do not need "Hello world!" or "Sample Page". Go to **Posts > All Posts**, po
 
 ## Name your site
 
-A new site has the title you chose during installation, and a short tagline. Change them now, because themes show them in the header, browsers show the title in tabs, and search engines show it in results.
+A new site has the title you chose during installation and no tagline. Change them now, because themes show them in the header, browsers show the title in tabs, and search engines show it in results.
 
 1. Go to **Settings > General**.
 2. In **Site Title**, enter your site's name.

@@ -25,7 +25,7 @@ To work with the Site Editor, you need to use a [block theme](../themes/block-th
 
 All [blocks](../../blocks/README.md) that are available in the [WordPress Block editor](../../write/editor/README.md) can be used in the Site Editor. A set of blocks called [Theme blocks](../../blocks/README.md#theme-blocks) are specifically built for the Site Editor.
 
-To find block themes, from the WordPress dashboard, go to **Appearance** > **Themes** and click **Add New**. In the **Add Themes** page, select **Block Themes** to find the growing list of [Block themes](../themes/block-themes.md) in the [WordPress theme directory](https://wordpress.org/themes/tags/full-site-editing/).
+To find block themes, from the WordPress dashboard, go to **Appearance** > **Themes** and select **Add Theme**. In the **Add Themes** page, select **Block Themes** to find the growing list of [Block themes](../themes/block-themes.md) in the [WordPress theme directory](https://wordpress.org/themes/tags/full-site-editing/).
 
 ![Appearance > Themes showing block theme options](https://wordpress.org/documentation/files/2022/01/Appearance-Themes-showing-block-themes.png)
 
@@ -39,7 +39,7 @@ Once you install and activate a Block theme on your site, go to **Appearance** >
 
 ## Things to do in the Site Editor
 
-Once you enter the Site Editor, you will see five menu items.
+Once you enter the Site Editor, you will see these menu items.
 
 ![Main menu screen in the Site Editor.](https://wordpress.org/documentation/files/2026/08/site-editor.jpg)
 
@@ -119,7 +119,7 @@ The top menu in the Site Editor includes the following options:
 
 **Editor**: By default, you will be in the **Visual editor**. Switch to the **Code editor** to view the entire page in HTML code editor.
 
-**Plugins**: Here, you can switch between **Settings** and **Styles** in the Site Editor Sidebar.
+**Plugins**: Open the sidebars that plugins add to the Site Editor. This section appears only when an active plugin adds one.
 
 **Tools**: Here, you can download your theme with the updated templates and styles (**Export**), learn [keyboard shortcuts](../../write/editor/keyboard-shortcuts.md), visit the Site Editor welcome guide, copy all blocks, or view additional support articles.
 
@@ -149,7 +149,7 @@ To review your **style revisions or reset the changes** you made completely, cli
 
 ### To customize the site’s layout
 
-You can use the Site Editor to build the structure and layout of your entire site, using blocks. Eg: areas like headers, footers, and the structural appearance of your site’s posts and pages.
+You can use the Site Editor to build the structure and layout of your entire site, using blocks. For example, areas like headers, footers, and the structural appearance of your site’s posts and pages.
 
 All [blocks](../../blocks/README.md) that are available in the [WordPress Block Editor](../../write/editor/README.md) can be used in the Site Editor. A set of blocks called [Theme blocks](../../blocks/README.md#theme-blocks) are specifically built for the Site Editor.
 
@@ -160,7 +160,7 @@ Examples: the [Query Loop Block](../../blocks/theme/query.md) allows you to cust
 
 #### Example – how to customize Twenty Twenty-Three using the Site Editor
 
-[Twenty Twenty-Three](../themes/default-themes/twenty-twenty-three.md) supports the Site Editor and can be customized using it. As an example, let’s remove the gap at the top of the home page in Twenty Twenty-Three. To do this, remove the padding at the bottom of the header template part and the padding at the top of the content area.
+[Twenty Twenty-Three](../themes/default-themes/twenty-twenty-three.md) supports the Site Editor and can be customized using it. The menu names and padding values below are specific to that theme and differ in other themes. As an example, let’s remove the gap at the top of the home page in Twenty Twenty-Three. To do this, remove the padding at the bottom of the header template part and the padding at the top of the content area.
 
 ![Before](https://wordpress.org/documentation/files/2023/08/before-editing-2023.jpg)
 
@@ -239,11 +239,11 @@ Since version 6.3, it is possible to manage, edit and create pages via the Site 
 [Watch the video](https://wordpress.org/documentation/files/2022/01/site-editor-pages-6.6.mp4)
 
 > [!NOTE]
-> Learn more about managing pages via the Site Editor in this support article: [Site Editor Pages](README.md)
+> Learn more about managing pages via the Site Editor in [Site Editor pages](#site-editor-pages).
 
 ## How to return to the Dashboard
 
-Use the **Back button** (the left-chevron icon) in the upper-left area of the Site Editor to return to the previous Site Editor screen.
+To return to the dashboard, select your site's name in the WordPress toolbar at the top of the screen, then **Dashboard**. Use the **Back button** (the left-chevron icon) in the upper-left area of the Site Editor to return to the previous Site Editor screen.
 
 The WordPress Toolbar remains available above the Site Editor and provides access to your site’s administration screens. If you have unsaved changes when leaving an editing view, WordPress will prompt you to save or review those changes before leaving.
 
@@ -251,7 +251,7 @@ The WordPress Toolbar remains available above the Site Editor and provides acces
 
 ## How to export templates and styles
 
-You can export your theme with the changes you made in the Site Editor including the templates, template parts, and style settings, similar to the [Tools > Export option](https://github.com/WordPress/Advanced-administration-handbook/blob/main/wordpress/import.md).
+You can export your theme with the changes you made in the Site Editor, including the templates, template parts, and style settings.
 
 -   Open the Site Editor by going to **Appearance** > **Editor**.
 -   Select the three vertical dots icon next to your **Styles** settings option.
@@ -315,17 +315,15 @@ When you’re in the Site Editor, you might want to change the preview of the te
 Zoom Out View provides a condensed visual overview of the entire page structure, enabling users to quickly assess the hierarchy, placement, and design of individual sections without having to scroll through each block in detail.
 
 > [!NOTE]
-> [Learn more about Zoom out mode.](README.md)
+> [Learn more about Zoom out mode.](#zoom-out-view)
 
 ## Resource links
 
--   [Additional guide to using Site Editor](README.md)
+-   [Additional guide to using the Site Editor](#additional-guide-to-using-the-site-editor)
 -   [Simple Site Design and Site Editing](https://learn.wordpress.org/course/simple-site-design-with-full-site-editing/)
 -   [Intro into the Site Editor and Template Editor](https://learn.wordpress.org/workshop/intro-to-the-site-editor-and-template-editor/)
 
 ## Additional guide to using the Site Editor
-
-<!-- TODO: merge: this section was absorbed from https://wordpress.org/documentation/article/additional-guide-to-using-the-site-editor/; edit it into the page. -->
 
 ### How to update what your homepage displays
 
@@ -359,7 +357,7 @@ Follow these steps to assign an existing template:
 2.  From the list of pages, select the option to edit page you have set as your home page.
 3.  Once in the editor, open the settings sidebar.
 4.  Under “Template”, you can then select whatever Template you want your home page to use.
-5.  When you’re done, select “Update” to save the changes.
+5.  When you’re done, select **Save** to save the changes.
 
 Follow these steps to create a new template:
 
@@ -368,13 +366,13 @@ Follow these steps to create a new template:
 3.  Once in the editor, open the settings sidebar.
 4.  Under “Template”, select New.
 5.  This will open the Site Editor to add blocks for create your template for your static homepage.
-6.  When you’re done, select “Update” to save the changes.
+6.  When you’re done, select **Save** to save the changes.
 
 Please note that if you add a Front Page template in the Site Editor, it will always be used as the front page regardless of what setting you choose under Admin > Settings > Reading. You will need to either customize that template to your liking or remove it to then adjust the homepage settings again.
 
 ### How to update your site icon
 
-Block themes include the ability to use the Site Logo block which has built within it an option to set your Site Logo as your Site Icon. For context, the Site Logo simply displays whatever logo you set for your site whereas your Site Icon is also known as a favicon and it is used to help identify your website. To learn more about setting your Site Icon or favicon, please see the support article [Creating a Favicon](site-icon.md).
+Block themes include the ability to use the Site Logo block which has built within it an option to set your Site Logo as your Site Icon. For context, the Site Logo displays whatever logo you set for your site whereas your Site Icon is also known as a favicon and it is used to help identify your website. To learn more about setting your Site Icon or favicon, please see the support article [Creating a Favicon](site-icon.md).
 
 Follow the steps below to use the same image for the Site Logo and Site Icon:
 
@@ -391,11 +389,9 @@ Follow the steps below to use the same image for the Site Logo and Site Icon:
 
 Since WordPress 5.9, you can set the colors, typography, layout, spacing, and more, for the entire site via Styles. You can also edit the default appearance of blocks to streamline the look and feel of your site.
 
-Fore more details, refer [Styles Overview](styles.md).
+For more details, refer [Styles Overview](styles.md).
 
 ## Site Editor pages
-
-<!-- TODO: merge: this section was absorbed from https://wordpress.org/documentation/article/site-editor-pages/; edit it into the page. -->
 
 Site Editor Pages is a page editing and page management tool in the Site Editor where you can create, view, edit, and trash pages. It shows your page content as part of the template instead of using placeholder content.
 
@@ -416,9 +412,9 @@ Once you install and activate a Block theme on your site, go to **Appearance** >
 
 When you select **Pages**, WordPress shows a sidebar with a list of pages, page-related shortcuts, and an option to create new pages.
 
-You will find your site icon or the WordPress logo at the top of the sidebar. Clicking on this image takes you back to the WordPress dashboard.
+To go back to the WordPress dashboard, use the toolbar above the Site Editor.
 
-Next is your site title and a button that opens the [Command Palette](command-palette.md). You will recognize the Command Palette button by the icon of the magnifying glass. You can select the back button if you want to go back to the main Site Editor menu.
+At the top of the sidebar are your site title and a button that opens the [Command Palette](command-palette.md). You will recognize the Command Palette button by the icon of the magnifying glass. You can select the back button if you want to go back to the main Site Editor menu.
 
 ![The page sidebar with a menu with all pages that are published or drafts.](https://wordpress.org/documentation/files/2023/07/63-pages-sidebar-inner.png)
 
@@ -557,8 +553,6 @@ Or, you can click on the WordPress logo or site icon in the top left corner to o
 -   [Create Pages](../../write/create-a-page.md)
 
 ## Zoom out view
-
-<!-- TODO: merge: this section was absorbed from https://wordpress.org/documentation/article/zoom-out-view/; edit it into the page. -->
 
 The Zoom out view is a powerful editing mode in the WordPress Site Editor that allows users to get a broader, high-level perspective of their page layout. It is designed to enhance usability and streamline the design workflow, especially when managing full-page layouts or working with multiple template parts.
 

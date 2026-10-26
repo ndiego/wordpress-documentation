@@ -10,6 +10,8 @@
 - slug: front matter, else the file name (README.md: the folder name). id: front matter, else the key.
   section: the first path segment ("" for the home).
 - Entries are written parents first, in sidebar order; keys inside each entry are sorted; one tab indent.
+- Fails (exit 1, nothing written) when a page is not UTF-8, has no front matter or front matter that does not
+  parse, or when two pages share a slug.
 
 Usage: python3 -I scripts/build-manifest.py [--check]
   --check   do not write; exit 1 when manifest.json differs from what the tree produces
@@ -27,16 +29,28 @@ OUT = os.path.join(D.REPO, "manifest.json")
 
 
 def load_pages():
-    pages = {}
+    """({rel: front matter}, [error messages])."""
+    pages, errors = {}, []
     for rel in D.page_files():
-        text = open(os.path.join(D.DOCS, rel), encoding="utf-8-sig").read().replace("\r\n", "\n")
+        with open(os.path.join(D.DOCS, rel), "rb") as fh:
+            raw = fh.read()
+        try:
+            text = raw.decode("utf-8-sig").replace("\r\n", "\n")
+        except UnicodeDecodeError as exc:
+            errors.append(f"docs/{rel}: not UTF-8 ({exc})")
+            pages[rel] = {}
+            continue
         try:
             fm, _, _, _ = D.split_front_matter(text)
         except D.FrontMatterError as exc:
-            print(f"docs/{rel}: front matter: {exc}", file=sys.stderr)
-            fm = None
-        pages[rel] = fm or {}
-    return pages
+            errors.append(f"docs/{rel}: front matter: {exc}")
+            fm = {}
+        else:
+            if fm is None:
+                errors.append(f"docs/{rel}: missing front matter")
+                fm = {}
+        pages[rel] = fm
+    return pages, errors
 
 
 def parent_of(rel, keys_by_rel):
@@ -56,7 +70,8 @@ def parent_of(rel, keys_by_rel):
 
 
 def build():
-    pages = load_pages()
+    """(manifest, [error messages])."""
+    pages, errors = load_pages()
     keys = {rel: D.page_key(rel) for rel in pages}
     entries = {}
     for rel, fm in pages.items():
@@ -82,6 +97,12 @@ def build():
             "redirect_from": [str(x) for x in lst(fm.get("redirect_from"))],
             "applies_to": [str(x) for x in lst(fm.get("applies_to"))],
         }
+    by_slug = collections.defaultdict(list)
+    for key, e in entries.items():
+        by_slug[e["slug"]].append(key)
+    for slug, keys_ in sorted(by_slug.items()):
+        if len(keys_) > 1:
+            errors.append(f"slug {slug!r} is used by more than one page: {', '.join(sorted(keys_))}")
     children = collections.defaultdict(list)
     for key, e in entries.items():
         if key != "index":
@@ -104,7 +125,7 @@ def build():
         walk("index")
     for k in children.get(None, []):
         walk(k)
-    return ordered
+    return ordered, errors
 
 
 def render(manifest):
@@ -115,7 +136,13 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--check", action="store_true")
     a = ap.parse_args()
-    text = render(build())
+    manifest, errors = build()
+    if errors:
+        for e in errors:
+            print(e, file=sys.stderr)
+        print(f"{len(errors)} errors; manifest.json not written", file=sys.stderr)
+        return 1
+    text = render(manifest)
     current = open(OUT, encoding="utf-8").read() if os.path.isfile(OUT) else None
     if a.check:
         if current != text:

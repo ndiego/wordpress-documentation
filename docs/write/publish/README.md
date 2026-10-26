@@ -30,8 +30,10 @@ Every post and page has a status, shown in the **Post** or **Page** tab of the s
 Visibility decides who can read a published post or page:
 
 - **Public**: everyone. This is the default.
-- **Private**: only logged-in administrators and editors (and the author).
+- **Private**: only logged-in users who can edit it, such as administrators, editors and the author.
 - **Password protected**: everyone can see the title, but only people who enter the password can read the content.
+
+Set visibility in the **Status** panel of the settings sidebar: choose **Private**, or turn on **Password protected** and enter a password.
 
 See [Content visibility](content-visibility.md) and [Password-protected content](password-protected.md).
 

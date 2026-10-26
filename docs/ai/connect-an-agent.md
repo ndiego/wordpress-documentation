@@ -20,7 +20,7 @@ WordPress has a REST API that lets other software read and change content, and a
 
 ## The direction: the MCP adapter and the Abilities API
 
-The WordPress project is working on an Abilities API, a way for WordPress, plugins and themes to describe what a site can do in a form that software can discover, and on an adapter that exposes those abilities to AI agents through the Model Context Protocol (MCP). This section will describe them once they are ready for site owners.
+WordPress 6.9 and later include the Abilities API, a way for WordPress, plugins and themes to describe what a site can do in a form that software can discover. The WordPress project is working on an adapter, developed separately from WordPress itself, that exposes those abilities to AI agents through the Model Context Protocol (MCP). This section will describe them once they are ready for site owners.
 
 ## What you will be able to ask an agent to do
 

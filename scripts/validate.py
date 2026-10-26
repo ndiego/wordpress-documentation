@@ -8,12 +8,15 @@ Errors (exit 1):
                characters, no em-dash; order an integer; status placeholder or draft; updated YYYY-MM-DD;
                redirect_from a list of root-relative paths with a trailing slash
   title        the first body line is '# ' + title; exactly one H1; headings do not skip levels
-  tree         slugs unique; redirect_from paths unique and never equal to a live path; every folder has a README.md
-  Markdown     no em-dashes in prose; raw HTML only kbd, details, summary, sub, sup and comments; alerts use NOTE,
-               TIP, IMPORTANT, WARNING or CAUTION; fenced code has a language; no block markup (<!-- wp:) outside
-               code; no footnotes; no setext headings
-  links        relative links point at a file that exists (a .md page, or a folder's README.md); no root-relative
-               links; no github.com links into this repository; relative images exist
+  tree         slugs unique; redirect_from paths unique and never equal to a live path; every folder that holds
+               pages, directly or in a subfolder, has a README.md
+  Markdown     no em-dashes (or &mdash; entities) in prose; raw HTML only kbd, details, summary, sub, sup and
+               comments; alerts use NOTE, TIP, IMPORTANT, WARNING or CAUTION; fenced code (also inside a
+               blockquote) has a language and is closed; no block markup (<!-- wp:) outside code; no footnotes;
+               no setext headings (=== or --- under a line)
+  links        relative links (inline, wrapped across lines, or reference definitions) point at a file that exists
+               (a .md page, or a folder's README.md); no root-relative links; no github.com links into this
+               repository; relative images exist
 Warnings: images without alt text; an alert directly after another blockquote; description equal to the lede.
 
 Usage: python3 -I scripts/validate.py [--quiet] [files ...]
@@ -34,6 +37,7 @@ FIELDS = {"title", "description", "type", "order", "slug", "id", "status", "redi
 ALERTS = ("NOTE", "TIP", "IMPORTANT", "WARNING", "CAUTION")
 ALLOWED_HTML = {"kbd", "details", "summary", "sub", "sup"}
 EM = "—"
+EM_RE = re.compile(r"—|&mdash;|&#0*8212;|&#x0*2014;", re.I)
 
 
 class Report:
@@ -55,9 +59,36 @@ def prose(line):
     return t
 
 
+def html_tags(bare):
+    """Tag names of raw HTML on a line that has had inline code and comments removed. Angle-bracket link
+    destinations (`](<a b.png>)`) and autolinks are not HTML."""
+    t = re.sub(r"\]\(\s*<[^>]*>", "](", bare)
+    t = re.sub(r"<[a-zA-Z][a-zA-Z0-9+.-]*:[^>\s]*>", "", t)
+    return sorted({m.group(1).lower() for m in re.finditer(r"</?([a-zA-Z][a-zA-Z0-9-]*)(?=[\s>/]|$)", t)})
+
+
+def strip_comments(line, in_comment):
+    """(line without HTML comments, still inside a comment at the end of the line)."""
+    out, i = "", 0
+    while i < len(line):
+        if in_comment:
+            j = line.find("-->", i)
+            if j < 0:
+                return out, True
+            i, in_comment = j + 3, False
+        else:
+            j = line.find("<!--", i)
+            if j < 0:
+                return out + line[i:], False
+            out += line[i:j]
+            i, in_comment = j + 4, True
+    return out, in_comment
+
+
 def check_page(rel, r, pages, slugs, redirects):
     where = f"docs/{rel}"
-    raw = open(os.path.join(D.DOCS, rel), "rb").read()
+    with open(os.path.join(D.DOCS, rel), "rb") as fh:
+        raw = fh.read()
     if raw.startswith(b"\xef\xbb\xbf"):
         r.err(where, 1, "byte order mark (the importer would render the front matter)")
         raw = raw[3:]
@@ -94,7 +125,7 @@ def check_page(rel, r, pages, slugs, redirects):
         if len(desc) >= 200:
             r.err(where, 1, f"description is {len(desc)} characters (keep it under 200)")
     for k in ("title", "description"):
-        if isinstance(fm.get(k), str) and EM in fm[k]:
+        if isinstance(fm.get(k), str) and EM_RE.search(fm[k]):
             r.err(where, 1, f"em-dash in {k}")
     if "order" in fm and not isinstance(fm["order"], int):
         r.err(where, 1, "order must be an integer")
@@ -133,13 +164,16 @@ def check_page(rel, r, pages, slugs, redirects):
         if lede.strip() == fm["description"].strip():
             r.warn(where, start, "description repeats the first paragraph word for word")
     base = os.path.dirname(rel)
-    h1s, prev_level, prev_line, last_quote = 0, 1, "", -10
-    for n, line, in_fence, info in D.iter_lines(body, start):
+    h1s, prev_level, prev_line, last_quote, in_comment = 0, 1, "", -10, False
+    state = {}
+    for n, line, in_fence, info in D.iter_lines(body, start, state):
         if in_fence:
             if info is not None and not info:
                 r.err(where, n, "fenced code block without a language (```text if nothing else fits)")
+            prev_line = line
             continue
         bare = D.strip_inline_code(line)
+        nocomment, in_comment = strip_comments(bare, in_comment)
         h = re.match(r"^(#{1,6})\s+\S", line)
         if h:
             lvl = len(h.group(1))
@@ -150,14 +184,14 @@ def check_page(rel, r, pages, slugs, redirects):
             elif lvl > prev_level + 1:
                 r.err(where, n, f"heading level skips from H{prev_level} to H{lvl}")
             prev_level = lvl
-        if re.match(r"^\s{0,3}(=+|-+)\s*$", line) and prev_line.strip() and not prev_line.lstrip().startswith(("-", "*", "|", ">")) \
-                and re.match(r"^\s{0,3}=+\s*$", line):
-            r.err(where, n, "setext heading; use # headings")
-        if EM in prose(line):
+        if re.match(r"^ {0,3}(=+|-+)[ \t]*$", line) and prev_line.strip() and not D.FENCE.match(prev_line) \
+                and not re.match(r"^\s*([-*+](\s|$)|[>|#<]|\d+[.)](\s|$))", prev_line) and not re.match(r"^ {0,3}(=+|-+)[ \t]*$", prev_line):
+            r.err(where, n, "setext heading (a line of = or - under text); use # headings, or a blank line before ---")
+        if EM_RE.search(prose(line)):
             r.err(where, n, "em-dash in prose; use a comma, a colon, parentheses or two sentences")
         if "<!-- wp:" in bare:
             r.err(where, n, "block markup '<!-- wp:' outside a code fence (disables wpautop on the whole page)")
-        for tag in sorted({m.group(1).lower() for m in re.finditer(r"</?([a-zA-Z][a-zA-Z0-9-]*)(?=[\s>/])", bare)}):
+        for tag in html_tags(nocomment):
             if tag not in ALLOWED_HTML:
                 r.err(where, n, f"raw HTML <{tag}> (allowed: {', '.join(sorted(ALLOWED_HTML))} and comments)")
         a = re.match(r"^\s*>\s*\[!([^\]]+)\]", line)
@@ -172,9 +206,11 @@ def check_page(rel, r, pages, slugs, redirects):
             last_quote = n
         if re.search(r"\[\^[^\]]+\]", bare):
             r.err(where, n, "footnotes are not supported; put the note in the sentence or a NOTE alert")
-        for mm in D.LINK.finditer(bare):
-            check_link(where, base, n, mm.group(1), mm.group(2), mm.group(3).strip("<>"), r, pages)
         prev_line = line
+    if state.get("open_fence"):
+        r.err(where, state["open_fence"], "code fence is never closed")
+    for n, bang, label, url in D.iter_links(body, start):
+        check_link(where, base, n, bang, label, url, r, pages)
     if h1s == 0:
         r.err(where, start, "no H1")
 
@@ -221,6 +257,19 @@ def check_link(where, base, n, bang, label, url, r, pages):
         r.err(where, n, f"link target {url} does not exist")
 
 
+def check_folders(pages, r):
+    """Every folder on the path to a page has a README.md (the folder's own page and the parent of its pages)."""
+    page_set, missing = set(pages), set()
+    for rel in pages:
+        d = os.path.dirname(rel)
+        while d:
+            if os.path.join(d, "README.md") not in page_set:
+                missing.add(d)
+            d = os.path.dirname(d)
+    for d in sorted(missing):
+        r.err(f"docs/{d}/", 1, "folder has pages (directly or in a subfolder) but no README.md")
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--quiet", action="store_true", help="print errors and the summary only")
@@ -242,10 +291,7 @@ def main():
             r.err(f"docs/{rels[1]}", 1, f"redirect_from {red} also on {', '.join(rels[:1] + rels[2:])}")
         if red in live or red.rstrip("/") + "/" in live:
             r.err(f"docs/{rels[0]}", 1, f"redirect_from {red} is the path of a live page")
-    for dp, dn, fn in os.walk(D.DOCS):
-        dn[:] = [d for d in dn if not (dp == D.DOCS and d == "assets") and d != "images" and not d.startswith(".")]
-        if any(f.endswith(".md") for f in fn) and "README.md" not in fn:
-            r.err(f"{os.path.relpath(dp, D.REPO)}/", 1, "folder has pages but no README.md")
+    check_folders(pages, r)
     only = {os.path.relpath(os.path.abspath(f), D.REPO) for f in a.files}
     errors = [e for e in r.errors if not only or e[0] in only or e[0].endswith("/")]
     warnings = [w for w in r.warnings if not only or w[0] in only]

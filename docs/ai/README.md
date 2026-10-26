@@ -24,7 +24,7 @@ WordPress also already has the building blocks that agents use to work with a si
 
 ## What is being built
 
-The WordPress project is working on ways for AI agents to discover what a site can do and act on it with the right permissions, and on AI features for the editor. Those features are not documented here yet, because their final shape is still changing.
+WordPress 6.9 and later include the Abilities API, which lets WordPress, plugins and themes describe what a site can do in a form that software can discover, and WordPress 7.1 has a **Settings > Connectors** screen for connecting the site to external services such as AI providers. The WordPress project is building on them: an adapter that lets AI agents use a site's abilities through the Model Context Protocol (MCP), and AI features for the editor. Those are not documented here yet, because their final shape is still changing.
 
 The pages for them exist now as **placeholders**: each one says so at the top, outlines what it will cover, and makes no claims about features that are not released. They are:
 
@@ -33,7 +33,7 @@ The pages for them exist now as **placeholders**: each one says so at the top, o
 - [Write and edit with AI](write-with-ai.md)
 - [Permissions and safety for agents](agent-permissions-and-safety.md)
 
-The safety principles in the last page apply today, whatever tool you use.
+Until the last page is written, one principle applies today, whatever tool you use: give each tool its own application password and only the role it needs.
 
 ## A note on accuracy
 

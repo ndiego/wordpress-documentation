@@ -32,7 +32,7 @@ The editor has three areas:
 3. Type your first paragraph. Everything you type here goes into a Paragraph block.
 4. Press <kbd>Enter</kbd> to end the paragraph. WordPress creates a new Paragraph block for the next one.
 
-Write two or three short paragraphs. WordPress saves a draft for you automatically every few seconds, and you can select **Save draft** at any time.
+Write two or three short paragraphs. WordPress saves a draft for you automatically about once a minute, and you can select **Save draft** at any time.
 
 ## Add a heading with the slash shortcut
 
@@ -58,7 +58,7 @@ The **Block Inserter** shows every block you can add, grouped and searchable.
 4. In the Image block, select **Upload** and choose the image on your computer. You can also choose **Media Library** to use an image you uploaded before, or **Insert from URL**.
 5. With the image selected, open the **Block** tab of the settings sidebar and fill in **Alternative text**: a short description of what the image shows, for people who cannot see it.
 
-To add a caption, select the image and type below it, or use the caption button in the block toolbar. [Media](media/README.md) explains uploading and managing files.
+To add a caption, select the image, select **Add caption** in the block toolbar, and type below the image. [Media](media/README.md) explains uploading and managing files.
 
 ## Use the block toolbar
 

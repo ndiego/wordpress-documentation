@@ -2,7 +2,8 @@
 """Report links whose #anchor names no heading in the target page (same-page and cross-page).
 
 Anchors follow GitHub's algorithm (lowercase, punctuation removed, spaces to hyphens, -1, -2 for repeats).
-Links to files that do not exist are validate.py's job and are skipped here. Report only: exits 0 unless
+Inline links (also when their text wraps across lines) and reference definitions are checked. Links to files
+that do not exist are validate.py's job and are skipped here. Report only: exits 0 unless
 --strict is given and an anchor is missing.
 
 Usage: python3 -I scripts/check-links.py [--strict]
@@ -47,25 +48,21 @@ def main():
             _, _, body, start = D.split_front_matter(open(os.path.join(D.DOCS, rel), encoding="utf-8").read())
         except D.FrontMatterError:
             continue
-        for n, line, fence, _ in D.iter_lines(body, start):
-            if fence:
+        for n, bang, _, url in D.iter_links(body, start):
+            if bang or "#" not in url or re.match(r"^[a-z][a-z0-9+.-]*:", url) or url.startswith("/"):
                 continue
-            for mm in D.LINK.finditer(D.strip_inline_code(line)):
-                url = mm.group(3).strip("<>")
-                if mm.group(1) or "#" not in url or re.match(r"^[a-z][a-z0-9+.-]*:", url) or url.startswith("/"):
-                    continue
-                target, frag = url.split("#", 1)
-                tgt = rel if not target else os.path.normpath(os.path.join(os.path.dirname(rel), urllib.parse.unquote(target)))
-                if os.path.isdir(os.path.join(D.DOCS, tgt)):
-                    tgt = os.path.join(tgt, "README.md")
-                if not tgt.endswith(".md") or not os.path.isfile(os.path.join(D.DOCS, tgt)):
-                    continue
-                checked += 1
-                frag = urllib.parse.unquote(frag)
-                names = anchors_of(tgt, cache)
-                if frag not in names and frag.lower() not in names:
-                    missing += 1
-                    print(f"docs/{rel}:{n}: anchor #{frag} not found in docs/{tgt}")
+            target, frag = url.split("#", 1)
+            tgt = rel if not target else os.path.normpath(os.path.join(os.path.dirname(rel), urllib.parse.unquote(target)))
+            if os.path.isdir(os.path.join(D.DOCS, tgt)):
+                tgt = os.path.join(tgt, "README.md")
+            if not tgt.endswith(".md") or not os.path.isfile(os.path.join(D.DOCS, tgt)):
+                continue
+            checked += 1
+            frag = urllib.parse.unquote(frag)
+            names = anchors_of(tgt, cache)
+            if frag not in names and frag.lower() not in names:
+                missing += 1
+                print(f"docs/{rel}:{n}: anchor #{frag} not found in docs/{tgt}")
     print(f"{checked} anchored links checked, {missing} missing")
     return 1 if a.strict and missing else 0
 

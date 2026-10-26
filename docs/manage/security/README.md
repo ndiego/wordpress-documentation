@@ -14,7 +14,7 @@ After reading this page you can protect your WordPress site against the most com
 Most hacked WordPress sites were running outdated software with a known security hole. Updates close those holes.
 
 - WordPress installs minor releases, which carry security fixes, automatically by default. Leave that on.
-- Turn on auto-updates for plugins and themes: on **Plugins > Installed Plugins** and **Appearance > Themes**, select **Enable auto-updates** for each one you trust to update without you.
+- Turn on auto-updates for plugins and themes you trust to update without you. On **Plugins > Installed Plugins**, select **Enable auto-updates** next to each plugin. For a theme, go to **Appearance > Themes**, select the theme to open its details, and select **Enable auto-updates**.
 - Check **Dashboard > Updates** regularly for anything that is not automatic, and update to each new major release of WordPress.
 - Ask your host to keep PHP on a supported version. **Tools > Site Health** tells you when it is out of date.
 
