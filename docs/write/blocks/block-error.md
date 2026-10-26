@@ -83,13 +83,13 @@ In the example below, converting the block to a Custom HTML block will keep the 
 
 The third option is to convert to a Custom HTML block, this is the same function as the Convert to HTML option, which is part of the Resolve option above.
 
-![](https://wordpress.org/documentation/files/2023/06/convert-to-html-block.png)
+![A block after Convert to HTML, shown as a Custom HTML block.](https://wordpress.org/documentation/files/2023/06/convert-to-html-block.png)
 
 [Watch the video](https://wordpress.org/documentation/files/2023/06/convert-to-html.mov)
 
 ### Convert to Classic block
 
-![](https://wordpress.org/documentation/files/2023/06/convert-to-classic-block.png)
+![A block after Convert to Classic Block, shown as a Classic block.](https://wordpress.org/documentation/files/2023/06/convert-to-classic-block.png)
 
 You can convert the invalid content into a [Classic Block](https://wordpress.org/plugins/classic-editor/). This block contains the same options from the Classic Editor. The changes you would have made will be kept similar to converting the Custom HTML block. You can go over [our Classic Editor guide](../../classic/classic-editor/write-posts-classic.md) for an explanation of each of the options shown for the Classic Block.
 

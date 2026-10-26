@@ -10,8 +10,6 @@ redirect_from:
 
 # Content visibility
 
-Note: This page uses Block Editor. If you are a Classic Editor User, refer [this page](#classic-editor).
-
 Content visibility is about controlling who can see your blog content. WordPress allows you to control the visibility of your posts and [Pages](../create-a-page.md) on an individual basis. By default, all posts and Pages are visible.
 
 There are several ways to set the visibility for your blog content. You can set it on a per post/Page basis for public, private, or Password Protected, or make the entire blog private and Password Protected through the use of WordPress Plugins.
@@ -50,7 +48,8 @@ Private content is published only for your eyes, or the eyes of only those with 
 
 Once you change the visibility to private, the post or page status changes to “Privately Published” as shown. Private posts are automatically published but not visible to anyone but those with the appropriate permission levels (Editor or Administrator).
 
-**WARNING:** If your site has multiple editors or administrators, they will be able to see your protected and private posts in the **Edit** screen. They do not need the password to be able to see your protected posts. They can see the private posts in the **Edit** Posts/Pages list, and are able to modify them, or even make them public. Consider these consequences before making such posts in such a multiple-user environment.
+> [!WARNING]
+> If your site has multiple editors or administrators, they will be able to see your protected and private posts in the **Edit** screen. They do not need the password to be able to see your protected posts. They can see the private posts in the **Edit** Posts/Pages list, and are able to modify them, or even make them public. Consider these consequences before making such posts in such a multiple-user environment.
 
 ## Hiding the entire WordPress blog
 
@@ -114,7 +113,8 @@ Private content is published only for your eyes, or the eyes of only those with 
 
 Once you change the visibility to private, the post or page status changes to “Privately Published” as shown. Private posts are automatically published but not visible to anyone but those with the appropriate permission levels (Editor or Administrator).
 
-**WARNING:** If your site has multiple editors or administrators, they will be able to see your protected and private posts in the **Edit** screen. They do not need the password to be able to see your protected posts. They can see the private posts in the **Edit** Posts/Pages list, and are able to modify them, or even make them public. Consider these consequences before making such posts in such a multiple-user environment.
+> [!WARNING]
+> If your site has multiple editors or administrators, they will be able to see your protected and private posts in the **Edit** screen. They do not need the password to be able to see your protected posts. They can see the private posts in the **Edit** Posts/Pages list, and are able to modify them, or even make them public. Consider these consequences before making such posts in such a multiple-user environment.
 
 ### Hiding the entire WordPress blog
 

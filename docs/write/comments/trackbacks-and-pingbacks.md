@@ -42,7 +42,8 @@ to
 /2021/06/16/twitter-widget
 ```
 
-Note: Editor’s visual mode may add the domain information back into the link. To check that, you must switch to the HTML mode and make sure the link is displayed correctly in the href attribute for the link before publishing.
+> [!NOTE]
+> Editor’s visual mode may add the domain information back into the link. To check that, you must switch to the HTML mode and make sure the link is displayed correctly in the href attribute for the link before publishing.
 
 ### Disabling pingbacks
 

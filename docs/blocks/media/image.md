@@ -396,7 +396,8 @@ When creating or editing a WordPress page or blog post, you can easily add image
 
 In order to add an image to your page or post, you must first insert your cursor in the place in the text where you want the image to appear. By placing your cursor within your text, you can add images inline with your content. You can also place your cursor on a blank line if you want the image to appear by itself instead.
 
-*Tip: It’s a good idea to **place your cursor on the left margin of your text**, even if you want the image to appear on the right. That’s because there is a special setting called Alignment that allows you to control whether the image appears on the right or the left side of the text. It even controls how text flows around the image automatically.*
+> [!TIP]
+> It’s a good idea to **place your cursor on the left margin of your text**, even if you want the image to appear on the right. That’s because there is a special setting called Alignment that allows you to control whether the image appears on the right or the left side of the text. It even controls how text flows around the image automatically.
 
 ### Step 2 – Click the add media button
 

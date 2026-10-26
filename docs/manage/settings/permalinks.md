@@ -77,7 +77,8 @@ Custom Structure: This field allows you to define your own custom URL structure 
 
 The default setting is Plain, which is automatically configured when you install WordPress.
 
-**NOTE:**
+> [!NOTE]
+> 
 
 Your hosting provider should have set up the web servers with the necessary configurations for the Pretty and Almost Pretty Permalinks to work correctly. If they are not, then you need to contact your hosting provider.
 
@@ -85,7 +86,8 @@ Your hosting provider should have set up the web servers with the necessary conf
 
 WordPress provides the following structure tags for creating your own custom permalinks. You can use these tags to customize your Pretty or Almost Pretty permalinks.
 
-**Note:**
+> [!NOTE]
+> 
 
 -   You do not put your website URL in the permalinks fields. You only use one of the structure tags or a combination of tags.
 -   To use the Almost Pretty Permalinks, start your permalink structure with index.php/.
@@ -198,12 +200,13 @@ Click the **Save Changes** button to ensure any changes you have made to your Se
 After you’ve clicked this button, you should receive one of two messages depending on whether your [.htaccess](../../get-started/glossary.md#htaccess) file is writeable.
 
 -   If [.htaccess](../../get-started/glossary.md#htaccess) is writeable, you will get a message that says “**Permalink structure updated.**” You’re all set; WordPress has been able to do everything for you automatically.
--   If [.htaccess](https://wp-helphub.com/support/article/glossary/#htaccess) is *not* writeable, you will see a message at the top of the screen that says “**You should update your .htaccess now.**“. Near the bottom of the screen you will see “**If your .htaccess file were writable, we could do this automatically, but it isn’t so these are the mod_rewrite rules you should have in your [.htaccess](https://wp-helphub.com/support/article/glossary/#htaccess) file. Click in the field and press CTRL + a to select all.**” This means you’ll have to do one extra step yourself. In the text box at the bottom of the Screen, WordPress displays several lines of [rewrite](../../get-started/glossary.md#mod_rewrite) rules associated with the Permalink Structure you designated above. You need to manually copy everything in this text box into your [.htaccess](https://wp-helphub.com/support/article/glossary/#htaccess) file to make your new Permalinks work.
+-   If [.htaccess](../../get-started/glossary.md#htaccess) is *not* writeable, you will see a message at the top of the screen that says “**You should update your .htaccess now.**“. Near the bottom of the screen you will see “**If your .htaccess file were writable, we could do this automatically, but it isn’t so these are the mod_rewrite rules you should have in your [.htaccess](../../get-started/glossary.md#htaccess) file. Click in the field and press CTRL + a to select all.**” This means you’ll have to do one extra step yourself. In the text box at the bottom of the Screen, WordPress displays several lines of [rewrite](../../get-started/glossary.md#mod_rewrite) rules associated with the Permalink Structure you designated above. You need to manually copy everything in this text box into your [.htaccess](../../get-started/glossary.md#htaccess) file to make your new Permalinks work.
 
-For information on how to make [.htaccess](../../get-started/glossary.md#htaccess) writeable, see [Changing File Permissions](https://codex.wordpress.org/Changing%20File%20Permissions).
+For information on how to make [.htaccess](../../get-started/glossary.md#htaccess) writeable, see [Changing File Permissions](https://developer.wordpress.org/advanced-administration/server/file-permissions/).
 
-**Note**: Visiting the Permalinks screen triggers a flush of rewrite rules. There is no need to save just to flush the rewrite rules.
+> [!NOTE]
+> Visiting the Permalinks screen triggers a flush of rewrite rules. There is no need to save just to flush the rewrite rules.
+>
+> If you’re writing your [.htaccess](../../get-started/glossary.md#htaccess) file on your own local computer, remember, some operating systems do not allow the creation of a file named “`.htaccess`” because of the initial dot (“**`.`**“). You can always name the file without the initial dot or with a standard extension (e.g. “`htaccess.txt`“). Once the file is uploaded to your weblog’s directory, rename it with your [FTP](../../get-started/glossary.md#ftp) software. Most [FTP Clients](https://github.com/WordPress/Advanced-administration-handbook/blob/main/upgrade/ftp.md) should provide you a way to rename files this.
 
-**Note**: If you’re writing your [.htaccess](../../get-started/glossary.md#htaccess) file on your own local computer, remember, some operating systems do not allow the creation of a file named “`.htaccess`” because of the initial dot (“**`.`**“). You can always name the file without the initial dot or with a standard extension (e.g. “`htaccess.txt`“). Once the file is uploaded to your weblog’s directory, rename it with your [FTP](../../get-started/glossary.md#ftp) software. Most [FTP Clients](https://github.com/WordPress/Advanced-administration-handbook/blob/main/upgrade/ftp.md) should provide you a way to rename files this.
-
-**Also Note**: Files that begin with a dot (“**`.`**“) like “`.htaccess`” are hidden on most servers by default. Consult the user guide or FAQ of the FTP software you use to find out how to have the software display these hidden files, and also how to use the software to change file permissions, rename files, etc. For more information on all of this see [Changing File Permissions](https://codex.wordpress.org/Changing%20File%20Permissions).
+**Also Note**: Files that begin with a dot (“**`.`**“) like “`.htaccess`” are hidden on most servers by default. Consult the user guide or FAQ of the FTP software you use to find out how to have the software display these hidden files, and also how to use the software to change file permissions, rename files, etc. For more information on all of this see [Changing File Permissions](https://developer.wordpress.org/advanced-administration/server/file-permissions/).

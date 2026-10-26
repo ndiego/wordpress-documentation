@@ -21,7 +21,8 @@ The [Your Profile Screen](your-profile.md) is accessible from both the main navi
 
 The only pieces of information WordPress requires you to include in your Profile are your **e-mail address** and a **nickname**. It should be noted that WordPress requires your email address only for your blog’s administration purposes. The email address is never sent to any other site (not even to the people at WordPress headquarters), and it is never displayed on your site (unless you put it there manually). Only the other *registered* users of your blog have access to the e-mail address you provide. Also, remember that each user’s email address must be unique.
 
-**Note**: it is *possible* for a theme to display your e-mail address (and the e-mail addresses of your other registered users) on your site, since the [`the_author_meta('user_email')`](https://codex.wordpress.org/Template%20Tags/the_author_meta) template tag can be used for such purposes. This would be a poorly conceived theme, however, if it didn’t inform you of that before you downloaded it. None of the themes included with WordPress display any e-mail address anywhere on the public side of your site by default.
+> [!NOTE]
+> It is *possible* for a theme to display your e-mail address (and the e-mail addresses of your other registered users) on your site, since the [`the_author_meta('user_email')`](https://developer.wordpress.org/reference/functions/the_author_meta/) template tag can be used for such purposes. This would be a poorly conceived theme, however, if it didn’t inform you of that before you downloaded it. None of the themes included with WordPress display any e-mail address anywhere on the public side of your site by default.
 
 All of the other personal information asked for here is *optional*, and, again, it is never sent to any other site or person. It *may* be displayed on your site, however, depending on the theme you use, so you should test things out with your particular theme if you’re at all paranoid (and a bit of paranoia regarding your personal information is healthy). See [the_author](https://developer.wordpress.org/reference/functions/the_author) and related template tags for information on how to display this information on your site (and, consequently, how to ensure the theme you use does/does not display any of this information). Typically, themes only display the information you enter in the **Display name publicly as** field, however the Authors username is also often included in the URL (for Author Archives) and in the CSS classes for per-author targeted stylings.
 
@@ -54,7 +55,7 @@ All of the other personal information asked for here is *optional*, and, again, 
 
 **About Yourself :**
 
--   **Biographical Info** – Enter a short description or profile of yourself here. This optional information can be displayed by your theme if so configured by the theme author. See [`the_author_meta('description')`](https://codex.wordpress.org/Template%20Tags/the_author_meta) template tag.
+-   **Biographical Info** – Enter a short description or profile of yourself here. This optional information can be displayed by your theme if so configured by the theme author. See [`the_author_meta('description')`](https://developer.wordpress.org/reference/functions/the_author_meta/) template tag.
 -   **Profile Picture** – Your picture in [Gravatar](../../get-started/glossary.md#gravatar) is shown here. To change it, access to the https://en.gravatar.com/. See also [Using Gravatars](gravatars.md).
 
 **Account Management :**

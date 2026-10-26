@@ -174,7 +174,8 @@ Your WordPress Dashboard automatically notifies you when a plugin needs to be up
 
 2.  Select the checkbox for the plugins you want to update and then click  ‘Update Plugins’ button.
 
-**NOTE:** Always make sure you have a current backup of your site before updating your plugins. Sometimes problems can happen during the update process.
+> [!NOTE]
+> Always make sure you have a current backup of your site before updating your plugins. Sometimes problems can happen during the update process.
 
 ### Manual plugin update from the plugins page
 
@@ -189,7 +190,8 @@ To find any plugins installed on your site that need to be updated:
 
 ![](https://lh5.googleusercontent.com/Y97qPI3h0vtdDbU5zTKb3Xl2Bj6BWFHA2W8D_5nY9XhcBpn3YXmDKotJ81f3a-DVgF3EhLteD51n0wJ9WjEQQ6iarVNO3BuDftIO0Ls6A7A-iY5-IxaQrWl90G9bMr1op4mrttgN)
 
-**NOTE:** Always make sure you have a current backup of your site before updating your plugins. Sometimes problems can happen during the update process.
+> [!NOTE]
+> Always make sure you have a current backup of your site before updating your plugins. Sometimes problems can happen during the update process.
 
 ### Enable automatic plugin update
 
@@ -270,7 +272,8 @@ Occasionally, a WordPress Plugin may not work as expected. This section provides
 
 ![](https://lh3.googleusercontent.com/9PexHXAW-p8kPeYZShF236ZGkP6DnZNhgX0XOsf0yAHBb-pPrRILJnXpA8cjYA6PVbwLAaBvU6_DyKorF_f-UdvOnyxrZZa3XYIHHIlRV8Xte6nfT1RHgTybB-in78nAZWtySR3b)
 
-NOTE: If you have access to the plugin files, you can also find this information in the Plugin’s folder inside readme.txt.
+> [!NOTE]
+> If you have access to the plugin files, you can also find this information in the Plugin’s folder inside readme.txt.
 
 -   Search the [WordPress Support Forums](https://wordpress.org/support/forums/) for the name of the Plugin and keywords associated with the problem you are experiencing or the specific error message that is displayed.
 -   Search the [WordPress Plugins Directory](https://wordpress.org/plugins/) for the name of the Plugin. On the Plugins page, select the Support tab to read about issues reported in the Support Forums for that plugin.
@@ -496,11 +499,8 @@ The list of Actions available are described below:
 
 -   **Activate** – This Action enables a Plugin, or better yet, turns the Plugin on. Activating a Plugin is necessary to use the features of a Plugin. Only Inactive Plugins can be activated. Activate can be either a Bulk Action, or an Immediate Action.
 
-Note: Successful activation will display a splash message at the top of the Screen (e.g. *Plugin **activated**.* or *Selected plugins **activated**.*) **Failure to activate** a Plugin results in the message *Plugin could not be activated because it triggered a **fatal error***
-– this should be further investigated. Likely causes of failure are
-(1) an incomplete set of plugin files, (2) the plugin is coded
-incorrectly, (3) or the Plugin is dependent on another Plugin before it
-can be successfully activated.
+> [!NOTE]
+> Successful activation will display a splash message at the top of the Screen (e.g. *Plugin **activated**.* or *Selected plugins **activated**.*) **Failure to activate** a Plugin results in the message *Plugin could not be activated because it triggered a **fatal error*** – this should be further investigated. Likely causes of failure are (1) an incomplete set of plugin files, (2) the plugin is coded incorrectly, (3) or the Plugin is dependent on another Plugin before it can be successfully activated.
 
 -   **Deactivate** – This Action disables, or turns off, a
 
@@ -508,7 +508,8 @@ can be successfully activated.
 
      Bulk Action, or an Immediate Action.
 
-Note: Successful deactivation will display a splash message at the top of the Screen (e.g. *Plugin **deactivated***. or *Selected plugins **deactivated**.*)
+> [!NOTE]
+> Successful deactivation will display a splash message at the top of the Screen (e.g. *Plugin **deactivated***. or *Selected plugins **deactivated**.*)
 
 -   **Delete** – This Action deletes the Plugins files. Only Inactive Plugins can be deleted. Delete is either a Bulk Action, or an Immediate Action.
 -   **Upgrade** – This Action initiates the Plugin upgrade process.
@@ -534,7 +535,8 @@ When the Delete Action is Applied to selected Plugin(s), a Screen similar to the
 
 -   **Yes Delete these Files** – This is the final chance, because clicking this will delete the Plugin(s), and return to the **Plugins Screen** with the *The selected plugins have been deleted.* splash message displayed.
 
-Note: If deletion is unsuccessful The message *Plugin could not be deleted due to an error: xxxxxxxxx.* This should be further investigated.
+> [!NOTE]
+> If deletion is unsuccessful The message *Plugin could not be deleted due to an error: xxxxxxxxx.* This should be further investigated.
 
 -   **No, Return me to the plugin list** – Click this to be returned to the **Plugins Screen**
 -   **Click to view entire list of files which will be deleted** – Clicking this causes a listing of all the files that are part of the Plugins being deleted.

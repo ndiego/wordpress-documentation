@@ -131,6 +131,7 @@ HAND_EDITED = {
     "design/themes/default-themes/twenty-fourteen.md",
     "manage/settings/general.md",
     "write/comments/README.md",
+    "write/blocks/block-error.md",
 }
 
 # Hub sections that are not part of this repository, and where their pages live on developer.wordpress.org.
@@ -772,7 +773,11 @@ def rewrite_links(line, src, dst, problems):
         u = url.strip("<>")
         if not bang and re.search(r"/wp-admin/post\.php\?", u):
             return label  # a link into someone's wp-admin editor, not a page
-        old = re.match(r"^https?://(?:www\.)?wordpress\.org(/(?:documentation|support)/(?:article|category)/[^#?]*?)/?(?:↗)?(#.*)?$", u)
+        hh = re.match(r"^https?://(?:www\.)?wp-helphub\.com/support/article/glossary/?#(.+)$", u)
+        if hh and not bang:
+            rel = os.path.relpath("get-started/glossary.md", os.path.dirname(dst) or ".")
+            return f"[{label}]({rel}#{github_slug(hh.group(1))}{title})"
+        old = re.match(r"^https?://(?:www\.)?(?:wordpress\.org|wp-helphub\.com)(/(?:documentation|support)/(?:article|category)/[^#?]*?)/?(?:↗)?(#.*)?$", u)
         if old and not bang:
             key = old.group(1).replace("/support/", "/documentation/") + "/"
             if key in OLD_URLS:
@@ -819,6 +824,65 @@ def convert_callouts(text):
     text = re.sub(r'<div class="callout[^"]*">(.*?)</div>',
                   lambda m: "> [!NOTE]\n" + "\n".join("> " + x for x in m.group(1).strip().split("\n")), text, flags=re.S)
     return text
+
+
+NOTE_LABEL = re.compile(r"^(\*{1,2}|_\*\*)?(Note|NOTE|Tip|TIP|Important|IMPORTANT|Warning|WARNING)(?::\*\*|\*\*:|:\*|:)\s*(.*)$")
+
+
+def convert_note_paragraphs(lines):
+    """'Note: ...' and '**Tip:** ...' paragraphs (HelpHub's plain notices) become GitHub alerts. The pointer
+    'This page uses Block Editor. If you are a Classic Editor User, refer this page' is dropped."""
+    out, i = [], 0
+    while i < len(lines):
+        line = lines[i]
+        m = NOTE_LABEL.match(line)
+        prev_blank = not out or not out[-1].strip()
+        if m and prev_blank:
+            j = i
+            para = []
+            while j < len(lines) and lines[j].strip():
+                para.append(lines[j])
+                j += 1
+            if any(re.match(r"^\s*([-*]|\d+\.)\s", x) for x in para[1:]):
+                out.append(line)
+                i += 1
+                continue
+            text = " ".join([m.group(3)] + [x.strip() for x in para[1:]]).strip()
+            if re.search(r"This page uses Block Editor\. If you are a Classic Editor User", text):
+                i = j
+                while i < len(lines) and not lines[i].strip():
+                    i += 1
+                continue
+            if m.group(1) in ("*",) and text.endswith("*"):
+                text = text[:-1].rstrip()
+            kind = {"note": "NOTE", "tip": "TIP", "important": "IMPORTANT", "warning": "WARNING"}[m.group(2).lower()]
+            if out and out[-1].strip() == "" and len(out) > 1 and out[-2].startswith(">"):
+                pass
+            text = text[0].upper() + text[1:] if text else text
+            out += [f"> [!{kind}]", f"> {text}"]
+            i = j
+            continue
+        out.append(line)
+        i += 1
+    return out
+
+
+def merge_adjacent_alerts(lines):
+    """Two alerts of the same type separated only by a blank line become one alert with two paragraphs (the
+    importer would merge the blockquotes anyway)."""
+    out = []
+    for i, line in enumerate(lines):
+        a = re.match(r"^> \[!([A-Z]+)\]\s*$", line)
+        if a and len(out) >= 2 and not out[-1].strip() and out[-2].startswith(">"):
+            k = len(out) - 2
+            while k > 0 and out[k - 1].startswith(">"):
+                k -= 1
+            prev = re.match(r"^> \[!([A-Z]+)\]\s*$", out[k])
+            if prev and prev.group(1) == a.group(1):
+                out[-1] = ">"
+                continue
+        out.append(line)
+    return out
 
 
 def drop_changelog(lines):
@@ -1113,7 +1177,7 @@ def codex_target(url):
     m = re.match(r"^https?://codex\.wordpress\.org/(?:index\.php\?title=)?([^#?]+?)/?(?:#(.*))?$", url)
     if not m:
         return None
-    page, frag = m.group(1), m.group(2)
+    page, frag = urllib.parse.unquote(m.group(1)).replace(" ", "_"), m.group(2)
     if page == "Glossary":
         return "local", "get-started/glossary.md", (github_slug(frag.replace("_", " ")) if frag else "")
     if page in CODEX_LOCAL:
@@ -1194,6 +1258,7 @@ def port_file(src, dst, extra_redirects, problems):
         if dst not in INTROS:
             cl = [rewrite_links(x, src, dst, problems) for x in cl]
         cl = fill_alt(cl)
+        cl = merge_adjacent_alerts(convert_note_paragraphs(cl))
         out_chunks.append("\n".join(cl))
     lines = "\n".join(out_chunks).split("\n")
     lines = drop_changelog(lines)

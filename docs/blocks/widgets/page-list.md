@@ -37,7 +37,8 @@ Every block has unique toolbar icons, and block-specific user controls that let 
 -   Move handles
 -   More options
 
-Note: Move and Drag option is only available if you have more than 1 block in the editor.
+> [!NOTE]
+> Move and Drag option is only available if you have more than 1 block in the editor.
 
 ![Block Toolbar - Page List Block](https://wordpress.org/documentation/files/2022/12/block-toolbar.png)
 

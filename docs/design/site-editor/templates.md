@@ -253,7 +253,8 @@ There are two ways you can clear customizations:
 
 ### From the Settings sidebar within a template
 
-Note: This will reset the template to the default state and you will lose the changes you made to that template.
+> [!NOTE]
+> This will reset the template to the default state and you will lose the changes you made to that template.
 
 -   Go to the Appearance > Editor > **Templates** screen.
 -   Choose the template you want to clear customizations for. This will open the template in the Template Editor.

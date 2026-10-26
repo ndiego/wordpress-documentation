@@ -10,8 +10,6 @@ redirect_from:
 
 # Excerpts
 
-Note: This page uses Block Editor. If you are a Classic Editor User, refer [this page](#classic-editor).
-
 ## What is an excerpt
 
 Excerpt is an optional text associated to a Post. Most of the time, it is used as the **Post summary**.

@@ -93,7 +93,8 @@ To improve legibility, Twenty Seventeen also removes its letter-spacing styles f
 
 For [pages](../../../write/create-a-page.md), Twenty Seventeen allows you to choose between a one- and two-column layout. This can be changed via Customizer > Theme Options. The theme defaults to the two-column layout, which displays the page title in one column and the page content in the other.
 
-Note: This feature only becomes available after setting a static front page.
+> [!NOTE]
+> This feature only becomes available after setting a static front page.
 
 ![The Customizer Theme Options panel for single pages.](https://wordpress.org/documentation/files/2018/10/two-column-option.jpg)
 

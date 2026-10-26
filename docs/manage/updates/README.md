@@ -10,7 +10,8 @@ redirect_from:
 
 # Updates
 
-**WARNING:** The upgrade process will affect all files and folders included in the main WordPress installation. This includes all the core files used to run WordPress. If you have made any modifications to those files, your changes will be lost.
+> [!WARNING]
+> The upgrade process will affect all files and folders included in the main WordPress installation. This includes all the core files used to run WordPress. If you have made any modifications to those files, your changes will be lost.
 
 You should always update WordPress to the [latest version](https://wordpress.org/download/). When a new version of WordPress is available you will receive an update message in your WordPress Admin Screens. To update WordPress, click the link in this message.
 

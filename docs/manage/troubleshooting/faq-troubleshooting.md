@@ -48,7 +48,8 @@ If you are unsure how to edit the value, you can click “Edit” on the row and
 
 **Save changes**: After changing the value, click “Go” to save your changes. All plugins will now be deactivated.
 
-**Note:** If you are not familiar with phpMyAdmin, you may want to reach out to your hosting provider or a developer for assistance in using this tool.
+> [!NOTE]
+> If you are not familiar with phpMyAdmin, you may want to reach out to your hosting provider or a developer for assistance in using this tool.
 
 **Method 2: Use FTP or File Manager to deactivate all plugins**
 
@@ -178,7 +179,8 @@ Correct:
 
 Upload the file back to your server after editing and saving the file.
 
-**Note**: Also check the encoding of the file. If the file is encoded as UTF-8 with BOM, the BOM is seen as a character which starts the output.
+> [!NOTE]
+> Also check the encoding of the file. If the file is encoded as UTF-8 with BOM, the BOM is seen as a character which starts the output.
 
 **Interpreting the Error Message:**
 

@@ -54,7 +54,8 @@ http:& amp;#47;& amp;#47;example.com& amp;#47;index.php?p=453
 in your post....
 ```
 
-Note: Take off Space between ‘&’ and ‘amp’.
+> [!NOTE]
+> Take off Space between ‘&’ and ‘amp’.
 
 ## List of related character entities
 

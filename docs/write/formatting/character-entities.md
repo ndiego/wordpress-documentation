@@ -42,7 +42,8 @@ Some of the most popular [HTML](../../get-started/glossary.md#html) *character e
 | &# 8734; | ∞ | infinity symbol |
 | &amp;mdash; |, | long dash |
 
-Note: Remove Space between “&#” and “9829” for black heart. Other symbols are the same.
+> [!NOTE]
+> Remove Space between “&#” and “9829” for black heart. Other symbols are the same.
 
 ## Using character entities in WordPress
 
@@ -77,7 +78,8 @@ If you want to highlight the [post’s author](https://developer.wordpress.org/r
 
 As you have seen, there are a many uses for *character entities* within your site. With this information you can experiment and find creative ways to use these symbols in your design!
 
-**Note:** Not all [template tags](https://developer.wordpress.org/themes/basics/template-tags/) can use *character entities*, especially those [tags](https://developer.wordpress.org/themes/basics/template-tags/) that use [boolean parameters](https://developer.wordpress.org/reference/functions/How_to_Pass_Tag_Parameters/). Test a [template tag](https://developer.wordpress.org/themes/basics/template-tags/)
+> [!NOTE]
+> Not all [template tags](https://developer.wordpress.org/themes/basics/template-tags/) can use *character entities*, especially those [tags](https://developer.wordpress.org/themes/basics/template-tags/) that use [boolean parameters](https://developer.wordpress.org/reference/functions/How_to_Pass_Tag_Parameters/). Test a [template tag](https://developer.wordpress.org/themes/basics/template-tags/)
 
 **thoroughly** to be sure that it will accept the symbols.
 

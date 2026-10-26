@@ -67,7 +67,8 @@ After installing the AI plugin and setting up a connector, go to Settings > AI a
 
 *Turn on Enable AI under Settings > AI*
 
-**Note**: You can turn on **Enable AI** without an AI connector, but WordPress recommends configuring a [valid AI connector](#install-a-connector) so these options work properly.
+> [!NOTE]
+> You can turn on **Enable AI** without an AI connector, but WordPress recommends configuring a [valid AI connector](#install-a-connector) so these options work properly.
 
 You can then enable the AI options you want to use, such as image generation, excerpt generation, or alt text generation.
 

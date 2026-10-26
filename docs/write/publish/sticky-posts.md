@@ -11,7 +11,8 @@ redirect_from:
 
 **Sticky Posts** is a feature that places a post at the top of the front page of posts, keeping it there until new sticky posts are published.
 
-Note: Sticky Post is [only available for the built-in post type post](https://core.trac.wordpress.org/ticket/12702) and not for custom post types.
+> [!NOTE]
+> Sticky Post is [only available for the built-in post type post](https://core.trac.wordpress.org/ticket/12702) and not for custom post types.
 
 ## How to stick a post
 

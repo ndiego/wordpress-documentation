@@ -29,7 +29,8 @@ To ensure you keep your WordPress site up-to-date and working in prime condition
 
 WordPress is quickly growing and expanding as more features and functions are included and perfected. It is recommended that you check in with WordPress for updates and upgrades at least every three months, six months at the most. Check [WordPress org](https://wordpress.org/) and [Download WordPress](https://wordpress.org/download/) for information on the latest version available.
 
-**Note:** For WordPress 3.7+, minor and security updates are automatically applied in the background process.
+> [!NOTE]
+> For WordPress 3.7+, minor and security updates are automatically applied in the background process.
 
 ## Check for dead links
 

@@ -38,7 +38,8 @@ Highlight and select the text you want to link and use the **Ctrl+K** (or **⌘+
 
 To turn selected text into a link, copy the URL you want to use. Then select the text and paste the URL using **Ctrl+V** on Windows or **⌘+V** on Mac.
 
-**Note**: Pasting a URL by itself on a new line may create an Embed block or preview instead, depending on the URL.
+> [!NOTE]
+> Pasting a URL by itself on a new line may create an Embed block or preview instead, depending on the URL.
 
 ## Edit an existing link
 
@@ -64,7 +65,8 @@ Below is a list of supported URL formats:
 
 For links to another website, include the full address with `https://`.
 
-**Note**: WordPress checks whether the link is formatted like a valid URL. It does not confirm that the destination page exists or loads successfully.
+> [!NOTE]
+> WordPress checks whether the link is formatted like a valid URL. It does not confirm that the destination page exists or loads successfully.
 
 ## Advanced options
 

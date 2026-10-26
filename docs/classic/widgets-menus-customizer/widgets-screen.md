@@ -10,7 +10,8 @@ redirect_from:
 
 # Widgets screen
 
-**Note:** This is documentation for the Classic Widgets Screen. The documentation for the [Block-based Widgets editor can be found here.](block-widgets-editor.md)
+> [!NOTE]
+> This is documentation for the Classic Widgets Screen. The documentation for the [Block-based Widgets editor can be found here.](block-widgets-editor.md)
 
 Themes usually have at least 1 or 2 sidebars. Each section in the sidebar is known as a “Widget” that you can add or remove, and move up or down. You configure Widgets in your sidebar by via the **Appearance Widgets Screen**. Some themes also are configured to accept widgets in certain parts of the footer and header.
 
@@ -44,10 +45,8 @@ You can add, rearrange and remove Widgets just like in Appearance Widgets Screen
 5.  The Widget will now be removed permanently.
 6.  Preview your site to see your changes.
 
-**Note:** If you would like to remove a widget temporarily and
-keep your settings, drag the widget from the Sidebar into the Inactive
-Widgets section. When you are ready to return the widget, drag it from
-your Inactive Widgets section back to the Sidebar.
+> [!NOTE]
+> If you would like to remove a widget temporarily and keep your settings, drag the widget from the Sidebar into the Inactive Widgets section. When you are ready to return the widget, drag it from your Inactive Widgets section back to the Sidebar.
 
 ### Moving a widget
 

@@ -15,7 +15,7 @@ A Search Page is a WordPress [Page](../create-a-page.md) with a custom [Page tem
 
 Follow these steps to create a search page.
 
-1.  On the [Admin Area](https://codex.wordpress.org/Administration%20Screens) go to Pages > Add New.
+1.  On the [Admin Area](../../manage/dashboard/README.md) go to Pages > Add New.
 2.  In the title field enter **Search**.
 3.  [Add a new block](../blocks/add-a-block.md) named “**Search**“.
 4.  Publish the page.

@@ -126,7 +126,8 @@ You can modify a font size preset by clicking on the one you want to change. In 
 
 ![Managing or customising the font size preset](https://wordpress.org/documentation/files/2023/03/style-font-size-preset-2-6.8.png)
 
-Note: The standard size input will be disabled if you enable **Custom fluid values**.
+> [!NOTE]
+> The standard size input will be disabled if you enable **Custom fluid values**.
 
 When using custom fluid values, you can define both a minimum and maximum size, with the same range of supported units as the standard size option.
 
@@ -140,7 +141,8 @@ This section allows you to manage the color palettes and the default color of di
 
 ![Color settings in the Styles panel](https://wordpress.org/documentation/files/2022/10/Screen-Shot-2022-10-13-at-1.21.48-PM.png)
 
-NOTE: In case your theme doesn’t have any color palettes, you will see the **Add custom colors** button. Click on it to start creating your custom palette.
+> [!NOTE]
+> In case your theme doesn’t have any color palettes, you will see the **Add custom colors** button. Click on it to start creating your custom palette.
 
 ![When no colors are in the theme palatte](https://wordpress.org/documentation/files/2022/10/Screen-Shot-2022-10-15-at-5.15.46-PM.png)
 

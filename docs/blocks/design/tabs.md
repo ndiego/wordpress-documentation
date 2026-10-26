@@ -63,7 +63,8 @@ To remove a tab:
 
 The tab and its corresponding Tab Panel are both removed together.
 
-Note: A Tabs block must keep at least one tab available so you can’t delete all tabs.
+> [!NOTE]
+> A Tabs block must keep at least one tab available so you can’t delete all tabs.
 
 ## Reorder tabs
 

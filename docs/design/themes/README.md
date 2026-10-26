@@ -128,9 +128,10 @@ To activate a Theme for your site:
 
 Your selection will immediately become active.
 
-**Note:** If the Theme preview is blank, do **NOT** activate the new Theme without investigating further. Your site may not be displayed correctly otherwise. If you do not see the Theme’s thumbnail at all, your new Theme might be corrupted or broken. Take a look below installed theme’s thumbnails if there is any info about broken themes. In this case **contact the Theme author for help**.
+> [!WARNING]
+> If the theme preview is blank, do not activate the new theme without investigating further. Your site may not be displayed correctly otherwise. If you do not see the Theme’s thumbnail at all, your new Theme might be corrupted or broken. Take a look below installed theme’s thumbnails if there is any info about broken themes. In this case **contact the Theme author for help**.
 
-[![](https://wordpress.org/documentation/files/2018/10/broken-theme.jpg)](https://wordpress.org/documentation/article/using-themes/broken-theme-50/)
+![The Themes screen listing a broken theme below the installed themes.](https://wordpress.org/documentation/files/2018/10/broken-theme.jpg)
 
 *Broken Theme*
 

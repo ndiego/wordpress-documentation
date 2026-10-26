@@ -143,7 +143,8 @@ Each image inside a Gallery block is an Image block. When you select an individu
 
 If you want to return to the full Gallery block settings, use the **Select parent block: Gallery** button in the toolbar. This lets you edit gallery-wide settings, such as columns, image resolution, cropping, and layout.
 
-**Note**: Some options such as **Add text over image** or **Align** may not be present or may not work as expected when an Image block is inside a Gallery block.
+> [!NOTE]
+> Some options such as **Add text over image** or **Align** may not be present or may not work as expected when an Image block is inside a Gallery block.
 
 #### Move images
 
@@ -209,7 +210,8 @@ If any [Link options](#link) are enabled for the gallery, you can choose whether
 
 This button will juggle the order of images in the Gallery block.
 
-**Note**: in the block editor, the images will still appear in the order they were added. But on the published post, they will be displayed in a random order.
+> [!NOTE]
+> In the block editor, the images will still appear in the order they were added. But on the published post, they will be displayed in a random order.
 
 #### Aspect ratio
 
@@ -263,8 +265,6 @@ The Gallery block provides border settings options to add border color, width, a
 
 <!-- TODO: merge: this section was absorbed from https://wordpress.org/documentation/article/the-wordpress-gallery-block-editor/; edit it into the page. -->
 
-Note: This page uses Block Editor. If you are a Classic Editor User, refer [this page](#classic-editor).
-
 ### Overview
 
 Image galleries are a great way to share groups of pictures on your WordPress site. The **Create Gallery** feature of the WordPress media uploader allows you to add a simple image gallery to pages or posts on your site.
@@ -279,7 +279,8 @@ This article introduces how to add an image gallery using the media library.
 
 Here’s how to add an image gallery step-by-step, using the media uploader:
 
-*Note: Before adding a gallery, you should be comfortable using the* Add media *feature and the media uploader to [add images to your media library and place them into posts](image.md#classic-editor).*
+> [!NOTE]
+> Before adding a gallery, you should be comfortable using the* Add media *feature and the media uploader to [add images to your media library and place them into posts](image.md#classic-editor).
 
 #### Step 1 – Place your cursor
 
@@ -306,7 +307,8 @@ You can add or select the images you want to include in your image gallery by ch
 
 *Select the images you want to add from the media gallery*
 
-*Note: You can create an image gallery using directly images from your computer simply by switching back and forth between the Upload Files and Media Library options.*
+> [!NOTE]
+> You can create an image gallery using directly images from your computer simply by switching back and forth between the Upload Files and Media Library options.
 
 As you upload and/or select images, you will see your selection confirmed on the Insert Media screen by checkboxes at the top corner of each thumbnail. Also, a row of thumbnails appears at the bottom of the window to help you keep track of all the images you’ve selected. When you are happy with your selection, click the **Create a new gallery** button.
 
@@ -354,7 +356,8 @@ When you click any area of the image gallery, icon buttons appear top of the are
 
 <!-- TODO: merge: this section was absorbed from https://wordpress.org/documentation/article/the-wordpress-gallery-classic-editor/; edit it into the page. -->
 
-*Note: This document is for the Classic Editor. If you are using the block-editor on your site, the [Gallery Block is documented on this page](gallery.md).*
+> [!NOTE]
+> This document is for the Classic Editor. If you are using the block-editor on your site, the [Gallery Block is documented on this page](gallery.md).
 
 ### Overview
 
@@ -370,7 +373,8 @@ This article introduces how to add an image gallery using the media library, and
 
 Here’s how to add an image gallery step-by-step, using the media uploader:
 
-*Note: Before adding a gallery, you should be comfortable using the* Add media *feature and the media uploader to [add images to your media library and place them into posts](image.md#classic-editor).*
+> [!NOTE]
+> Before adding a gallery, you should be comfortable using the* Add media *feature and the media uploader to [add images to your media library and place them into posts](image.md#classic-editor).
 
 #### Step 1 – Place your cursor
 
@@ -399,7 +403,8 @@ You can add or select the images you want to include in your image gallery by ch
 
 *Drag and drop multiple files to Media Library*
 
-*Note: You can create an image gallery using any combination of new images and previously uploaded images simply by switching back and forth between the Upload Files and Media Library tabs.*
+> [!NOTE]
+> You can create an image gallery using any combination of new images and previously uploaded images simply by switching back and forth between the Upload Files and Media Library tabs.
 
 As you upload and/or select images, you will see your selection confirmed on the Insert Media screen by check boxes at the top corner of each thumbnail. Also, a row of thumbnails appears at the bottom of the window to help you keep track of all the images you’ve selected. When you are happy with your selection, click the **Create a new gallery** button.
 

@@ -60,7 +60,8 @@ The Footnotes block in WordPress is designed to be user-friendly, but there are 
 3.  Choose Remove Block.
 4.  A warning message will appear, informing you that removing the block will leave the footnote references intact. Confirm the deletion if you wish to proceed.
 
-Note: If you reinsert the Footnotes block after removing it, all previously added footnotes will reappear.
+> [!NOTE]
+> If you reinsert the Footnotes block after removing it, all previously added footnotes will reappear.
 
 ### 2. Deleting individual footnotes
 

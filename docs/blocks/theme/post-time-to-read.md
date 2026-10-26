@@ -22,7 +22,8 @@ The Time to Read block shows an estimated reading time for the current post or p
 3.  Open the block inserter (+) and search for “Time to Read.”
 4.  Select Time to Read to add it.
 
-Tip: You can switch between Time to Read and Word Count using the block’s variation picker after inserting it.
+> [!TIP]
+> You can switch between Time to Read and Word Count using the block’s variation picker after inserting it.
 
 ## Block toolbar
 

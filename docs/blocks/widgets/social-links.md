@@ -48,7 +48,8 @@ Once you add the Social Icons block, you will see the following placeholder wher
 
 6.  Repeat these steps for each of the social media profiles you want to add.
 
-**Note**: when adding email icon you only need to enter an email address. WordPress will automatically create link which will, when clicked on, open new email screen in email client.
+> [!NOTE]
+> When adding email icon you only need to enter an email address. WordPress will automatically create link which will, when clicked on, open new email screen in email client.
 
 ## Available social media icons
 

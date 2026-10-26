@@ -548,7 +548,8 @@ tab a button marked “Insert gallery”. That button inserts a shortcode
 exposition of all images attached to that post. Non-image file types are
 excluded from the gallery.
 
-Note: If you don’t see the “Insert gallery” button, it may be because you have not attached two images to the post.
+> [!NOTE]
+> If you don’t see the “Insert gallery” button, it may be because you have not attached two images to the post.
 
 The pretty URLs for attachments are made only after you have published the post and should be composed as the post [permalink](#permalink) plus the attachment [slug](#slug).
 

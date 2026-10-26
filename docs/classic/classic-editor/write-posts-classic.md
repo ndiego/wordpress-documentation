@@ -113,7 +113,8 @@ A list of all blog authors you can select from to attribute as the post author. 
 
 Classic Editor – Bottom of Page
 
-**Note:** You can set basic options for writing, such as the size of the post box, how smiley tags are converted, and other details by going to Administration Screens > Settings > Writing.
+> [!NOTE]
+> You can set basic options for writing, such as the size of the post box, how smiley tags are converted, and other details by going to Administration Screens > Settings > Writing.
 
 ## Best practices for posting
 

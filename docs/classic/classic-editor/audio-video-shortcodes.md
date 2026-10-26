@@ -16,7 +16,8 @@ The Audio feature allows you to embed audio files and play them back using a sim
 [ audio]
 ```
 
-Note: Do not put space between “[” and “audio”.
+> [!NOTE]
+> Do not put space between “[” and “audio”.
 
 You can also use build-in embeds and simply put the media file on its own line:
 
@@ -34,7 +35,8 @@ I have an old post that has an audio file in the Media Library attached to it, a
 [ audio]
 ```
 
-Note: Do Not put Space between “[” and “audio”.
+> [!NOTE]
+> Do Not put Space between “[” and “audio”.
 
 I have the URL for an MP3, from the Media Library or external, that I want to play:
 
@@ -118,7 +120,8 @@ I have an old post that has an audio file in the Media Library attached to it, a
 [video]
 ```
 
-Note: Do Not put Space between “[” and “video”.
+> [!NOTE]
+> Do Not put Space between “[” and “video”.
 
 I have the URL for an MP3, from the Media Library or external, that I want to play:
 

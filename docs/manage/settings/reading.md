@@ -48,7 +48,8 @@ Enter the character encoding to set the choice of languages in which you, the ot
 
 **Search Engine Visibility *(New as of [Version 3.5.0](https://wordpress.org/documentation/wordpress-version/version-3-5/))***
 
-Note: the Settings → Privacy screen has been removed from WordPress as of [Version 3.5.0](https://wordpress.org/documentation/wordpress-version/version-3-5/)).
+> [!NOTE]
+> The Settings → Privacy screen has been removed from WordPress as of [Version 3.5.0](https://wordpress.org/documentation/wordpress-version/version-3-5/)).
 
 Check the *Discourage search engines from indexing this site* box to ask search engines not to index this site. When the option is checked, the following happens:
 
@@ -60,7 +61,8 @@ User-agent: *
 Disallow: /
 ```
 
-**Note:** The above only works if WordPress is installed in the site root and no robots.txt exists.
+> [!NOTE]
+> The above only works if WordPress is installed in the site root and no robots.txt exists.
 
 -   Stops pings to ping-o-matic and any other RPC ping services specified in the [Update Services](writing.md#update-services) of [Administration](../dashboard/README.md) > [Settings](../dashboard/README.md#writing) >[Writing](writing.md). This works by having the function privacy_ping_filter() remove the sites to ping from the list. This filter is added by having add_filter(‘option_ping_sites’,’privacy_ping_filter’); in the default-filters. When the generic_pingfunction attempts to get the “ping_sites” option, this filter blocks it from returning anything.
 

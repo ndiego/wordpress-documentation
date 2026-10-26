@@ -17,7 +17,8 @@ The Block-based Widgets Editor was introduced in 5.8 for those who use classic t
 
 *Appearance > Widgets View in Twenty Twenty theme*
 
-**Note**: This article applies to classic themes that support widget areas. Block themes such as [Twenty Twenty-Five](../../design/themes/default-themes/twenty-twenty-five.md) use the Site Editor, and widget areas no longer exist in the traditional sense. As a result, the Appearance > Widgets menu is intentionally removed, and editing is done through patterns, template parts, and other Site Editor features.
+> [!NOTE]
+> This article applies to classic themes that support widget areas. Block themes such as [Twenty Twenty-Five](../../design/themes/default-themes/twenty-twenty-five.md) use the Site Editor, and widget areas no longer exist in the traditional sense. As a result, the Appearance > Widgets menu is intentionally removed, and editing is done through patterns, template parts, and other Site Editor features.
 
 ## How to use blocks in the Widget editor
 

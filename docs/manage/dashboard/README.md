@@ -244,7 +244,7 @@ Via the Users option in the main navigation menu, you can set up all of the user
 
 ### All users
 
-You can manage the accounts of all your site’s users at the [All Users Screen](https://codex.wordpress.org/Users%20Screen).
+You can manage the accounts of all your site’s users at the [All Users Screen](../users/users-screen.md).
 
 ### Add new user
 
@@ -333,7 +333,8 @@ The toolbar can be turned on/off from the **Toolbar** option in [Administration]
 
 ---
 
-**Note:** If you have turned the Toolbar on in your profile settings, but still don’t see it on the front end of your site, it may be that your theme does not call wp_footer() in its footer.php file, or the Toolbar may be disabled by a plugin.
+> [!NOTE]
+> If you have turned the Toolbar on in your profile settings, but still don’t see it on the front end of your site, it may be that your theme does not call wp_footer() in its footer.php file, or the Toolbar may be disabled by a plugin.
 
 ### Resources
 

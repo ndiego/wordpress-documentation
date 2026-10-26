@@ -17,7 +17,8 @@ The move handles are the up and down arrow handles in the Block toolbar of a sel
 
 ![Using the move handles](https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-07-at-9.52.18-AM.png)
 
-**NOTE**: If you set your WordPress Block Editor to display the Block toolbar pinned to the top of the WordPress block editor (right under the top toolbar) instead of appearing directly above the block, then the move handles will appear right under the top toolbar.
+> [!NOTE]
+> If you set your WordPress Block Editor to display the Block toolbar pinned to the top of the WordPress block editor (right under the top toolbar) instead of appearing directly above the block, then the move handles will appear right under the top toolbar.
 
 ![Using the move handles when the block toolbar is pinned to the top toolbar](https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-07-at-9.51.00-AM.png)
 

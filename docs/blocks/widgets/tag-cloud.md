@@ -32,7 +32,8 @@ If the site doesn’t have any tags then it will display the message as shown be
 
 ![When there are no tags to show, the block displays a text that says "There's no content to show here yet."](https://wordpress.org/documentation/files/2020/08/tag-clould-no-content-WP-62.png)
 
-**Note:** Tags’ appearance varies based on the selected theme.
+> [!NOTE]
+> Tags’ appearance varies based on the selected theme.
 
 ## Block toolbar
 
@@ -75,7 +76,8 @@ The up and down arrow icons can be used to move a block up and down on the page.
 -   **Align center** – Make the Tag Cloud aligned center.
 -   **Align right** – Make the Tag Cloud right aligned.
 
-**Note:** “Wide width” and “Full width” alignment is only available if it is enabled by the Theme of your site.
+> [!NOTE]
+> “Wide width” and “Full width” alignment is only available if it is enabled by the Theme of your site.
 
 ### More options
 

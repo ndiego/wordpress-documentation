@@ -50,7 +50,8 @@ You can add different item types into your menu, such as Pages, Categories, or e
 
 Your custom menu has now been saved.
 
-**Note:** The [Screen Options](../../manage/dashboard/README.md#screen-options) allow you to choose which items you can use to add to a menu. Certain items, like **Tags** are hidden by default.
+> [!NOTE]
+> The [Screen Options](../../manage/dashboard/README.md#screen-options) allow you to choose which items you can use to add to a menu. Certain items, like **Tags** are hidden by default.
 
 ## Deleting a menu item
 

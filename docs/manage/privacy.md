@@ -90,10 +90,8 @@ WordPress 4.9.6 included a Privacy Settings tool. Administrator can
 create new page or specify existing one as Privacy Policy page of the
 site.
 
-Note: The new page will include help and suggestions for your
-privacy policy. However, it is your responsibility to use those
-resources correctly, to provide the information that your privacy policy
-requires, and to keep that information current and accurate.
+> [!NOTE]
+> The new page will include help and suggestions for your privacy policy. However, it is your responsibility to use those resources correctly, to provide the information that your privacy policy requires, and to keep that information current and accurate.
 
 ### Using privacy settings tool
 
@@ -139,9 +137,8 @@ if ( function_exists( 'the_privacy_policy_link' ) ) {
 
 WordPress 4.9.6 included a feature to archive user data for export. Export Personal Data tool can generate a (`.zip` format) file containing the personal data which exists about a user within your WordPress site.
 
-Note: As this tool ONLY gathers data from WordPress and
-participating plugins, you may need to go beyond to comply with export
-requests.
+> [!NOTE]
+> As this tool ONLY gathers data from WordPress and participating plugins, you may need to go beyond to comply with export requests.
 
 ### Using export personal data
 
@@ -220,7 +217,8 @@ All at <site_name>
 http://<site_address>
 ```
 
-**Note:** Link is available only 48 hours.
+> [!NOTE]
+> Link is available only 48 hours.
 
 5\. If user click the link, `.zip` file will be downloaded that includes one index.html file. For detail format, refer below section Exported Personal Data.
 
@@ -230,7 +228,8 @@ At the same time, the **Status** of Request will be changed to *Completed*, and 
 
 6\. Click **Remove request**. The request will be removed.
 
-Note: There are no ‘Trash’ status such as Posts’.
+> [!NOTE]
+> There are no ‘Trash’ status such as Posts’.
 
 #### Downloading personal data
 
@@ -245,7 +244,8 @@ You can download Personal Data from popup menu **Download Personal Data**.
 
  At the same time, the Status of Request will be changed to *Completed*, and **Next Steps** shows **Remove request** button.
 
-Note: Even in the *Pending* status, you can download the Personal Data.
+> [!NOTE]
+> Even in the *Pending* status, you can download the Personal Data.
 
 #### Filtering request
 
@@ -292,15 +292,10 @@ upon verified request. Deleted data is permanently removed from the
 database. Erasure requests cannot be reversed after they have been
 confirmed.
 
-Note: Erase Personal Data tool does not remove the data from
-backups or archive files: When using the tool alongside automated
-backups or archives, we advise you to exercise caution when restoring
-user data from backups. When restoring an archived copy of your site,
-your requests for erasure should be respected.
-
-Note: As this tool ONLY gathers data from WordPress and
-participating plugins, you may need to go beyond to comply with delete
-requests.
+> [!NOTE]
+> Erase Personal Data tool does not remove the data from backups or archive files: When using the tool alongside automated backups or archives, we advise you to exercise caution when restoring user data from backups. When restoring an archived copy of your site, your requests for erasure should be respected.
+>
+> As this tool ONLY gathers data from WordPress and participating plugins, you may need to go beyond to comply with delete requests.
 
 ### Using erase personal data tool
 
