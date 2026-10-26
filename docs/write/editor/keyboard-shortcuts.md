@@ -71,8 +71,8 @@ The tables list every shortcut; the sections after them show what some of them d
 
 | Action | Windows and Linux | Mac |
 |---|---|---|
-| Turn a paragraph or heading into a heading of level 1 to 6 | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>1</kbd> to <kbd>6</kbd> | <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>1</kbd> to <kbd>6</kbd> |
-| Turn a heading into a paragraph | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>0</kbd> | Not listed |
+| Turn a paragraph or heading into a heading of level 1 to 6 | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>1</kbd> to <kbd>6</kbd> | <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>1</kbd> to <kbd>6</kbd> |
+| Turn a heading into a paragraph | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>0</kbd> | <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>0</kbd> |
 
 ### List View
 
