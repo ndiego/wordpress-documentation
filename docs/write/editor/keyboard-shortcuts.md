@@ -10,148 +10,91 @@ redirect_from:
 
 # Keyboard shortcuts
 
-Several keyboard shortcuts are available for you in WordPress visual (block) editor. These shortcuts allow you to do simple tasks without reaching for your mouse.
+Keyboard shortcuts let you work in the block editor without reaching for the mouse. To see the full list inside the editor, press <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>H</kbd> on Windows and Linux, or <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>H</kbd> on a Mac.
 
-You can access the list of all the available shortcuts by clicking **Shift + Alt + H** or **⌃ + ⌥ + H**
+The tables list every shortcut; the sections after them show what some of them do. Shortcuts for the Classic Editor and for the Comments screen are at the end of the page.
 
-## Windows
+## Shortcut tables
 
-**Global Shortcuts**
+### Global
 
-|  |  |
-| --- | --- |
-| [Switch between visual editor and code editor](#zoom-out-toggle) | **Ctrl + Shift + Alt + M** |
-| [Toggle fullscreen mode](#zoom-out-toggle) | **Ctrl + Shift + Alt + F** |
-| [Open the block list view](#zoom-out-toggle) | **Shift + Alt + O** |
-| [Show or hide the settings sidebar](#zoom-out-toggle) | **Ctrl + Shift + ,** |
-| [Navigate to the next part of the editor](#zoom-out-toggle) | **Ctrl + \` Shift + Alt + N** |
-| [Navigate to the previous part of the editor](#zoom-out-toggle) | **Ctrl + Shift + \` Shift + Alt + P** |
-| [Navigate to the nearest toolbar](#zoom-out-toggle) | **Alt + F10** |
-| [Save your changes](#zoom-out-toggle) | **Ctrl + S** |
-| [Undo your last changes](#zoom-out-toggle) | **Ctrl + Z** |
-| [Redo your last undo](#zoom-out-toggle) | **Ctrl + Shift + Z** |
-| [Zoom out toggle](#zoom-out-toggle) | **Ctrl + Shift + `0`** |
+| Action | Windows and Linux | Mac |
+|---|---|---|
+| Switch between the visual editor and the code editor | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd> | <kbd>⇧</kbd> + <kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>M</kbd> |
+| Turn full screen mode on or off | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> | <kbd>⇧</kbd> + <kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>F</kbd> |
+| Open List View | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>O</kbd> | <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>O</kbd> |
+| Show or hide the settings sidebar | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>,</kbd> | <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>,</kbd> |
+| Go to the next part of the editor | <kbd>Ctrl</kbd> + <kbd>\`</kbd> or <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>N</kbd> | <kbd>⌃</kbd> + <kbd>\`</kbd> or <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>N</kbd> |
+| Go to the previous part of the editor | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>\`</kbd> or <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>P</kbd> | <kbd>⌃</kbd> + <kbd>⇧</kbd> + <kbd>\`</kbd> or <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>P</kbd> |
+| Go to the nearest toolbar | <kbd>Alt</kbd> + <kbd>F10</kbd> | <kbd>⌥</kbd> + <kbd>F10</kbd> |
+| Save your changes | <kbd>Ctrl</kbd> + <kbd>S</kbd> | <kbd>⌘</kbd> + <kbd>S</kbd> |
+| Undo your last change | <kbd>Ctrl</kbd> + <kbd>Z</kbd> | <kbd>⌘</kbd> + <kbd>Z</kbd> |
+| Redo your last undo | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Z</kbd> or <kbd>Ctrl</kbd> + <kbd>Y</kbd> | <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>Z</kbd> |
+| Turn zoom out on or off | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>0</kbd> | <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>0</kbd> |
 
-**Selection shortcuts**
+### Selection
 
-|  |  |
-| --- | --- |
-| [Select all text / blocks when typing](#block-shortcuts) | **Ctrl + A** |
-| [Clear selection](#block-shortcuts) | **escape** |
-| Unselect selected blocks | **double escape** |
+| Action | Windows and Linux | Mac |
+|---|---|---|
+| Select all text in the block; press again to select all blocks | <kbd>Ctrl</kbd> + <kbd>A</kbd> | <kbd>⌘</kbd> + <kbd>A</kbd> |
+| Clear the selection | <kbd>Esc</kbd> | <kbd>Esc</kbd> |
+| Unselect the selected blocks | <kbd>Esc</kbd> twice | <kbd>Esc</kbd> twice |
 
-**Block shortcuts**
+### Blocks
 
-|  |  |
-| --- | --- |
-| [Duplicate the selected block(s)](#text-formatting) | **Ctrl + Shift + D** |
-| Unselect selected block(s) | **double escape** |
-| [Remove the selected block(s)](#text-formatting) | **Shift + Alt + Z** |
-| [Insert a new block before the selected block(s)](#text-formatting) | **Ctrl + Alt + T** |
-| [Insert a new block after the selected block(s)](#text-formatting) | **Ctrl + Alt + Y** |
-| [Remove multiple selected blocks](#text-formatting) | **del backspace** |
-| [Move the selected block(s) up](#text-formatting) | **Ctrl + Shift + Alt + T** |
-| [Move the selected block(s) down](#text-formatting) | **Ctrl + Shift + Alt + Y** |
-| [Create a group block from the selected multiple blocks](#text-formatting) | **Ctrl + G** |
-| [Change the block type after adding a new paragraph](#text-formatting) | **/** |
-| [Paste styles after copying styles from a block](#text-formatting) | **Ctrl + Alt + V** |
+| Action | Windows and Linux | Mac |
+|---|---|---|
+| Duplicate the selected blocks | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd> | <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>D</kbd> |
+| Remove the selected blocks | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>Z</kbd> | <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>Z</kbd> |
+| Remove several selected blocks | <kbd>Delete</kbd> or <kbd>Backspace</kbd> | <kbd>Delete</kbd> |
+| Insert a block before the selected blocks | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> | <kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>T</kbd> |
+| Insert a block after the selected blocks | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Y</kbd> | <kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>Y</kbd> |
+| Move the selected blocks up | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> | <kbd>⇧</kbd> + <kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>T</kbd> |
+| Move the selected blocks down | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>Y</kbd> | <kbd>⇧</kbd> + <kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>Y</kbd> |
+| Group the selected blocks | <kbd>Ctrl</kbd> + <kbd>G</kbd> | <kbd>⌘</kbd> + <kbd>G</kbd> |
+| Change the block type in a new, empty paragraph | <kbd>/</kbd> | <kbd>/</kbd> |
+| Paste styles copied from another block | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>V</kbd> | <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>V</kbd> |
+| Insert a link to an existing post or page | <kbd>[</kbd><kbd>[</kbd> | <kbd>[</kbd><kbd>[</kbd> |
 
-**Text formatting**
+### Text formatting
 
-|  |  |
-| --- | --- |
-| [Make the selected text bold](#transform-blocks) | **Ctrl + B** |
-| [Make the selected text italic](#transform-blocks) | **Ctrl + I** |
-| [Convert the selected text into a link](#transform-blocks) | **Ctrl + K** |
-| Add a link selected from available links | **[[** |
-| [Remove a link](#transform-blocks) | **Ctrl + Shift + K** |
-| [Underline the selected text](#transform-blocks) | **Ctrl + U** |
+| Action | Windows and Linux | Mac |
+|---|---|---|
+| Bold | <kbd>Ctrl</kbd> + <kbd>B</kbd> | <kbd>⌘</kbd> + <kbd>B</kbd> |
+| Italic | <kbd>Ctrl</kbd> + <kbd>I</kbd> | <kbd>⌘</kbd> + <kbd>I</kbd> |
+| Underline | <kbd>Ctrl</kbd> + <kbd>U</kbd> | <kbd>⌘</kbd> + <kbd>U</kbd> |
+| Turn the selected text into a link | <kbd>Ctrl</kbd> + <kbd>K</kbd> | <kbd>⌘</kbd> + <kbd>K</kbd> |
+| Remove a link | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd> | <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>K</kbd> |
+| Inline code | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>X</kbd> | <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>X</kbd> |
 
-**List view shortcuts**
+### Transform blocks
 
-|  |  |
-| --- | --- |
-| [Collapse all other items](#specific-blocks-shortcuts) | **Alt + L** |
+| Action | Windows and Linux | Mac |
+|---|---|---|
+| Turn a paragraph or heading into a heading of level 1 to 6 | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>1</kbd> to <kbd>6</kbd> | <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>1</kbd> to <kbd>6</kbd> |
+| Turn a heading into a paragraph | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>0</kbd> | Not listed |
 
-## Mac
+### List View
 
-**Global shortcuts**
+| Action | Windows and Linux | Mac |
+|---|---|---|
+| Collapse every item except the selected one | <kbd>Alt</kbd> + <kbd>L</kbd> | <kbd>⌥</kbd> + <kbd>L</kbd> |
 
-|  |  |
-| --- | --- |
-| [Switch between visual editor and code editor](#zoom-out-toggle) | **⇧ + ⌥ + ⌘ + M** |
-| [Toggle fullscreen mode](#zoom-out-toggle) | **⇧ + ⌥ + ⌘ + F** |
-| [Open the block list view](#zoom-out-toggle) | **⌃ + ⌥ + O** |
-| [Show or hide the settings sidebar](#zoom-out-toggle) | **⇧ + ⌘ + ,** |
-| [Navigate to the next part of the editor](#zoom-out-toggle) | **⌃ + \` ⌃ + ⌥ + N** |
-| [Navigate to the previous part of the editor](#zoom-out-toggle) | **⌃ + ⇧ + \` ⌃ + ⌥ + P** |
-| [Navigate to the nearest toolbar](#zoom-out-toggle) | **⌥ + F10** |
-| [Save your changes](#zoom-out-toggle) | **⌘ + S** |
-| [Undo your last changes](#zoom-out-toggle) | **⌘ + Z** |
-| [Redo your last undo](#zoom-out-toggle) | **⇧ + ⌘ + Z** |
-| [Zoom out toggle](#zoom-out-toggle) | **⇧ + ⌘ + `0`** |
+### Specific blocks
 
-**Selection shortcuts**
+| Block | Action | Shortcut |
+|---|---|---|
+| [Social Icons](../../blocks/widgets/social-links.md) | Move between the icons | <kbd>←</kbd> or <kbd>→</kbd> |
 
-|  |  |
-| --- | --- |
-| [Select all text / blocks when typing](#block-shortcuts) | **⌘ + A** |
-| [Clear selection](#block-shortcuts) | **escape** |
-
-**Block shortcuts**
-
-|  |  |
-| --- | --- |
-| [Duplicate the selected block(s)](#text-formatting) | **⇧ + ⌘ + D** |
-| Unselect selected blocks | **double**  **escape** |
-| [Remove the selected block(s)](#text-formatting) | **⌃ + ⌥ + Z** |
-| [Insert a new block before the selected block(s)](#text-formatting) | **⌥ + ⌘ + T** |
-| [Insert a new block after the selected block(s)](#text-formatting) | **⌥ + ⌘ + Y** |
-| [Remove multiple selected blocks](#text-formatting) | **del backspace** |
-| [Move the selected block(s) up](#text-formatting) | **⇧ + ⌥ + ⌘ + T** |
-| [Move the selected block(s) down](#text-formatting) | **⇧ + ⌥ + ⌘ + Y** |
-| [Create a group block from the selected multiple blocks](#text-formatting) | **⌘ + G** |
-| [Change the block type after adding a new paragraph](#text-formatting) | **/** |
-| [Paste styles after copying styles from a block](#text-formatting) | **⌘ + ⌥ + v** |
-
-**Text formatting**
-
-|  |  |
-| --- | --- |
-| [Make the selected text bold](#transform-blocks) | **⌘ + B** |
-| [Make the selected text italic](#transform-blocks) | **⌘ + I** |
-| [Convert the selected text into a link](#transform-blocks) | **⌘ + K** |
-| Add a link selected from available links | **[[** |
-| [Remove a link](#transform-blocks) | **⇧ + ⌘ + K** |
-| [Underline the selected text](#transform-blocks) | **⌘ + U** |
-
-**List view shortcuts**
-
-|  |  |
-| --- | --- |
-| [Collapse all other items](#specific-blocks-shortcuts) | **⌥ + L** |
-
-Block editor keyboard shortcuts are divided into four parts:
-
-1.  [Global shortcuts](#global-shortcuts)
-2.  [Selection shortcuts](#selection-shortcuts)
-3.  [Block shortcuts](#block-shortcuts)
-4.  [Text formatting shortcuts](#text-formatting)
-5.  [Specific blocks shortcuts](#specific-blocks-shortcuts)
-
-## Global shortcuts
+## Global shortcuts in detail
 
 **Switch between visual editor and code editor**
 
-You can switch between the Visual (Block) Editor and Code editor using :
-
-**Ctrl + Shift + Alt + M** or **⇧ + ⌥ + ⌘ + M**
-
-If you are on your visual editor screen
+The visual editor shows your content as blocks:
 
 ![Visual editor screen](https://wordpress.org/documentation/files/2021/01/image3.png)
 
-You can press **Ctrl + Shift + Alt + M** or **⇧ + ⌥ + ⌘ + M**, the screen switches to the code editor and vice versa.
+Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>M</kbd> (Mac: <kbd>⇧</kbd> + <kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>M</kbd>) to switch to the code editor, which shows the same content as block markup. Press it again to switch back.
 
 ![Code editor screen](https://wordpress.org/documentation/files/2021/01/image2-1.png)
 
@@ -211,7 +154,7 @@ When you press **Ctrl + S** or **⌘ + S**, the *Save draft* changes to *Saved* 
 
 **Undo your last changes**
 
-Suppose if you typed or did something which you want to undo immediately, you can do it by pressing **Ctrl + Z** or **⌘ + Z**
+To undo what you just did, press **Ctrl + Z** or **⌘ + Z**
 
 ![Visual editor screen with text that needs to beremoved](https://wordpress.org/documentation/files/2021/01/image2-1-1024x27-1.png)
 
@@ -223,7 +166,7 @@ After using shortcuts:
 
 Similarly, you can redo your last undo by pressing **Ctrl + Shift + Z** or **⇧ + ⌘ + Z**. If you are on Windows you can use the default shortcut as well, **Ctrl + Y**.
 
-This brings back what you just undo.
+This brings back what you just undid.
 
 ### Zoom out toggle
 
@@ -233,13 +176,13 @@ Use the Zoom out shortcut to switch between a standard width view and a zoomed o
 
 [Learn more about Zoom out mode.](../../design/site-editor/README.md)
 
-## Selection shortcuts
+## Selection shortcuts in detail
 
 **Select all text / blocks when typing**
 
 You can use these shortcuts to select text.
 
-You can select all text in current block when typing **Ctrl + A** or **⌘ + A**. Press again to select parent block or all blocks (if no parrent).
+You can select all text in current block when typing **Ctrl + A** or **⌘ + A**. Press again to select the parent block, or all blocks if there is no parent.
 
 ![Visual editor screen with all content selected](https://wordpress.org/documentation/files/2021/01/image11.png)
 
@@ -249,7 +192,7 @@ You can clear the selection by pressing **Esc**
 
 ![Visual editor screen with all content being deselected](https://wordpress.org/documentation/files/2021/01/image16.png)
 
-## Block shortcuts
+## Block shortcuts in detail
 
 These shortcuts are specific to the block which you are accessing them.
 
@@ -341,11 +284,11 @@ After selecting a block, opening the more option menu, and selecting “Copy sty
 
 **Insert links to existing posts and pages**
 
-Typing **[[** trigger autocompleter for internal links.
+Type **[[** to search your posts and pages and insert a link to one of them.
 
 [Watch the video](https://wordpress.org/documentation/files/2021/01/315318428-b67d8d96-bb5f-4c46-b548-572e1d4ac6b4.mp4)
 
-## Text formatting
+## Text formatting in detail
 
 These shortcuts can be used for formatting the text within a block.
 
@@ -359,7 +302,7 @@ Example: This is the **bold text**.
 
 You can make the selected text italic by pressing **Ctrl + I** or **⌘ + I**
 
-Example: This is a *italic text*.
+Example: This is *italic text*.
 
 **Convert the selected text into a link**
 
@@ -387,7 +330,7 @@ Example: This is underline text.
 
 Convert selected text to inline code with **Ctrl + Alt + X** or **⌘ + Alt + X**
 
-## Transform blocks
+## Transform blocks in detail
 
 Convert the current paragraph or heading to a heading of level 1 to 6 with **Shift + Alt + 1-6** or **⌘ + Alt + 1-6**.
 
@@ -395,9 +338,9 @@ Convert the current heading to a paragraph with **Shift + Alt + 0**.
 
 [Watch the video](https://wordpress.org/documentation/files/2021/01/315319468-4e20daec-0cf5-404c-ac80-4399cfe9b78b.mp4)
 
-## List view shortcuts
+## List View shortcuts in detail
 
-These shortcuts are specific to the List View.
+These shortcuts work in List View.
 
 **Collapse all other items**
 
@@ -405,26 +348,13 @@ You can collapse all other nested groups except the one you have selected by pre
 
 [Watch the video](https://wordpress.org/documentation/files/2021/01/use-keyboard-shortcuts_alt-l_6.6.mp4)
 
-## Specific blocks shortcuts
+## Classic Editor shortcuts
 
-| Block name | Shortcut description | Shortcut |
-| --- | --- | --- |
-| [Social Icons block](../../blocks/widgets/social-links.md) | Navigate between social icons. | **←** or **→** |
+These shortcuts work in the visual editor of the [Classic Editor](../../classic/classic-editor/README.md).
 
-## Classic Editor
+Windows and Linux use <kbd>Ctrl</kbd> + a letter; a Mac uses <kbd>⌘</kbd> + the letter.
 
-<!-- TODO: merge: this section was absorbed from https://wordpress.org/documentation/article/keyboard-shortcuts-classic-editor/; edit it into the page. -->
-
-### Editor shortcuts
-
--   **Note: This page lists keyboard Shortcuts for the Classic editor.**
--   **For the Block Editor, [the list of Keyboard Shortcuts is here](keyboard-shortcuts.md)**
-
-In the WordPress visual editor you can use a combination of keys to do things that normally need a mouse, trackpad or other input device. Rather than reaching for your mouse to click on the toolbar, you can use the following keyboard shortcuts:
-
-Windows and Linux use “Ctrl + letter”, Mac uses “Command (⌘) + letter”.
-
-#### Ctrl + key
+### Ctrl + key
 
 ```text
 Letter Action
@@ -440,7 +370,7 @@ u ... Underline
 k ... Insert/edit link
 ```
 
-#### Alt + Shift + key
+### Alt + Shift + key
 
 The following shortcuts use a different key combination: Windows/Linux: “Alt + Shift (⇧) + letter”. Mac: “Ctrl + Option (alt ⌥) + letter”. (Macs running any WordPress version below 4.2 use “Alt + Shift (⇧) + letter”).
 
@@ -472,9 +402,9 @@ x ... Add/remove code tag
 9 ... Address
 ```
 
-#### Formatting shortcuts
+### Formatting shortcuts
 
-Formatting Shortcuts while using visual editor (Since [Version 4.3](https://codex.wordpress.org/Version%204.3))
+In WordPress 4.3 and later, typing these characters at the start of a line in the visual editor formats the line:
 
 ```text
 Letter . Action
@@ -492,21 +422,21 @@ Letter . Action
 `..` ... transform text into code block
 ```
 
-### Keyboard shortcuts for comments
+## Comments screen shortcuts
 
-Beginning with [WordPress Version 2.7](https://codex.wordpress.org/Version%202.7), the ability to use keyboard shortcuts to browse and moderate comments was introduced. These keyboard shortcuts are designed to save time by allowing you to rapidly navigate and perform actions on comments. If your blog gets a large number of comments, you will find these shortcuts especially useful.
+On the [Comments screen](../comments/comments-screen.md) you can move through comments and moderate them from the keyboard. If your site gets many comments, these shortcuts save a lot of time.
 
-#### Activating keyboard shortcuts
+### Turn on comment shortcuts
 
-Keyboard shortcuts are enabled on a per-user setting, and can be turned on by visiting the Profile panel in [Administration Screens](../../manage/dashboard/README.md) > [Users](../../manage/dashboard/README.md#your-profile) > [Your Profile](../../manage/users/your-profile.md). Check the [Keyboard Shortcuts](../../manage/users/your-profile.md#your-profile-and-personal-options) checkbox to enable keyboard shortcuts for comment moderation.
+Each user turns these shortcuts on for themselves. Go to **Users > Profile** and select **Keyboard Shortcuts** (see [Your profile](../../manage/users/your-profile.md#your-profile-and-personal-options)).
 
 Please note, the keyboard shortcuts are designed to use both hands, simultaneously, on a QWERTY style keyboard layout.
 
-#### The meaning of selected
+### The selected comment
 
 The keyboard shortcuts are used for navigation and for actions. For any action to affect a comment, that comment must be first **selected**. The comment that is considered **selected** is indicated with a light-blue background. By default, no comment is selected, so, you will need to press either the letter **j** key, or letter **k** key, to start navigating.
 
-#### Using keyboard shortcuts to navigate comments
+### Move between comments
 
 Navigating comments is accomplished with the **j** and **k** keys. When you first visit the Comments page, no comments is selected, so, first press the letter **j**, or the letter **k**, to select the first comment. After that, just press the letter **j** to move the select to the next comment.
 
@@ -515,7 +445,7 @@ Navigating comments is accomplished with the **j** and **k** keys. When you firs
 
 Note that if you come to the bottom of a page of comments and press **j** again, you will be taken to the next page and the first comment of that next page will be selected. Likewise, pressing **k** at the top of a comment page will zoom you to the previous page, selecting the comment at the bottom of that previous page. This makes it very easy to navigate through a long list of comments to perform the necessary actions.
 
-#### Using keyboard shortcuts to perform actions on comments
+### Act on a comment
 
 For one of these actions to affect a comment, make sure the comment is first selected (see above).
 
@@ -528,7 +458,7 @@ For one of these actions to affect a comment, make sure the comment is first sel
 -   Pressing **q** activates “Quick Edit” which allows for rapid inline editing of the current comment.
 -   Pressing **e** navigates to the edit screen for the current comment.
 
-#### Bulk actions
+### Bulk actions
 
 You can also perform an action on multiple comments at once. First, you’ll need to select the comments for the bulk action, using the **x** key to check the checkbox for the currently selected comment. **Shift-x** can be used to toggle the checkboxes, inverting their state. Once you have some comments checked:
 

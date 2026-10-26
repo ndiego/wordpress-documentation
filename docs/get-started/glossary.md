@@ -10,9 +10,9 @@ redirect_from:
 
 # Glossary
 
-This document is designed to offer definitions of various terms, exclusive to WordPress, that users may not be familiar with.
+The words you meet in WordPress and in this documentation, from *absolute path* to *XML-RPC*, in alphabetical order. Each entry links to related entries and, where there is one, to the page that covers the topic in full.
 
-If you are a contributor, **please** don’t add definitions for generic terms (API, PHP, JavaScript, etc…).
+<!-- Add only terms with a meaning specific to WordPress, not generic ones such as API or PHP. -->
 
 ## Absolute path
 
@@ -51,7 +51,7 @@ Examples:
 
 ## Action
 
-In WordPress; an Action is a [PHP function](http://www.w3schools.com/php/php_functions.asp) that is executed at specific points throughout the WordPress Core.
+In WordPress, an action is a [PHP function](http://www.w3schools.com/php/php_functions.asp) that is executed at specific points throughout the WordPress Core.
 
 Developers can create a **custom** Action using the [Action API](https://codex.wordpress.org/Function_Reference/add_action) to add or remove code from an existing Action by specifying any [existing Hook](https://codex.wordpress.org/Plugin_API/Action_Reference). This process is called “[hooking](https://codex.wordpress.org/Glossary#Hook)“.
 
@@ -193,7 +193,7 @@ An API for blocks to declare what features they support. By declaring support fo
 
 See [Block Supports reference documentation](https://github.com/WordPress/gutenberg/blob/trunk/docs/reference-guides/block-api/block-supports.md) for a deep dive into the API.
 
-## Block Template parts
+## Block template parts
 
 Building on Block Templates, these parts help set structure for reusable items like a Footer or Header that one typically sees in a WordPress site. They are primarily site structure and are never to be mixed with the post content editor. With Full Site Editing and block based themes, users can create their own arbitrary Template Parts, save those in the database for their site, and re-use them throughout their site. Template parts are equivalent – in blocks – of theme template parts. They are generally defined by a theme first, carry some semantic meaning (could be swapped between themes such as a header), and can only be inserted in the site editor context (within “templates”).
 
@@ -477,8 +477,6 @@ information into the Excerpt field when writing a post, and you use [the_excerpt
 An *excerpt* should not be confused with the **teaser**, which refers to words before the `<!--more-->` in a [post’s](https://codex.wordpress.org/Glossary#Post) content. When typing a long post you can insert the `<!--more-->` [Quicktag](https://codex.wordpress.org/Posts_Add_New_SubPanel#Visual_Versus_HTML_Editor) after a few sentences to act as a cut-off point. When the post is displayed, the **teaser**, followed by a hyperlink (such as **Read the rest of this entry…**), is displayed. Your visitor can then click on that link to see the full version of your [post](https://codex.wordpress.org/Glossary#Post). The [Template Tag](https://codex.wordpress.org/Template_Tags), [the_content()](https://codex.wordpress.org/Template_Tags/the_content) should be used to display the teaser.
 
 -   Related articles: [Customizing the Read More](https://codex.wordpress.org/Customizing_the_Read_More), [Excerpt](https://codex.wordpress.org/Excerpt)
-
-[Back to the Top](https://codex.wordpress.org/Glossary#top)
 
 ## Feed
 
@@ -844,8 +842,6 @@ WordPress also works with MySQL-compatible databases such as [MariaDB](https://c
 
 -   Related articles: [Database Description](https://codex.wordpress.org/Database_Description)
 -   External links: [MySQL](http://mysql.com/), [MariaDB](http://mariadb.org/), [Percona Server](http://www.percona.com/software/percona-server/)
-
-[Back to the Top](https://codex.wordpress.org/Glossary#top)
 
 ## Navigation
 
@@ -1371,8 +1367,6 @@ circuit that is temporary turned on during a session of data transfer.
 
 See RSS: [Really Simple Syndication](https://codex.wordpress.org/Glossary#RSS)
 
-[Back to the Top](https://codex.wordpress.org/Glossary#top)
-
 ## Tag
 
 A Tag is a keyword which describes all or part of a Post. Think of it like a [Category](https://codex.wordpress.org/Glossary#Category),
@@ -1684,13 +1678,3 @@ More glossaries with collection of blogging terms, acronyms and abbreviations.
 -   [Giant Blogging Terms Glossary](http://www.quickonlinetips.com/archives/2006/06/the-giant-blogging-terms-glossary/)
 -   [Blogging Terms at Wikipedia](http://en.wikipedia.org/wiki/List_of_blogging_terms)
 -   [External WordPress glossary with additional terms](https://www.wpglossary.net)
-
-[Categories](https://codex.wordpress.org/Special:Categories):
-
--   [WordPress Help](https://codex.wordpress.org/Category:WordPress_Help)
--   [Troubleshooting](https://codex.wordpress.org/Category:Troubleshooting)
--   [Getting Started](https://codex.wordpress.org/Category:Getting_Started)
--   [Advanced Topics](https://codex.wordpress.org/Category:Advanced_Topics)
--   [UI Link](https://codex.wordpress.org/Category:UI_Link)
-
-Back to the Top

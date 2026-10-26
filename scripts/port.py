@@ -888,8 +888,13 @@ def drop_boilerplate(lines, dst):
             continue
         if re.match(r"^You can also read \[the theme.s changelog\]\([^)]*\)\.?\s*$", line):
             continue
+        if re.match(r"^\[?Back to the Top\]?(\([^)]*\))?\s*$", line, re.I):
+            continue
         out.append(line)
-    return out
+    # The Codex category box at the end of a page: "[Categories](...Special:Categories):" and its list.
+    text = "\n".join(out)
+    text = re.sub(r"\n\[Categories\]\(https://codex\.wordpress\.org/Special:Categories\):\n\n(?:-\s+\[[^\]]*\]\(https://codex\.wordpress\.org/Category:[^)]*\)\n?)+", "\n", text)
+    return text.split("\n")
 
 
 def collapse_blank(lines):
