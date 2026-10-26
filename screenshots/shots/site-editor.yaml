@@ -1,0 +1,16 @@
+# Design your site > The Site Editor (docs/design/site-editor/README.md, styles.md, templates.md)
+article: site-editor
+shots:
+  - id: home
+    preset: site-editor
+    alt: The Site Editor home, with the navigation sidebar on the left and a preview of the site's home page on the right.
+
+  - id: styles
+    preset: site-editor
+    view: styles
+    alt: The Styles view of the Site Editor, with a preview of the site's styles, Browse styles, and the Typography, Colors, Background, Shadows, Layout and Blocks options in its panel, beside a preview of the site.
+
+  - id: templates
+    preset: site-editor
+    view: templates
+    alt: The Templates view of the Site Editor, showing the theme's templates as a grid of previews.

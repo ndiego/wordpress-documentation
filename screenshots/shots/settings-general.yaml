@@ -1,0 +1,7 @@
+# Manage your site > Settings > General (docs/manage/settings/general.md)
+article: settings-general
+shots:
+  - id: settings-general
+    preset: admin-screen
+    screen: options-general.php
+    alt: The Settings > General screen, with fields for the site title, tagline, site icon, WordPress and site addresses, administration email, membership, new user default role and timezone.

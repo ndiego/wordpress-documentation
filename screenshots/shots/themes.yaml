@@ -1,0 +1,7 @@
+# Design your site > Themes > Themes screen (docs/design/themes/themes-screen.md)
+article: themes
+shots:
+  - id: themes-screen
+    preset: admin-screen
+    screen: themes.php
+    alt: The Appearance > Themes screen, with the active theme, Ipsum, first and the other installed themes as a grid of previews.

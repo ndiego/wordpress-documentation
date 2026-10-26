@@ -1,0 +1,7 @@
+# Manage your site > Plugins (docs/manage/plugins.md)
+article: plugins
+shots:
+  - id: plugins-screen
+    preset: admin-screen
+    screen: plugins.php
+    alt: The Plugins screen, listing two installed plugins, Akismet Anti-spam and Hello Dolly, each with Activate and Delete links.

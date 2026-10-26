@@ -1,0 +1,15 @@
+{
+  "name": "wordpress-documentation-screenshots",
+  "private": true,
+  "description": "Reproducible documentation screenshots: WordPress Playground + Playwright, driven by YAML shot specs.",
+  "type": "module",
+  "scripts": {
+    "shots": "wp-screenshots"
+  },
+  "engines": {
+    "node": ">=22.19 <26"
+  },
+  "dependencies": {
+    "@wp-docs-toolkit/screenshots": "0.4.0"
+  }
+}

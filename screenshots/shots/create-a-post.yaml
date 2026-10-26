@@ -1,0 +1,60 @@
+# Write and edit > Create a post (docs/write/create-a-post.md)
+article: create-a-post
+shots:
+  - id: editor
+    preset: post-editor
+    alt: The post editor with a new, empty post, showing the "Add title" placeholder on the canvas.
+
+  - id: inserter
+    scene: new-post
+    alt: The block inserter open on the left of the editor, with "image" typed in the search field and the Image block first in the results.
+    steps:
+      - searchInserter: image
+    capture:
+      target: inserter
+      pad: 64
+      frame: standard
+
+  - id: block-toolbar
+    preset: block-toolbar
+    block: core/paragraph
+    post: new
+    alt: The toolbar of a selected Paragraph block, with buttons for the block type, alignment, text alignment, bold, italic, link, more formatting options and the block Options menu.
+    capture:
+      pad: 0
+
+  - id: publish-panel
+    scene: new-post
+    alt: The pre-publish panel open beside the post "My first post", with Cancel and Publish buttons at the top and the post's visibility, publish date and suggestions to add tags and a category below them.
+    steps:
+      - click: { role: textbox, name: Add title }
+      - type: My first post
+      - press: Enter
+      - type: This is my first post on my new site. I wrote it in the block editor.
+      - click: { button: Publish, within: top-bar }
+      - wait: { for: { selector: .editor-post-publish-panel } }
+      # Deselect the paragraph so its block toolbar does not cover the title.
+      - evaluate: "wp.data.dispatch( 'core/block-editor' ).clearSelectedBlock()"
+      - wait: 300
+    capture:
+      target: .editor-post-publish-panel__header
+      include: [ .editor-post-publish-panel__prepublish, .editor-post-title ]
+      pad: 24
+      frame: auto
+
+  - id: list-view
+    scene: new-post
+    alt: List View open on the left of the editor, listing a Heading, a Paragraph and an Image block in the order they appear in the post.
+    steps:
+      - evaluate: "wp.data.dispatch( 'core/editor' ).editPost( { title: 'A weekend on the coast' } )"
+      - insertBlock: { name: core/heading, attributes: { level: 2, content: Getting there } }
+      - insertBlock:
+          name: core/paragraph
+          attributes: { content: The coast road is quiet early in the morning, and the first ferry leaves at seven. }
+      - insertBlock:
+          name: core/image
+          attributes: { id: "{{media.landscape-1}}", url: "{{media.landscape-1.url}}", alt: "{{media.landscape-1.alt}}", sizeSlug: large }
+      - openListView
+    capture:
+      target: editor
+      frame: wide

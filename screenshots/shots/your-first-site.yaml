@@ -1,0 +1,22 @@
+# Get started > Your first site: a guided tour (docs/get-started/your-first-site.md)
+article: your-first-site
+shots:
+  - id: dashboard
+    preset: admin-screen
+    screen: index.php
+    # The demo site's mu-plugin removes the Welcome panel and all admin notices, so the Dashboard shows its widgets.
+    alt: The WordPress Dashboard, with the admin menu on the left and the Site Health Status, At a Glance, Activity, Quick Draft and WordPress Events and News boxes.
+
+  - id: new-post
+    preset: post-editor
+    alt: The post editor with a new post titled "My first post" and one paragraph of text below the title.
+    steps:
+      - click: { role: textbox, name: Add title }
+      - type: My first post
+      - press: Enter
+      - type: This is my first post on my new site. I wrote it in the block editor.
+      - wait: 500
+
+  - id: front-end
+    preset: front-end
+    alt: The front page of the demo site as a visitor sees it, with the site title, tagline and menu at the top and the latest post, "A Day on the Coast Path", below them.
