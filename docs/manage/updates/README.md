@@ -10,6 +10,8 @@ redirect_from:
 
 # Updates
 
+Updates bring new features, bug fixes and security fixes to WordPress, plugins, themes and translations, so keeping a site up to date is the most important thing you can do for its security. This page explains how to update WordPress from the dashboard and what to do if an update fails; the pages in this group cover automatic updates, regular maintenance and updating PHP.
+
 > [!WARNING]
 > The upgrade process will affect all files and folders included in the main WordPress installation. This includes all the core files used to run WordPress. If you have made any modifications to those files, your changes will be lost.
 

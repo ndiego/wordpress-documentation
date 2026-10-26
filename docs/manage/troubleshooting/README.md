@@ -10,7 +10,9 @@ redirect_from:
 
 # Site Health and troubleshooting
 
-Site Health screen is located in your dashboard under **Tools** > **Site Health** > **Info**.
+When something goes wrong on your site, start with the **Site Health** screen. It checks your site for common problems, suggests fixes, and lists the details of your setup that help when you ask for support. The pages in this group cover common problems and their fixes, recovery mode, and changes that do not show up on your site.
+
+To open it, go to **Tools > Site Health** in the dashboard.
 
 WordPress offers a diagnosis of your site’s health. There are two tabs on the site health screen:
 
