@@ -1,6 +1,6 @@
 ---
 title: Background
-description: "The Background settings allow you to customize the appearance of supported blocks using images, colors, and gradients."
+description: "Give a block a background image, color or gradient with the background settings."
 type: reference
 order: 50
 redirect_from:

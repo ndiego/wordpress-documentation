@@ -1,6 +1,6 @@
 ---
 title: Site Title
-description: Use the Site Title block to display the name of the site on the page or to edit the site name.
+description: "Show your site's title with the Site Title block, and edit it in place."
 type: reference
 slug: site-title-block
 redirect_from:

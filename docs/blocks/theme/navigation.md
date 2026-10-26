@@ -1,6 +1,6 @@
 ---
 title: Navigation
-description: "The Navigation block allows you to edit your site’s navigation menu, including its structure and design."
+description: "Add a navigation menu to your header or anywhere else, and edit its links, with the Navigation block."
 type: reference
 slug: navigation-block
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Terms List
-description: Show a list or dropdown of your post categories with the Categories List block.
+description: "Show a list or dropdown of your categories or other terms with the Terms List block, formerly Categories List."
 type: reference
 slug: categories-block
 redirect_from:

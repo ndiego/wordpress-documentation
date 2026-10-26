@@ -228,6 +228,7 @@ PAGES = {
     "blocks/widgets/README.md": ("reference", "Widget blocks", 40),
     "blocks/theme/README.md": ("reference", "Theme blocks", 50),
     "blocks/embeds.md": ("reference", "Embeds", 60),
+    "blocks/design/navigation-link.md": ("reference", "Custom Link", None),  # the block's name in the editor
     # design
     "design/themes/README.md": ("guide", "Themes", 10),
     "design/themes/block-themes.md": ("concept", "Block themes", 10),
@@ -312,6 +313,11 @@ DESCRIPTIONS = {
 }
 
 DESCRIPTIONS.update({
+    "blocks/theme/navigation.md": "Add a navigation menu to your header or anywhere else, and edit its links, with the Navigation block.",
+    "blocks/theme/site-tagline.md": "Show your site's tagline with the Site Tagline block, and edit it in place.",
+    "blocks/theme/site-title.md": "Show your site's title with the Site Title block, and edit it in place.",
+    "write/block-settings/background.md": "Give a block a background image, color or gradient with the background settings.",
+    "write/block-settings/filters.md": "Change how the images in a block look with a duotone filter.",
     'blocks/design/buttons.md': 'Add one or more buttons that link to other pages or sites with the Buttons block.',
     'blocks/design/columns.md': 'Lay out text, images and other blocks side by side in columns with the Columns block.',
     'blocks/design/group/README.md': 'Put blocks together in a Group block so you can style, move and lay them out as one unit.',
@@ -369,7 +375,7 @@ DESCRIPTIONS.update({
     'blocks/widgets/README.md': 'Blocks that show content WordPress keeps up to date, such as archives, latest posts and comments, a search form and social icons.',
     'blocks/widgets/archives.md': 'Show links to your posts grouped by month or year with the Archives block.',
     'blocks/widgets/calendar.md': 'Show a monthly calendar that links to the days you published posts with the Calendar block.',
-    'blocks/widgets/categories.md': 'Show a list or dropdown of your post categories with the Categories List block.',
+    'blocks/widgets/categories.md': 'Show a list or dropdown of your categories or other terms with the Terms List block, formerly Categories List.',
     'blocks/widgets/html.md': 'Add your own HTML code to a post, page or template with the Custom HTML block.',
     'blocks/widgets/latest-comments.md': 'Show the most recent comments on your site with the Latest Comments block.',
     'blocks/widgets/latest-posts.md': 'Show a list of your most recent posts with the Latest Posts block.',

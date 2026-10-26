@@ -1,6 +1,6 @@
 ---
 title: Filters and duotone
-description: Use the filter settings to change image appearance with a duotone overlay.
+description: Change how the images in a block look with a duotone filter.
 type: reference
 order: 80
 redirect_from:

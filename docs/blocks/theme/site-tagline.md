@@ -1,6 +1,6 @@
 ---
 title: Site Tagline
-description: Use the Site Tagline block to display the tagline of the site on the page or to edit the site tagline.
+description: "Show your site's tagline with the Site Tagline block, and edit it in place."
 type: reference
 slug: site-tagline-block
 redirect_from:
