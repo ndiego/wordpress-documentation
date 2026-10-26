@@ -9,55 +9,55 @@ redirect_from:
 
 # Terms List
 
-The Categories List block organizes your previously published posts by category. This can be handy for readers who want to find more of your posts about certain topics.
+The Terms List block (formerly Categories List) organizes your previously published posts by category. This can be handy for readers who want to find more of your posts about certain topics.
 
 [Watch the video](https://wordpress.org/documentation/files/2019/03/Kapture-2026-04-20-at-15.26.48.mp4)
 
-*Adding a Categories List block to the page and selecting options to change how the list is displayed*
+*Adding a Terms List block to the page and selecting options to change how the list is displayed*
 
-## Add a Categories List block
+## Add a Terms List block
 
-The Categories List block can be added to a page by clicking on the **Block Inserter** button. You can find the Categories List block listed under the Widgets section.
+The Terms List block can be added to a page by clicking on the **Block Inserter** button. You can find the Terms List block listed under the Widgets section.
 
 ![Add a categories list block with the slash command](https://wordpress.org/documentation/files/2019/03/Screenshot-2026-04-20-at-3.18.58-PM.png)
 
-Alternatively, you can type <kbd>/categories</kbd> to select the Categories List block and hit enter in a new paragraph block to add one quickly.
+Alternatively, you can type <kbd>/categories</kbd> to select the Terms List block and hit enter in a new paragraph block to add one quickly.
 
 > [!NOTE]
 > [Detailed instructions on adding blocks](../../write/blocks/add-a-block.md)
 
 ## Block toolbar
 
-Each block has its own block-specific controls that allow you to manipulate the block right in the editor. The Categories List block has the following options in the Block toolbar.
+Each block has its own block-specific controls that allow you to manipulate the block right in the editor. The Terms List block has the following options in the Block toolbar.
 
-![Block toolbar in the Categories List block](https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.33.36-PM.png)
+![Block toolbar in the Terms List block](https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.33.36-PM.png)
 
 *Categories list block toolbar*
 
 ### Transform to
 
-You can transform a Categories List block into a Group, Details, Columns or Tag Cloud block.
+You can transform a Terms List block into a Group, Details, Columns or Tag Cloud block.
 
-![Categories List block transform options](https://wordpress.org/documentation/files/2019/03/Screenshot-2026-04-20-at-3.21.02-PM.png)
+![Terms List block transform options](https://wordpress.org/documentation/files/2019/03/Screenshot-2026-04-20-at-3.21.02-PM.png)
 
 #### Move controls
 
-![Block moving tools in the Categories List block](https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.33.44-PM.png)
+![Block moving tools in the Terms List block](https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.33.44-PM.png)
 
-*Block moving tools inside Categories List block toolbar*
+*Block moving tools inside Terms List block toolbar*
 
-Use the block-moving tools to move the block up and down inside the editor. Use the six dots icon to drag and drop the Categories List block and reposition it anywhere on the editor. Alternatively, click on the up and down arrows to move the block up or down the editor.
+Use the block-moving tools to move the block up and down inside the editor. Use the six dots icon to drag and drop the Terms List block and reposition it anywhere on the editor. Alternatively, click on the up and down arrows to move the block up or down the editor.
 
 > [!NOTE]
 > [Get more information about moving a block within the editor.](../../write/blocks/move-blocks.md)
 
 #### Change alignment
 
-The **change alignment** tool lets you align the Categories List block within the content. You can choose one of the following alignment options:
+The **change alignment** tool lets you align the Terms List block within the content. You can choose one of the following alignment options:
 
-![Change alignment in the Categories List block](https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.45.09-PM-1.png)
+![Change alignment in the Terms List block](https://wordpress.org/documentation/files/2022/08/Screen-Shot-2022-08-04-at-3.45.09-PM-1.png)
 
-_Change alignment in the *Categories List* block_
+_Change alignment in the *Terms List* block_
 
 -   **None** – Leaves the block alignment as is.
 -   **Wide width** – Increase the width of the block beyond the content size.
@@ -85,11 +85,11 @@ The Image block settings panel is divided into three tabs – Settings and Style
 
 ### Settings
 
-The Categories List settings allow you to choose whether to display the categories list as a dropdown, or the default bulleted list. You also have the choice to show/hide the hierarchy, the top-level categories only, and the post counts.
+The Terms List settings allow you to choose whether to display the categories list as a dropdown, or the default bulleted list. You also have the choice to show/hide the hierarchy, the top-level categories only, and the post counts.
 
-![Block settings in the sidebar for Categories List block](https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.17.44-AM.png)
+![Block settings in the sidebar for Terms List block](https://wordpress.org/documentation/files/2023/05/Screenshot-2023-05-23-at-8.17.44-AM.png)
 
-*Categories List Settings in the sidebar*
+*Terms List Settings in the sidebar*
 
 #### Display as dropdown
 
@@ -125,39 +125,39 @@ If you have parent and child categories (subcategories within main categories) y
 
 ### Styles
 
-The Categories List block provides options for styling color, typography, spacing/dimensions, and borders.
+The Terms List block provides options for styling color, typography, spacing/dimensions, and borders.
 
 ### Color
 
-The Categories List block provides Color settings option to change test, link, and background colors.
+The Terms List block provides Color settings option to change test, link, and background colors.
 
 > [!NOTE]
 > [Learn more about changing colors](../../write/block-settings/color.md).
 
 #### Typography
 
-The Typography settings enable you to customize the apperance of text inside the Categories List block like font size, font family, letter spacing, and more.
+The Typography settings enable you to customize the apperance of text inside the Terms List block like font size, font family, letter spacing, and more.
 
 > [!NOTE]
 > [Get more details about changing typography settings](../../write/block-settings/typography.md)
 
 #### Dimensions
 
-The Categories List block provides dimension settings options to add padding and margin.
+The Terms List block provides dimension settings options to add padding and margin.
 
 > [!NOTE]
 > [Learn more about dimension controls](../../write/block-settings/dimensions.md)
 
 #### Border
 
-The Categories List block provides border settings options to add border color, width, and radius.
+The Terms List block provides border settings options to add border color, width, and radius.
 
 > [!NOTE]
 > [Learn more about border settings](../../write/block-settings/border.md)
 
 #### Advanced settings
 
-The Categories List block provides the following Advanced settings options: HTML anchor, Additional CSS Class(es), Additional CSS, and Styles.
+The Terms List block provides the following Advanced settings options: HTML anchor, Additional CSS Class(es), Additional CSS, and Styles.
 
 > [!NOTE]
 > [Learn more about advanced settings](../../write/block-settings/advanced.md)

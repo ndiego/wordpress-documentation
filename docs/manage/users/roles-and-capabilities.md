@@ -248,7 +248,7 @@ Note that the capabilities of Administrators **differs** between single site and
 
 ## Capabilities
 
-### Side editor capabilities
+### Site Editor capabilities
 
 The Site Editor is available when a block theme is active and allows users to manage site templates, template parts, styles, navigation, and content from a single editing interface.
 

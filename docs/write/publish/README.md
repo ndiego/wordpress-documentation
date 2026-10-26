@@ -2,7 +2,7 @@
 title: Publish
 description: What publishing does, the status and visibility of a post or page, scheduling, and how to update or unpublish what is live.
 type: guide
-order: 60
+order: 70
 ---
 
 # Publish

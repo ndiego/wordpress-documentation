@@ -65,7 +65,7 @@ The tables list every shortcut; the sections after them show what some of them d
 | Underline | <kbd>Ctrl</kbd> + <kbd>U</kbd> | <kbd>⌘</kbd> + <kbd>U</kbd> |
 | Turn the selected text into a link | <kbd>Ctrl</kbd> + <kbd>K</kbd> | <kbd>⌘</kbd> + <kbd>K</kbd> |
 | Remove a link | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd> | <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>K</kbd> |
-| Inline code | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>X</kbd> | <kbd>⌘</kbd> + <kbd>⌥</kbd> + <kbd>X</kbd> |
+| Inline code | <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>X</kbd> | <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>X</kbd> |
 
 ### Transform blocks
 

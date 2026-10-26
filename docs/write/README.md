@@ -3,6 +3,8 @@ title: Write and edit
 description: Write posts and pages in the block editor, work with blocks and media, publish, and organize what you publish.
 type: guide
 order: 20
+redirect_from:
+  - /documentation/category/publishing/
 ---
 
 # Write and edit
