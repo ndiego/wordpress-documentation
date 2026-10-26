@@ -9,8 +9,6 @@ redirect_from:
 
 # Dashboard screen
 
-## Dashboard → Home
-
 From the Dashboard Screen, you can quickly access your site’s content and get glimpses into other areas of the WordPress community.
 
 The Dashboard screen presents information in blocks called **widgets**. By default, WordPress delivers five widgets on this page: [At a Glance](#at-a-glance), [Activity](#activity), [Quick Draft](#quickdraft), [WordPress Events and News](#wordpress-events-and-news), and [Welcome](#welcome).

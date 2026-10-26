@@ -9,8 +9,6 @@ redirect_from:
 
 # My site was hacked
 
-## Help I think I’ve been hacked
-
 Suffering a hack can be one of the more frustrating experiences you’ll have on your online journey. Like most things however, taking a pragmatic approach can help you maintain your sanity. While also moving beyond the issues with as little impact as possible.
 
 A hack is a very ambiguous term, which in it of itself will provide little insights into what exactly happened. To ensure you get the help you need via the forums, be sure to understand the specific symptoms that lead you to believe you’ve been hacked. These are otherwise known as Indicators of Compromise (IoC).

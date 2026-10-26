@@ -9,8 +9,6 @@ redirect_from:
 
 # Date and time format
 
-## Customizing the time and date format
-
 Certain WordPress tag functions are used to display or return date and time information; [the_date()](https://developer.wordpress.org/reference/functions/the_date/) and [the_time()](https://developer.wordpress.org/reference/functions/the_time/) are examples of this.
 
 By default, these functions will display or return date and time in format as it is set in [Administration](../dashboard/README.md) > [Settings](../dashboard/README.md#general) > [General](general.md). This is the place where customizing format for Date and Time will take effect throughout the whole WordPress installation.

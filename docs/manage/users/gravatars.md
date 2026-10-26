@@ -9,8 +9,6 @@ redirect_from:
 
 # Gravatars
 
-## What is a Gravatar?
-
 When browsing different web sites, you may notice that many users have a picture next to their name. These pictures are called “avatars.” WordPress, however, uses a specific type of avatar called “[Gravatars](https://en.gravatar.com/)“–short for “Globally Recognized Avatar.” Unlike standard avatars, Gravatars follow you around the web and automatically appear when you post a comment on a WordPress site.
 
 [Watch the video](https://wordpress.org/documentation/files/2018/11/461026096-007711ac-d74c-4826-9e78-d0921e402f1d.mov)

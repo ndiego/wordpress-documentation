@@ -9,8 +9,6 @@ redirect_from:
 
 # Edit media
 
-## Overview
-
 The **Edit Media** page is where you manage information about your media that is saved in the [Media Library](README.md). To reach the **Edit Media** page, go to **Media > Library** and click the name of the media item or the **Edit** link that appears below the name on hover. You can also reach this page by clicking on the **Edit** link when [adding new media](add-media.md) to your site.
 
 The data entered on the **Edit Media** page is often used by attachment pages and galleries if the theme or plugin chooses to display it, and the data is also used as the default values at the time an image is inserted into a page. Once the image has been inserted as an individual image, it becomes disconnected from the data in the media library and you can use the Image Details screen to update it on a per-image basis.

@@ -9,8 +9,6 @@ redirect_from:
 
 # Character entities
 
-## Character entities or extended characters
-
 In many WordPress sites, you will see odd symbols that will pop up from time to time. Often these symbols appear in navigation links. For instance, look at the the double left angle quotes **(«)** and the double right angle quotes **(»)** in this example:
 
 ```text

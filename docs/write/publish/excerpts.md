@@ -10,8 +10,6 @@ redirect_from:
 
 # Excerpts
 
-## What is an excerpt
-
 Excerpt is an optional text associated to a Post. Most of the time, it is used as the **Post summary**.
 
 ![Gutenberg - Excerpt](https://wordpress.org/documentation/files/2019/05/Gutenberg-Excerpt.png)

@@ -918,6 +918,18 @@ def merge_adjacent_alerts(lines):
     return out
 
 
+def lede_first(lines):
+    """A page whose body opens with an H2 ("Overview", "What is a Gravatar?") followed by a paragraph: drop that
+    heading so the paragraph becomes the lede the site shows under the title."""
+    idx = [i for i, x in enumerate(lines) if x.strip()]
+    if len(idx) < 2:
+        return lines
+    first, second = idx[0], idx[1]
+    if re.match(r"^##\s+\S", lines[first]) and not re.match(r"^(#|>|!|\||-|\*|\d+\.|```|\[)", lines[second].strip()):
+        return lines[:first] + lines[first + 1:]
+    return lines
+
+
 def drop_changelog(lines):
     """Remove the documentation edit log: a heading or paragraph 'Changelog' and its list of Updated entries."""
     out, i = [], 0
@@ -1294,6 +1306,7 @@ def port_file(src, dst, extra_redirects, problems):
         cl = merge_adjacent_alerts(convert_note_paragraphs(cl))
         out_chunks.append("\n".join(cl))
     lines = "\n".join(out_chunks).split("\n")
+    lines = lede_first(lines)
     lines = drop_changelog(lines)
     lines = drop_boilerplate(lines, dst)
     lines = fix_heading_levels_outside_code(lines)

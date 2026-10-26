@@ -9,8 +9,6 @@ redirect_from:
 
 # WordPress.org and WordPress.com
 
-## WordPress vs. WordPress.com
-
 People are often confused about the differences between WordPress and WordPress.com. WordPress is the free, Open Source web publishing software project, owned by no one individual or company. WordPress.com is a hosted blogging service run by a company called [Automattic](https://automattic.com/).
 
 ## WordPress

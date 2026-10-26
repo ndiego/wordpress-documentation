@@ -9,8 +9,6 @@ redirect_from:
 
 # Your profile
 
-## Users → Your profile
-
 The [Your Profile Screen](your-profile.md) is accessible from both the main navigation menu under [Users](../dashboard/README.md#your-profile) and by clicking on your name link at the top of the WordPress screen. Here you can specify your name and how it will be displayed on your site, your e-mail address (for administrative purposes), other personal information, and personal options.
 
 ![Your Profile Screen.](https://wordpress.org/documentation/files/2018/10/profile.png)

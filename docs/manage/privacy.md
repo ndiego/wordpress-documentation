@@ -12,8 +12,6 @@ redirect_from:
 
 # Privacy
 
-## User privacy and your WordPress site
-
 Depending on your national or international privacy regulations (such as the European Union’s General Data Protection Regulation which may be applicable to you) you may be required to display a privacy policy disclosing your collection and sharing of personal data. Personal data includes things like your users’ name, email, birthdate, phone number, IP address and other data that can be used to identify them.
 
 You may also be required to provide your users with the means to request a copy of the information you hold about them, or request its deletion.

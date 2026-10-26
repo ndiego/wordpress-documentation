@@ -9,8 +9,6 @@ redirect_from:
 
 # Smilies
 
-## What are smileys?
-
 Smileys, also known as “emoticons”, are *glyphs* used to convey emotions in your writing. They are a great way to brighten up posts. 🙂
 
 Text smileys are created by typing two or more punctuation marks. Some examples are:
@@ -25,7 +23,7 @@ Text smileys are created by typing two or more punctuation marks. Some examples 
 
 To learn more about emoticons and their history, see the [Wikipedia entry on Emoticons](http://en.wikipedia.org/wiki/Emoticons).
 
-### Smileys are not emoji
+## Smileys are not emoji
 
 Although smileys and emoji can both display smiley faces and such, emoji are a newer development and have a much wider range of images that can be displayed. (They are also created differently.) For more information on emoji and how to use them, see the [Emoji](https://codex.wordpress.org/Emoji) page.
 

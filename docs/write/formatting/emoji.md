@@ -9,13 +9,11 @@ redirect_from:
 
 # Emoji
 
-## Introduction to emoji
-
 Emoji are the ideograms or smileys 😃 used in electronic messages and Web pages. Originating in Japan on mobile devices, they are now commonly available on devices worldwide, ranging from mobile to desktop computers.
 
 Different operating systems have distinct methods of accessing emoji. Note that these methods work in most applications, not just WordPress.
 
-### Emoji are not smileys
+## Emoji are not smileys
 
 Not quite. Emoji are a newer development than smileys (a.k.a. emoticons). They are created differently, and handled differently by operating systems and web browsers. For more information about smileys, please see the [Using Smileys](smilies.md) page.
 
