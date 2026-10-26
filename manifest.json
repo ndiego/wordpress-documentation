@@ -1,0 +1,4348 @@
+{
+	"index": {
+		"applies_to": [],
+		"description": "Learn to build, write for, design and run a WordPress site, from your first login to keeping the site secure.",
+		"id": "index",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/README.md",
+		"order": 0,
+		"parent": null,
+		"path": "",
+		"redirect_from": [],
+		"section": "",
+		"slug": "docs",
+		"status": "",
+		"title": "WordPress documentation",
+		"type": "guide",
+		"updated": ""
+	},
+	"get-started": {
+		"applies_to": [],
+		"description": "A short reading path from what WordPress is to a published site and a clear picture of how it all fits together.",
+		"id": "get-started",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/README.md",
+		"order": 10,
+		"parent": null,
+		"path": "get-started/",
+		"redirect_from": [
+			"/documentation/"
+		],
+		"section": "get-started",
+		"slug": "get-started",
+		"status": "",
+		"title": "Get started",
+		"type": "guide",
+		"updated": ""
+	},
+	"get-started/what-is-wordpress": {
+		"applies_to": [],
+		"description": "What WordPress is, what you can build with it, and the two common ways to get a WordPress site.",
+		"id": "get-started/what-is-wordpress",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/what-is-wordpress.md",
+		"order": 10,
+		"parent": "get-started",
+		"path": "get-started/what-is-wordpress/",
+		"redirect_from": [
+			"/documentation/article/introduction-to-blogging/"
+		],
+		"section": "get-started",
+		"slug": "what-is-wordpress",
+		"status": "",
+		"title": "What is WordPress?",
+		"type": "concept",
+		"updated": ""
+	},
+	"get-started/wordpress-org-and-wordpress-com": {
+		"applies_to": [],
+		"description": "People are often confused about the differences between WordPress and WordPress.com. WordPress is the free, Open Source web publishing software project, owned by no one individual or company.",
+		"id": "get-started/wordpress-org-and-wordpress-com",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/wordpress-org-and-wordpress-com.md",
+		"order": 20,
+		"parent": "get-started",
+		"path": "get-started/wordpress-org-and-wordpress-com/",
+		"redirect_from": [
+			"/documentation/article/difference-between-wordpress-org-and-wordpress-com/"
+		],
+		"section": "get-started",
+		"slug": "wordpress-org-and-wordpress-com",
+		"status": "",
+		"title": "WordPress.org and WordPress.com",
+		"type": "concept",
+		"updated": ""
+	},
+	"get-started/choose-where-to-run-wordpress": {
+		"applies_to": [],
+		"description": "Compare a hosting provider, your own computer and your browser as places to run WordPress, and pick the one that fits.",
+		"id": "get-started/choose-where-to-run-wordpress",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/choose-where-to-run-wordpress.md",
+		"order": 30,
+		"parent": "get-started",
+		"path": "get-started/choose-where-to-run-wordpress/",
+		"redirect_from": [
+			"/documentation/article/hosting-wordpress/"
+		],
+		"section": "get-started",
+		"slug": "choose-where-to-run-wordpress",
+		"status": "",
+		"title": "Choose where to run WordPress",
+		"type": "guide",
+		"updated": ""
+	},
+	"get-started/install-wordpress": {
+		"applies_to": [],
+		"description": "Install WordPress with your host's one-click installer, or by hand in about five minutes, or on your own computer.",
+		"id": "get-started/install-wordpress",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/install-wordpress.md",
+		"order": 40,
+		"parent": "get-started",
+		"path": "get-started/install-wordpress/",
+		"redirect_from": [
+			"/documentation/category/installation/"
+		],
+		"section": "get-started",
+		"slug": "install-wordpress",
+		"status": "",
+		"title": "Install WordPress",
+		"type": "guide",
+		"updated": ""
+	},
+	"get-started/your-first-site": {
+		"applies_to": [],
+		"description": "A guided first session with a new WordPress site. Log in, find your way around, publish a post, name your site and set up its front page.",
+		"id": "get-started/your-first-site",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/your-first-site.md",
+		"order": 50,
+		"parent": "get-started",
+		"path": "get-started/your-first-site/",
+		"redirect_from": [
+			"/documentation/article/first-steps-with-wordpress-block-editor/",
+			"/documentation/article/first-steps-with-wordpress-classic/",
+			"/documentation/category/getting-started/",
+			"/documentation/article/get-started-with-wordpress/"
+		],
+		"section": "get-started",
+		"slug": "your-first-site",
+		"status": "",
+		"title": "Your first site: a guided tour",
+		"type": "tutorial",
+		"updated": ""
+	},
+	"get-started/how-wordpress-works": {
+		"applies_to": [],
+		"description": "The mental model of WordPress. Content, blocks, themes, templates, plugins and users, and how they combine into the pages visitors see.",
+		"id": "get-started/how-wordpress-works",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/how-wordpress-works.md",
+		"order": 60,
+		"parent": "get-started",
+		"path": "get-started/how-wordpress-works/",
+		"redirect_from": [],
+		"section": "get-started",
+		"slug": "how-wordpress-works",
+		"status": "",
+		"title": "How a WordPress site is put together",
+		"type": "concept",
+		"updated": ""
+	},
+	"get-started/the-wordpress-project": {
+		"applies_to": [],
+		"description": "Where WordPress came from, how it is released, and the community and philosophy behind it.",
+		"id": "get-started/the-wordpress-project",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/the-wordpress-project.md",
+		"order": 70,
+		"parent": "get-started",
+		"path": "get-started/the-wordpress-project/",
+		"redirect_from": [
+			"/documentation/article/faq-work-with-wordpress/",
+			"/documentation/article/learn-about-wordpress-and-version-history/",
+			"/documentation/category/about-wp/",
+			"/documentation/category/faqs/",
+			"/documentation/category/wordpress-overview/"
+		],
+		"section": "get-started",
+		"slug": "the-wordpress-project",
+		"status": "",
+		"title": "The WordPress project",
+		"type": "concept",
+		"updated": ""
+	},
+	"get-started/where-to-find-help": {
+		"applies_to": [],
+		"description": "WordPress help is never hard to find. There are many sites dedicated to helping WordPress users, including this support page and the always-helpful forums.",
+		"id": "get-started/where-to-find-help",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/where-to-find-help.md",
+		"order": 80,
+		"parent": "get-started",
+		"path": "get-started/where-to-find-help/",
+		"redirect_from": [
+			"/documentation/article/where-to-find-wordpress-help/"
+		],
+		"section": "get-started",
+		"slug": "where-to-find-help",
+		"status": "",
+		"title": "Where to find help",
+		"type": "guide",
+		"updated": ""
+	},
+	"get-started/glossary": {
+		"applies_to": [],
+		"description": "This document is designed to offer definitions of various terms, exclusive to WordPress, that users may not be familiar with.",
+		"id": "get-started/glossary",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/glossary.md",
+		"order": 90,
+		"parent": "get-started",
+		"path": "get-started/glossary/",
+		"redirect_from": [
+			"/documentation/article/wordpress-glossary/",
+			"/documentation/article/wordpress-semantics/"
+		],
+		"section": "get-started",
+		"slug": "glossary",
+		"status": "",
+		"title": "Glossary",
+		"type": "reference",
+		"updated": ""
+	},
+	"write": {
+		"applies_to": [],
+		"description": "Write posts and pages in the block editor, work with blocks and media, publish, and organize what you publish.",
+		"id": "write",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/README.md",
+		"order": 20,
+		"parent": null,
+		"path": "write/",
+		"redirect_from": [],
+		"section": "write",
+		"slug": "write",
+		"status": "",
+		"title": "Write and edit",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/create-a-post": {
+		"applies_to": [],
+		"description": "Write a post in the block editor, add a heading and an image, choose a category and a featured image, and publish it.",
+		"id": "write/create-a-post",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/create-a-post.md",
+		"order": 10,
+		"parent": "write",
+		"path": "write/create-a-post/",
+		"redirect_from": [],
+		"section": "write",
+		"slug": "create-a-post",
+		"status": "",
+		"title": "Create a post",
+		"type": "tutorial",
+		"updated": ""
+	},
+	"write/create-a-page": {
+		"applies_to": [],
+		"description": "In WordPress, you can put content on your site as either a Post or a Page.",
+		"id": "write/create-a-page",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/create-a-page.md",
+		"order": 20,
+		"parent": "write",
+		"path": "write/create-a-page/",
+		"redirect_from": [
+			"/documentation/article/create-pages/",
+			"/documentation/article/pages-add-new-screen/"
+		],
+		"section": "write",
+		"slug": "create-a-page",
+		"status": "",
+		"title": "Create a page",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/editor": {
+		"applies_to": [],
+		"description": "The WordPress block editor also called the block editor, WordPress editor or Gutenberg editor is the new way of publishing content in WordPress.",
+		"id": "write/editor",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/README.md",
+		"order": 30,
+		"parent": "write",
+		"path": "write/editor/",
+		"redirect_from": [
+			"/documentation/article/wordpress-block-editor/",
+			"/documentation/category/block-editor/",
+			"/documentation/category/customization/"
+		],
+		"section": "write",
+		"slug": "editor",
+		"status": "",
+		"title": "The editor",
+		"type": "concept",
+		"updated": ""
+	},
+	"write/editor/settings-sidebar": {
+		"applies_to": [],
+		"description": "The Settings Sidebar is used to customize the key aspects of the page or post that is being published. It’s an essential component of the WordPress Block Editor.",
+		"id": "write/editor/settings-sidebar",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/settings-sidebar.md",
+		"order": 10,
+		"parent": "write/editor",
+		"path": "write/editor/settings-sidebar/",
+		"redirect_from": [
+			"/documentation/article/page-post-settings-sidebar/"
+		],
+		"section": "write",
+		"slug": "settings-sidebar",
+		"status": "",
+		"title": "Page and post settings sidebar",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/editor/preview": {
+		"applies_to": [],
+		"description": "The View button is available in the top toolbar in the WordPress Block Editor and Site Editor.",
+		"id": "write/editor/preview",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/preview.md",
+		"order": 20,
+		"parent": "write/editor",
+		"path": "write/editor/preview/",
+		"redirect_from": [
+			"/documentation/article/how-to-use-the-preview-function/"
+		],
+		"section": "write",
+		"slug": "preview",
+		"status": "",
+		"title": "Preview",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/editor/notes": {
+		"applies_to": [],
+		"description": "Notes let you and your collaborators leave feedback directly on the content you are editing, without changing the content itself.",
+		"id": "write/editor/notes",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/notes.md",
+		"order": 30,
+		"parent": "write/editor",
+		"path": "write/editor/notes/",
+		"redirect_from": [
+			"/documentation/article/notes/"
+		],
+		"section": "write",
+		"slug": "notes",
+		"status": "",
+		"title": "Notes",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/editor/preferences": {
+		"applies_to": [],
+		"description": "When you start using the WordPress Block Editor or the Site Editor and you find the number of choices and panels overwhelming, you can use the Preferences feature to turn on/off the various.",
+		"id": "write/editor/preferences",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/preferences.md",
+		"order": 40,
+		"parent": "write/editor",
+		"path": "write/editor/preferences/",
+		"redirect_from": [
+			"/documentation/article/preferences-overview/"
+		],
+		"section": "write",
+		"slug": "preferences",
+		"status": "",
+		"title": "Preferences",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/editor/distraction-free-mode": {
+		"applies_to": [],
+		"description": "Distraction Free mode is a new visual option that creates a focused writing experience by hiding various parts of the editor interface.",
+		"id": "write/editor/distraction-free-mode",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/distraction-free-mode.md",
+		"order": 50,
+		"parent": "write/editor",
+		"path": "write/editor/distraction-free-mode/",
+		"redirect_from": [
+			"/documentation/article/distraction-free-mode/"
+		],
+		"section": "write",
+		"slug": "distraction-free-mode",
+		"status": "",
+		"title": "Distraction free mode",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/editor/keyboard-shortcuts": {
+		"applies_to": [],
+		"description": "Several keyboard shortcuts are available for you in WordPress visual (block) editor. These shortcuts allow you to do simple tasks without reaching for your mouse.",
+		"id": "write/editor/keyboard-shortcuts",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/keyboard-shortcuts.md",
+		"order": 60,
+		"parent": "write/editor",
+		"path": "write/editor/keyboard-shortcuts/",
+		"redirect_from": [
+			"/documentation/article/keyboard-shortcuts-block-editor/",
+			"/documentation/article/keyboard-shortcuts-classic-editor/"
+		],
+		"section": "write",
+		"slug": "keyboard-shortcuts",
+		"status": "",
+		"title": "Keyboard shortcuts",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/blocks": {
+		"applies_to": [],
+		"description": "The tools every block shares: the block toolbar, the settings sidebar, selecting, grouping and transforming blocks.",
+		"id": "write/blocks",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/README.md",
+		"order": 40,
+		"parent": "write",
+		"path": "write/blocks/",
+		"redirect_from": [
+			"/documentation/article/work-with-blocks/"
+		],
+		"section": "write",
+		"slug": "work-with-blocks",
+		"status": "",
+		"title": "Working with blocks",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/blocks/add-a-block": {
+		"applies_to": [],
+		"description": "There are several ways to add a block to your post or page from the admin screen of the WordPress block editor when you are editing your post or page.",
+		"id": "write/blocks/add-a-block",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/add-a-block.md",
+		"order": 10,
+		"parent": "write/blocks",
+		"path": "write/blocks/add-a-block/",
+		"redirect_from": [
+			"/documentation/article/adding-a-new-block/"
+		],
+		"section": "write",
+		"slug": "add-a-block",
+		"status": "",
+		"title": "Add a block",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/blocks/move-blocks": {
+		"applies_to": [],
+		"description": "There are three different ways to move or change the position of a block within your post or page from the admin screen of the WordPress Block Editor: using the move handles, drag & drop, or.",
+		"id": "write/blocks/move-blocks",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/move-blocks.md",
+		"order": 20,
+		"parent": "write/blocks",
+		"path": "write/blocks/move-blocks/",
+		"redirect_from": [
+			"/documentation/article/moving-blocks/"
+		],
+		"section": "write",
+		"slug": "move-blocks",
+		"status": "",
+		"title": "Move blocks",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/blocks/list-view": {
+		"applies_to": [],
+		"description": "List view is a navigation tool that displays all the blocks in your post or page in a structured outline.",
+		"id": "write/blocks/list-view",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/list-view.md",
+		"order": 30,
+		"parent": "write/blocks",
+		"path": "write/blocks/list-view/",
+		"redirect_from": [
+			"/documentation/article/list-view/"
+		],
+		"section": "write",
+		"slug": "list-view",
+		"status": "",
+		"title": "List View",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/blocks/more-options": {
+		"applies_to": [],
+		"description": "The More options menu in the block toolbar gives you additional options to customize your block. You can access these additional options by clicking on the ellipses (three dots) in the block toolbar.",
+		"id": "write/blocks/more-options",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/more-options.md",
+		"order": 40,
+		"parent": "write/blocks",
+		"path": "write/blocks/more-options/",
+		"redirect_from": [
+			"/documentation/article/more-options/"
+		],
+		"section": "write",
+		"slug": "more-options",
+		"status": "",
+		"title": "More options",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/blocks/rich-text-options": {
+		"applies_to": [],
+		"description": "The More options menu in the Rich Text toolbar gives you additional options to customize your text. You can access these additional options by clicking on the arrow icon in the toolbar.",
+		"id": "write/blocks/rich-text-options",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/rich-text-options.md",
+		"order": 50,
+		"parent": "write/blocks",
+		"path": "write/blocks/rich-text-options/",
+		"redirect_from": [
+			"/documentation/article/more-text-editing-overview/"
+		],
+		"section": "write",
+		"slug": "rich-text-options",
+		"status": "",
+		"title": "Rich text options",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/blocks/link-control": {
+		"applies_to": [],
+		"description": "Use the Link control to add, edit, search for, and configure links in supported blocks, like the Paragraph block and Heading block.",
+		"id": "write/blocks/link-control",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/link-control.md",
+		"order": 60,
+		"parent": "write/blocks",
+		"path": "write/blocks/link-control/",
+		"redirect_from": [
+			"/documentation/article/link-editing/"
+		],
+		"section": "write",
+		"slug": "link-control",
+		"status": "",
+		"title": "Links",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/blocks/page-jumps": {
+		"applies_to": [],
+		"description": "Page jumping, also sometimes referred to as anchor links, is where you click a link and instantly get moved somewhere further up or down a page. This can be particularly useful with a long page.",
+		"id": "write/blocks/page-jumps",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/page-jumps.md",
+		"order": 70,
+		"parent": "write/blocks",
+		"path": "write/blocks/page-jumps/",
+		"redirect_from": [
+			"/documentation/article/page-jumps/"
+		],
+		"section": "write",
+		"slug": "page-jumps",
+		"status": "",
+		"title": "Page jumps",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/blocks/block-directory": {
+		"applies_to": [],
+		"description": "The Block Directory is a new way for block editor users to discover, test, and install new blocks on their website.",
+		"id": "write/blocks/block-directory",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/block-directory.md",
+		"order": 80,
+		"parent": "write/blocks",
+		"path": "write/blocks/block-directory/",
+		"redirect_from": [
+			"/documentation/article/block-directory/"
+		],
+		"section": "write",
+		"slug": "block-directory",
+		"status": "",
+		"title": "Block Directory",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/blocks/block-error": {
+		"applies_to": [],
+		"description": "If you’re encountering this error message in the Block Editor, it typically means that there is a problem with the content you’re trying to insert or edit within a block.",
+		"id": "write/blocks/block-error",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/block-error.md",
+		"order": 90,
+		"parent": "write/blocks",
+		"path": "write/blocks/block-error/",
+		"redirect_from": [
+			"/documentation/article/block-error-unexpected-or-invalid-content/"
+		],
+		"section": "write",
+		"slug": "block-error",
+		"status": "",
+		"title": "Block errors",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/block-settings": {
+		"applies_to": [],
+		"description": "Most blocks share the same groups of settings in the block sidebar: layout, position, color, background, typography, dimensions, border and shadow, filters, and advanced options.",
+		"id": "write/block-settings",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/README.md",
+		"order": 50,
+		"parent": "write",
+		"path": "write/block-settings/",
+		"redirect_from": [],
+		"section": "write",
+		"slug": "block-settings",
+		"status": "",
+		"title": "Block settings and design tools",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/block-settings/color": {
+		"applies_to": [],
+		"description": "You can use the color settings in your block to set the text color, background color, link color, gradient options, and duotone filters for your content.",
+		"id": "write/block-settings/color",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/color.md",
+		"order": 10,
+		"parent": "write/block-settings",
+		"path": "write/block-settings/color/",
+		"redirect_from": [
+			"/documentation/article/colors-settings-overview/"
+		],
+		"section": "write",
+		"slug": "color",
+		"status": "",
+		"title": "Color",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/block-settings/typography": {
+		"applies_to": [],
+		"description": "You can use the typography settings in your block to change the font and appearance of your texts.",
+		"id": "write/block-settings/typography",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/typography.md",
+		"order": 20,
+		"parent": "write/block-settings",
+		"path": "write/block-settings/typography/",
+		"redirect_from": [
+			"/documentation/article/typography-settings-overview/"
+		],
+		"section": "write",
+		"slug": "typography",
+		"status": "",
+		"title": "Typography",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/block-settings/dimensions": {
+		"applies_to": [],
+		"description": "You can use the dimension settings in blocks to help you better customize your layout and design.",
+		"id": "write/block-settings/dimensions",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/dimensions.md",
+		"order": 30,
+		"parent": "write/block-settings",
+		"path": "write/block-settings/dimensions/",
+		"redirect_from": [
+			"/documentation/article/dimension-controls-overview/"
+		],
+		"section": "write",
+		"slug": "dimensions",
+		"status": "",
+		"title": "Dimensions",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/block-settings/border": {
+		"applies_to": [],
+		"description": "You can use the border and shadow settings in your block to set a visible border or shadow on specific blocks. These settings allow you to control the width and radius on each side of the border.",
+		"id": "write/block-settings/border",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/border.md",
+		"order": 40,
+		"parent": "write/block-settings",
+		"path": "write/block-settings/border/",
+		"redirect_from": [
+			"/documentation/article/border-settings-overview/"
+		],
+		"section": "write",
+		"slug": "border",
+		"status": "",
+		"title": "Border and shadow",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/block-settings/background": {
+		"applies_to": [],
+		"description": "The Background settings allow you to customize the appearance of supported blocks using images, colors, and gradients.",
+		"id": "write/block-settings/background",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/background.md",
+		"order": 50,
+		"parent": "write/block-settings",
+		"path": "write/block-settings/background/",
+		"redirect_from": [
+			"/documentation/article/background-settings-overview/"
+		],
+		"section": "write",
+		"slug": "background",
+		"status": "",
+		"title": "Background",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/block-settings/layout": {
+		"applies_to": [],
+		"description": "The layout settings in blocks allow you to change the justification and orientation of the nested child blocks inside their parent blocks.",
+		"id": "write/block-settings/layout",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/layout.md",
+		"order": 60,
+		"parent": "write/block-settings",
+		"path": "write/block-settings/layout/",
+		"redirect_from": [
+			"/documentation/article/layout-settings-overview/"
+		],
+		"section": "write",
+		"slug": "layout",
+		"status": "",
+		"title": "Layout",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/block-settings/position": {
+		"applies_to": [],
+		"description": "The position settings in blocks allow you to set how an element is positioned in your site. These settings can only be found in a few blocks when they are placed at the root of site.",
+		"id": "write/block-settings/position",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/position.md",
+		"order": 70,
+		"parent": "write/block-settings",
+		"path": "write/block-settings/position/",
+		"redirect_from": [
+			"/documentation/article/position-settings-overview/"
+		],
+		"section": "write",
+		"slug": "position",
+		"status": "",
+		"title": "Position",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/block-settings/filters": {
+		"applies_to": [],
+		"description": "Use the filter settings to change image appearance with a duotone overlay.",
+		"id": "write/block-settings/filters",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/filters.md",
+		"order": 80,
+		"parent": "write/block-settings",
+		"path": "write/block-settings/filters/",
+		"redirect_from": [
+			"/documentation/article/filters-settings-overview/"
+		],
+		"section": "write",
+		"slug": "filters",
+		"status": "",
+		"title": "Filters and duotone",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/block-settings/responsive": {
+		"applies_to": [],
+		"description": "Responsive styles let you give a block different settings depending on the screen size it’s viewed on.",
+		"id": "write/block-settings/responsive",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/responsive.md",
+		"order": 90,
+		"parent": "write/block-settings",
+		"path": "write/block-settings/responsive/",
+		"redirect_from": [
+			"/documentation/article/responsive-styles/"
+		],
+		"section": "write",
+		"slug": "responsive",
+		"status": "",
+		"title": "Responsive styles",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/block-settings/advanced": {
+		"applies_to": [],
+		"description": "Use Advanced Settings to further customize your block. While some of the options listed below apply to multiple blocks, others are block-specific.",
+		"id": "write/block-settings/advanced",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/advanced.md",
+		"order": 100,
+		"parent": "write/block-settings",
+		"path": "write/block-settings/advanced/",
+		"redirect_from": [
+			"/documentation/article/advanced-settings-overview/"
+		],
+		"section": "write",
+		"slug": "advanced",
+		"status": "",
+		"title": "Advanced",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/media": {
+		"applies_to": [],
+		"description": "Media consists of the images, video, recordings, and files that you upload and use in your blog. Media is typically uploaded and inserted into the content when writing a Post or writing a Page.",
+		"id": "write/media",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/media/README.md",
+		"order": 60,
+		"parent": "write",
+		"path": "write/media/",
+		"redirect_from": [
+			"/documentation/article/media-library-screen/",
+			"/documentation/article/use-image-and-file-attachments/",
+			"/documentation/article/use-images/",
+			"/documentation/category/media/"
+		],
+		"section": "write",
+		"slug": "media",
+		"status": "",
+		"title": "Media",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/media/add-media": {
+		"applies_to": [],
+		"description": "The Media Add New Screen allows you to upload Media (Images, video, files, etc.) for later use in your posts and pages.",
+		"id": "write/media/add-media",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/media/add-media.md",
+		"order": 10,
+		"parent": "write/media",
+		"path": "write/media/add-media/",
+		"redirect_from": [
+			"/documentation/article/media-add-new-screen/"
+		],
+		"section": "write",
+		"slug": "add-media",
+		"status": "",
+		"title": "Add media",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/media/edit-media": {
+		"applies_to": [],
+		"description": "The Edit Media page is where you manage information about your media that is saved in the Media Library.",
+		"id": "write/media/edit-media",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/media/edit-media.md",
+		"order": 20,
+		"parent": "write/media",
+		"path": "write/media/edit-media/",
+		"redirect_from": [
+			"/documentation/article/edit-media/"
+		],
+		"section": "write",
+		"slug": "edit-media",
+		"status": "",
+		"title": "Edit media",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/media/image-sizes": {
+		"applies_to": [],
+		"description": "The size and quality of an image for use on a web page is determined by a variety of things.",
+		"id": "write/media/image-sizes",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/media/image-sizes.md",
+		"order": 30,
+		"parent": "write/media",
+		"path": "write/media/image-sizes/",
+		"redirect_from": [
+			"/documentation/article/image-size-and-quality/"
+		],
+		"section": "write",
+		"slug": "image-sizes",
+		"status": "",
+		"title": "Image sizes and quality",
+		"type": "concept",
+		"updated": ""
+	},
+	"write/publish": {
+		"applies_to": [],
+		"description": "What publishing does, the status and visibility of a post or page, scheduling, and how to update or unpublish what is live.",
+		"id": "write/publish",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/README.md",
+		"order": 60,
+		"parent": "write",
+		"path": "write/publish/",
+		"redirect_from": [],
+		"section": "write",
+		"slug": "publish",
+		"status": "",
+		"title": "Publish",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/publish/post-status": {
+		"applies_to": [],
+		"description": "Posts in WordPress can have one of a number of statuses. The status of a given post determines how WordPress handles that post.",
+		"id": "write/publish/post-status",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/post-status.md",
+		"order": 10,
+		"parent": "write/publish",
+		"path": "write/publish/post-status/",
+		"redirect_from": [
+			"/documentation/article/post-status/"
+		],
+		"section": "write",
+		"slug": "post-status",
+		"status": "",
+		"title": "Post status",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/publish/content-visibility": {
+		"applies_to": [],
+		"description": "Note: This page uses Block Editor. If you are a Classic Editor User, refer this page.",
+		"id": "write/publish/content-visibility",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/content-visibility.md",
+		"order": 20,
+		"parent": "write/publish",
+		"path": "write/publish/content-visibility/",
+		"redirect_from": [
+			"/documentation/article/content-visibility-block-editor/",
+			"/documentation/article/content-visibility-classic-editor/"
+		],
+		"section": "write",
+		"slug": "content-visibility",
+		"status": "",
+		"title": "Content visibility",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/publish/password-protected": {
+		"applies_to": [],
+		"description": "Once you publish a WordPress post (or Page), it is visible to the public (by default).",
+		"id": "write/publish/password-protected",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/password-protected.md",
+		"order": 30,
+		"parent": "write/publish",
+		"path": "write/publish/password-protected/",
+		"redirect_from": [
+			"/documentation/article/protect-posts-with-password/"
+		],
+		"section": "write",
+		"slug": "password-protected",
+		"status": "",
+		"title": "Password-protected content",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/publish/sticky-posts": {
+		"applies_to": [],
+		"description": "Note: Sticky Post is only available for the built-in post type post and not for custom post types.",
+		"id": "write/publish/sticky-posts",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/sticky-posts.md",
+		"order": 40,
+		"parent": "write/publish",
+		"path": "write/publish/sticky-posts/",
+		"redirect_from": [
+			"/documentation/article/sticky-posts-classic-editor/"
+		],
+		"section": "write",
+		"slug": "sticky-posts",
+		"status": "",
+		"title": "Sticky posts",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/publish/excerpts": {
+		"applies_to": [],
+		"description": "Note: This page uses Block Editor. If you are a Classic Editor User, refer this page.",
+		"id": "write/publish/excerpts",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/excerpts.md",
+		"order": 50,
+		"parent": "write/publish",
+		"path": "write/publish/excerpts/",
+		"redirect_from": [
+			"/documentation/article/what-is-an-excerpt-block-editor/",
+			"/documentation/article/what-is-an-excerpt-classic-editor/"
+		],
+		"section": "write",
+		"slug": "excerpts",
+		"status": "",
+		"title": "Excerpts",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/publish/revisions": {
+		"applies_to": [],
+		"description": "The WordPress revisions system stores a record of each saved draft or published update. The revision system allows you to see what changes were made in each revision by dragging a slider.",
+		"id": "write/publish/revisions",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/revisions.md",
+		"order": 60,
+		"parent": "write/publish",
+		"path": "write/publish/revisions/",
+		"redirect_from": [
+			"/documentation/article/revisions/"
+		],
+		"section": "write",
+		"slug": "revisions",
+		"status": "",
+		"title": "Revisions",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/organize": {
+		"applies_to": [],
+		"description": "How WordPress structures content and URLs: post types, categories and tags, custom fields, permalinks, and the special pages such as a static front page or a search page.",
+		"id": "write/organize",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/README.md",
+		"order": 80,
+		"parent": "write",
+		"path": "write/organize/",
+		"redirect_from": [],
+		"section": "write",
+		"slug": "organize",
+		"status": "",
+		"title": "Organize your content",
+		"type": "concept",
+		"updated": ""
+	},
+	"write/organize/categories": {
+		"applies_to": [],
+		"description": "Each post in WordPress is filed under one or more Categories. This aids in navigation and allows posts to be grouped with others of similar content.",
+		"id": "write/organize/categories",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/categories.md",
+		"order": 10,
+		"parent": "write/organize",
+		"path": "write/organize/categories/",
+		"redirect_from": [
+			"/documentation/article/posts-categories-screen/"
+		],
+		"section": "write",
+		"slug": "categories",
+		"status": "",
+		"title": "Categories",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/organize/tags": {
+		"applies_to": [],
+		"description": "Every post in WordPress can be filed under one or more Tags. This aids in navigation and allows posts and to be grouped with others of similar content.",
+		"id": "write/organize/tags",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/tags.md",
+		"order": 20,
+		"parent": "write/organize",
+		"path": "write/organize/tags/",
+		"redirect_from": [
+			"/documentation/article/posts-tags-screen/"
+		],
+		"section": "write",
+		"slug": "tags",
+		"status": "",
+		"title": "Tags",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/organize/taxonomies": {
+		"applies_to": [],
+		"description": "A taxonomy within WordPress is a way of grouping posts together based on a select number of relationships.",
+		"id": "write/organize/taxonomies",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/taxonomies.md",
+		"order": 30,
+		"parent": "write/organize",
+		"path": "write/organize/taxonomies/",
+		"redirect_from": [
+			"/documentation/article/taxonomies/"
+		],
+		"section": "write",
+		"slug": "taxonomies",
+		"status": "",
+		"title": "Taxonomies",
+		"type": "concept",
+		"updated": ""
+	},
+	"write/organize/post-types": {
+		"applies_to": [],
+		"description": "WordPress houses lots of different types of content and they are divided into something called Post Types.",
+		"id": "write/organize/post-types",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/post-types.md",
+		"order": 40,
+		"parent": "write/organize",
+		"path": "write/organize/post-types/",
+		"redirect_from": [
+			"/documentation/article/what-is-post-type/"
+		],
+		"section": "write",
+		"slug": "post-types",
+		"status": "",
+		"title": "Post types",
+		"type": "concept",
+		"updated": ""
+	},
+	"write/organize/custom-fields": {
+		"applies_to": [],
+		"description": "WordPress has the ability to allow post authors to assign custom fields to a post. This arbitrary extra information is known as metadata. This metadata can include bits of information such as:",
+		"id": "write/organize/custom-fields",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/custom-fields.md",
+		"order": 50,
+		"parent": "write/organize",
+		"path": "write/organize/custom-fields/",
+		"redirect_from": [
+			"/documentation/article/assign-custom-fields/"
+		],
+		"section": "write",
+		"slug": "custom-fields",
+		"status": "",
+		"title": "Custom fields",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/organize/static-front-page": {
+		"applies_to": [],
+		"description": "The purpose of this document is to explain the process of setting up a static page on your WordPress site. This document doesn’t discuss the automatic display of posts on the Home page.",
+		"id": "write/organize/static-front-page",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/static-front-page.md",
+		"order": 60,
+		"parent": "write/organize",
+		"path": "write/organize/static-front-page/",
+		"redirect_from": [
+			"/documentation/article/create-a-static-front-page/"
+		],
+		"section": "write",
+		"slug": "static-front-page",
+		"status": "",
+		"title": "Set a static front page",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/organize/search-page": {
+		"applies_to": [],
+		"description": "A Search Page is a WordPress Page with a custom Page template to give users more information for searching your site.",
+		"id": "write/organize/search-page",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/search-page.md",
+		"order": 70,
+		"parent": "write/organize",
+		"path": "write/organize/search-page/",
+		"redirect_from": [
+			"/documentation/article/create-a-search-page/"
+		],
+		"section": "write",
+		"slug": "search-page",
+		"status": "",
+		"title": "Create a search page",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/comments": {
+		"applies_to": [],
+		"description": "How comments work in WordPress, where to manage them, and the settings that control who can comment and when.",
+		"id": "write/comments",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/comments/README.md",
+		"order": 90,
+		"parent": "write",
+		"path": "write/comments/",
+		"redirect_from": [
+			"/documentation/article/comments-in-wordpress/"
+		],
+		"section": "write",
+		"slug": "comments",
+		"status": "",
+		"title": "Comments",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/comments/comments-screen": {
+		"applies_to": [],
+		"description": "In the Comments Screen you can edit or delete content found in comments to your posts, and you can mark comments as spam, send comments to the trash, and reply to comments.",
+		"id": "write/comments/comments-screen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/comments/comments-screen.md",
+		"order": 10,
+		"parent": "write/comments",
+		"path": "write/comments/comments-screen/",
+		"redirect_from": [
+			"/documentation/article/comments-screen/"
+		],
+		"section": "write",
+		"slug": "comments-screen",
+		"status": "",
+		"title": "Comments screen",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/comments/comment-moderation": {
+		"applies_to": [],
+		"description": "Comment moderation is a feature in WordPress that allows you to prevent comments from appearing on your site without your express approval.",
+		"id": "write/comments/comment-moderation",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/comments/comment-moderation.md",
+		"order": 20,
+		"parent": "write/comments",
+		"path": "write/comments/comment-moderation/",
+		"redirect_from": [
+			"/documentation/article/comment-moderation/"
+		],
+		"section": "write",
+		"slug": "comment-moderation",
+		"status": "",
+		"title": "Comment moderation",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/comments/comment-spam": {
+		"applies_to": [],
+		"description": "If you’ve spent any time online, you’ve probably come across spam in one form or another. In general, spam is unwanted content posted for promotional, misleading, or abusive purposes.",
+		"id": "write/comments/comment-spam",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/comments/comment-spam.md",
+		"order": 30,
+		"parent": "write/comments",
+		"path": "write/comments/comment-spam/",
+		"redirect_from": [
+			"/documentation/article/understand-comment-spam/"
+		],
+		"section": "write",
+		"slug": "comment-spam",
+		"status": "",
+		"title": "Comment spam",
+		"type": "guide",
+		"updated": ""
+	},
+	"write/comments/trackbacks-and-pingbacks": {
+		"applies_to": [],
+		"description": "Trackbacks and pingbacks are methods for alerting blogs that you have linked to them. The difference between them is:",
+		"id": "write/comments/trackbacks-and-pingbacks",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/comments/trackbacks-and-pingbacks.md",
+		"order": 40,
+		"parent": "write/comments",
+		"path": "write/comments/trackbacks-and-pingbacks/",
+		"redirect_from": [
+			"/documentation/article/trackbacks-and-pingbacks/"
+		],
+		"section": "write",
+		"slug": "trackbacks-and-pingbacks",
+		"status": "",
+		"title": "Trackbacks and pingbacks",
+		"type": "concept",
+		"updated": ""
+	},
+	"write/formatting": {
+		"applies_to": [],
+		"description": "Details of how WordPress handles the text you type: character entities, emoji and smilies, and the filters WordPress applies to post content before it is displayed.",
+		"id": "write/formatting",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/formatting/README.md",
+		"order": 100,
+		"parent": "write",
+		"path": "write/formatting/",
+		"redirect_from": [],
+		"section": "write",
+		"slug": "formatting",
+		"status": "",
+		"title": "Formatting",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/formatting/character-entities": {
+		"applies_to": [],
+		"description": "In many WordPress sites, you will see odd symbols that will pop up from time to time. Often these symbols appear in navigation links.",
+		"id": "write/formatting/character-entities",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/formatting/character-entities.md",
+		"order": 10,
+		"parent": "write/formatting",
+		"path": "write/formatting/character-entities/",
+		"redirect_from": [
+			"/documentation/article/use-character-entities/"
+		],
+		"section": "write",
+		"slug": "character-entities",
+		"status": "",
+		"title": "Character entities",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/formatting/emoji": {
+		"applies_to": [],
+		"description": "Emoji are the ideograms or smileys 😃 used in electronic messages and Web pages.",
+		"id": "write/formatting/emoji",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/formatting/emoji.md",
+		"order": 20,
+		"parent": "write/formatting",
+		"path": "write/formatting/emoji/",
+		"redirect_from": [
+			"/documentation/article/what-are-emoji/"
+		],
+		"section": "write",
+		"slug": "emoji",
+		"status": "",
+		"title": "Emoji",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/formatting/smilies": {
+		"applies_to": [],
+		"description": "Smileys, also known as “emoticons”, are glyphs used to convey emotions in your writing. They are a great way to brighten up posts. 🙂",
+		"id": "write/formatting/smilies",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/formatting/smilies.md",
+		"order": 30,
+		"parent": "write/formatting",
+		"path": "write/formatting/smilies/",
+		"redirect_from": [
+			"/documentation/article/what-are-smilies/"
+		],
+		"section": "write",
+		"slug": "smilies",
+		"status": "",
+		"title": "Smilies",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/formatting/post-content-processing": {
+		"applies_to": [],
+		"description": "WordPress processes text entered in the Write Post Screen multiple times before the text is finally displayed on a web page within your WordPress blog.",
+		"id": "write/formatting/post-content-processing",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/formatting/post-content-processing.md",
+		"order": 40,
+		"parent": "write/formatting",
+		"path": "write/formatting/post-content-processing/",
+		"redirect_from": [
+			"/documentation/article/how-wordpress-processes-post-content/"
+		],
+		"section": "write",
+		"slug": "post-content-processing",
+		"status": "",
+		"title": "How WordPress processes post content",
+		"type": "reference",
+		"updated": ""
+	},
+	"write/seo": {
+		"applies_to": [],
+		"description": "WordPress, straight out of the box, comes ready to embrace search engines.",
+		"id": "write/seo",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/seo.md",
+		"order": 110,
+		"parent": "write",
+		"path": "write/seo/",
+		"redirect_from": [
+			"/documentation/article/search-engine-optimization/"
+		],
+		"section": "write",
+		"slug": "seo",
+		"status": "",
+		"title": "Search engine optimization",
+		"type": "guide",
+		"updated": ""
+	},
+	"blocks": {
+		"applies_to": [],
+		"description": "Every block that ships with WordPress, grouped the way the block inserter groups them.",
+		"id": "blocks",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/README.md",
+		"order": 30,
+		"parent": null,
+		"path": "blocks/",
+		"redirect_from": [
+			"/documentation/article/blocks-list/"
+		],
+		"section": "blocks",
+		"slug": "blocks",
+		"status": "",
+		"title": "Blocks",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text": {
+		"applies_to": [],
+		"description": "Blocks for written content: paragraphs, headings, lists, quotes, tables, code and more.",
+		"id": "blocks/text",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/README.md",
+		"order": 10,
+		"parent": "blocks",
+		"path": "blocks/text/",
+		"redirect_from": [
+			"/documentation/category/text-blocks/"
+		],
+		"section": "blocks",
+		"slug": "text-blocks",
+		"status": "",
+		"title": "Text blocks",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/freeform": {
+		"applies_to": [],
+		"description": "The Classic block looks just like the classic editor, but it’s in block form. Custom TinyMCE buttons are found in this block.",
+		"id": "blocks/text/freeform",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/freeform.md",
+		"order": 10,
+		"parent": "blocks/text",
+		"path": "blocks/text/freeform/",
+		"redirect_from": [
+			"/documentation/article/classic-block/"
+		],
+		"section": "blocks",
+		"slug": "freeform-block",
+		"status": "",
+		"title": "Classic",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/code": {
+		"applies_to": [],
+		"description": "To add the Code block, open the block inserter by clicking the (+) icon on the upper left corner of the editor.",
+		"id": "blocks/text/code",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/code.md",
+		"order": 20,
+		"parent": "blocks/text",
+		"path": "blocks/text/code/",
+		"redirect_from": [
+			"/documentation/article/code-block/"
+		],
+		"section": "blocks",
+		"slug": "code-block",
+		"status": "",
+		"title": "Code",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/details": {
+		"applies_to": [],
+		"description": "The Details block displays a text summary and an arrow button: When you click on the text or the button, the block opens and reveals additional content on the page.",
+		"id": "blocks/text/details",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/details.md",
+		"order": 30,
+		"parent": "blocks/text",
+		"path": "blocks/text/details/",
+		"redirect_from": [
+			"/documentation/article/details-block/"
+		],
+		"section": "blocks",
+		"slug": "details-block",
+		"status": "",
+		"title": "Details",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/footnotes": {
+		"applies_to": [],
+		"description": "WordPress 6.3 introduces a new feature to insert and display footnotes. This option can be found on the toolbar of individual blocks under the Rich Editing option.",
+		"id": "blocks/text/footnotes",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/footnotes.md",
+		"order": 40,
+		"parent": "blocks/text",
+		"path": "blocks/text/footnotes/",
+		"redirect_from": [
+			"/documentation/article/footnotes-block/"
+		],
+		"section": "blocks",
+		"slug": "footnotes-block",
+		"status": "",
+		"title": "Footnotes",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/heading": {
+		"applies_to": [],
+		"description": "Headings help to introduce new sections and organize the content on the page. They make your website more readable by humans and search engines.",
+		"id": "blocks/text/heading",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/heading.md",
+		"order": 50,
+		"parent": "blocks/text",
+		"path": "blocks/text/heading/",
+		"redirect_from": [
+			"/documentation/article/heading-block/"
+		],
+		"section": "blocks",
+		"slug": "heading-block",
+		"status": "",
+		"title": "Heading",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/list": {
+		"applies_to": [],
+		"description": "You can use the List block to create a bulleted or numbered list.",
+		"id": "blocks/text/list",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/list.md",
+		"order": 60,
+		"parent": "blocks/text",
+		"path": "blocks/text/list/",
+		"redirect_from": [
+			"/documentation/article/list-block/"
+		],
+		"section": "blocks",
+		"slug": "list-block",
+		"status": "",
+		"title": "List",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/math": {
+		"applies_to": [],
+		"description": "The Math block lets you display mathematical notation in your content. You can enter formulas using LaTeX or MathML and show them as a standalone block or inline within text.",
+		"id": "blocks/text/math",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/math.md",
+		"order": 70,
+		"parent": "blocks/text",
+		"path": "blocks/text/math/",
+		"redirect_from": [
+			"/documentation/article/math-block/"
+		],
+		"section": "blocks",
+		"slug": "math-block",
+		"status": "",
+		"title": "Math",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/paragraph": {
+		"applies_to": [],
+		"description": "The Paragraph block is a basic building block that allows you to add text content to a post or page. It is the default block that appears when you create a new post or page.",
+		"id": "blocks/text/paragraph",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/paragraph.md",
+		"order": 80,
+		"parent": "blocks/text",
+		"path": "blocks/text/paragraph/",
+		"redirect_from": [
+			"/documentation/article/paragraph-block/"
+		],
+		"section": "blocks",
+		"slug": "paragraph-block",
+		"status": "",
+		"title": "Paragraph",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/verse": {
+		"applies_to": [],
+		"description": "The Poetry block is specifically designed for writing poetry, song lyrics, or other literary expressions.",
+		"id": "blocks/text/verse",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/verse.md",
+		"order": 90,
+		"parent": "blocks/text",
+		"path": "blocks/text/verse/",
+		"redirect_from": [
+			"/documentation/article/verse-block/"
+		],
+		"section": "blocks",
+		"slug": "verse-block",
+		"status": "",
+		"title": "Poetry",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/preformatted": {
+		"applies_to": [],
+		"description": "If you wish to add text to a post or page that is displayed exactly as you type it, the Preformatted block is for you.",
+		"id": "blocks/text/preformatted",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/preformatted.md",
+		"order": 100,
+		"parent": "blocks/text",
+		"path": "blocks/text/preformatted/",
+		"redirect_from": [
+			"/documentation/article/preformatted-block/"
+		],
+		"section": "blocks",
+		"slug": "preformatted-block",
+		"status": "",
+		"title": "Preformatted",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/pullquote": {
+		"applies_to": [],
+		"description": "If you want to add emphasis to a piece of text in your post or page, the pullquote block can quickly and easily make short snippets look beautiful.",
+		"id": "blocks/text/pullquote",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/pullquote.md",
+		"order": 110,
+		"parent": "blocks/text",
+		"path": "blocks/text/pullquote/",
+		"redirect_from": [
+			"/documentation/article/pullquote-block/"
+		],
+		"section": "blocks",
+		"slug": "pullquote-block",
+		"status": "",
+		"title": "Pullquote",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/quote": {
+		"applies_to": [],
+		"description": "Use the Quote block to easily add a quote to any post or page. Adding quotes can help you highlight great reviews from your audience or phrases that inspire you.",
+		"id": "blocks/text/quote",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/quote.md",
+		"order": 120,
+		"parent": "blocks/text",
+		"path": "blocks/text/quote/",
+		"redirect_from": [
+			"/documentation/article/quote-block/"
+		],
+		"section": "blocks",
+		"slug": "quote-block",
+		"status": "",
+		"title": "Quote",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/text/table": {
+		"applies_to": [],
+		"description": "Use the Table block to easily create a table in any post or page.",
+		"id": "blocks/text/table",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/table.md",
+		"order": 130,
+		"parent": "blocks/text",
+		"path": "blocks/text/table/",
+		"redirect_from": [
+			"/documentation/article/table-block/"
+		],
+		"section": "blocks",
+		"slug": "table-block",
+		"status": "",
+		"title": "Table",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/media": {
+		"applies_to": [],
+		"description": "Blocks for images, galleries, audio, video, files and icons, plus layouts that combine media with text such as Cover and Media & Text.",
+		"id": "blocks/media",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/README.md",
+		"order": 20,
+		"parent": "blocks",
+		"path": "blocks/media/",
+		"redirect_from": [
+			"/documentation/category/media-blocks/"
+		],
+		"section": "blocks",
+		"slug": "media-blocks",
+		"status": "",
+		"title": "Media blocks",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/media/audio": {
+		"applies_to": [],
+		"description": "Creating an Audio block will allow you to embed a piece of music, podcast, or other sound file right into your page or post.",
+		"id": "blocks/media/audio",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/audio.md",
+		"order": 10,
+		"parent": "blocks/media",
+		"path": "blocks/media/audio/",
+		"redirect_from": [
+			"/documentation/article/audio-block/"
+		],
+		"section": "blocks",
+		"slug": "audio-block",
+		"status": "",
+		"title": "Audio",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/media/cover": {
+		"applies_to": [],
+		"description": "The Cover block lets you add a background color, image or video with a text overlay. It is an excellent tool for creating headers, banner-style displays, call-to-actions, and more.",
+		"id": "blocks/media/cover",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/cover.md",
+		"order": 20,
+		"parent": "blocks/media",
+		"path": "blocks/media/cover/",
+		"redirect_from": [
+			"/documentation/article/cover-block/"
+		],
+		"section": "blocks",
+		"slug": "cover-block",
+		"status": "",
+		"title": "Cover",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/media/file": {
+		"applies_to": [],
+		"description": "The File block allows you to add a link to the downloadable files on your website.",
+		"id": "blocks/media/file",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/file.md",
+		"order": 30,
+		"parent": "blocks/media",
+		"path": "blocks/media/file/",
+		"redirect_from": [
+			"/documentation/article/file-block/"
+		],
+		"section": "blocks",
+		"slug": "file-block",
+		"status": "",
+		"title": "File",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/media/gallery": {
+		"applies_to": [],
+		"description": "The Gallery block allows you to easily add multiple photos and automatically arrange them in a gallery. You can control the number of columns and the size of the images in the gallery.",
+		"id": "blocks/media/gallery",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/gallery.md",
+		"order": 40,
+		"parent": "blocks/media",
+		"path": "blocks/media/gallery/",
+		"redirect_from": [
+			"/documentation/article/gallery-block/",
+			"/documentation/article/the-wordpress-gallery-block-editor/",
+			"/documentation/article/the-wordpress-gallery-classic-editor/"
+		],
+		"section": "blocks",
+		"slug": "gallery-block",
+		"status": "",
+		"title": "Gallery",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/media/icon": {
+		"applies_to": [],
+		"description": "The Icon block lets you easily add icons to your pages, posts, templates, and template parts.",
+		"id": "blocks/media/icon",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/icon.md",
+		"order": 50,
+		"parent": "blocks/media",
+		"path": "blocks/media/icon/",
+		"redirect_from": [
+			"/documentation/article/icon-block/"
+		],
+		"section": "blocks",
+		"slug": "icon-block",
+		"status": "",
+		"title": "Icon",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/media/image": {
+		"applies_to": [],
+		"description": "Use the Image block to easily add an image to your page.",
+		"id": "blocks/media/image",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/image.md",
+		"order": 60,
+		"parent": "blocks/media",
+		"path": "blocks/media/image/",
+		"redirect_from": [
+			"/documentation/article/image-block/",
+			"/documentation/article/inserting-images-into-posts-and-pages-block-editor/",
+			"/documentation/article/inserting-images-into-posts-and-pages-classic/"
+		],
+		"section": "blocks",
+		"slug": "image-block",
+		"status": "",
+		"title": "Image",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/media/media-text": {
+		"applies_to": [],
+		"description": "The Media & Text block allows you to place an image or video side-by-side with text.",
+		"id": "blocks/media/media-text",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/media-text.md",
+		"order": 70,
+		"parent": "blocks/media",
+		"path": "blocks/media/media-text/",
+		"redirect_from": [
+			"/documentation/article/media-text-block/"
+		],
+		"section": "blocks",
+		"slug": "media-text-block",
+		"status": "",
+		"title": "Media & Text",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/media/playlist": {
+		"applies_to": [],
+		"description": "The Playlist block lets you add a collection of audio tracks to your content and play them in a single audio player.",
+		"id": "blocks/media/playlist",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/playlist.md",
+		"order": 80,
+		"parent": "blocks/media",
+		"path": "blocks/media/playlist/",
+		"redirect_from": [
+			"/documentation/article/playlist-block/"
+		],
+		"section": "blocks",
+		"slug": "playlist-block",
+		"status": "",
+		"title": "Playlist",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/media/video": {
+		"applies_to": [],
+		"description": "Use the Video block to upload and embed video into your post or page.",
+		"id": "blocks/media/video",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/video.md",
+		"order": 90,
+		"parent": "blocks/media",
+		"path": "blocks/media/video/",
+		"redirect_from": [
+			"/documentation/article/video-block/"
+		],
+		"section": "blocks",
+		"slug": "video-block",
+		"status": "",
+		"title": "Video",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design": {
+		"applies_to": [],
+		"description": "Blocks for layout and structure: groups, rows, stacks, grids and columns, buttons, separators and spacers, and interactive containers such as accordions and tabs.",
+		"id": "blocks/design",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/README.md",
+		"order": 30,
+		"parent": "blocks",
+		"path": "blocks/design/",
+		"redirect_from": [
+			"/documentation/category/design-blocks/"
+		],
+		"section": "blocks",
+		"slug": "design-blocks",
+		"status": "",
+		"title": "Design blocks",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/accordion": {
+		"applies_to": [],
+		"description": "The Accordion block lets you show content in collapsible sections so visitors can expand just the parts they need.",
+		"id": "blocks/design/accordion",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/accordion.md",
+		"order": 10,
+		"parent": "blocks/design",
+		"path": "blocks/design/accordion/",
+		"redirect_from": [
+			"/documentation/article/accordion-block/"
+		],
+		"section": "blocks",
+		"slug": "accordion-block",
+		"status": "",
+		"title": "Accordion",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/buttons": {
+		"applies_to": [],
+		"description": "Use the Buttons block to add one or more buttons to your page or post.",
+		"id": "blocks/design/buttons",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/buttons.md",
+		"order": 20,
+		"parent": "blocks/design",
+		"path": "blocks/design/buttons/",
+		"redirect_from": [
+			"/documentation/article/button-block/",
+			"/documentation/article/buttons-block/"
+		],
+		"section": "blocks",
+		"slug": "buttons-block",
+		"status": "",
+		"title": "Buttons",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/columns": {
+		"applies_to": [],
+		"description": "The Columns block allows you to insert text, media, and other types of content into columns. When used one after another, the columns can create a grid effect.",
+		"id": "blocks/design/columns",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/columns.md",
+		"order": 30,
+		"parent": "blocks/design",
+		"path": "blocks/design/columns/",
+		"redirect_from": [
+			"/documentation/article/columns-block/"
+		],
+		"section": "blocks",
+		"slug": "columns-block",
+		"status": "",
+		"title": "Columns",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/group": {
+		"applies_to": [],
+		"description": "The Group block allows you to group different blocks together and customize them to your liking, including setting custom background colors, spacing, and more.",
+		"id": "blocks/design/group",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/group/README.md",
+		"order": 40,
+		"parent": "blocks/design",
+		"path": "blocks/design/group/",
+		"redirect_from": [
+			"/documentation/article/group-block/"
+		],
+		"section": "blocks",
+		"slug": "group-block",
+		"status": "",
+		"title": "Group",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/group/grid": {
+		"applies_to": [],
+		"description": "Grid block is one of the container blocks that can be used to organize multiple blocks and adjust the height, width, and position of all blocks inside the container.",
+		"id": "blocks/design/group/grid",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/group/grid.md",
+		"order": 10,
+		"parent": "blocks/design/group",
+		"path": "blocks/design/group/grid/",
+		"redirect_from": [
+			"/documentation/article/grid-block/"
+		],
+		"section": "blocks",
+		"slug": "grid-block",
+		"status": "",
+		"title": "Grid",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/group/row": {
+		"applies_to": [],
+		"description": "Row block is one of the container blocks that can be used to arrange blocks in a single horizontal line.",
+		"id": "blocks/design/group/row",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/group/row.md",
+		"order": 20,
+		"parent": "blocks/design/group",
+		"path": "blocks/design/group/row/",
+		"redirect_from": [
+			"/documentation/article/row-block/"
+		],
+		"section": "blocks",
+		"slug": "row-block",
+		"status": "",
+		"title": "Row",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/group/stack": {
+		"applies_to": [],
+		"description": "Stack block is one of the container blocks that can be used to nest other blocks vertically.",
+		"id": "blocks/design/group/stack",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/group/stack.md",
+		"order": 30,
+		"parent": "blocks/design/group",
+		"path": "blocks/design/group/stack/",
+		"redirect_from": [
+			"/documentation/article/stack-block/"
+		],
+		"section": "blocks",
+		"slug": "stack-block",
+		"status": "",
+		"title": "Stack",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/home-link": {
+		"applies_to": [],
+		"description": "The Home Link block allows you to automatically add a link to your site’s homepage. The Home Link block is only available as a sub-block of the Navigation block.",
+		"id": "blocks/design/home-link",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/home-link.md",
+		"order": 50,
+		"parent": "blocks/design",
+		"path": "blocks/design/home-link/",
+		"redirect_from": [
+			"/documentation/article/home-link-block/"
+		],
+		"section": "blocks",
+		"slug": "home-link-block",
+		"status": "",
+		"title": "Home Link",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/more": {
+		"applies_to": [],
+		"description": "The More block is used to display a Read More link to the full blog post, on the blog home page, or on the archive pages.",
+		"id": "blocks/design/more",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/more.md",
+		"order": 60,
+		"parent": "blocks/design",
+		"path": "blocks/design/more/",
+		"redirect_from": [
+			"/documentation/article/more-block/"
+		],
+		"section": "blocks",
+		"slug": "more-block",
+		"status": "",
+		"title": "More",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/navigation-link": {
+		"applies_to": [],
+		"description": "The Custom Link block allows you to embed a link, page, category, or another item in your Navigation section.",
+		"id": "blocks/design/navigation-link",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/navigation-link.md",
+		"order": 70,
+		"parent": "blocks/design",
+		"path": "blocks/design/navigation-link/",
+		"redirect_from": [
+			"/documentation/article/custom-link-block/"
+		],
+		"section": "blocks",
+		"slug": "navigation-link-block",
+		"status": "",
+		"title": "Navigation Link",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/nextpage": {
+		"applies_to": [],
+		"description": "Use the page break block to separate your content into a multiple-page experience and add pagination, or page breaks, to a page or post.",
+		"id": "blocks/design/nextpage",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/nextpage.md",
+		"order": 80,
+		"parent": "blocks/design",
+		"path": "blocks/design/nextpage/",
+		"redirect_from": [
+			"/documentation/article/page-break-block/"
+		],
+		"section": "blocks",
+		"slug": "nextpage-block",
+		"status": "",
+		"title": "Page Break",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/separator": {
+		"applies_to": [],
+		"description": "The separator block creates a break between two blocks of content with a horizontal line. This helps to create a separation between ideas or sections on your post or page.",
+		"id": "blocks/design/separator",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/separator.md",
+		"order": 90,
+		"parent": "blocks/design",
+		"path": "blocks/design/separator/",
+		"redirect_from": [
+			"/documentation/article/separator-block/"
+		],
+		"section": "blocks",
+		"slug": "separator-block",
+		"status": "",
+		"title": "Separator",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/spacer": {
+		"applies_to": [],
+		"description": "If you want to have a space between two blocks, the Spacer block is what you will use.",
+		"id": "blocks/design/spacer",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/spacer.md",
+		"order": 100,
+		"parent": "blocks/design",
+		"path": "blocks/design/spacer/",
+		"redirect_from": [
+			"/documentation/article/spacer-block/"
+		],
+		"section": "blocks",
+		"slug": "spacer-block",
+		"status": "",
+		"title": "Spacer",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/navigation-submenu": {
+		"applies_to": [],
+		"description": "The Submenu Block is an advanced block that can only be used as a child block of the Navigation Block released with WordPress 5.9.",
+		"id": "blocks/design/navigation-submenu",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/navigation-submenu.md",
+		"order": 110,
+		"parent": "blocks/design",
+		"path": "blocks/design/navigation-submenu/",
+		"redirect_from": [
+			"/documentation/article/submenu-block/"
+		],
+		"section": "blocks",
+		"slug": "navigation-submenu-block",
+		"status": "",
+		"title": "Submenu",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/design/tabs": {
+		"applies_to": [],
+		"description": "The Tabs block lets you organize content into separate tabbed sections that visitors click through one at a time, instead of showing everything on the page at once.",
+		"id": "blocks/design/tabs",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/tabs.md",
+		"order": 120,
+		"parent": "blocks/design",
+		"path": "blocks/design/tabs/",
+		"redirect_from": [
+			"/documentation/article/tabs-block/"
+		],
+		"section": "blocks",
+		"slug": "tabs-block",
+		"status": "",
+		"title": "Tabs",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets": {
+		"applies_to": [],
+		"description": "Blocks that show dynamic content such as archives, calendars, latest posts and comments, tag clouds, search and social icons. They can be used in posts and pages as well as in widget areas.",
+		"id": "blocks/widgets",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/README.md",
+		"order": 40,
+		"parent": "blocks",
+		"path": "blocks/widgets/",
+		"redirect_from": [
+			"/documentation/category/widget-blocks/"
+		],
+		"section": "blocks",
+		"slug": "widget-blocks",
+		"status": "",
+		"title": "Widget blocks",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets/archives": {
+		"applies_to": [],
+		"description": "Use the Archives block to display a date archive of your posts.",
+		"id": "blocks/widgets/archives",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/archives.md",
+		"order": 10,
+		"parent": "blocks/widgets",
+		"path": "blocks/widgets/archives/",
+		"redirect_from": [
+			"/documentation/article/archives-block/"
+		],
+		"section": "blocks",
+		"slug": "archives-block",
+		"status": "",
+		"title": "Archives",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets/calendar": {
+		"applies_to": [],
+		"description": "The Calendar block displays your posts in a calendar format. When you publish a new post, it is automatically added to the Calendar block.",
+		"id": "blocks/widgets/calendar",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/calendar.md",
+		"order": 20,
+		"parent": "blocks/widgets",
+		"path": "blocks/widgets/calendar/",
+		"redirect_from": [
+			"/documentation/article/calendar-block/"
+		],
+		"section": "blocks",
+		"slug": "calendar-block",
+		"status": "",
+		"title": "Calendar",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets/html": {
+		"applies_to": [],
+		"description": "Starting in WordPress 7.0, the Custom HTML block introduces separate editing panels for HTML, CSS, and JavaScript.",
+		"id": "blocks/widgets/html",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/html.md",
+		"order": 30,
+		"parent": "blocks/widgets",
+		"path": "blocks/widgets/html/",
+		"redirect_from": [
+			"/documentation/article/custom-html/"
+		],
+		"section": "blocks",
+		"slug": "html-block",
+		"status": "",
+		"title": "Custom HTML",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets/latest-comments": {
+		"applies_to": [],
+		"description": "The Latest Comments block displays the most recent comments readers have left on your blog, including the users and blog posts.",
+		"id": "blocks/widgets/latest-comments",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/latest-comments.md",
+		"order": 40,
+		"parent": "blocks/widgets",
+		"path": "blocks/widgets/latest-comments/",
+		"redirect_from": [
+			"/documentation/article/latest-comments-block/"
+		],
+		"section": "blocks",
+		"slug": "latest-comments-block",
+		"status": "",
+		"title": "Latest Comments",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets/latest-posts": {
+		"applies_to": [],
+		"description": "The latest posts block displays your most recent posts, making it easy for your readers to see what’s new on your blog.",
+		"id": "blocks/widgets/latest-posts",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/latest-posts.md",
+		"order": 50,
+		"parent": "blocks/widgets",
+		"path": "blocks/widgets/latest-posts/",
+		"redirect_from": [
+			"/documentation/article/latest-posts-block/"
+		],
+		"section": "blocks",
+		"slug": "latest-posts-block",
+		"status": "",
+		"title": "Latest Posts",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets/page-list": {
+		"applies_to": [],
+		"description": "The Page List block allows you to display your website’s published pages in a page, post, and sidebar.",
+		"id": "blocks/widgets/page-list",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/page-list.md",
+		"order": 60,
+		"parent": "blocks/widgets",
+		"path": "blocks/widgets/page-list/",
+		"redirect_from": [
+			"/documentation/article/page-list-block/"
+		],
+		"section": "blocks",
+		"slug": "page-list-block",
+		"status": "",
+		"title": "Page List",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets/rss": {
+		"applies_to": [],
+		"description": "An RSS feed is a machine-readable version of the content of a blog or a website.",
+		"id": "blocks/widgets/rss",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/rss.md",
+		"order": 70,
+		"parent": "blocks/widgets",
+		"path": "blocks/widgets/rss/",
+		"redirect_from": [
+			"/documentation/article/rss-block/"
+		],
+		"section": "blocks",
+		"slug": "rss-block",
+		"status": "",
+		"title": "RSS",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets/search": {
+		"applies_to": [],
+		"description": "Use the Search block to place a search widget on your page or post.",
+		"id": "blocks/widgets/search",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/search.md",
+		"order": 80,
+		"parent": "blocks/widgets",
+		"path": "blocks/widgets/search/",
+		"redirect_from": [
+			"/documentation/article/search-block/"
+		],
+		"section": "blocks",
+		"slug": "search-block",
+		"status": "",
+		"title": "Search",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets/shortcode": {
+		"applies_to": [],
+		"description": "A shortcode is a WordPress-specific code that lets you do nifty things with very little effort.",
+		"id": "blocks/widgets/shortcode",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/shortcode.md",
+		"order": 90,
+		"parent": "blocks/widgets",
+		"path": "blocks/widgets/shortcode/",
+		"redirect_from": [
+			"/documentation/article/shortcode-block/"
+		],
+		"section": "blocks",
+		"slug": "shortcode-block",
+		"status": "",
+		"title": "Shortcode",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets/social-links": {
+		"applies_to": [],
+		"description": "The Social Icons block allows you to add icons linking to your social media profiles or sites. This helps to increase the visibility of your social media profiles and drive traffic to them.",
+		"id": "blocks/widgets/social-links",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/social-links.md",
+		"order": 100,
+		"parent": "blocks/widgets",
+		"path": "blocks/widgets/social-links/",
+		"redirect_from": [
+			"/documentation/article/social-icons/"
+		],
+		"section": "blocks",
+		"slug": "social-links-block",
+		"status": "",
+		"title": "Social Icons",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets/tag-cloud": {
+		"applies_to": [],
+		"description": "The Tag Cloud block allows adding tag/category cloud into the page/post. A tag cloud is a list of all tags /categories on your site, displayed in alphabetical order.",
+		"id": "blocks/widgets/tag-cloud",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/tag-cloud.md",
+		"order": 110,
+		"parent": "blocks/widgets",
+		"path": "blocks/widgets/tag-cloud/",
+		"redirect_from": [
+			"/documentation/article/tag-cloud-block/"
+		],
+		"section": "blocks",
+		"slug": "tag-cloud-block",
+		"status": "",
+		"title": "Tag Cloud",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/widgets/categories": {
+		"applies_to": [],
+		"description": "The Categories List block organizes your previously published posts by category. This can be handy for readers who want to find more of your posts about certain topics.",
+		"id": "blocks/widgets/categories",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/categories.md",
+		"order": 120,
+		"parent": "blocks/widgets",
+		"path": "blocks/widgets/categories/",
+		"redirect_from": [
+			"/documentation/article/categories-list-block/"
+		],
+		"section": "blocks",
+		"slug": "categories-block",
+		"status": "",
+		"title": "Terms List",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme": {
+		"applies_to": [],
+		"description": "Theme blocks help you build your site's templates in the Site Editor.",
+		"id": "blocks/theme",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/README.md",
+		"order": 50,
+		"parent": "blocks",
+		"path": "blocks/theme/",
+		"redirect_from": [
+			"/documentation/category/theme-blocks/"
+		],
+		"section": "blocks",
+		"slug": "theme-blocks",
+		"status": "",
+		"title": "Theme blocks",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/post-author-biography": {
+		"applies_to": [],
+		"description": "The Post Author Biography block allows you to embed a user’s biography from the About Yourself section in Users > Profile into your page or post.",
+		"id": "blocks/theme/post-author-biography",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-author-biography.md",
+		"order": 10,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/post-author-biography/",
+		"redirect_from": [
+			"/documentation/article/post-author-biography-block/"
+		],
+		"section": "blocks",
+		"slug": "post-author-biography-block",
+		"status": "",
+		"title": "Author Biography",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/post-author-name": {
+		"applies_to": [],
+		"description": "The Author Name block displays the post author’s name or username. This block is often nested inside a query loop block or added to a Template in the Site Editor.",
+		"id": "blocks/theme/post-author-name",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-author-name.md",
+		"order": 20,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/post-author-name/",
+		"redirect_from": [
+			"/documentation/article/post-author-block/",
+			"/documentation/article/post-author-name-block/"
+		],
+		"section": "blocks",
+		"slug": "post-author-name-block",
+		"status": "",
+		"title": "Author Name",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/avatar": {
+		"applies_to": [],
+		"description": "Use the Avatar block to display the user’s profile picture on any post, page, or template.",
+		"id": "blocks/theme/avatar",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/avatar.md",
+		"order": 30,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/avatar/",
+		"redirect_from": [
+			"/documentation/article/avatar-block/"
+		],
+		"section": "blocks",
+		"slug": "avatar-block",
+		"status": "",
+		"title": "Avatar",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/breadcrumbs": {
+		"applies_to": [],
+		"description": "The Breadcrumbs block shows visitors where they are on your website by displaying a trail of links from the homepage to the current page.",
+		"id": "blocks/theme/breadcrumbs",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/breadcrumbs.md",
+		"order": 40,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/breadcrumbs/",
+		"redirect_from": [
+			"/documentation/article/breadcrumbs-block/"
+		],
+		"section": "blocks",
+		"slug": "breadcrumbs-block",
+		"status": "",
+		"title": "Breadcrumbs",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/comments": {
+		"applies_to": [],
+		"description": "The Comments block is an advanced block that displays post comments with various visual configurations.",
+		"id": "blocks/theme/comments",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/comments.md",
+		"order": 50,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/comments/",
+		"redirect_from": [
+			"/documentation/article/comment-author-name-block/",
+			"/documentation/article/comment-content-block/",
+			"/documentation/article/comment-date-block/",
+			"/documentation/article/comment-edit-link-block/",
+			"/documentation/article/comment-link-block/",
+			"/documentation/article/comment-pagination-block/",
+			"/documentation/article/comment-reply-link-block/",
+			"/documentation/article/comment-template-block/",
+			"/documentation/article/comments-block/",
+			"/documentation/article/comments-count-block/",
+			"/documentation/article/comments-title-block/"
+		],
+		"section": "blocks",
+		"slug": "comments-block",
+		"status": "",
+		"title": "Comments",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/post-comments-form": {
+		"applies_to": [],
+		"description": "The Post Comments Form block displays a post’s comments form. This block is located inside a Comments block and lets you customize the appearance of the post comments form.",
+		"id": "blocks/theme/post-comments-form",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-comments-form.md",
+		"order": 60,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/post-comments-form/",
+		"redirect_from": [
+			"/documentation/article/post-comments-form-block/"
+		],
+		"section": "blocks",
+		"slug": "post-comments-form-block",
+		"status": "",
+		"title": "Comments Form",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/post-content": {
+		"applies_to": [],
+		"description": "Use the Content block to display the contents of a post or page. This block is a child block of the Query Loop block and helps to customize the appearance of the query loop.",
+		"id": "blocks/theme/post-content",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-content.md",
+		"order": 70,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/post-content/",
+		"redirect_from": [
+			"/documentation/article/post-content-block/"
+		],
+		"section": "blocks",
+		"slug": "post-content-block",
+		"status": "",
+		"title": "Content",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/post-date": {
+		"applies_to": [],
+		"description": "Use the Date block to display a custom date.",
+		"id": "blocks/theme/post-date",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-date.md",
+		"order": 80,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/post-date/",
+		"redirect_from": [
+			"/documentation/article/date-block/",
+			"/documentation/article/post-date-block/",
+			"/documentation/article/post-modified-date-block/"
+		],
+		"section": "blocks",
+		"slug": "post-date-block",
+		"status": "",
+		"title": "Date",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/post-excerpt": {
+		"applies_to": [],
+		"description": "Use the Excerpt block to display the excerpt of a post. This block is primarily nested inside a query loop block and helps to customize the appearance of the query loop.",
+		"id": "blocks/theme/post-excerpt",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-excerpt.md",
+		"order": 90,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/post-excerpt/",
+		"redirect_from": [
+			"/documentation/article/post-excerpt-block/"
+		],
+		"section": "blocks",
+		"slug": "post-excerpt-block",
+		"status": "",
+		"title": "Excerpt",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/post-featured-image": {
+		"applies_to": [],
+		"description": "Use the Post Featured Image block to display the featured image of a post. This block is primarily nested inside a query loop block and helps to customize the appearance of the query loop.",
+		"id": "blocks/theme/post-featured-image",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-featured-image.md",
+		"order": 100,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/post-featured-image/",
+		"redirect_from": [
+			"/documentation/article/post-featured-image-block/"
+		],
+		"section": "blocks",
+		"slug": "post-featured-image-block",
+		"status": "",
+		"title": "Featured Image",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/loginout": {
+		"applies_to": [],
+		"description": "The Login-out block allows you to automatically add a link anywhere on your site which lets your site users login and/or logout if they are already logged in.",
+		"id": "blocks/theme/loginout",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/loginout.md",
+		"order": 110,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/loginout/",
+		"redirect_from": [
+			"/documentation/article/login-out-block/"
+		],
+		"section": "blocks",
+		"slug": "loginout-block",
+		"status": "",
+		"title": "Login/out",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/navigation": {
+		"applies_to": [],
+		"description": "The Navigation block allows you to edit your site’s navigation menu, including its structure and design.",
+		"id": "blocks/theme/navigation",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/navigation.md",
+		"order": 120,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/navigation/",
+		"redirect_from": [
+			"/documentation/article/navigation-block/"
+		],
+		"section": "blocks",
+		"slug": "navigation-block",
+		"status": "",
+		"title": "Navigation",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/query-pagination": {
+		"applies_to": [],
+		"description": "The Pagination block displays paginated navigation to the next/previous set of posts, when applicable.",
+		"id": "blocks/theme/query-pagination",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/query-pagination.md",
+		"order": 130,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/query-pagination/",
+		"redirect_from": [
+			"/documentation/article/pagination-block/"
+		],
+		"section": "blocks",
+		"slug": "query-pagination-block",
+		"status": "",
+		"title": "Pagination",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/post-navigation-link": {
+		"applies_to": [],
+		"description": "Use the Post Navigation Link block to display the post pages link navigation for the previous and next pages.",
+		"id": "blocks/theme/post-navigation-link",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-navigation-link.md",
+		"order": 140,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/post-navigation-link/",
+		"redirect_from": [
+			"/documentation/article/next-post-block/",
+			"/documentation/article/post-navigation-link-block/",
+			"/documentation/article/previous-post-block/"
+		],
+		"section": "blocks",
+		"slug": "post-navigation-link-block",
+		"status": "",
+		"title": "Post Navigation Link",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/post-template": {
+		"applies_to": [],
+		"description": "The Post Template block is a container block that is nested in the Query Loop block.",
+		"id": "blocks/theme/post-template",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-template.md",
+		"order": 150,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/post-template/",
+		"redirect_from": [
+			"/documentation/article/post-template-block/"
+		],
+		"section": "blocks",
+		"slug": "post-template-block",
+		"status": "",
+		"title": "Post Template",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/post-terms": {
+		"applies_to": [],
+		"description": "Use the Categories block to display the posts’ categories. This block is primarily nested inside a query loop block and helps to customize the appearance of the query loop.",
+		"id": "blocks/theme/post-terms",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-terms.md",
+		"order": 160,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/post-terms/",
+		"redirect_from": [
+			"/documentation/article/categories-block/",
+			"/documentation/article/post-tags-block/"
+		],
+		"section": "blocks",
+		"slug": "post-terms-block",
+		"status": "",
+		"title": "Post Terms",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/query": {
+		"applies_to": [],
+		"description": "The Query Loop block is an advanced block that allows you to display posts based on specified parameters, like a PHP loop without the code.",
+		"id": "blocks/theme/query",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/query.md",
+		"order": 170,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/query/",
+		"redirect_from": [
+			"/documentation/article/posts-list-block/",
+			"/documentation/article/query-loop-block/"
+		],
+		"section": "blocks",
+		"slug": "query-block",
+		"status": "",
+		"title": "Query Loop",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/query-title": {
+		"applies_to": [],
+		"description": "The Query Title block displays a dynamic heading based on the type of content being viewed, such as a category name, search term etc.",
+		"id": "blocks/theme/query-title",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/query-title.md",
+		"order": 180,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/query-title/",
+		"redirect_from": [
+			"/documentation/article/archive-title-block/",
+			"/documentation/article/query-title-block/",
+			"/documentation/article/search-results-title-block/"
+		],
+		"section": "blocks",
+		"slug": "query-title-block",
+		"status": "",
+		"title": "Query Title",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/query-total": {
+		"applies_to": [],
+		"description": "WordPress 6.8 is set to introduce a new block called Query Total, enhancing the flexibility of the Query Loop block.",
+		"id": "blocks/theme/query-total",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/query-total.md",
+		"order": 190,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/query-total/",
+		"redirect_from": [
+			"/documentation/article/query-total-block/"
+		],
+		"section": "blocks",
+		"slug": "query-total-block",
+		"status": "",
+		"title": "Query Total",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/read-more": {
+		"applies_to": [],
+		"description": "The Read More block allows you to add links in the query loop block that direct visitors to the posts.",
+		"id": "blocks/theme/read-more",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/read-more.md",
+		"order": 200,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/read-more/",
+		"redirect_from": [
+			"/documentation/article/read-more-block/"
+		],
+		"section": "blocks",
+		"slug": "read-more-block",
+		"status": "",
+		"title": "Read More",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/site-logo": {
+		"applies_to": [],
+		"description": "The Site Logo block lets you add a logo or image representing your website identity and help increase brand recognition.",
+		"id": "blocks/theme/site-logo",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/site-logo.md",
+		"order": 210,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/site-logo/",
+		"redirect_from": [
+			"/documentation/article/site-logo-block/"
+		],
+		"section": "blocks",
+		"slug": "site-logo-block",
+		"status": "",
+		"title": "Site Logo",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/site-tagline": {
+		"applies_to": [],
+		"description": "Use the Site Tagline block to display the tagline of the site on the page or to edit the site tagline.",
+		"id": "blocks/theme/site-tagline",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/site-tagline.md",
+		"order": 220,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/site-tagline/",
+		"redirect_from": [
+			"/documentation/article/site-tagline-block/"
+		],
+		"section": "blocks",
+		"slug": "site-tagline-block",
+		"status": "",
+		"title": "Site Tagline",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/site-title": {
+		"applies_to": [],
+		"description": "Use the Site Title block to display the name of the site on the page or to edit the site name.",
+		"id": "blocks/theme/site-title",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/site-title.md",
+		"order": 230,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/site-title/",
+		"redirect_from": [
+			"/documentation/article/site-title-block/"
+		],
+		"section": "blocks",
+		"slug": "site-title-block",
+		"status": "",
+		"title": "Site Title",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/template-part": {
+		"applies_to": [],
+		"description": "The Template Part block is used while creating and editing templates to manage blocks in areas repeated across the website.",
+		"id": "blocks/theme/template-part",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/template-part.md",
+		"order": 240,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/template-part/",
+		"redirect_from": [
+			"/documentation/article/template-part-block/"
+		],
+		"section": "blocks",
+		"slug": "template-part-block",
+		"status": "",
+		"title": "Template Part",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/term-description": {
+		"applies_to": [],
+		"description": "Use the Term Description block to display the description of the Category, Tag, or custom Taxonomy on the archive pages.",
+		"id": "blocks/theme/term-description",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/term-description.md",
+		"order": 250,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/term-description/",
+		"redirect_from": [
+			"/documentation/article/term-description-block/"
+		],
+		"section": "blocks",
+		"slug": "term-description-block",
+		"status": "",
+		"title": "Term Description",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/terms-query": {
+		"applies_to": [],
+		"description": "The Terms Query block displays a list or grid of taxonomy terms (such as Categories, Tags, or custom taxonomies).",
+		"id": "blocks/theme/terms-query",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/terms-query.md",
+		"order": 260,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/terms-query/",
+		"redirect_from": [
+			"/documentation/article/terms-query-block/"
+		],
+		"section": "blocks",
+		"slug": "terms-query-block",
+		"status": "",
+		"title": "Terms Query",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/post-time-to-read": {
+		"applies_to": [],
+		"description": "The Time to Read block shows an estimated reading time for the current post or page. You can display a single time (for example, 3 min) or a time range (for example, 3–4 min).",
+		"id": "blocks/theme/post-time-to-read",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-time-to-read.md",
+		"order": 270,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/post-time-to-read/",
+		"redirect_from": [
+			"/documentation/article/time-to-read-block/"
+		],
+		"section": "blocks",
+		"slug": "post-time-to-read-block",
+		"status": "",
+		"title": "Time to Read",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/theme/post-title": {
+		"applies_to": [],
+		"description": "Title block (formerly known as Post Title block) displays the title of a post or page.",
+		"id": "blocks/theme/post-title",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-title.md",
+		"order": 280,
+		"parent": "blocks/theme",
+		"path": "blocks/theme/post-title/",
+		"redirect_from": [
+			"/documentation/article/post-title-block/",
+			"/documentation/article/title-block/"
+		],
+		"section": "blocks",
+		"slug": "post-title-block",
+		"status": "",
+		"title": "Title",
+		"type": "reference",
+		"updated": ""
+	},
+	"blocks/embeds": {
+		"applies_to": [],
+		"description": "Since WordPress 5.0, the WordPress block editor has an easy way to add videos, images, tweets, audio, and other content from third-party services into your WordPress site by embedding.",
+		"id": "blocks/embeds",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/embeds.md",
+		"order": 60,
+		"parent": "blocks",
+		"path": "blocks/embeds/",
+		"redirect_from": [
+			"/documentation/article/amazon-kindle-embed/",
+			"/documentation/article/animoto-embed/",
+			"/documentation/article/bluesky-embed/",
+			"/documentation/article/cloudup-embed/",
+			"/documentation/article/crowdsignal-embed/",
+			"/documentation/article/dailymotion-embed/",
+			"/documentation/article/embed-block/",
+			"/documentation/article/embeds/",
+			"/documentation/article/facebook-embed/",
+			"/documentation/article/flickr-embed/",
+			"/documentation/article/imgur-embed/",
+			"/documentation/article/instagram-embed/",
+			"/documentation/article/issuu-embed/",
+			"/documentation/article/kickstarter-embed/",
+			"/documentation/article/mixcloud-embed/",
+			"/documentation/article/pinterest-embed/",
+			"/documentation/article/pocket-casts-embed/",
+			"/documentation/article/reddit-embed/",
+			"/documentation/article/reverbnation-embed/",
+			"/documentation/article/screencast-block/",
+			"/documentation/article/scribd-embed/",
+			"/documentation/article/slideshare-embed/",
+			"/documentation/article/smugmug-embed/",
+			"/documentation/article/soundcloud-embed/",
+			"/documentation/article/speaker-deck-embed/",
+			"/documentation/article/spotify-embed/",
+			"/documentation/article/ted-embed/",
+			"/documentation/article/tiktok-embed/",
+			"/documentation/article/tumblr-embed/",
+			"/documentation/article/twitter-embed/",
+			"/documentation/article/videopress-embed/",
+			"/documentation/article/vimeo-embed/",
+			"/documentation/article/wolfram-embed/",
+			"/documentation/article/wordpress-embed/",
+			"/documentation/article/wordpress-tv-embed-block/",
+			"/documentation/article/youtube-embed/"
+		],
+		"section": "blocks",
+		"slug": "embeds",
+		"status": "",
+		"title": "Embeds",
+		"type": "reference",
+		"updated": ""
+	},
+	"design": {
+		"applies_to": [],
+		"description": "Choose a theme, then change your site's colors, fonts, layouts, header and footer in the Site Editor.",
+		"id": "design",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/README.md",
+		"order": 40,
+		"parent": null,
+		"path": "design/",
+		"redirect_from": [],
+		"section": "design",
+		"slug": "design",
+		"status": "",
+		"title": "Design your site",
+		"type": "guide",
+		"updated": ""
+	},
+	"design/themes": {
+		"applies_to": [],
+		"description": "Fundamentally, the WordPress Theme system is a way to “skin” your WordPress site. Yet, it is more than just a “skin”. Skinning your site implies that only the design is changed.",
+		"id": "design/themes",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/README.md",
+		"order": 10,
+		"parent": "design",
+		"path": "design/themes/",
+		"redirect_from": [
+			"/documentation/article/work-with-themes/",
+			"/documentation/category/appearance/"
+		],
+		"section": "design",
+		"slug": "themes",
+		"status": "",
+		"title": "Themes",
+		"type": "guide",
+		"updated": ""
+	},
+	"design/themes/block-themes": {
+		"applies_to": [],
+		"description": "Block themes are built entirely from blocks, so you can edit every part of your site, including the header and footer, in the Site Editor.",
+		"id": "design/themes/block-themes",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/block-themes.md",
+		"order": 10,
+		"parent": "design/themes",
+		"path": "design/themes/block-themes/",
+		"redirect_from": [
+			"/documentation/article/block-themes/"
+		],
+		"section": "design",
+		"slug": "block-themes",
+		"status": "",
+		"title": "Block themes",
+		"type": "concept",
+		"updated": ""
+	},
+	"design/themes/themes-screen": {
+		"applies_to": [],
+		"description": "The Appearance Themes Screen allows you to manage your Themes. That means you can install, preview, delete Themes, activate, and update Themes.",
+		"id": "design/themes/themes-screen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/themes-screen.md",
+		"order": 20,
+		"parent": "design/themes",
+		"path": "design/themes/themes-screen/",
+		"redirect_from": [
+			"/documentation/article/appearance-themes-screen/"
+		],
+		"section": "design",
+		"slug": "themes-screen",
+		"status": "",
+		"title": "Themes screen",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes": {
+		"applies_to": [],
+		"description": "Every default theme WordPress has shipped, newest first: what each one offers and how to customise it. Twenty Twenty-Two and later are block themes; Twenty Twenty-One and earlier are classic themes.",
+		"id": "design/themes/default-themes",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/README.md",
+		"order": 30,
+		"parent": "design/themes",
+		"path": "design/themes/default-themes/",
+		"redirect_from": [
+			"/documentation/category/default-themes/",
+			"/docs/classic/default-themes/"
+		],
+		"section": "design",
+		"slug": "default-themes",
+		"status": "",
+		"title": "Default themes",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-eleven": {
+		"applies_to": [],
+		"description": "The Twenty Eleven is the default theme for WordPress in 2011, introduced with WordPress version 3.2.",
+		"id": "design/themes/default-themes/twenty-eleven",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-eleven.md",
+		"order": 10,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-eleven/",
+		"redirect_from": [
+			"/documentation/article/twenty-eleven-changelog/",
+			"/documentation/article/twenty-eleven/",
+			"/docs/classic/default-themes/twenty-eleven/"
+		],
+		"section": "design",
+		"slug": "twenty-eleven",
+		"status": "",
+		"title": "Twenty Eleven",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-fifteen": {
+		"applies_to": [],
+		"description": "Twenty Fifteen is the default theme for WordPress in 2015. It is super-clean, content-focused, and designed to bring a little more simplicity to our blogs.",
+		"id": "design/themes/default-themes/twenty-fifteen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-fifteen.md",
+		"order": 20,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-fifteen/",
+		"redirect_from": [
+			"/documentation/article/twenty-fifteen-changelog/",
+			"/documentation/article/twenty-fifteen/",
+			"/docs/classic/default-themes/twenty-fifteen/"
+		],
+		"section": "design",
+		"slug": "twenty-fifteen",
+		"status": "",
+		"title": "Twenty Fifteen",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-fourteen": {
+		"applies_to": [],
+		"description": "Twenty Fourteen was the default theme for WordPress 3.8, released in 2013. It is a magazine-style theme with a featured content area and a dark, bold layout.",
+		"id": "design/themes/default-themes/twenty-fourteen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-fourteen.md",
+		"order": 30,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-fourteen/",
+		"redirect_from": [
+			"/documentation/article/twenty-fourteen-changelog/",
+			"/docs/classic/default-themes/twenty-fourteen/"
+		],
+		"section": "design",
+		"slug": "twenty-fourteen",
+		"status": "",
+		"title": "Twenty Fourteen",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-nineteen": {
+		"applies_to": [],
+		"description": "Twenty Nineteen is the new default theme for WordPress Version 5.0. At the core of Twenty Nineteen is its simple, sophisticated typography.",
+		"id": "design/themes/default-themes/twenty-nineteen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-nineteen.md",
+		"order": 40,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-nineteen/",
+		"redirect_from": [
+			"/documentation/article/twenty-nineteen-changelog/",
+			"/documentation/article/twenty-nineteen/",
+			"/docs/classic/default-themes/twenty-nineteen/"
+		],
+		"section": "design",
+		"slug": "twenty-nineteen",
+		"status": "",
+		"title": "Twenty Nineteen",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-seventeen": {
+		"applies_to": [],
+		"description": "Twenty Seventeen is the new default theme for WordPress in 2017.",
+		"id": "design/themes/default-themes/twenty-seventeen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-seventeen.md",
+		"order": 50,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-seventeen/",
+		"redirect_from": [
+			"/documentation/article/twenty-seventeen-changelog/",
+			"/documentation/article/twenty-seventeen/",
+			"/docs/classic/default-themes/twenty-seventeen/"
+		],
+		"section": "design",
+		"slug": "twenty-seventeen",
+		"status": "",
+		"title": "Twenty Seventeen",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-sixteen": {
+		"applies_to": [],
+		"description": "Twenty Sixteen is the default theme for WordPress in 2016.",
+		"id": "design/themes/default-themes/twenty-sixteen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-sixteen.md",
+		"order": 60,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-sixteen/",
+		"redirect_from": [
+			"/documentation/article/twenty-sixteen-changelog/",
+			"/documentation/article/twenty-sixteen/",
+			"/docs/classic/default-themes/twenty-sixteen/"
+		],
+		"section": "design",
+		"slug": "twenty-sixteen",
+		"status": "",
+		"title": "Twenty Sixteen",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-ten": {
+		"applies_to": [],
+		"description": "The Twenty Ten is the default theme for WordPress in 2010, introduced with WordPress version 3.0.",
+		"id": "design/themes/default-themes/twenty-ten",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-ten.md",
+		"order": 70,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-ten/",
+		"redirect_from": [
+			"/documentation/article/twenty-ten-changelog/",
+			"/documentation/article/twenty-ten/",
+			"/docs/classic/default-themes/twenty-ten/"
+		],
+		"section": "design",
+		"slug": "twenty-ten",
+		"status": "",
+		"title": "Twenty Ten",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-thirteen": {
+		"applies_to": [],
+		"description": "Twenty Thirteen was the default theme for WordPress 3.6, released in 2013. It is a colorful, single-column blog theme with support for post formats.",
+		"id": "design/themes/default-themes/twenty-thirteen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-thirteen.md",
+		"order": 80,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-thirteen/",
+		"redirect_from": [
+			"/documentation/article/twenty-thirteen-changelog/",
+			"/docs/classic/default-themes/twenty-thirteen/"
+		],
+		"section": "design",
+		"slug": "twenty-thirteen",
+		"status": "",
+		"title": "Twenty Thirteen",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-twelve": {
+		"applies_to": [],
+		"description": "The Twenty Twelve is the default theme for WordPress in 2012, designed by Drew Strojny.",
+		"id": "design/themes/default-themes/twenty-twelve",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twelve.md",
+		"order": 90,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-twelve/",
+		"redirect_from": [
+			"/documentation/article/twenty-twelve-changelog/",
+			"/documentation/article/twenty-twelve/",
+			"/docs/classic/default-themes/twenty-twelve/"
+		],
+		"section": "design",
+		"slug": "twenty-twelve",
+		"status": "",
+		"title": "Twenty Twelve",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-twenty": {
+		"applies_to": [],
+		"description": "Twenty Twenty is the new default theme for WordPress Version 5.3. It is designed with the flexibility of the block editor at its core.",
+		"id": "design/themes/default-themes/twenty-twenty",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twenty.md",
+		"order": 100,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-twenty/",
+		"redirect_from": [
+			"/documentation/article/twenty-twenty-changelog/",
+			"/documentation/article/twenty-twenty/",
+			"/docs/classic/default-themes/twenty-twenty/"
+		],
+		"section": "design",
+		"slug": "twenty-twenty",
+		"status": "",
+		"title": "Twenty Twenty",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-twenty-five": {
+		"applies_to": [],
+		"description": "Twenty Twenty-Five is the new default theme for WordPress Version 6.7. Twenty Twenty-Five emphasizes simplicity and adaptability.",
+		"id": "design/themes/default-themes/twenty-twenty-five",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twenty-five.md",
+		"order": 110,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-twenty-five/",
+		"redirect_from": [
+			"/documentation/article/twenty-twenty-five-changelog/",
+			"/documentation/article/twenty-twenty-five/"
+		],
+		"section": "design",
+		"slug": "twenty-twenty-five",
+		"status": "",
+		"title": "Twenty Twenty-Five",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-twenty-four": {
+		"applies_to": [],
+		"description": "Twenty Twenty-Four is the new, stylish and versatile, default theme for WordPress Version 6.4.",
+		"id": "design/themes/default-themes/twenty-twenty-four",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twenty-four.md",
+		"order": 120,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-twenty-four/",
+		"redirect_from": [
+			"/documentation/article/twenty-twenty-four-changelog/",
+			"/documentation/article/twenty-twenty-four/"
+		],
+		"section": "design",
+		"slug": "twenty-twenty-four",
+		"status": "",
+		"title": "Twenty Twenty-Four",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-twenty-one": {
+		"applies_to": [],
+		"description": "Twenty Twenty-One is the new default theme for WordPress Version 5.6.",
+		"id": "design/themes/default-themes/twenty-twenty-one",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twenty-one.md",
+		"order": 130,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-twenty-one/",
+		"redirect_from": [
+			"/documentation/article/twenty-twenty-one-changelog/",
+			"/documentation/article/twenty-twenty-one/",
+			"/docs/classic/default-themes/twenty-twenty-one/"
+		],
+		"section": "design",
+		"slug": "twenty-twenty-one",
+		"status": "",
+		"title": "Twenty Twenty-One",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-twenty-three": {
+		"applies_to": [],
+		"description": "Twenty Twenty-Three is the new, accessibility-ready, default theme for WordPress Version 6.1.",
+		"id": "design/themes/default-themes/twenty-twenty-three",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twenty-three.md",
+		"order": 140,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-twenty-three/",
+		"redirect_from": [
+			"/documentation/article/twenty-twenty-three-changelog/",
+			"/documentation/article/twenty-twenty-three/"
+		],
+		"section": "design",
+		"slug": "twenty-twenty-three",
+		"status": "",
+		"title": "Twenty Twenty-Three",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/themes/default-themes/twenty-twenty-two": {
+		"applies_to": [],
+		"description": "Twenty Twenty-Two is the new default theme for WordPress Version 5.9.",
+		"id": "design/themes/default-themes/twenty-twenty-two",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twenty-two.md",
+		"order": 150,
+		"parent": "design/themes/default-themes",
+		"path": "design/themes/default-themes/twenty-twenty-two/",
+		"redirect_from": [
+			"/documentation/article/twenty-twenty-two-changelog/",
+			"/documentation/article/twenty-twenty-two/"
+		],
+		"section": "design",
+		"slug": "twenty-twenty-two",
+		"status": "",
+		"title": "Twenty Twenty-Two",
+		"type": "reference",
+		"updated": ""
+	},
+	"design/site-editor": {
+		"applies_to": [],
+		"description": "The Site editor allows you to design the entire site including the header, footer, and everything in between, with blocks. It gives you greater control over how your site looks.",
+		"id": "design/site-editor",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/README.md",
+		"order": 20,
+		"parent": "design",
+		"path": "design/site-editor/",
+		"redirect_from": [
+			"/documentation/article/additional-guide-to-using-the-site-editor/",
+			"/documentation/article/site-editor-pages/",
+			"/documentation/article/site-editor/",
+			"/documentation/article/zoom-out-view/"
+		],
+		"section": "design",
+		"slug": "site-editor",
+		"status": "",
+		"title": "The Site Editor",
+		"type": "guide",
+		"updated": ""
+	},
+	"design/site-editor/templates": {
+		"applies_to": [],
+		"description": "The Template Editor allows you to edit and create templates, using blocks. These templates control the layout of the posts, pages, or page types on your site.",
+		"id": "design/site-editor/templates",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/templates.md",
+		"order": 10,
+		"parent": "design/site-editor",
+		"path": "design/site-editor/templates/",
+		"redirect_from": [
+			"/documentation/article/template-editor/"
+		],
+		"section": "design",
+		"slug": "templates",
+		"status": "",
+		"title": "Templates and template parts",
+		"type": "concept",
+		"updated": ""
+	},
+	"design/site-editor/styles": {
+		"applies_to": [],
+		"description": "Styles is a feature that allows you to set the overall aesthetics and layout of your site at a global level, instead of editing individual blocks or pages.",
+		"id": "design/site-editor/styles",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/styles.md",
+		"order": 20,
+		"parent": "design/site-editor",
+		"path": "design/site-editor/styles/",
+		"redirect_from": [
+			"/documentation/article/styles-overview/"
+		],
+		"section": "design",
+		"slug": "styles",
+		"status": "",
+		"title": "Styles",
+		"type": "guide",
+		"updated": ""
+	},
+	"design/site-editor/fonts": {
+		"applies_to": [],
+		"description": "The Font Library lets you upload font files, install fonts from Google Fonts, and manage the fonts available on your site..",
+		"id": "design/site-editor/fonts",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/fonts.md",
+		"order": 30,
+		"parent": "design/site-editor",
+		"path": "design/site-editor/fonts/",
+		"redirect_from": [
+			"/documentation/article/the-font-library/"
+		],
+		"section": "design",
+		"slug": "fonts",
+		"status": "",
+		"title": "Fonts",
+		"type": "guide",
+		"updated": ""
+	},
+	"design/site-editor/navigation": {
+		"applies_to": [],
+		"description": "WordPress version 6.3 introduces the possibility to edit your site’s menus via the Site Editor.",
+		"id": "design/site-editor/navigation",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/navigation.md",
+		"order": 40,
+		"parent": "design/site-editor",
+		"path": "design/site-editor/navigation/",
+		"redirect_from": [
+			"/documentation/article/site-editor-navigation/"
+		],
+		"section": "design",
+		"slug": "navigation",
+		"status": "",
+		"title": "Navigation",
+		"type": "guide",
+		"updated": ""
+	},
+	"design/site-editor/site-icon": {
+		"applies_to": [],
+		"description": "A favicon (short for “favorite icon”) is an icon associated with a particular website or web page. It is generally intended to be used when you bookmark a web page.",
+		"id": "design/site-editor/site-icon",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/site-icon.md",
+		"order": 50,
+		"parent": "design/site-editor",
+		"path": "design/site-editor/site-icon/",
+		"redirect_from": [
+			"/documentation/article/create-a-favicon/",
+			"/documentation/article/site-editor-identity/"
+		],
+		"section": "design",
+		"slug": "site-icon",
+		"status": "",
+		"title": "Site icon",
+		"type": "guide",
+		"updated": ""
+	},
+	"design/site-editor/command-palette": {
+		"applies_to": [],
+		"description": "The Command Palette offers you a way to quickly navigate and manage your entire site with the ability to invoke different actions such as:",
+		"id": "design/site-editor/command-palette",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/command-palette.md",
+		"order": 60,
+		"parent": "design/site-editor",
+		"path": "design/site-editor/command-palette/",
+		"redirect_from": [
+			"/documentation/article/site-editor-command-palette/"
+		],
+		"section": "design",
+		"slug": "command-palette",
+		"status": "",
+		"title": "Command Palette",
+		"type": "guide",
+		"updated": ""
+	},
+	"design/patterns": {
+		"applies_to": [],
+		"description": "Block Patterns are a collection of blocks that you can insert into posts and pages and then customize with your own content.",
+		"id": "design/patterns",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/patterns/README.md",
+		"order": 30,
+		"parent": "design",
+		"path": "design/patterns/",
+		"redirect_from": [
+			"/documentation/article/block-pattern/",
+			"/documentation/article/comparing-patterns-template-parts-and-reusable-blocks/",
+			"/documentation/article/reusable-blocks/",
+			"/documentation/article/site-editor-patterns/"
+		],
+		"section": "design",
+		"slug": "patterns",
+		"status": "",
+		"title": "Patterns",
+		"type": "concept",
+		"updated": ""
+	},
+	"design/patterns/pattern-directory": {
+		"applies_to": [],
+		"description": "The Block Pattern Directory is a resource for content creators who want to find more block patterns to use on their site to save time in creating content in unique layouts.",
+		"id": "design/patterns/pattern-directory",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/patterns/pattern-directory.md",
+		"order": 10,
+		"parent": "design/patterns",
+		"path": "design/patterns/pattern-directory/",
+		"redirect_from": [
+			"/documentation/article/block-pattern-directory/"
+		],
+		"section": "design",
+		"slug": "pattern-directory",
+		"status": "",
+		"title": "Pattern Directory",
+		"type": "guide",
+		"updated": ""
+	},
+	"design/patterns/submit-a-pattern": {
+		"applies_to": [],
+		"description": "Block Patterns are a collection of designed core blocks that can be used in posts and pages. They are building blocks to get content created faster.",
+		"id": "design/patterns/submit-a-pattern",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/patterns/submit-a-pattern.md",
+		"order": 20,
+		"parent": "design/patterns",
+		"path": "design/patterns/submit-a-pattern/",
+		"redirect_from": [
+			"/documentation/article/submit-your-block-pattern-to-the-directory/"
+		],
+		"section": "design",
+		"slug": "submit-a-pattern",
+		"status": "",
+		"title": "Submit a pattern",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage": {
+		"applies_to": [],
+		"description": "Settings, users, plugins, updates, security, privacy and troubleshooting for the people who run a WordPress site.",
+		"id": "manage",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/README.md",
+		"order": 50,
+		"parent": null,
+		"path": "manage/",
+		"redirect_from": [],
+		"section": "manage",
+		"slug": "manage",
+		"status": "",
+		"title": "Manage your site",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/dashboard": {
+		"applies_to": [],
+		"description": "The Administration Screen provides access to the control features of your WordPress installation.",
+		"id": "manage/dashboard",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/dashboard/README.md",
+		"order": 10,
+		"parent": "manage",
+		"path": "manage/dashboard/",
+		"redirect_from": [
+			"/documentation/article/administration-screens/",
+			"/documentation/article/toolbar/",
+			"/documentation/category/basic-usage/"
+		],
+		"section": "manage",
+		"slug": "dashboard",
+		"status": "",
+		"title": "Dashboard and admin screens",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/dashboard/dashboard-screen": {
+		"applies_to": [],
+		"description": "From the Dashboard Screen, you can quickly access your site’s content and get glimpses into other areas of the WordPress community.",
+		"id": "manage/dashboard/dashboard-screen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/dashboard/dashboard-screen.md",
+		"order": 10,
+		"parent": "manage/dashboard",
+		"path": "manage/dashboard/dashboard-screen/",
+		"redirect_from": [
+			"/documentation/article/dashboard-screen/"
+		],
+		"section": "manage",
+		"slug": "dashboard-screen",
+		"status": "",
+		"title": "Dashboard screen",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/dashboard/posts-screen": {
+		"applies_to": [],
+		"description": "The Posts Screen provides the facility to manage all the Posts in a blog. Via this Screen, Posts can be edited, deleted, and viewed.",
+		"id": "manage/dashboard/posts-screen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/dashboard/posts-screen.md",
+		"order": 20,
+		"parent": "manage/dashboard",
+		"path": "manage/dashboard/posts-screen/",
+		"redirect_from": [
+			"/documentation/article/posts-screen/"
+		],
+		"section": "manage",
+		"slug": "posts-screen",
+		"status": "",
+		"title": "Posts screen",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/dashboard/pages-screen": {
+		"applies_to": [],
+		"description": "The Pages Screen provides the facility to manage all the Pages in a blog. Via this Screen, Pages can be edited, deleted, and viewed.",
+		"id": "manage/dashboard/pages-screen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/dashboard/pages-screen.md",
+		"order": 30,
+		"parent": "manage/dashboard",
+		"path": "manage/dashboard/pages-screen/",
+		"redirect_from": [
+			"/documentation/article/pages-screen/"
+		],
+		"section": "manage",
+		"slug": "pages-screen",
+		"status": "",
+		"title": "Pages screen",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/dashboard/tools-screen": {
+		"applies_to": [],
+		"description": "The Tools menu: importing and exporting content, checking your site's health, handling personal data requests, editing theme files, and setting up a multisite network.",
+		"id": "manage/dashboard/tools-screen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/dashboard/tools-screen.md",
+		"order": 40,
+		"parent": "manage/dashboard",
+		"path": "manage/dashboard/tools-screen/",
+		"redirect_from": [
+			"/documentation/article/tools-screen/"
+		],
+		"section": "manage",
+		"slug": "tools-screen",
+		"status": "",
+		"title": "Tools screen",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/settings": {
+		"applies_to": [],
+		"description": "The Settings menu: site-wide options for your title and language, writing and reading defaults, discussion and comments, media sizes, permalinks, privacy, and connections to external services.",
+		"id": "manage/settings",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/README.md",
+		"order": 20,
+		"parent": "manage",
+		"path": "manage/settings/",
+		"redirect_from": [],
+		"section": "manage",
+		"slug": "settings",
+		"status": "",
+		"title": "Settings",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/settings/general": {
+		"applies_to": [],
+		"description": "This Settings General Screen is the default Screen in the Settings Administration Screen and controls some of the most basic configuration settings for your site: your site’s title and location.",
+		"id": "manage/settings/general",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/general.md",
+		"order": 10,
+		"parent": "manage/settings",
+		"path": "manage/settings/general/",
+		"redirect_from": [
+			"/documentation/article/settings-general-screen/"
+		],
+		"section": "manage",
+		"slug": "general",
+		"status": "",
+		"title": "General settings",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/settings/writing": {
+		"applies_to": [],
+		"description": "Use the Settings Writing Screen to control the interface you use when writing new posts.",
+		"id": "manage/settings/writing",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/writing.md",
+		"order": 20,
+		"parent": "manage/settings",
+		"path": "manage/settings/writing/",
+		"redirect_from": [
+			"/documentation/article/settings-writing-screen/"
+		],
+		"section": "manage",
+		"slug": "writing",
+		"status": "",
+		"title": "Writing settings",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/settings/reading": {
+		"applies_to": [],
+		"description": "The options in the Reading Settings Screen are few in number, but still important. You can decide if you want your latest posts or a “static” Page displayed as your website’s front (home) page.",
+		"id": "manage/settings/reading",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/reading.md",
+		"order": 30,
+		"parent": "manage/settings",
+		"path": "manage/settings/reading/",
+		"redirect_from": [
+			"/documentation/article/settings-reading-screen/"
+		],
+		"section": "manage",
+		"slug": "reading",
+		"status": "",
+		"title": "Reading settings",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/settings/discussion": {
+		"applies_to": [],
+		"description": "The Settings Discussion Screen allows you to set the options concerning comments (also called discussion).",
+		"id": "manage/settings/discussion",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/discussion.md",
+		"order": 40,
+		"parent": "manage/settings",
+		"path": "manage/settings/discussion/",
+		"redirect_from": [
+			"/documentation/article/settings-discussion-screen/"
+		],
+		"section": "manage",
+		"slug": "discussion",
+		"status": "",
+		"title": "Discussion settings",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/settings/media": {
+		"applies_to": [],
+		"description": "The Settings Media Screen controls the various settings related to images and other media that are used in writing posts and pages.",
+		"id": "manage/settings/media",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/media.md",
+		"order": 50,
+		"parent": "manage/settings",
+		"path": "manage/settings/media/",
+		"redirect_from": [
+			"/documentation/article/settings-media-screen/"
+		],
+		"section": "manage",
+		"slug": "media-settings",
+		"status": "",
+		"title": "Media settings",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/settings/permalinks": {
+		"applies_to": [],
+		"description": "Permalinks are the permanent URLs of your posts, pages, categories, and other archive pages on your website. These URLs are permanent and should never be changed, hence the name permalink.",
+		"id": "manage/settings/permalinks",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/permalinks.md",
+		"order": 60,
+		"parent": "manage/settings",
+		"path": "manage/settings/permalinks/",
+		"redirect_from": [
+			"/documentation/article/customize-permalinks/",
+			"/documentation/article/settings-permalinks-screen/"
+		],
+		"section": "manage",
+		"slug": "permalinks",
+		"status": "",
+		"title": "Permalink settings",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/settings/connectors": {
+		"applies_to": [],
+		"description": "The Settings Connectors screen lets you connect your WordPress site to external services. It comes with the three following featured connectors:",
+		"id": "manage/settings/connectors",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/connectors.md",
+		"order": 70,
+		"parent": "manage/settings",
+		"path": "manage/settings/connectors/",
+		"redirect_from": [
+			"/documentation/article/settings-connectors-screen/"
+		],
+		"section": "manage",
+		"slug": "connectors",
+		"status": "",
+		"title": "Connectors settings",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/settings/date-and-time-format": {
+		"applies_to": [],
+		"description": "Certain WordPress tag functions are used to display or return date and time information; the_date() and the_time() are examples of this.",
+		"id": "manage/settings/date-and-time-format",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/date-and-time-format.md",
+		"order": 80,
+		"parent": "manage/settings",
+		"path": "manage/settings/date-and-time-format/",
+		"redirect_from": [
+			"/documentation/article/customize-date-and-time-format/"
+		],
+		"section": "manage",
+		"slug": "date-and-time-format",
+		"status": "",
+		"title": "Date and time format",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/users": {
+		"applies_to": [],
+		"description": "Who can do what on your site. Learn about user roles and capabilities, set up your Gravatar profile picture, reset a lost password, and fix problems logging in.",
+		"id": "manage/users",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/users/README.md",
+		"order": 30,
+		"parent": "manage",
+		"path": "manage/users/",
+		"redirect_from": [],
+		"section": "manage",
+		"slug": "users",
+		"status": "",
+		"title": "Users and roles",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/users/roles-and-capabilities": {
+		"applies_to": [],
+		"description": "WordPress uses a concept of Roles, designed to give the site owner the ability to control what users can and cannot do within the site.",
+		"id": "manage/users/roles-and-capabilities",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/users/roles-and-capabilities.md",
+		"order": 10,
+		"parent": "manage/users",
+		"path": "manage/users/roles-and-capabilities/",
+		"redirect_from": [
+			"/documentation/article/roles-and-capabilities/"
+		],
+		"section": "manage",
+		"slug": "roles-and-capabilities",
+		"status": "",
+		"title": "Roles and capabilities",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/users/add-a-user": {
+		"applies_to": [],
+		"description": "The Users Add New Screen allows you to add new users who can login to your site.",
+		"id": "manage/users/add-a-user",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/users/add-a-user.md",
+		"order": 20,
+		"parent": "manage/users",
+		"path": "manage/users/add-a-user/",
+		"redirect_from": [
+			"/documentation/article/users-add-new-screen/"
+		],
+		"section": "manage",
+		"slug": "add-a-user",
+		"status": "",
+		"title": "Add a user",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/users/users-screen": {
+		"applies_to": [],
+		"description": "The Users Screen allows you to add, change, or delete your site’s users. In addition, you can search for users and make bulk changes and deletions to a selected group of users.",
+		"id": "manage/users/users-screen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/users/users-screen.md",
+		"order": 30,
+		"parent": "manage/users",
+		"path": "manage/users/users-screen/",
+		"redirect_from": [
+			"/documentation/article/users-screen/"
+		],
+		"section": "manage",
+		"slug": "users-screen",
+		"status": "",
+		"title": "Users screen",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/users/your-profile": {
+		"applies_to": [],
+		"description": "The Your Profile Screen is accessible from both the main navigation menu under Users and by clicking on your name link at the top of the WordPress screen.",
+		"id": "manage/users/your-profile",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/users/your-profile.md",
+		"order": 40,
+		"parent": "manage/users",
+		"path": "manage/users/your-profile/",
+		"redirect_from": [
+			"/documentation/article/users-your-profile-screen/"
+		],
+		"section": "manage",
+		"slug": "your-profile",
+		"status": "",
+		"title": "Your profile",
+		"type": "reference",
+		"updated": ""
+	},
+	"manage/users/gravatars": {
+		"applies_to": [],
+		"description": "When browsing different web sites, you may notice that many users have a picture next to their name.",
+		"id": "manage/users/gravatars",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/users/gravatars.md",
+		"order": 50,
+		"parent": "manage/users",
+		"path": "manage/users/gravatars/",
+		"redirect_from": [
+			"/documentation/article/use-gravatars/"
+		],
+		"section": "manage",
+		"slug": "gravatars",
+		"status": "",
+		"title": "Gravatars",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/plugins": {
+		"applies_to": [],
+		"description": "WordPress Plugins are PHP scripts that extend the functionality of WordPress. They enhance the features of WordPress or add entirely new features to your site.",
+		"id": "manage/plugins",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/plugins.md",
+		"order": 40,
+		"parent": "manage",
+		"path": "manage/plugins/",
+		"redirect_from": [
+			"/documentation/article/introduction-to-plugins/",
+			"/documentation/article/manage-plugins/",
+			"/documentation/article/plugins-add-new-screen/",
+			"/documentation/article/plugins-screen/"
+		],
+		"section": "manage",
+		"slug": "plugins",
+		"status": "",
+		"title": "Plugins",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/updates": {
+		"applies_to": [],
+		"description": "You should always update WordPress to the latest version. When a new version of WordPress is available you will receive an update message in your WordPress Admin Screens.",
+		"id": "manage/updates",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/updates/README.md",
+		"order": 50,
+		"parent": "manage",
+		"path": "manage/updates/",
+		"redirect_from": [
+			"/documentation/article/dashboard-updates-screen/",
+			"/documentation/article/updating-wordpress/"
+		],
+		"section": "manage",
+		"slug": "updates",
+		"status": "",
+		"title": "Updates",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/updates/auto-updates": {
+		"applies_to": [],
+		"description": "To keep your WordPress site secure, you should always update your plugins and themes to the latest version.",
+		"id": "manage/updates/auto-updates",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/updates/auto-updates.md",
+		"order": 10,
+		"parent": "manage/updates",
+		"path": "manage/updates/auto-updates/",
+		"redirect_from": [
+			"/documentation/article/plugins-themes-auto-updates/"
+		],
+		"section": "manage",
+		"slug": "auto-updates",
+		"status": "",
+		"title": "Auto-updates",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/updates/site-maintenance": {
+		"applies_to": [],
+		"description": "To keep WordPress working healthy, there is some site maintenance we recommend you do frequently.",
+		"id": "manage/updates/site-maintenance",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/updates/site-maintenance.md",
+		"order": 20,
+		"parent": "manage/updates",
+		"path": "manage/updates/site-maintenance/",
+		"redirect_from": [
+			"/documentation/article/administer-your-blog/",
+			"/documentation/article/wordpress-housekeeping/",
+			"/documentation/article/wordpress-site-maintenance/",
+			"/documentation/category/maintenance/"
+		],
+		"section": "manage",
+		"slug": "site-maintenance",
+		"status": "",
+		"title": "Site maintenance",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/updates/update-php": {
+		"applies_to": [],
+		"description": "This page will explain why this matters to you, and then how you can fix it.",
+		"id": "manage/updates/update-php",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/updates/update-php.md",
+		"order": 30,
+		"parent": "manage/updates",
+		"path": "manage/updates/update-php/",
+		"redirect_from": [
+			"/documentation/update-php/"
+		],
+		"section": "manage",
+		"slug": "update-php",
+		"status": "",
+		"title": "Update PHP",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/security": {
+		"applies_to": [],
+		"description": "Keep your WordPress site secure with updates, strong logins, the right roles, backups and HTTPS, and know what to do if it is hacked.",
+		"id": "manage/security",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/security/README.md",
+		"order": 60,
+		"parent": "manage",
+		"path": "manage/security/",
+		"redirect_from": [],
+		"section": "manage",
+		"slug": "security",
+		"status": "",
+		"title": "Security",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/security/password-best-practices": {
+		"applies_to": [],
+		"description": "Securing your WordPress starts with a strong password. A strong password is complex and elaborate. It isn’t easy to guess since it doesn’t contain recognizable words, names, dates or numbers.",
+		"id": "manage/security/password-best-practices",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/security/password-best-practices.md",
+		"order": 10,
+		"parent": "manage/security",
+		"path": "manage/security/password-best-practices/",
+		"redirect_from": [
+			"/documentation/article/password-best-practices/"
+		],
+		"section": "manage",
+		"slug": "password-best-practices",
+		"status": "",
+		"title": "Password best practices",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/security/site-was-hacked": {
+		"applies_to": [],
+		"description": "Suffering a hack can be one of the more frustrating experiences you’ll have on your online journey. Like most things however, taking a pragmatic approach can help you maintain your sanity.",
+		"id": "manage/security/site-was-hacked",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/security/site-was-hacked.md",
+		"order": 20,
+		"parent": "manage/security",
+		"path": "manage/security/site-was-hacked/",
+		"redirect_from": [
+			"/documentation/article/faq-my-site-was-hacked/"
+		],
+		"section": "manage",
+		"slug": "site-was-hacked",
+		"status": "",
+		"title": "My site was hacked",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/privacy": {
+		"applies_to": [],
+		"description": "Depending on your national or international privacy regulations (such as the European Union’s General Data Protection Regulation which may be applicable to you) you may be required to display a.",
+		"id": "manage/privacy",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/privacy.md",
+		"order": 70,
+		"parent": "manage",
+		"path": "manage/privacy/",
+		"redirect_from": [
+			"/documentation/article/settings-privacy-screen/",
+			"/documentation/article/tools-erase-personal-data-screen/",
+			"/documentation/article/tools-export-personal-data-screen/",
+			"/documentation/article/wordpress-privacy/"
+		],
+		"section": "manage",
+		"slug": "privacy",
+		"status": "",
+		"title": "Privacy",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/troubleshooting": {
+		"applies_to": [],
+		"description": "Site Health screen is located in your dashboard under Tools > Site Health > Info.",
+		"id": "manage/troubleshooting",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/troubleshooting/README.md",
+		"order": 80,
+		"parent": "manage",
+		"path": "manage/troubleshooting/",
+		"redirect_from": [
+			"/documentation/article/site-health-screen/",
+			"/documentation/site-health/"
+		],
+		"section": "manage",
+		"slug": "troubleshooting",
+		"status": "",
+		"title": "Site Health and troubleshooting",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/troubleshooting/faq-troubleshooting": {
+		"applies_to": [],
+		"description": "Also refer Common WordPress Errors for the most common WordPress errors experienced by WordPress users such as",
+		"id": "manage/troubleshooting/faq-troubleshooting",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/troubleshooting/faq-troubleshooting.md",
+		"order": 10,
+		"parent": "manage/troubleshooting",
+		"path": "manage/troubleshooting/faq-troubleshooting/",
+		"redirect_from": [
+			"/documentation/article/faq-troubleshooting/"
+		],
+		"section": "manage",
+		"slug": "faq-troubleshooting",
+		"status": "",
+		"title": "Troubleshooting FAQ",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/troubleshooting/recovery-mode": {
+		"applies_to": [],
+		"description": "Recovery Mode is a built-in WordPress feature (introduced in version 5.2) that in some cases may help you regain access to your site when a fatal error occurs, without the need to use FTP and/or.",
+		"id": "manage/troubleshooting/recovery-mode",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/troubleshooting/recovery-mode.md",
+		"order": 20,
+		"parent": "manage/troubleshooting",
+		"path": "manage/troubleshooting/recovery-mode/",
+		"redirect_from": [
+			"/documentation/article/recovery-mode/"
+		],
+		"section": "manage",
+		"slug": "recovery-mode",
+		"status": "",
+		"title": "Recovery mode",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/troubleshooting/changes-not-showing": {
+		"applies_to": [],
+		"description": "After you make a few changes in your WordPress content or your design, you may notice that nothing has changed.",
+		"id": "manage/troubleshooting/changes-not-showing",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/troubleshooting/changes-not-showing.md",
+		"order": 30,
+		"parent": "manage/troubleshooting",
+		"path": "manage/troubleshooting/changes-not-showing/",
+		"redirect_from": [
+			"/documentation/article/faq-i-make-changes-and-nothing-happens/"
+		],
+		"section": "manage",
+		"slug": "changes-not-showing",
+		"status": "",
+		"title": "Changes not showing",
+		"type": "guide",
+		"updated": ""
+	},
+	"manage/wp-config": {
+		"applies_to": [],
+		"description": "What the wp-config.php file does, where to find it, and the settings a site owner is most likely to change.",
+		"id": "manage/wp-config",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/wp-config.md",
+		"order": 90,
+		"parent": "manage",
+		"path": "manage/wp-config/",
+		"redirect_from": [],
+		"section": "manage",
+		"slug": "wp-config",
+		"status": "",
+		"title": "wp-config.php for site owners",
+		"type": "reference",
+		"updated": ""
+	},
+	"ai": {
+		"applies_to": [],
+		"description": "How to use AI assistants with this documentation and with a WordPress site, what works today, and what is still being built.",
+		"id": "ai",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/ai/README.md",
+		"order": 60,
+		"parent": null,
+		"path": "ai/",
+		"redirect_from": [],
+		"section": "ai",
+		"slug": "ai",
+		"status": "",
+		"title": "WordPress and AI",
+		"type": "concept",
+		"updated": ""
+	},
+	"ai/use-the-docs-with-ai": {
+		"applies_to": [],
+		"description": "Give an AI assistant accurate WordPress answers by pointing it at this documentation as Markdown, through page URLs, llms.txt or the JSON index.",
+		"id": "ai/use-the-docs-with-ai",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/ai/use-the-docs-with-ai.md",
+		"order": 10,
+		"parent": "ai",
+		"path": "ai/use-the-docs-with-ai/",
+		"redirect_from": [],
+		"section": "ai",
+		"slug": "use-the-docs-with-ai",
+		"status": "",
+		"title": "Use this documentation with an AI assistant",
+		"type": "guide",
+		"updated": ""
+	},
+	"ai/connect-an-agent": {
+		"applies_to": [],
+		"description": "Placeholder: how an AI agent will connect to a WordPress site, what works today through the REST API, and what the project is building.",
+		"id": "ai/connect-an-agent",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/ai/connect-an-agent.md",
+		"order": 20,
+		"parent": "ai",
+		"path": "ai/connect-an-agent/",
+		"redirect_from": [],
+		"section": "ai",
+		"slug": "connect-an-agent",
+		"status": "placeholder",
+		"title": "Connect an AI agent to your site",
+		"type": "guide",
+		"updated": ""
+	},
+	"ai/build-a-site-with-an-agent": {
+		"applies_to": [],
+		"description": "Placeholder: a tutorial for building a WordPress site with an AI agent, from a brief to a reviewed, published site.",
+		"id": "ai/build-a-site-with-an-agent",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/ai/build-a-site-with-an-agent.md",
+		"order": 30,
+		"parent": "ai",
+		"path": "ai/build-a-site-with-an-agent/",
+		"redirect_from": [],
+		"section": "ai",
+		"slug": "build-a-site-with-an-agent",
+		"status": "placeholder",
+		"title": "Build a site with an agent",
+		"type": "tutorial",
+		"updated": ""
+	},
+	"ai/write-with-ai": {
+		"applies_to": [],
+		"description": "Placeholder: using AI features in the WordPress editor to draft, revise and describe content.",
+		"id": "ai/write-with-ai",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/ai/write-with-ai.md",
+		"order": 40,
+		"parent": "ai",
+		"path": "ai/write-with-ai/",
+		"redirect_from": [],
+		"section": "ai",
+		"slug": "write-with-ai",
+		"status": "placeholder",
+		"title": "Write and edit with AI",
+		"type": "guide",
+		"updated": ""
+	},
+	"ai/agent-permissions-and-safety": {
+		"applies_to": [],
+		"description": "Placeholder: how to keep control of what an AI agent can do on your WordPress site, with principles that apply today.",
+		"id": "ai/agent-permissions-and-safety",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/ai/agent-permissions-and-safety.md",
+		"order": 50,
+		"parent": "ai",
+		"path": "ai/agent-permissions-and-safety/",
+		"redirect_from": [],
+		"section": "ai",
+		"slug": "agent-permissions-and-safety",
+		"status": "placeholder",
+		"title": "Permissions and safety for agents",
+		"type": "concept",
+		"updated": ""
+	},
+	"classic": {
+		"applies_to": [],
+		"description": "The Classic Editor, widgets, menus and the Customizer, for sites that use the Classic Editor plugin or a classic theme.",
+		"id": "classic",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/README.md",
+		"order": 70,
+		"parent": null,
+		"path": "classic/",
+		"redirect_from": [],
+		"section": "classic",
+		"slug": "classic",
+		"status": "",
+		"title": "Classic WordPress",
+		"type": "guide",
+		"updated": ""
+	},
+	"classic/classic-editor": {
+		"applies_to": [],
+		"description": "The Classic Editor plugin brings back the editor WordPress used before version 5.0.",
+		"id": "classic/classic-editor",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/classic-editor/README.md",
+		"order": 10,
+		"parent": "classic",
+		"path": "classic/classic-editor/",
+		"redirect_from": [],
+		"section": "classic",
+		"slug": "classic-editor",
+		"status": "",
+		"title": "Classic Editor",
+		"type": "guide",
+		"updated": ""
+	},
+	"classic/classic-editor/write-posts-classic": {
+		"applies_to": [],
+		"description": "Posts are entries that display in reverse order on your home page and/or blog page. Posts usually have comment fields beneath them and are included in your site’s RSS feed.",
+		"id": "classic/classic-editor/write-posts-classic",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/classic-editor/write-posts-classic.md",
+		"order": 10,
+		"parent": "classic/classic-editor",
+		"path": "classic/classic-editor/write-posts-classic/",
+		"redirect_from": [
+			"/documentation/article/write-posts-classic-editor/"
+		],
+		"section": "classic",
+		"slug": "write-posts-classic",
+		"status": "",
+		"title": "Write posts in the Classic Editor",
+		"type": "guide",
+		"updated": ""
+	},
+	"classic/classic-editor/write-code-in-posts": {
+		"applies_to": [],
+		"description": "Whether you write plugins or hacks for WordPress, or you want to add bits and pieces of code about your own WordPress site or other programming#Computing) code like HTML, CSS, PHP, or JavaScript.",
+		"id": "classic/classic-editor/write-code-in-posts",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/classic-editor/write-code-in-posts.md",
+		"order": 20,
+		"parent": "classic/classic-editor",
+		"path": "classic/classic-editor/write-code-in-posts/",
+		"redirect_from": [
+			"/documentation/article/write-code-in-your-posts-classic-editor/"
+		],
+		"section": "classic",
+		"slug": "write-code-in-posts",
+		"status": "",
+		"title": "Write code in your posts",
+		"type": "guide",
+		"updated": ""
+	},
+	"classic/classic-editor/audio-video-shortcodes": {
+		"applies_to": [],
+		"description": "The Audio feature allows you to embed audio files and play them back using a simple Shortcode. This was added as of WordPress 3.6 and is used like this:",
+		"id": "classic/classic-editor/audio-video-shortcodes",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/classic-editor/audio-video-shortcodes.md",
+		"order": 30,
+		"parent": "classic/classic-editor",
+		"path": "classic/classic-editor/audio-video-shortcodes/",
+		"redirect_from": [
+			"/documentation/article/audio-shortcode/",
+			"/documentation/article/video-shortcode/"
+		],
+		"section": "classic",
+		"slug": "audio-video-shortcodes",
+		"status": "",
+		"title": "Audio and video shortcodes",
+		"type": "reference",
+		"updated": ""
+	},
+	"classic/widgets-menus-customizer": {
+		"applies_to": [],
+		"description": "Classic themes are customised in the Customizer (Appearance > Customize) and on the Widgets and Menus screens.",
+		"id": "classic/widgets-menus-customizer",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/widgets-menus-customizer/README.md",
+		"order": 20,
+		"parent": "classic",
+		"path": "classic/widgets-menus-customizer/",
+		"redirect_from": [],
+		"section": "classic",
+		"slug": "widgets-menus-customizer",
+		"status": "",
+		"title": "Widgets, menus and the Customizer",
+		"type": "guide",
+		"updated": ""
+	},
+	"classic/widgets-menus-customizer/customizer": {
+		"applies_to": [],
+		"description": "WordPress Version 3.4 introduced Theme Customizer, which allows you to play around with various looks and settings for your current theme or one you’re thinking about switching to without.",
+		"id": "classic/widgets-menus-customizer/customizer",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/widgets-menus-customizer/customizer.md",
+		"order": 10,
+		"parent": "classic/widgets-menus-customizer",
+		"path": "classic/widgets-menus-customizer/customizer/",
+		"redirect_from": [
+			"/documentation/article/customizer/"
+		],
+		"section": "classic",
+		"slug": "customizer",
+		"status": "",
+		"title": "Customizer",
+		"type": "guide",
+		"updated": ""
+	},
+	"classic/widgets-menus-customizer/widgets-screen": {
+		"applies_to": [],
+		"description": "Themes usually have at least 1 or 2 sidebars. Each section in the sidebar is known as a “Widget” that you can add or remove, and move up or down.",
+		"id": "classic/widgets-menus-customizer/widgets-screen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/widgets-menus-customizer/widgets-screen.md",
+		"order": 20,
+		"parent": "classic/widgets-menus-customizer",
+		"path": "classic/widgets-menus-customizer/widgets-screen/",
+		"redirect_from": [
+			"/documentation/article/appearance-widgets-screen-classic-editor/",
+			"/documentation/article/manage-wordpress-widgets/"
+		],
+		"section": "classic",
+		"slug": "widgets-screen",
+		"status": "",
+		"title": "Widgets screen",
+		"type": "reference",
+		"updated": ""
+	},
+	"classic/widgets-menus-customizer/block-widgets-editor": {
+		"applies_to": [],
+		"description": "The Block-based Widgets Editor brings the power of blocks to the Theme Customizer and Appearance > Widgets sections in the WordPress Administration Screens allowing you to add blocks right next.",
+		"id": "classic/widgets-menus-customizer/block-widgets-editor",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/widgets-menus-customizer/block-widgets-editor.md",
+		"order": 30,
+		"parent": "classic/widgets-menus-customizer",
+		"path": "classic/widgets-menus-customizer/block-widgets-editor/",
+		"redirect_from": [
+			"/documentation/article/block-based-widgets-editor/"
+		],
+		"section": "classic",
+		"slug": "block-widgets-editor",
+		"status": "",
+		"title": "Block-based widgets editor",
+		"type": "guide",
+		"updated": ""
+	},
+	"classic/widgets-menus-customizer/menus-screen": {
+		"applies_to": [],
+		"description": "The Menus Screen enables the user to create a custom menu (also known as a navigation bar, navigation menu, or main menu). It is a section of the site that helps visitors to navigate the site.",
+		"id": "classic/widgets-menus-customizer/menus-screen",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/widgets-menus-customizer/menus-screen.md",
+		"order": 40,
+		"parent": "classic/widgets-menus-customizer",
+		"path": "classic/widgets-menus-customizer/menus-screen/",
+		"redirect_from": [
+			"/documentation/article/appearance-menus-screen/"
+		],
+		"section": "classic",
+		"slug": "menus-screen",
+		"status": "",
+		"title": "Menus screen",
+		"type": "reference",
+		"updated": ""
+	}
+}
