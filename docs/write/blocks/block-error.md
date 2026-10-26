@@ -9,13 +9,13 @@ redirect_from:
 
 # Block errors
 
-## Error overview
+Sometimes a block in the editor shows the message **This block contains unexpected or invalid content** instead of its content. The editor shows it when the block's saved markup is not what the block expects, usually because the HTML was edited by hand or pasted in. This page explains the common causes and the options for recovering the block.
 
-If you’re encountering this error message in the Block Editor, it typically means that there is a problem with the content you’re trying to insert or edit within a block. Usually, the error is displayed when the affected block contains content that has a formatting problem, this could happen for a number of reasons explained in this article.
+## What you see
 
 ![Picture displaying a block error](https://wordpress.org/documentation/files/2023/06/Screenshot-2023-06-23-at-16.41.16.png)
 
-**More Options**
+### More options
 
 As with other blocks, the affected blocks also include the **More options** menu in the block toolbar. You can access these options by clicking on the ellipses (three dots) in the block toolbar as shown below. The **Copy Block** option allows you to copy the block and its content to the clipboard. You can paste this content elsewhere in the editor or even on a different post/page.
 
@@ -31,7 +31,7 @@ A block’s toolbar provides an option to edit your block’s HTML code.
 
 ![Showing the option to edit a block as HTML option](https://wordpress.org/documentation/files/2023/06/edit-as-html.png)
 
-In this case, the error can be displayed when there is a syntax error. For example, adding two &lt;p> opening tags before a closing tag &lt;/p> on a Paragraph block or using the wrong syntax for adding a link, as shown below.
+In this case, the error can be displayed when there is a syntax error. For example, adding two `<p>` opening tags before a closing `</p>` tag in a Paragraph block or using the wrong syntax for adding a link, as shown below.
 
 [Watch the video](https://wordpress.org/documentation/files/2023/06/edit-visually-video.mov)
 
@@ -43,7 +43,7 @@ For example, adding JavaScript to a block that isn’t the [Custom HTML Block](.
 
 [Watch the video](https://wordpress.org/documentation/files/2023/06/unexpected-html-formatting.mov)
 
-### Plugin or Theme conflict
+### Plugin or theme conflict
 
 It’s possible that a theme or plugin is interfering with the editor. Maybe your site isn’t up-to-date, you didn’t configure some important settings properly, or there is some code conflicting with the blocks on the page. However, whatever the reason may be, you will need to do some troubleshooting to solve this kind of problem.
 
@@ -51,19 +51,19 @@ It’s possible that a theme or plugin is interfering with the editor. Maybe you
 
 The block will give you several options to fix the error: Attempt Block Recovery and an ellipsis (three-dot) button containing the options Resolve, Convert to HTML, and Convert to Classic Block.
 
-![](https://wordpress.org/documentation/files/2023/06/resolve-the-error.png)
+![A block error with the Attempt Block Recovery button and the three-dot menu.](https://wordpress.org/documentation/files/2023/06/resolve-the-error.png)
 
-You will have to be mindful of why you are receiving the error, in some cases, these options will not be helpful, for example, when you have the wrong Syntax or you try to add JavaScript or PHP code.
+You will have to be mindful of why you are receiving the error, in some cases, these options will not be helpful, for example, when you have the wrong syntax or you try to add JavaScript or PHP code.
 
 ### Attempt block recovery
 
-![](https://wordpress.org/documentation/files/2023/06/attempt-block-recovery-.png)
+![The Attempt Block Recovery button on a block with an error.](https://wordpress.org/documentation/files/2023/06/attempt-block-recovery-.png)
 
 Attempt Block Recovery button will restore the block as it was before the error appeared. This option will automatically remove the custom code and revert the block back to its previous safe state.
 
 ### Resolve
 
-![](https://wordpress.org/documentation/files/2023/06/Resolve.png)
+![The Resolve option in the three-dot menu of a block with an error.](https://wordpress.org/documentation/files/2023/06/Resolve.png)
 
 When you click on the ellipsis (three dots) button, you will see more options, the first option is Resolve. When you choose to Resolve the block error, you will be provided with two options each with its own possible outcome.
 
@@ -77,7 +77,7 @@ On the right side, you can convert the HTML code to Blocks,  changes that will b
 
 In the example below, converting the block to a Custom HTML block will keep the inline CSS added to change the font color to pink, which would normally be stripped off by the Paragraph block.
 
-![](https://wordpress.org/documentation/files/2023/06/resolve-options.png)
+![The Resolve dialog comparing the current block with the converted block.](https://wordpress.org/documentation/files/2023/06/resolve-options.png)
 
 ### Convert to HTML
 
