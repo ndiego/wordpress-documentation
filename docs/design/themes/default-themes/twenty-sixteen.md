@@ -10,7 +10,7 @@ redirect_from:
 
 # Twenty Sixteen
 
-[Twenty Sixteen](https://wordpress.org/themes/twentysixteen) is the default theme for WordPress in 2016.
+[Twenty Sixteen](https://wordpress.org/themes/twentysixteen) was the default theme for WordPress in 2016.
 
 ![The screenshot of Twenty sixteen with a black border, white background, black text and a blue accent color. The screenshot shows a blog post with a photo of a sunset over water, and a sidebar with text, a search form, and category links.](https://wordpress.org/documentation/files/2024/02/twenty-sixteen-screenshot.png)
 
@@ -27,7 +27,7 @@ Twenty Sixteen is a modernized take on an ever-popular WordPress layout, the hor
 3.  The recommended Featured Image size is 1200px wide.
 4.  The recommended Custom Header image size is 1200px wide and 280px height.
 
-## No-Sidebar layout
+## No-sidebar layout
 
 If you’d like to keep your visitors’ focus squarely on your content, simply don’t add any [widgets](../../../classic/widgets-menus-customizer/widgets-screen.md) to the sidebar widget area. This also allows you to give your posts a powerful visual boost by adding a large [Featured Image](../../../write/editor/settings-sidebar.md#featured-image), up to 1200px wide.
 

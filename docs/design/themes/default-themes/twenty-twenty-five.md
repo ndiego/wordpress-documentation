@@ -9,7 +9,7 @@ redirect_from:
 
 # Twenty Twenty-Five
 
-[Twenty Twenty-Five](https://wordpress.org/themes/twentytwentyfive/) is the new default theme for [WordPress Version 6.7.](https://wordpress.org/documentation/wordpress-version/version-6-7/) Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites.
+[Twenty Twenty-Five](https://wordpress.org/themes/twentytwentyfive/) was the default theme introduced in [WordPress 6.7.](https://wordpress.org/documentation/wordpress-version/version-6-7/) Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites.
 
 ![Twenty Twenty-Five's screenshot.](https://wordpress.org/documentation/files/2024/10/tt5-template-preview-laptop.jpg)
 
@@ -42,7 +42,7 @@ To change the design, you must first open the template in the Site Editor and se
 
 1.  Open the **Site Editor** from **Appearance > Editor**.
 2.  Select **Templates**.
-3.  Chose which template you want to update.
+3.  Choose which template you want to update.
 4.  In the Site Editor, open the **Settings** sidebar and select the **Template** tab.
 5.  Open the **Design** panel.
     -   In the **Design** panel you will find the previews of the available template patterns. Click on the pattern that you want to use.
@@ -58,7 +58,7 @@ The default blog templates have an incredibly simple, straightforward layout sui
 
 ![Preview of the default templates in Twenty Twenty-Five.](https://wordpress.org/documentation/files/2024/10/tt5-default-template-preview-scaled.jpg)
 
-### Text-Only blog
+### Text-only blog
 
 The theme offers a template option for those who want to keep their blogs text-only, both for the home page, archives, search as well as the post.
 

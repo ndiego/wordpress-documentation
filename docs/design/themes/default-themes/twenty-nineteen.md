@@ -10,7 +10,7 @@ redirect_from:
 
 # Twenty Nineteen
 
-[Twenty Nineteen](https://wordpress.org/themes/twentynineteen/) is the new default theme for [WordPress Version 5.0](https://wordpress.org/support/wordpress-version/version-5-0/). At the core of Twenty Nineteen is its simple, sophisticated typography. The theme’s aesthetic is minimal and non-prescriptive, allowing it to work well in a variety of applications. For example: it is effective as an minimal, typography-driven blogging theme, but can also be adapted for use as a static business website.
+[Twenty Nineteen](https://wordpress.org/themes/twentynineteen/) was the default theme introduced in [WordPress 5.0](https://wordpress.org/support/wordpress-version/version-5-0/). At the core of Twenty Nineteen is its simple, sophisticated typography. The theme’s aesthetic is minimal and non-prescriptive, allowing it to work well in a variety of applications. For example: it is effective as an minimal, typography-driven blogging theme, but can also be adapted for use as a static business website.
 
 ![Twenty Nineteen Web and Mobile views.](https://wordpress.org/documentation/files/2018/12/Twenty-Nineteen-Business-In-Devices.jpeg)
 

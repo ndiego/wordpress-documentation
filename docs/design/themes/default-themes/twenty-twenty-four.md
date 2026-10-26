@@ -9,7 +9,7 @@ redirect_from:
 
 # Twenty Twenty-Four
 
-[Twenty Twenty-Four](https://wordpress.org/themes/twentytwentyfour/) is the new, stylish and versatile, default theme for [WordPress Version 6.4.](https://wordpress.org/documentation/wordpress-version/version-6-4/)
+[Twenty Twenty-Four](https://wordpress.org/themes/twentytwentyfour/) was the stylish and versatile default theme introduced in [WordPress 6.4.](https://wordpress.org/documentation/wordpress-version/version-6-4/)
 
 A block theme designed to take full advantage of full site editing capabilities, particularly the opportunities offered by patterns. Create new pages in a matter of moments by constructing them from the wide range of patterns that come bundled with the theme.
 

@@ -29,7 +29,7 @@ the “Browser Uploader” link to use the Browser Uploader.
 
 You will also see a message displayed at the bottom of your view that indicates maximum upload size for files, as set by your hosting provider.
 
-### Multi-File uploader
+### Multi-file uploader
 
 ![Multi-File Upload.](https://wordpress.org/documentation/files/2019/04/add-media-bulk-upload.png)
 

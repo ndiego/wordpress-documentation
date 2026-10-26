@@ -9,7 +9,7 @@ redirect_from:
 
 # Twenty Twenty-Three
 
-[Twenty Twenty-Three](https://wordpress.org/themes/twentytwentythree/) is the new, accessibility-ready, default theme for [WordPress Version 6.1](https://wordpress.org/documentation/wordpress-version/version-6-1//).
+[Twenty Twenty-Three](https://wordpress.org/themes/twentytwentythree/) was the accessibility-ready default theme introduced in [WordPress 6.1](https://wordpress.org/documentation/wordpress-version/version-6-1//).
 
 ![Collage of Twenty Twenty-Three screenshots](https://wordpress.org/documentation/files/2022/10/tt3-collage.png)
 

@@ -10,7 +10,7 @@ redirect_from:
 
 # Twenty Twenty
 
-[Twenty Twenty](https://wordpress.org/themes/twentytwenty/) is the new default theme for [WordPress Version 5.3](https://wordpress.org/support/wordpress-version/version-5-3/). It is designed with the flexibility of the block editor at its core. If you want to use it for an organization or a business, you can combine columns, groups, and media to create dynamic layouts that show off your services or products. If you want to use it for a traditional blog, the centered content column and considered typography makes it perfect for that as well.
+[Twenty Twenty](https://wordpress.org/themes/twentytwenty/) was the default theme introduced in [WordPress 5.3](https://wordpress.org/support/wordpress-version/version-5-3/). It is designed with the flexibility of the block editor at its core. If you want to use it for an organization or a business, you can combine columns, groups, and media to create dynamic layouts that show off your services or products. If you want to use it for a traditional blog, the centered content column and considered typography makes it perfect for that as well.
 
 ![The Twenty Twenty screenshot.](https://wordpress.org/documentation/files/2019/09/screenshot.jpg)
 

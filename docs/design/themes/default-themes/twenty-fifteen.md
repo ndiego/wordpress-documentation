@@ -10,7 +10,7 @@ redirect_from:
 
 # Twenty Fifteen
 
-[Twenty Fifteen](https://wordpress.org/themes/twentyfifteen) is the default theme for WordPress in 2015. It is super-clean, content-focused, and designed to bring a little more simplicity to our blogs. Its careful attention to typography, featuring the expertly-designed [Noto font set](http://www.google.com/get/noto/) in elegant and harmonious margins, makes it beautiful in multiple languages around the world.
+[Twenty Fifteen](https://wordpress.org/themes/twentyfifteen) was the default theme for WordPress in 2015. It is super-clean, content-focused, and designed to bring a little more simplicity to our blogs. Its careful attention to typography, featuring the expertly-designed [Noto font set](http://www.google.com/get/noto/) in elegant and harmonious margins, makes it beautiful in multiple languages around the world.
 
 Twenty Fifteen looks great on devices of all sizes, from desktop to mobile and everything in between. The theme adapts to any screen without sacrificing usability or design integrity.
 

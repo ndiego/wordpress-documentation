@@ -10,7 +10,7 @@ redirect_from:
 
 # Twenty Ten
 
-The [Twenty Ten](https://wordpress.org/themes/twentyten/) is the default theme for WordPress in 2010, introduced with [WordPress version 3.0.](https://wordpress.org/documentation/wordpress-version/version-3-0/)
+The [Twenty Ten](https://wordpress.org/themes/twentyten/) was the default theme for WordPress in 2010, introduced with [WordPress version 3.0.](https://wordpress.org/documentation/wordpress-version/version-3-0/)
 
 It is stylish, customizable, simple, and readable. Twenty Ten supports six widgetized areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery posts and custom header images for posts and pages). Twenty Ten has editor styles, one and two- column page templates, and supports Aside and Gallery post formats.
 

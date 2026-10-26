@@ -581,6 +581,14 @@ def lower_word(w):
     return w[0].lower() + w[1:]
 
 
+def lower_rest_of_first(w):
+    """First word of a heading: keep its first part, lowercase the parts after a hyphen (Text-Only -> Text-only)."""
+    if "-" not in w or w in PROPER:
+        return w
+    head, *tail = w.split("-")
+    return "-".join([head] + [lower_word(t) for t in tail])
+
+
 def sentence_case(text):
     """Title Case heading to sentence case, keeping product names, block names and acronyms."""
     # Protect code, links (keep only their text to judge), bold, phrases.
@@ -609,8 +617,10 @@ def sentence_case(text):
         before = text[:m.start()].rstrip()
         after_break = before.endswith((":", "?", "!", "→", "→︎")) or \
             (before.endswith(".") and not before.endswith("..") and not before.lower().endswith("vs."))
-        if first or after_break or m.start() in keep:
+        if m.start() in keep or (after_break and not first):
             out.append(w)
+        elif first:
+            out.append(lower_rest_of_first(w))
         else:
             out.append("-".join(lower_word(p) for p in w.split("-")))
         if re.match(r"[A-Za-z]", w):
@@ -949,6 +959,14 @@ def drop_boilerplate(lines, dst):
                 continue
         dedup.append(line)
     out = [fix_names(x) for x in dedup]
+    if dst.startswith("design/themes/default-themes/"):
+        # "is the new default theme for WordPress Version 6.7" was true in its year; say it as history.
+        out = [re.sub(r"\bis the new,? (?:([\w -]+), )?default theme for (\[?)WordPress [Vv]ersion ",
+                      lambda m: ("was the " + (m.group(1) + " " if m.group(1) else "") + "default theme introduced in "
+                                 + m.group(2) + "WordPress "), x) for x in out]
+        out = [re.sub(r"\bis the (new )?default theme for WordPress in (\d{4})", r"was the default theme for WordPress in \2", x)
+               for x in out]
+        out = [x.replace("Chose which", "Choose which") for x in out]
     # The Codex category box at the end of a page: "[Categories](...Special:Categories):" and its list.
     text = "\n".join(out)
     text = re.sub(r"\n\[Categories\]\(https://codex\.wordpress\.org/Special:Categories\):\n\n(?:-\s+\[[^\]]*\]\(https://codex\.wordpress\.org/Category:[^)]*\)\n?)+", "\n", text)

@@ -323,7 +323,7 @@ Plugins listed in bold are currently active.
 
 Each plugin on the list also contains links to further information about the plugin.
 
-### Must-Use plugins
+### Must-use plugins
 
 Must-use plugins (a.k.a. mu-plugins) are plugins installed in a special directory inside the content folder and which are automatically enabled.
 

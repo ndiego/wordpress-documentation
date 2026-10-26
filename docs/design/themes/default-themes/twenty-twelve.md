@@ -10,7 +10,7 @@ redirect_from:
 
 # Twenty Twelve
 
-The [Twenty Twelve](https://wordpress.org/themes/twentytwelve/) is the default theme for WordPress in 2012, designed by [Drew Strojny](https://profiles.wordpress.org/drewstrojny/).
+The [Twenty Twelve](https://wordpress.org/themes/twentytwelve/) was the default theme for WordPress in 2012, designed by [Drew Strojny](https://profiles.wordpress.org/drewstrojny/).
 
 The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background.
 

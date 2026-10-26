@@ -9,7 +9,7 @@ redirect_from:
 
 # Twenty Twenty-Two
 
-[Twenty Twenty-Two](https://wordpress.org/themes/twentytwentytwo/) is the new default theme for [WordPress Version 5.9](https://wordpress.org/documentation/wordpress-version/version-5-9/).
+[Twenty Twenty-Two](https://wordpress.org/themes/twentytwentytwo/) was the default theme introduced in [WordPress 5.9](https://wordpress.org/documentation/wordpress-version/version-5-9/).
 
 ![Image showing two different views of the Twenty Twenty-Two templates including an about page and a post category template.](https://wordpress.org/documentation/files/2022/01/image-1.jpeg)
 

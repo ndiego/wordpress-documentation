@@ -10,7 +10,7 @@ redirect_from:
 
 # Twenty Eleven
 
-The [Twenty Eleven](https://wordpress.org/themes/twentyeleven/) is the default theme for WordPress in 2011, introduced with [WordPress version 3.2](https://wordpress.org/documentation/wordpress-version/version-3-2/).
+The [Twenty Eleven](https://wordpress.org/themes/twentyeleven/) was the default theme for WordPress in 2011, introduced with [WordPress version 3.2](https://wordpress.org/documentation/wordpress-version/version-3-2/).
 
 This theme is best used for blogs, photologs, or tumblelogs as it supports all the available post formats: Standard, Aside, Image, Link, Quote, Gallery, and Status. Twenty Eleven also provides you with alternate color schemes (light and dark) and layouts (one or two columns). It has eight header images and five custom patterns.
 

@@ -10,7 +10,7 @@ redirect_from:
 
 # Twenty Twenty-One
 
-[Twenty Twenty-One](https://wordpress.org/themes/twentytwentyone/) is the new default theme for [WordPress Version 5.6](https://wordpress.org/documentation/wordpress-version/version-5-6/).
+[Twenty Twenty-One](https://wordpress.org/themes/twentytwentyone/) was the default theme introduced in [WordPress 5.6](https://wordpress.org/documentation/wordpress-version/version-5-6/).
 
 [![Screenshot of the new default theme for WordPress, Twenty Twenty-One.](https://wordpress.org/documentation/files/2020/11/image.png)](https://2021.wordpress.net/)
 
