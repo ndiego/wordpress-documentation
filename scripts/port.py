@@ -129,6 +129,8 @@ HAND_EDITED = {
     "design/themes/default-themes/README.md",
     "design/themes/default-themes/twenty-thirteen.md",
     "design/themes/default-themes/twenty-fourteen.md",
+    "manage/settings/general.md",
+    "write/comments/README.md",
 }
 
 # Hub sections that are not part of this repository, and where their pages live on developer.wordpress.org.

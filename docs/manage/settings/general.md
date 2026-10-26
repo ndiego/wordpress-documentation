@@ -9,23 +9,23 @@ redirect_from:
 
 # General settings
 
-This Settings General Screen is the default Screen in the [Settings Administration Screen](../dashboard/README.md#settings--configuration-settings) and controls some of the most basic configuration settings for your site: your site’s title and location, who may register an account at your site, and how dates and times are calculated and displayed.
+The **Settings > General** screen holds the most basic settings for your site: its title and address, who may register an account, the language of the dashboard, and how dates and times are calculated and shown. It is the screen that opens when you select **Settings** in the dashboard.
 
-![Settings](https://wordpress.org/documentation/files/2018/11/general-settings.jpg)
+![The Settings > General screen with the site title, tagline and address fields.](https://wordpress.org/documentation/files/2018/11/general-settings.jpg)
 
-## General settings
+## The settings on this screen
 
 ### Site title
 
-Enter the name of your site (or blog) here. Most themes will display this title, at the top of every page, and in the reader’s browser titlebar. WordPress also uses this title as the identifying name for your [Syndication](../../get-started/glossary.md#syndication) feeds.
+Enter the name of your site (or blog) here. Most themes show this title at the top of every page, and browsers show it in the tab. WordPress also uses this title as the identifying name for your [Syndication](../../get-started/glossary.md#syndication) feeds.
 
 ### Tagline
 
-In a few words, explain what your site is about. Your sites’ slogan, or tagline, might be entered here. A tagline is short phrase, or sentence, used to convey the essence of the site and is often funny or eye-catching. The default tagline is an empty string.
+In a few words, say what your site is about. A tagline is a short phrase or sentence that sums up the site; many themes show it next to the site title. It is empty by default.
 
 ### WordPress address (URL)
 
-Enter the full URL of the directory containing your WordPress core application files (e.g., wp-config.php, wp-admin, wp-content, and wp-includes). For example, if you installed WordPress into a directory called “blog”, then the WordPress address would be `http://example.net/blog` (where example.net is your domain). If you installed WordPress into your web root, this address will be the root URL `http://example.net`. WordPress will trim a slash (`/`) from the end. If you defined the **WP_SITEURL** constant in your [`wp-config.php`](../wp-config.md) file, that value will appear in this field and you will not be able to make changes to it from the WordPress administration screen.
+Enter the full URL of the directory containing your WordPress core application files (for example `wp-config.php`, `wp-admin`, `wp-content` and `wp-includes`). For example, if you installed WordPress into a directory called “blog”, then the WordPress address would be `http://example.net/blog` (where example.net is your domain). If you installed WordPress into your web root, this address will be the root URL `http://example.net`. WordPress will trim a slash (`/`) from the end. If you defined the **WP_SITEURL** constant in your [`wp-config.php`](../wp-config.md) file, that value will appear in this field and you will not be able to make changes to it from the WordPress administration screen.
 
 ### Site address (URL)
 
@@ -66,11 +66,11 @@ If email delivery problems continue, contact your hosting provider or system adm
 
 ### Membership
 
-**Anyone can register** – Check this checkbox if you want anyone to be able to register an account on your site.
+Select **Anyone can register** if you want anyone to be able to create an account on your site.
 
 ### New user default role
 
-This drop-down box allows you to select the default [Role](../users/roles-and-capabilities.md) that is assigned to new users. This Default [Role](../users/roles-and-capabilities.md) will be assigned to newly registered members or users added via the [Administration](../dashboard/README.md) > [Users](../dashboard/README.md#users--your-blogging-family)  > [Users Screen](../users/users-screen.md). Valid choices are [Administrator](../users/roles-and-capabilities.md#administrator), [Editor](../users/roles-and-capabilities.md#editor), [Author](../users/roles-and-capabilities.md#author), [Contributor](../users/roles-and-capabilities.md#contributor), or [Subscriber](../users/roles-and-capabilities.md#subscriber).
+Select the default [Role](../users/roles-and-capabilities.md) that is assigned to new users. This Default [Role](../users/roles-and-capabilities.md) will be assigned to newly registered members or users added on the [Users screen](../users/users-screen.md). Valid choices are [Administrator](../users/roles-and-capabilities.md#administrator), [Editor](../users/roles-and-capabilities.md#editor), [Author](../users/roles-and-capabilities.md#author), [Contributor](../users/roles-and-capabilities.md#contributor), or [Subscriber](../users/roles-and-capabilities.md#subscriber).
 
 ### Site language
 
@@ -78,19 +78,19 @@ The WordPress dashboard language.
 
 ### Timezone
 
-From the drop-down box, choose a city in the same timezone as you. For example, under America, select New York if you reside in the Eastern Timezone of the United States that honors daylight savings times. If you can’t identify a city in your timezone, select one of the **Etc GMT** settings that represents the number of hours by which your time differs from [Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time). Click the **Save Changes** button and the [UTC time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) and “Local time” will display to confirm the correct Timezone was selected.
+From the drop-down box, choose a city in the same timezone as you. For example, under America, select New York if you reside in the Eastern Timezone of the United States that observes daylight saving time. If you can’t identify a city in your timezone, select one of the **Etc GMT** settings that represents the number of hours by which your time differs from [Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time). Click the **Save Changes** button and the [UTC time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) and “Local time” will display to confirm the correct Timezone was selected.
 
 ### Date format
 
-The format in which to display dates on your site. The Date Format setting is intended to be used by theme designers in displaying dates on your site, but does not control how the date is displayed in the Administrative Screens (e.g. Manage Posts). Click the **Save Changes** button and the “Output” example below will show the current date in the format entered. See [Formatting Date and Time](date-and-time-format.md) for some of the formats available.
+The format in which to display dates on your site. The Date Format setting is intended to be used by theme designers in displaying dates on your site, but does not control how the date is displayed in the Administrative Screens (such as the Posts screen). Click the **Save Changes** button and the “Output” example below will show the current date in the format entered. See [Formatting Date and Time](date-and-time-format.md) for some of the formats available.
 
 ### Time format
 
-The format in which to display times on your site. The Time Format setting is intended to be used by theme designers in displaying time on your site, but does not control how the time is displayed in the Administrative Screens (e.g. Write Post edit of timestamp). Click the **Save Changes** button and the “Output” example below will show the current time in the format entered. See [Formatting Date and Time](date-and-time-format.md) for some of the formats available.
+The format in which to display times on your site. The Time Format setting is intended to be used by theme designers in displaying time on your site, but does not control how the time is displayed in the Administrative Screens (such as the publish date in the editor). Click the **Save Changes** button and the “Output” example below will show the current time in the format entered. See [Formatting Date and Time](date-and-time-format.md) for some of the formats available.
 
 ### Week starts on
 
-Select your preferred start date for WordPress calendars from the drop-down box. Monday is the default setting for this drop-down, meaning a monthly calendar will show Monday in the first column. If you want your calendar to show Sunday as the first column, then select Sunday from the drop-down.
+Select the day WordPress calendars start on. Monday is the default setting for this drop-down, meaning a monthly calendar will show Monday in the first column. If you want your calendar to show Sunday as the first column, then select Sunday from the drop-down.
 
 ### Save changes
 
