@@ -28,9 +28,8 @@ This reference has one page per core block, grouped the way the block inserter g
 -   [Poetry](text/verse.md) (Renamed from Verse)
 -   [Classic](text/freeform.md)
 
-![Text blocks](https://wordpress.org/documentation/files/2019/03/text-blocks-7-0.png)
+![The Text category of the block inserter.](https://wordpress.org/documentation/files/2019/03/text-blocks-7-0.png)
 
-*Screenshot of the Text blocks under the Block Editor*
 
 ## Media blocks
 
@@ -44,9 +43,8 @@ This reference has one page per core block, grouped the way the block inserter g
 -   [Video](media/video.md)
 -   [Icon](media/icon.md) (new 7.0)
 
-![Media blocks](https://wordpress.org/documentation/files/2019/03/Screenshot-2026-08-20-at-2.41.11-PM.png)
+![The Media category of the block inserter.](https://wordpress.org/documentation/files/2019/03/Screenshot-2026-08-20-at-2.41.11-PM.png)
 
-*Screenshot of the Media blocks under the Block Editor*
 
 ## Design blocks
 
@@ -63,11 +61,10 @@ This reference has one page per core block, grouped the way the block inserter g
 -   [Spacer](design/spacer.md)
 -   [Tabs](design/tabs.md) (new 7.1)
 
-![Design blocks](https://wordpress.org/documentation/files/2019/03/Screenshot-2026-08-20-at-2.41.26-PM.png)
+![The Design category of the block inserter.](https://wordpress.org/documentation/files/2019/03/Screenshot-2026-08-20-at-2.41.26-PM.png)
 
-*Screenshot of the Design blocks under the Block Editor*
 
-## Widgets blocks
+## Widget blocks
 
 -   [Archives](widgets/archives.md)
 -   [Calendar](widgets/calendar.md)
@@ -83,9 +80,8 @@ This reference has one page per core block, grouped the way the block inserter g
 -   [Social Icons](widgets/social-links.md)
 -   [Tag Cloud](widgets/tag-cloud.md)
 
-![Screenshot of the widget blocks under the block editor. The list by rows reads as: row one: archives, calendar, terms list row two: categories list, custom HTML, latest comments row three: latest posts, page list, RSS row four: search, shortcode, social icons row five: tag cloud](https://wordpress.org/documentation/files/2019/03/WP-widget-blocks_6-9.jpg)
+![The Widgets category of the block inserter, listing the widget blocks.](https://wordpress.org/documentation/files/2019/03/WP-widget-blocks_6-9.jpg)
 
-*Screenshot of the Widget blocks under the Block Editor*
 
 ## Theme blocks
 
@@ -106,8 +102,8 @@ This reference has one page per core block, grouped the way the block inserter g
 -   [Excerpt](theme/post-excerpt.md) (Renamed from Post Excerpt)
 -   [Featured Image](theme/post-featured-image.md) (Renamed from Post Featured image)
 -   [Author Name](theme/post-author-name.md) (Renamed from Post Author Name)
--   Comments Count
--   Comments Link
+-   [Comments Count](theme/comments.md)
+-   [Comments Link](theme/comments.md)
 -   [Date](theme/post-date.md)
 -   [Post Date](theme/post-date.md)
 -   [Modified Date](theme/post-date.md) (Renamed from Post Modified Date)
@@ -128,11 +124,11 @@ This reference has one page per core block, grouped the way the block inserter g
     -   [Comment Edit Link](theme/comments.md)
     -   [Comment Pagination](theme/comments.md)
 -   [Comments Form](theme/post-comments-form.md) (Renamed from Post Comments Form)
--   Login/out
+-   [Login/out](theme/loginout.md)
 -   Term Count
 -   [Term Description](theme/term-description.md)
 -   Term Name
--   Terms Query
+-   [Terms Query](theme/terms-query.md)
 -   [Archive Title](theme/query-title.md)
 -   [Search Results Title](theme/query-title.md)
 -   Post Types Label
@@ -142,9 +138,8 @@ This reference has one page per core block, grouped the way the block inserter g
 -   [Post Navigation Link](theme/post-navigation-link.md)
 -   [Breadcrumbs](theme/breadcrumbs.md) (new in 7.0)
 
-![Theme blocks](https://wordpress.org/documentation/files/2019/03/theme-blocks.jpg)
+![The Theme category of the block inserter.](https://wordpress.org/documentation/files/2019/03/theme-blocks.jpg)
 
-*Screenshot of the Theme blocks under the Block Editor*
 
 ## Embed blocks
 
@@ -182,12 +177,10 @@ This reference has one page per core block, grouped the way the block inserter g
 -   [Wolfram](embeds.md)
 -   [Bluesky](embeds.md)
 
-![Embed blocks](https://wordpress.org/documentation/files/2019/03/embed-blocks.jpg)
+![The Embeds category of the block inserter.](https://wordpress.org/documentation/files/2019/03/embed-blocks.jpg)
 
-*Screenshot of the Embed blocks under the Block Editor*
 
-> [!NOTE]
-> Learn more about the Embeds in this support article: [Embeds](embeds.md).
+The [Embeds](embeds.md) page covers the Embed block and every provider.
 
 ## Other blocks
 
