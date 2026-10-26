@@ -501,6 +501,25 @@ DESCRIPTIONS.update({
 
 # New bodies for group landings whose hub page was a stub (replace everything after the H1).
 INTROS = {
+    "classic/README.md": (
+        "Before the block editor and block themes, WordPress sites were written in the Classic Editor and "
+        "designed with the Customizer, widgets and menus. Many sites still work that way: those that use the "
+        "Classic Editor plugin, and those with a classic theme.\n\n"
+        "This section keeps the documentation for those tools apart from the rest, so that a new site never "
+        "needs it. The classic default themes, Twenty Twenty-One back to Twenty Ten, are in "
+        "[Default themes](../design/themes/default-themes/README.md). Building classic themes is covered in "
+        "[Classic themes](https://developer.wordpress.org/themes/classic-themes/) in the developer documentation.\n"),
+    "classic/classic-editor/README.md": (
+        "The [Classic Editor plugin](https://wordpress.org/plugins/classic-editor/) brings back the editor "
+        "WordPress used before version 5.0: one text area with a formatting toolbar, and boxes around it for "
+        "publishing, categories, tags and other settings.\n\n"
+        "These pages cover writing a post, showing code in a post, and the audio and video shortcodes. For the "
+        "default editor, see [The editor](../../write/editor/README.md).\n"),
+    "classic/widgets-menus-customizer/README.md": (
+        "Classic themes are customized in the Customizer (**Appearance > Customize**) and on the **Widgets** and "
+        "**Menus** screens. Block themes replace all three with the Site Editor (**Appearance > Editor**), where "
+        "widget areas become template parts and menus become Navigation blocks; see "
+        "[The Site Editor](../../design/site-editor/README.md).\n"),
     "blocks/text/README.md": (
         "Text blocks hold the words on a page: paragraphs and headings, lists and quotes, tables, code and "
         "poetry. Most posts are built mainly from these blocks.\n\n"

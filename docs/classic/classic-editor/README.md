@@ -7,9 +7,6 @@ order: 10
 
 # Classic Editor
 
-The Classic Editor plugin brings back the editor WordPress used before version 5.0. These pages
-follow a typical workflow: first steps, writing a post, adding images and galleries, embedding
-audio and video with shortcodes, excerpts, visibility and sticky posts, showing code, and
-keyboard shortcuts.
+The [Classic Editor plugin](https://wordpress.org/plugins/classic-editor/) brings back the editor WordPress used before version 5.0: one text area with a formatting toolbar, and boxes around it for publishing, categories, tags and other settings.
 
-For the default editor, see [Block editor](../../write/editor/README.md).
+These pages cover writing a post, showing code in a post, and the audio and video shortcodes. For the default editor, see [The editor](../../write/editor/README.md).
