@@ -1,6 +1,6 @@
 ---
 title: Query Title
-description: "The Query Title block displays a dynamic heading based on the type of content being viewed, such as a category name, search term etc."
+description: Show a heading that matches the archive or search results being viewed with the Query Title block.
 type: reference
 slug: query-title-block
 redirect_from:

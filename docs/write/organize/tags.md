@@ -1,6 +1,6 @@
 ---
 title: Tags
-description: Every post in WordPress can be filed under one or more Tags. This aids in navigation and allows posts and to be grouped with others of similar content.
+description: "Create, edit and manage post tags on the Posts > Tags screen."
 type: guide
 order: 20
 redirect_from:

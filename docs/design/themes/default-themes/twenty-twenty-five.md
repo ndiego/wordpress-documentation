@@ -1,6 +1,6 @@
 ---
 title: Twenty Twenty-Five
-description: Twenty Twenty-Five is the new default theme for WordPress Version 6.7. Twenty Twenty-Five emphasizes simplicity and adaptability.
+description: "Twenty Twenty-Five, the default theme introduced in WordPress 6.7: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-twenty-five-changelog/

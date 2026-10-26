@@ -1,6 +1,6 @@
 ---
 title: Twenty Eleven
-description: "The Twenty Eleven is the default theme for WordPress in 2011, introduced with WordPress version 3.2."
+description: "Twenty Eleven, the default theme introduced in WordPress 3.2: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-eleven-changelog/

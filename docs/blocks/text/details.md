@@ -1,6 +1,6 @@
 ---
 title: Details
-description: "The Details block displays a text summary and an arrow button: When you click on the text or the button, the block opens and reveals additional content on the page."
+description: "Hide content behind a short summary that visitors click to expand, using the Details block."
 type: reference
 slug: details-block
 redirect_from:

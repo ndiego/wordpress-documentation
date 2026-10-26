@@ -1,6 +1,6 @@
 ---
 title: Reading settings
-description: "The options in the Reading Settings Screen are few in number, but still important. You can decide if you want your latest posts or a “static” Page displayed as your website’s front (home) page."
+description: "Choose what your front page shows and how many posts appear on the Settings > Reading screen."
 type: reference
 order: 30
 redirect_from:

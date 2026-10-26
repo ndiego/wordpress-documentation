@@ -1,6 +1,6 @@
 ---
 title: Command Palette
-description: "The Command Palette offers you a way to quickly navigate and manage your entire site with the ability to invoke different actions such as:"
+description: Jump to any part of your site or run an action from the keyboard with the Command Palette.
 type: guide
 order: 60
 redirect_from:

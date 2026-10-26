@@ -1,6 +1,6 @@
 ---
 title: Audio and video shortcodes
-description: "The Audio feature allows you to embed audio files and play them back using a simple Shortcode. This was added as of WordPress 3.6 and is used like this:"
+description: Embed audio and video files in Classic Editor content with the audio and video shortcodes.
 type: reference
 order: 30
 redirect_from:

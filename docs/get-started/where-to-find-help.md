@@ -1,6 +1,6 @@
 ---
 title: Where to find help
-description: "WordPress help is never hard to find. There are many sites dedicated to helping WordPress users, including this support page and the always-helpful forums."
+description: "Where to look when you are stuck: this documentation, the support forums, and how to search for an answer."
 type: guide
 order: 80
 redirect_from:

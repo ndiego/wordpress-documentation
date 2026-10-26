@@ -1,6 +1,6 @@
 ---
 title: "Media & Text"
-description: "The Media & Text block allows you to place an image or video side-by-side with text."
+description: "Place an image or video side by side with text using the Media & Text block."
 type: reference
 slug: media-text-block
 redirect_from:

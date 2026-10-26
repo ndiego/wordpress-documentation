@@ -53,7 +53,7 @@
 	},
 	"get-started/wordpress-org-and-wordpress-com": {
 		"applies_to": [],
-		"description": "People are often confused about the differences between WordPress and WordPress.com. WordPress is the free, Open Source web publishing software project, owned by no one individual or company.",
+		"description": "The difference between WordPress.org, the free software you can install anywhere, and WordPress.com, a hosting service built on it.",
 		"id": "get-started/wordpress-org-and-wordpress-com",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/wordpress-org-and-wordpress-com.md",
 		"order": 20,
@@ -166,7 +166,7 @@
 	},
 	"get-started/where-to-find-help": {
 		"applies_to": [],
-		"description": "WordPress help is never hard to find. There are many sites dedicated to helping WordPress users, including this support page and the always-helpful forums.",
+		"description": "Where to look when you are stuck: this documentation, the support forums, and how to search for an answer.",
 		"id": "get-started/where-to-find-help",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/where-to-find-help.md",
 		"order": 80,
@@ -184,7 +184,7 @@
 	},
 	"get-started/glossary": {
 		"applies_to": [],
-		"description": "This document is designed to offer definitions of various terms, exclusive to WordPress, that users may not be familiar with.",
+		"description": "Definitions of the terms used in WordPress and in this documentation.",
 		"id": "get-started/glossary",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/glossary.md",
 		"order": 90,
@@ -235,7 +235,7 @@
 	},
 	"write/create-a-page": {
 		"applies_to": [],
-		"description": "In WordPress, you can put content on your site as either a Post or a Page.",
+		"description": "Create a page for content that sits outside your blog, such as an About or Contact page.",
 		"id": "write/create-a-page",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/create-a-page.md",
 		"order": 20,
@@ -254,7 +254,7 @@
 	},
 	"write/editor": {
 		"applies_to": [],
-		"description": "The WordPress block editor also called the block editor, WordPress editor or Gutenberg editor is the new way of publishing content in WordPress.",
+		"description": "A tour of the block editor: the top toolbar, the content area, the settings sidebar and the document tools.",
 		"id": "write/editor",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/README.md",
 		"order": 30,
@@ -274,7 +274,7 @@
 	},
 	"write/editor/settings-sidebar": {
 		"applies_to": [],
-		"description": "The Settings Sidebar is used to customize the key aspects of the page or post that is being published. It’s an essential component of the WordPress Block Editor.",
+		"description": "The post and page settings in the editor sidebar, from status and publish date to categories, tags and featured image.",
 		"id": "write/editor/settings-sidebar",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/settings-sidebar.md",
 		"order": 10,
@@ -292,7 +292,7 @@
 	},
 	"write/editor/preview": {
 		"applies_to": [],
-		"description": "The View button is available in the top toolbar in the WordPress Block Editor and Site Editor.",
+		"description": "Preview a post, page or template at desktop, tablet and mobile widths before you publish it.",
 		"id": "write/editor/preview",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/preview.md",
 		"order": 20,
@@ -328,7 +328,7 @@
 	},
 	"write/editor/preferences": {
 		"applies_to": [],
-		"description": "When you start using the WordPress Block Editor or the Site Editor and you find the number of choices and panels overwhelming, you can use the Preferences feature to turn on/off the various.",
+		"description": "Turn editor features and panels on or off in the editor's Preferences.",
 		"id": "write/editor/preferences",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/preferences.md",
 		"order": 40,
@@ -346,7 +346,7 @@
 	},
 	"write/editor/distraction-free-mode": {
 		"applies_to": [],
-		"description": "Distraction Free mode is a new visual option that creates a focused writing experience by hiding various parts of the editor interface.",
+		"description": "Hide the editor's toolbars and panels so you can focus on writing with Distraction free mode.",
 		"id": "write/editor/distraction-free-mode",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/distraction-free-mode.md",
 		"order": 50,
@@ -364,7 +364,7 @@
 	},
 	"write/editor/keyboard-shortcuts": {
 		"applies_to": [],
-		"description": "Several keyboard shortcuts are available for you in WordPress visual (block) editor. These shortcuts allow you to do simple tasks without reaching for your mouse.",
+		"description": "Keyboard shortcuts for the block editor, the Classic Editor and the Comments screen, on Windows and Mac.",
 		"id": "write/editor/keyboard-shortcuts",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/editor/keyboard-shortcuts.md",
 		"order": 60,
@@ -401,7 +401,7 @@
 	},
 	"write/blocks/add-a-block": {
 		"applies_to": [],
-		"description": "There are several ways to add a block to your post or page from the admin screen of the WordPress block editor when you are editing your post or page.",
+		"description": "The ways to add a block to a post or page: the block inserter, the slash command and the inserter between blocks.",
 		"id": "write/blocks/add-a-block",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/add-a-block.md",
 		"order": 10,
@@ -419,7 +419,7 @@
 	},
 	"write/blocks/move-blocks": {
 		"applies_to": [],
-		"description": "There are three different ways to move or change the position of a block within your post or page from the admin screen of the WordPress Block Editor: using the move handles, drag & drop, or.",
+		"description": "Move blocks within a post or page with the move arrows, drag and drop, or List View.",
 		"id": "write/blocks/move-blocks",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/move-blocks.md",
 		"order": 20,
@@ -509,7 +509,7 @@
 	},
 	"write/blocks/page-jumps": {
 		"applies_to": [],
-		"description": "Page jumping, also sometimes referred to as anchor links, is where you click a link and instantly get moved somewhere further up or down a page. This can be particularly useful with a long page.",
+		"description": "Link to a heading or block further down a page with an HTML anchor, so readers jump straight to it.",
 		"id": "write/blocks/page-jumps",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/page-jumps.md",
 		"order": 70,
@@ -527,7 +527,7 @@
 	},
 	"write/blocks/block-directory": {
 		"applies_to": [],
-		"description": "The Block Directory is a new way for block editor users to discover, test, and install new blocks on their website.",
+		"description": "Find and install blocks made by the community from inside the editor with the Block Directory.",
 		"id": "write/blocks/block-directory",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/block-directory.md",
 		"order": 80,
@@ -545,7 +545,7 @@
 	},
 	"write/blocks/block-error": {
 		"applies_to": [],
-		"description": "If you’re encountering this error message in the Block Editor, it typically means that there is a problem with the content you’re trying to insert or edit within a block.",
+		"description": "What a block error message means and how to recover the block's content.",
 		"id": "write/blocks/block-error",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/blocks/block-error.md",
 		"order": 90,
@@ -597,7 +597,7 @@
 	},
 	"write/block-settings/typography": {
 		"applies_to": [],
-		"description": "You can use the typography settings in your block to change the font and appearance of your texts.",
+		"description": "Change the font, size, line height, letter case and other text settings of a block.",
 		"id": "write/block-settings/typography",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/typography.md",
 		"order": 20,
@@ -615,7 +615,7 @@
 	},
 	"write/block-settings/dimensions": {
 		"applies_to": [],
-		"description": "You can use the dimension settings in blocks to help you better customize your layout and design.",
+		"description": "Set the padding, margin, spacing and size of a block with the dimensions settings.",
 		"id": "write/block-settings/dimensions",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/dimensions.md",
 		"order": 30,
@@ -633,7 +633,7 @@
 	},
 	"write/block-settings/border": {
 		"applies_to": [],
-		"description": "You can use the border and shadow settings in your block to set a visible border or shadow on specific blocks. These settings allow you to control the width and radius on each side of the border.",
+		"description": "Add a border, rounded corners or a shadow to a block.",
 		"id": "write/block-settings/border",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/border.md",
 		"order": 40,
@@ -687,7 +687,7 @@
 	},
 	"write/block-settings/position": {
 		"applies_to": [],
-		"description": "The position settings in blocks allow you to set how an element is positioned in your site. These settings can only be found in a few blocks when they are placed at the root of site.",
+		"description": "Make a block stay at the top of the screen as visitors scroll with the position settings.",
 		"id": "write/block-settings/position",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/position.md",
 		"order": 70,
@@ -741,7 +741,7 @@
 	},
 	"write/block-settings/advanced": {
 		"applies_to": [],
-		"description": "Use Advanced Settings to further customize your block. While some of the options listed below apply to multiple blocks, others are block-specific.",
+		"description": "Add an HTML anchor or extra CSS classes to a block in its Advanced settings.",
 		"id": "write/block-settings/advanced",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/advanced.md",
 		"order": 100,
@@ -759,7 +759,7 @@
 	},
 	"write/media": {
 		"applies_to": [],
-		"description": "Media consists of the images, video, recordings, and files that you upload and use in your blog. Media is typically uploaded and inserted into the content when writing a Post or writing a Page.",
+		"description": "Upload, find and manage the images, video, audio and documents on your site in the Media Library.",
 		"id": "write/media",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/media/README.md",
 		"order": 60,
@@ -780,7 +780,7 @@
 	},
 	"write/media/add-media": {
 		"applies_to": [],
-		"description": "The Media Add New Screen allows you to upload Media (Images, video, files, etc.) for later use in your posts and pages.",
+		"description": "Upload images, video, audio and other files to the Media Library.",
 		"id": "write/media/add-media",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/media/add-media.md",
 		"order": 10,
@@ -798,7 +798,7 @@
 	},
 	"write/media/edit-media": {
 		"applies_to": [],
-		"description": "The Edit Media page is where you manage information about your media that is saved in the Media Library.",
+		"description": "Edit a file's title, caption, alt text and description, and crop or rotate images, in the Media Library.",
 		"id": "write/media/edit-media",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/media/edit-media.md",
 		"order": 20,
@@ -816,7 +816,7 @@
 	},
 	"write/media/image-sizes": {
 		"applies_to": [],
-		"description": "The size and quality of an image for use on a web page is determined by a variety of things.",
+		"description": "How WordPress resizes the images you upload, and how to keep images sharp and quick to load.",
 		"id": "write/media/image-sizes",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/media/image-sizes.md",
 		"order": 30,
@@ -850,7 +850,7 @@
 	},
 	"write/publish/post-status": {
 		"applies_to": [],
-		"description": "Posts in WordPress can have one of a number of statuses. The status of a given post determines how WordPress handles that post.",
+		"description": "The statuses a post can have, such as draft, pending, scheduled, private and published, and what each one means.",
 		"id": "write/publish/post-status",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/post-status.md",
 		"order": 10,
@@ -868,7 +868,7 @@
 	},
 	"write/publish/content-visibility": {
 		"applies_to": [],
-		"description": "Note: This page uses Block Editor. If you are a Classic Editor User, refer this page.",
+		"description": "Make a post or page public, private or password protected with the Visibility setting.",
 		"id": "write/publish/content-visibility",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/content-visibility.md",
 		"order": 20,
@@ -887,7 +887,7 @@
 	},
 	"write/publish/password-protected": {
 		"applies_to": [],
-		"description": "Once you publish a WordPress post (or Page), it is visible to the public (by default).",
+		"description": "Protect a post or page with a password so that only people who know it can read it.",
 		"id": "write/publish/password-protected",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/password-protected.md",
 		"order": 30,
@@ -905,7 +905,7 @@
 	},
 	"write/publish/sticky-posts": {
 		"applies_to": [],
-		"description": "Note: Sticky Post is only available for the built-in post type post and not for custom post types.",
+		"description": "Keep a post at the top of your blog page by making it sticky.",
 		"id": "write/publish/sticky-posts",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/sticky-posts.md",
 		"order": 40,
@@ -923,7 +923,7 @@
 	},
 	"write/publish/excerpts": {
 		"applies_to": [],
-		"description": "Note: This page uses Block Editor. If you are a Classic Editor User, refer this page.",
+		"description": "Write a short summary of a post, called an excerpt, and control where WordPress shows it.",
 		"id": "write/publish/excerpts",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/excerpts.md",
 		"order": 50,
@@ -942,7 +942,7 @@
 	},
 	"write/publish/revisions": {
 		"applies_to": [],
-		"description": "The WordPress revisions system stores a record of each saved draft or published update. The revision system allows you to see what changes were made in each revision by dragging a slider.",
+		"description": "See every saved version of a post, compare two versions, and restore an earlier one.",
 		"id": "write/publish/revisions",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/publish/revisions.md",
 		"order": 60,
@@ -960,7 +960,7 @@
 	},
 	"write/organize": {
 		"applies_to": [],
-		"description": "How WordPress structures content and URLs: post types, categories and tags, custom fields, permalinks, and the special pages such as a static front page or a search page.",
+		"description": "How WordPress groups content so visitors can find it: categories and tags, post types, custom fields, a static front page and a search page.",
 		"id": "write/organize",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/README.md",
 		"order": 80,
@@ -976,7 +976,7 @@
 	},
 	"write/organize/categories": {
 		"applies_to": [],
-		"description": "Each post in WordPress is filed under one or more Categories. This aids in navigation and allows posts to be grouped with others of similar content.",
+		"description": "Create, edit and organize post categories on the Posts > Categories screen.",
 		"id": "write/organize/categories",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/categories.md",
 		"order": 10,
@@ -994,7 +994,7 @@
 	},
 	"write/organize/tags": {
 		"applies_to": [],
-		"description": "Every post in WordPress can be filed under one or more Tags. This aids in navigation and allows posts and to be grouped with others of similar content.",
+		"description": "Create, edit and manage post tags on the Posts > Tags screen.",
 		"id": "write/organize/tags",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/tags.md",
 		"order": 20,
@@ -1012,7 +1012,7 @@
 	},
 	"write/organize/taxonomies": {
 		"applies_to": [],
-		"description": "A taxonomy within WordPress is a way of grouping posts together based on a select number of relationships.",
+		"description": "What taxonomies are, the categories and tags WordPress includes, and how custom taxonomies add more.",
 		"id": "write/organize/taxonomies",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/taxonomies.md",
 		"order": 30,
@@ -1030,7 +1030,7 @@
 	},
 	"write/organize/post-types": {
 		"applies_to": [],
-		"description": "WordPress houses lots of different types of content and they are divided into something called Post Types.",
+		"description": "Posts, pages, attachments and the other kinds of content WordPress stores, and how custom post types add more.",
 		"id": "write/organize/post-types",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/post-types.md",
 		"order": 40,
@@ -1048,7 +1048,7 @@
 	},
 	"write/organize/custom-fields": {
 		"applies_to": [],
-		"description": "WordPress has the ability to allow post authors to assign custom fields to a post. This arbitrary extra information is known as metadata. This metadata can include bits of information such as:",
+		"description": "Add extra information, called metadata, to a post with custom fields.",
 		"id": "write/organize/custom-fields",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/custom-fields.md",
 		"order": 50,
@@ -1066,7 +1066,7 @@
 	},
 	"write/organize/static-front-page": {
 		"applies_to": [],
-		"description": "The purpose of this document is to explain the process of setting up a static page on your WordPress site. This document doesn’t discuss the automatic display of posts on the Home page.",
+		"description": "Show a page instead of your latest posts on your site's front page, and put your posts on a page of their own.",
 		"id": "write/organize/static-front-page",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/static-front-page.md",
 		"order": 60,
@@ -1084,7 +1084,7 @@
 	},
 	"write/organize/search-page": {
 		"applies_to": [],
-		"description": "A Search Page is a WordPress Page with a custom Page template to give users more information for searching your site.",
+		"description": "Create a page that helps visitors search your site.",
 		"id": "write/organize/search-page",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/organize/search-page.md",
 		"order": 70,
@@ -1120,7 +1120,7 @@
 	},
 	"write/comments/comments-screen": {
 		"applies_to": [],
-		"description": "In the Comments Screen you can edit or delete content found in comments to your posts, and you can mark comments as spam, send comments to the trash, and reply to comments.",
+		"description": "Approve, reply to, edit, mark as spam and delete comments on the Comments screen.",
 		"id": "write/comments/comments-screen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/comments/comments-screen.md",
 		"order": 10,
@@ -1156,7 +1156,7 @@
 	},
 	"write/comments/comment-spam": {
 		"applies_to": [],
-		"description": "If you’ve spent any time online, you’ve probably come across spam in one form or another. In general, spam is unwanted content posted for promotional, misleading, or abusive purposes.",
+		"description": "How to stop spam comments, and how to clean up the ones that get through.",
 		"id": "write/comments/comment-spam",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/comments/comment-spam.md",
 		"order": 30,
@@ -1174,7 +1174,7 @@
 	},
 	"write/comments/trackbacks-and-pingbacks": {
 		"applies_to": [],
-		"description": "Trackbacks and pingbacks are methods for alerting blogs that you have linked to them. The difference between them is:",
+		"description": "What trackbacks and pingbacks are, how they differ, and how to turn them off.",
 		"id": "write/comments/trackbacks-and-pingbacks",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/comments/trackbacks-and-pingbacks.md",
 		"order": 40,
@@ -1208,7 +1208,7 @@
 	},
 	"write/formatting/character-entities": {
 		"applies_to": [],
-		"description": "In many WordPress sites, you will see odd symbols that will pop up from time to time. Often these symbols appear in navigation links.",
+		"description": "Type special characters, such as the copyright sign, accented letters and arrows, with HTML character entities.",
 		"id": "write/formatting/character-entities",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/formatting/character-entities.md",
 		"order": 10,
@@ -1226,7 +1226,7 @@
 	},
 	"write/formatting/emoji": {
 		"applies_to": [],
-		"description": "Emoji are the ideograms or smileys 😃 used in electronic messages and Web pages.",
+		"description": "How emoji work in WordPress and how to add them to your content on mobile and desktop.",
 		"id": "write/formatting/emoji",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/formatting/emoji.md",
 		"order": 20,
@@ -1244,7 +1244,7 @@
 	},
 	"write/formatting/smilies": {
 		"applies_to": [],
-		"description": "Smileys, also known as “emoticons”, are glyphs used to convey emotions in your writing. They are a great way to brighten up posts. 🙂",
+		"description": "How WordPress turns text smileys such as :-) into images, and how to turn that off.",
 		"id": "write/formatting/smilies",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/formatting/smilies.md",
 		"order": 30,
@@ -1262,7 +1262,7 @@
 	},
 	"write/formatting/post-content-processing": {
 		"applies_to": [],
-		"description": "WordPress processes text entered in the Write Post Screen multiple times before the text is finally displayed on a web page within your WordPress blog.",
+		"description": "The changes WordPress makes to post content before showing it, such as curly quotes and paragraph tags, and how to prevent them.",
 		"id": "write/formatting/post-content-processing",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/formatting/post-content-processing.md",
 		"order": 40,
@@ -1280,7 +1280,7 @@
 	},
 	"write/seo": {
 		"applies_to": [],
-		"description": "WordPress, straight out of the box, comes ready to embrace search engines.",
+		"description": "What WordPress does for search engines out of the box, and the settings and habits that help people find your site.",
 		"id": "write/seo",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/seo.md",
 		"order": 110,
@@ -1334,7 +1334,7 @@
 	},
 	"blocks/text/freeform": {
 		"applies_to": [],
-		"description": "The Classic block looks just like the classic editor, but it’s in block form. Custom TinyMCE buttons are found in this block.",
+		"description": "Edit content with the Classic Editor toolbar inside the block editor using the Classic block.",
 		"id": "blocks/text/freeform",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/freeform.md",
 		"order": 10,
@@ -1352,7 +1352,7 @@
 	},
 	"blocks/text/code": {
 		"applies_to": [],
-		"description": "To add the Code block, open the block inserter by clicking the (+) icon on the upper left corner of the editor.",
+		"description": "Show code examples exactly as typed, in a monospaced font, with the Code block.",
 		"id": "blocks/text/code",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/code.md",
 		"order": 20,
@@ -1370,7 +1370,7 @@
 	},
 	"blocks/text/details": {
 		"applies_to": [],
-		"description": "The Details block displays a text summary and an arrow button: When you click on the text or the button, the block opens and reveals additional content on the page.",
+		"description": "Hide content behind a short summary that visitors click to expand, using the Details block.",
 		"id": "blocks/text/details",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/details.md",
 		"order": 30,
@@ -1388,7 +1388,7 @@
 	},
 	"blocks/text/footnotes": {
 		"applies_to": [],
-		"description": "WordPress 6.3 introduces a new feature to insert and display footnotes. This option can be found on the toolbar of individual blocks under the Rich Editing option.",
+		"description": "Add numbered notes to a post or page and list them at the end with the Footnotes block.",
 		"id": "blocks/text/footnotes",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/footnotes.md",
 		"order": 40,
@@ -1406,7 +1406,7 @@
 	},
 	"blocks/text/heading": {
 		"applies_to": [],
-		"description": "Headings help to introduce new sections and organize the content on the page. They make your website more readable by humans and search engines.",
+		"description": "Add headings that introduce sections and give a page a clear structure with the Heading block.",
 		"id": "blocks/text/heading",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/heading.md",
 		"order": 50,
@@ -1424,7 +1424,7 @@
 	},
 	"blocks/text/list": {
 		"applies_to": [],
-		"description": "You can use the List block to create a bulleted or numbered list.",
+		"description": "Create a bulleted or numbered list, with nested items, using the List block.",
 		"id": "blocks/text/list",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/list.md",
 		"order": 60,
@@ -1460,7 +1460,7 @@
 	},
 	"blocks/text/paragraph": {
 		"applies_to": [],
-		"description": "The Paragraph block is a basic building block that allows you to add text content to a post or page. It is the default block that appears when you create a new post or page.",
+		"description": "Add and format text with the Paragraph block, the default block in the editor.",
 		"id": "blocks/text/paragraph",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/paragraph.md",
 		"order": 80,
@@ -1478,7 +1478,7 @@
 	},
 	"blocks/text/verse": {
 		"applies_to": [],
-		"description": "The Poetry block is specifically designed for writing poetry, song lyrics, or other literary expressions.",
+		"description": "Write poetry and song lyrics with the spacing and line breaks you type, using the Poetry block.",
 		"id": "blocks/text/verse",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/verse.md",
 		"order": 90,
@@ -1496,7 +1496,7 @@
 	},
 	"blocks/text/preformatted": {
 		"applies_to": [],
-		"description": "If you wish to add text to a post or page that is displayed exactly as you type it, the Preformatted block is for you.",
+		"description": "Show text exactly as you type it, spaces and line breaks included, with the Preformatted block.",
 		"id": "blocks/text/preformatted",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/preformatted.md",
 		"order": 100,
@@ -1514,7 +1514,7 @@
 	},
 	"blocks/text/pullquote": {
 		"applies_to": [],
-		"description": "If you want to add emphasis to a piece of text in your post or page, the pullquote block can quickly and easily make short snippets look beautiful.",
+		"description": "Highlight a short quotation from your text in large type with the Pullquote block.",
 		"id": "blocks/text/pullquote",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/pullquote.md",
 		"order": 110,
@@ -1532,7 +1532,7 @@
 	},
 	"blocks/text/quote": {
 		"applies_to": [],
-		"description": "Use the Quote block to easily add a quote to any post or page. Adding quotes can help you highlight great reviews from your audience or phrases that inspire you.",
+		"description": "Set a quotation apart from the rest of the text, with an optional citation, using the Quote block.",
 		"id": "blocks/text/quote",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/quote.md",
 		"order": 120,
@@ -1550,7 +1550,7 @@
 	},
 	"blocks/text/table": {
 		"applies_to": [],
-		"description": "Use the Table block to easily create a table in any post or page.",
+		"description": "Add a table of rows and columns to a post or page with the Table block.",
 		"id": "blocks/text/table",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/text/table.md",
 		"order": 130,
@@ -1586,7 +1586,7 @@
 	},
 	"blocks/media/audio": {
 		"applies_to": [],
-		"description": "Creating an Audio block will allow you to embed a piece of music, podcast, or other sound file right into your page or post.",
+		"description": "Add an audio file, such as music or a podcast episode, to a post or page with the Audio block.",
 		"id": "blocks/media/audio",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/audio.md",
 		"order": 10,
@@ -1604,7 +1604,7 @@
 	},
 	"blocks/media/cover": {
 		"applies_to": [],
-		"description": "The Cover block lets you add a background color, image or video with a text overlay. It is an excellent tool for creating headers, banner-style displays, call-to-actions, and more.",
+		"description": "Put text over an image, a video or a color with the Cover block, for headers, banners and calls to action.",
 		"id": "blocks/media/cover",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/cover.md",
 		"order": 20,
@@ -1622,7 +1622,7 @@
 	},
 	"blocks/media/file": {
 		"applies_to": [],
-		"description": "The File block allows you to add a link to the downloadable files on your website.",
+		"description": "Add a link to a file that visitors can download, with an optional download button, using the File block.",
 		"id": "blocks/media/file",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/file.md",
 		"order": 30,
@@ -1640,7 +1640,7 @@
 	},
 	"blocks/media/gallery": {
 		"applies_to": [],
-		"description": "The Gallery block allows you to easily add multiple photos and automatically arrange them in a gallery. You can control the number of columns and the size of the images in the gallery.",
+		"description": "Show several images together with the Gallery block, and choose its columns, image sizes and links.",
 		"id": "blocks/media/gallery",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/gallery.md",
 		"order": 40,
@@ -1678,7 +1678,7 @@
 	},
 	"blocks/media/image": {
 		"applies_to": [],
-		"description": "Use the Image block to easily add an image to your page.",
+		"description": "Add an image to a post or page with the Image block, then crop, resize, link and caption it.",
 		"id": "blocks/media/image",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/image.md",
 		"order": 60,
@@ -1698,7 +1698,7 @@
 	},
 	"blocks/media/media-text": {
 		"applies_to": [],
-		"description": "The Media & Text block allows you to place an image or video side-by-side with text.",
+		"description": "Place an image or video side by side with text using the Media & Text block.",
 		"id": "blocks/media/media-text",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/media-text.md",
 		"order": 70,
@@ -1734,7 +1734,7 @@
 	},
 	"blocks/media/video": {
 		"applies_to": [],
-		"description": "Use the Video block to upload and embed video into your post or page.",
+		"description": "Upload a video, or pick one from the Media Library, and show it in a post or page with the Video block.",
 		"id": "blocks/media/video",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/media/video.md",
 		"order": 90,
@@ -1788,7 +1788,7 @@
 	},
 	"blocks/design/buttons": {
 		"applies_to": [],
-		"description": "Use the Buttons block to add one or more buttons to your page or post.",
+		"description": "Add one or more buttons that link to other pages or sites with the Buttons block.",
 		"id": "blocks/design/buttons",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/buttons.md",
 		"order": 20,
@@ -1807,7 +1807,7 @@
 	},
 	"blocks/design/columns": {
 		"applies_to": [],
-		"description": "The Columns block allows you to insert text, media, and other types of content into columns. When used one after another, the columns can create a grid effect.",
+		"description": "Lay out text, images and other blocks side by side in columns with the Columns block.",
 		"id": "blocks/design/columns",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/columns.md",
 		"order": 30,
@@ -1825,7 +1825,7 @@
 	},
 	"blocks/design/group": {
 		"applies_to": [],
-		"description": "The Group block allows you to group different blocks together and customize them to your liking, including setting custom background colors, spacing, and more.",
+		"description": "Put blocks together in a Group block so you can style, move and lay them out as one unit.",
 		"id": "blocks/design/group",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/group/README.md",
 		"order": 40,
@@ -1843,7 +1843,7 @@
 	},
 	"blocks/design/group/grid": {
 		"applies_to": [],
-		"description": "Grid block is one of the container blocks that can be used to organize multiple blocks and adjust the height, width, and position of all blocks inside the container.",
+		"description": "Arrange blocks in a grid of rows and columns with the Grid variation of the Group block.",
 		"id": "blocks/design/group/grid",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/group/grid.md",
 		"order": 10,
@@ -1861,7 +1861,7 @@
 	},
 	"blocks/design/group/row": {
 		"applies_to": [],
-		"description": "Row block is one of the container blocks that can be used to arrange blocks in a single horizontal line.",
+		"description": "Arrange blocks side by side in a single horizontal line with the Row variation of the Group block.",
 		"id": "blocks/design/group/row",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/group/row.md",
 		"order": 20,
@@ -1879,7 +1879,7 @@
 	},
 	"blocks/design/group/stack": {
 		"applies_to": [],
-		"description": "Stack block is one of the container blocks that can be used to nest other blocks vertically.",
+		"description": "Stack blocks one above the other with the Stack variation of the Group block.",
 		"id": "blocks/design/group/stack",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/group/stack.md",
 		"order": 30,
@@ -1897,7 +1897,7 @@
 	},
 	"blocks/design/home-link": {
 		"applies_to": [],
-		"description": "The Home Link block allows you to automatically add a link to your site’s homepage. The Home Link block is only available as a sub-block of the Navigation block.",
+		"description": "Add a link to your site's home page inside a Navigation block with the Home Link block.",
 		"id": "blocks/design/home-link",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/home-link.md",
 		"order": 50,
@@ -1915,7 +1915,7 @@
 	},
 	"blocks/design/more": {
 		"applies_to": [],
-		"description": "The More block is used to display a Read More link to the full blog post, on the blog home page, or on the archive pages.",
+		"description": "Show only the start of a post on your blog page, with a link to read the rest, using the More block.",
 		"id": "blocks/design/more",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/more.md",
 		"order": 60,
@@ -1933,7 +1933,7 @@
 	},
 	"blocks/design/navigation-link": {
 		"applies_to": [],
-		"description": "The Custom Link block allows you to embed a link, page, category, or another item in your Navigation section.",
+		"description": "Add a link to a page, post, category or any URL inside a Navigation block with the Custom Link block.",
 		"id": "blocks/design/navigation-link",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/navigation-link.md",
 		"order": 70,
@@ -1951,7 +1951,7 @@
 	},
 	"blocks/design/nextpage": {
 		"applies_to": [],
-		"description": "Use the page break block to separate your content into a multiple-page experience and add pagination, or page breaks, to a page or post.",
+		"description": "Split a long post or page into several pages with the Page Break block.",
 		"id": "blocks/design/nextpage",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/nextpage.md",
 		"order": 80,
@@ -1969,7 +1969,7 @@
 	},
 	"blocks/design/separator": {
 		"applies_to": [],
-		"description": "The separator block creates a break between two blocks of content with a horizontal line. This helps to create a separation between ideas or sections on your post or page.",
+		"description": "Add a horizontal line between sections of content with the Separator block.",
 		"id": "blocks/design/separator",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/separator.md",
 		"order": 90,
@@ -1987,7 +1987,7 @@
 	},
 	"blocks/design/spacer": {
 		"applies_to": [],
-		"description": "If you want to have a space between two blocks, the Spacer block is what you will use.",
+		"description": "Add empty space between blocks with the Spacer block.",
 		"id": "blocks/design/spacer",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/spacer.md",
 		"order": 100,
@@ -2005,7 +2005,7 @@
 	},
 	"blocks/design/navigation-submenu": {
 		"applies_to": [],
-		"description": "The Submenu Block is an advanced block that can only be used as a child block of the Navigation Block released with WordPress 5.9.",
+		"description": "Add a dropdown list of links inside a Navigation block with the Submenu block.",
 		"id": "blocks/design/navigation-submenu",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/navigation-submenu.md",
 		"order": 110,
@@ -2041,7 +2041,7 @@
 	},
 	"blocks/widgets": {
 		"applies_to": [],
-		"description": "Blocks that show dynamic content such as archives, calendars, latest posts and comments, tag clouds, search and social icons. They can be used in posts and pages as well as in widget areas.",
+		"description": "Blocks that show content WordPress keeps up to date, such as archives, latest posts and comments, a search form and social icons.",
 		"id": "blocks/widgets",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/README.md",
 		"order": 40,
@@ -2059,7 +2059,7 @@
 	},
 	"blocks/widgets/archives": {
 		"applies_to": [],
-		"description": "Use the Archives block to display a date archive of your posts.",
+		"description": "Show links to your posts grouped by month or year with the Archives block.",
 		"id": "blocks/widgets/archives",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/archives.md",
 		"order": 10,
@@ -2077,7 +2077,7 @@
 	},
 	"blocks/widgets/calendar": {
 		"applies_to": [],
-		"description": "The Calendar block displays your posts in a calendar format. When you publish a new post, it is automatically added to the Calendar block.",
+		"description": "Show a monthly calendar that links to the days you published posts with the Calendar block.",
 		"id": "blocks/widgets/calendar",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/calendar.md",
 		"order": 20,
@@ -2095,7 +2095,7 @@
 	},
 	"blocks/widgets/html": {
 		"applies_to": [],
-		"description": "Starting in WordPress 7.0, the Custom HTML block introduces separate editing panels for HTML, CSS, and JavaScript.",
+		"description": "Add your own HTML code to a post, page or template with the Custom HTML block.",
 		"id": "blocks/widgets/html",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/html.md",
 		"order": 30,
@@ -2113,7 +2113,7 @@
 	},
 	"blocks/widgets/latest-comments": {
 		"applies_to": [],
-		"description": "The Latest Comments block displays the most recent comments readers have left on your blog, including the users and blog posts.",
+		"description": "Show the most recent comments on your site with the Latest Comments block.",
 		"id": "blocks/widgets/latest-comments",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/latest-comments.md",
 		"order": 40,
@@ -2131,7 +2131,7 @@
 	},
 	"blocks/widgets/latest-posts": {
 		"applies_to": [],
-		"description": "The latest posts block displays your most recent posts, making it easy for your readers to see what’s new on your blog.",
+		"description": "Show a list of your most recent posts with the Latest Posts block.",
 		"id": "blocks/widgets/latest-posts",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/latest-posts.md",
 		"order": 50,
@@ -2149,7 +2149,7 @@
 	},
 	"blocks/widgets/page-list": {
 		"applies_to": [],
-		"description": "The Page List block allows you to display your website’s published pages in a page, post, and sidebar.",
+		"description": "Show a list of your site's published pages with the Page List block.",
 		"id": "blocks/widgets/page-list",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/page-list.md",
 		"order": 60,
@@ -2167,7 +2167,7 @@
 	},
 	"blocks/widgets/rss": {
 		"applies_to": [],
-		"description": "An RSS feed is a machine-readable version of the content of a blog or a website.",
+		"description": "Show the latest items from any RSS feed with the RSS block.",
 		"id": "blocks/widgets/rss",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/rss.md",
 		"order": 70,
@@ -2185,7 +2185,7 @@
 	},
 	"blocks/widgets/search": {
 		"applies_to": [],
-		"description": "Use the Search block to place a search widget on your page or post.",
+		"description": "Add a search form to a post, page or template with the Search block.",
 		"id": "blocks/widgets/search",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/search.md",
 		"order": 80,
@@ -2203,7 +2203,7 @@
 	},
 	"blocks/widgets/shortcode": {
 		"applies_to": [],
-		"description": "A shortcode is a WordPress-specific code that lets you do nifty things with very little effort.",
+		"description": "Add a shortcode from a plugin or theme to a post or page with the Shortcode block.",
 		"id": "blocks/widgets/shortcode",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/shortcode.md",
 		"order": 90,
@@ -2221,7 +2221,7 @@
 	},
 	"blocks/widgets/social-links": {
 		"applies_to": [],
-		"description": "The Social Icons block allows you to add icons linking to your social media profiles or sites. This helps to increase the visibility of your social media profiles and drive traffic to them.",
+		"description": "Add icons that link to your social media profiles with the Social Icons block.",
 		"id": "blocks/widgets/social-links",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/social-links.md",
 		"order": 100,
@@ -2239,7 +2239,7 @@
 	},
 	"blocks/widgets/tag-cloud": {
 		"applies_to": [],
-		"description": "The Tag Cloud block allows adding tag/category cloud into the page/post. A tag cloud is a list of all tags /categories on your site, displayed in alphabetical order.",
+		"description": "Show your most used tags or categories as a cloud of links with the Tag Cloud block.",
 		"id": "blocks/widgets/tag-cloud",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/tag-cloud.md",
 		"order": 110,
@@ -2257,7 +2257,7 @@
 	},
 	"blocks/widgets/categories": {
 		"applies_to": [],
-		"description": "The Categories List block organizes your previously published posts by category. This can be handy for readers who want to find more of your posts about certain topics.",
+		"description": "Show a list or dropdown of your post categories with the Categories List block.",
 		"id": "blocks/widgets/categories",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/categories.md",
 		"order": 120,
@@ -2311,7 +2311,7 @@
 	},
 	"blocks/theme/post-author-name": {
 		"applies_to": [],
-		"description": "The Author Name block displays the post author’s name or username. This block is often nested inside a query loop block or added to a Template in the Site Editor.",
+		"description": "Show the name of a post's author with the Author Name block, usually in a template or a Query Loop.",
 		"id": "blocks/theme/post-author-name",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-author-name.md",
 		"order": 20,
@@ -2366,7 +2366,7 @@
 	},
 	"blocks/theme/comments": {
 		"applies_to": [],
-		"description": "The Comments block is an advanced block that displays post comments with various visual configurations.",
+		"description": "Show a post's comments and the comment form in a template with the Comments block and its inner blocks.",
 		"id": "blocks/theme/comments",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/comments.md",
 		"order": 50,
@@ -2394,7 +2394,7 @@
 	},
 	"blocks/theme/post-comments-form": {
 		"applies_to": [],
-		"description": "The Post Comments Form block displays a post’s comments form. This block is located inside a Comments block and lets you customize the appearance of the post comments form.",
+		"description": "Show the form visitors use to leave a comment with the Comments Form block.",
 		"id": "blocks/theme/post-comments-form",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-comments-form.md",
 		"order": 60,
@@ -2412,7 +2412,7 @@
 	},
 	"blocks/theme/post-content": {
 		"applies_to": [],
-		"description": "Use the Content block to display the contents of a post or page. This block is a child block of the Query Loop block and helps to customize the appearance of the query loop.",
+		"description": "Show the content of a post or page in a template or a Query Loop with the Content block.",
 		"id": "blocks/theme/post-content",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-content.md",
 		"order": 70,
@@ -2430,7 +2430,7 @@
 	},
 	"blocks/theme/post-date": {
 		"applies_to": [],
-		"description": "Use the Date block to display a custom date.",
+		"description": "Show the date a post was published or last updated with the Date block.",
 		"id": "blocks/theme/post-date",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-date.md",
 		"order": 80,
@@ -2450,7 +2450,7 @@
 	},
 	"blocks/theme/post-excerpt": {
 		"applies_to": [],
-		"description": "Use the Excerpt block to display the excerpt of a post. This block is primarily nested inside a query loop block and helps to customize the appearance of the query loop.",
+		"description": "Show a post's excerpt in a template or a Query Loop with the Excerpt block.",
 		"id": "blocks/theme/post-excerpt",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-excerpt.md",
 		"order": 90,
@@ -2468,7 +2468,7 @@
 	},
 	"blocks/theme/post-featured-image": {
 		"applies_to": [],
-		"description": "Use the Post Featured Image block to display the featured image of a post. This block is primarily nested inside a query loop block and helps to customize the appearance of the query loop.",
+		"description": "Show a post's featured image in a template or a Query Loop with the Featured Image block.",
 		"id": "blocks/theme/post-featured-image",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-featured-image.md",
 		"order": 100,
@@ -2486,7 +2486,7 @@
 	},
 	"blocks/theme/loginout": {
 		"applies_to": [],
-		"description": "The Login-out block allows you to automatically add a link anywhere on your site which lets your site users login and/or logout if they are already logged in.",
+		"description": "Add a link that lets visitors log in to your site, or log out when they are logged in, with the Login/out block.",
 		"id": "blocks/theme/loginout",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/loginout.md",
 		"order": 110,
@@ -2522,7 +2522,7 @@
 	},
 	"blocks/theme/query-pagination": {
 		"applies_to": [],
-		"description": "The Pagination block displays paginated navigation to the next/previous set of posts, when applicable.",
+		"description": "Add links to the next and previous pages of results in a Query Loop with the Pagination block.",
 		"id": "blocks/theme/query-pagination",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/query-pagination.md",
 		"order": 130,
@@ -2540,7 +2540,7 @@
 	},
 	"blocks/theme/post-navigation-link": {
 		"applies_to": [],
-		"description": "Use the Post Navigation Link block to display the post pages link navigation for the previous and next pages.",
+		"description": "Link to the previous or next post with the Previous Post and Next Post blocks.",
 		"id": "blocks/theme/post-navigation-link",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-navigation-link.md",
 		"order": 140,
@@ -2560,7 +2560,7 @@
 	},
 	"blocks/theme/post-template": {
 		"applies_to": [],
-		"description": "The Post Template block is a container block that is nested in the Query Loop block.",
+		"description": "Set the layout of each post in a Query Loop with the Post Template block.",
 		"id": "blocks/theme/post-template",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-template.md",
 		"order": 150,
@@ -2578,7 +2578,7 @@
 	},
 	"blocks/theme/post-terms": {
 		"applies_to": [],
-		"description": "Use the Categories block to display the posts’ categories. This block is primarily nested inside a query loop block and helps to customize the appearance of the query loop.",
+		"description": "Show a post's categories, tags or other terms with the Categories, Tags and other post terms blocks.",
 		"id": "blocks/theme/post-terms",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-terms.md",
 		"order": 160,
@@ -2597,7 +2597,7 @@
 	},
 	"blocks/theme/query": {
 		"applies_to": [],
-		"description": "The Query Loop block is an advanced block that allows you to display posts based on specified parameters, like a PHP loop without the code.",
+		"description": "Show a list of posts chosen by type, category, author and other filters with the Query Loop block.",
 		"id": "blocks/theme/query",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/query.md",
 		"order": 170,
@@ -2616,7 +2616,7 @@
 	},
 	"blocks/theme/query-title": {
 		"applies_to": [],
-		"description": "The Query Title block displays a dynamic heading based on the type of content being viewed, such as a category name, search term etc.",
+		"description": "Show a heading that matches the archive or search results being viewed with the Query Title block.",
 		"id": "blocks/theme/query-title",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/query-title.md",
 		"order": 180,
@@ -2636,7 +2636,7 @@
 	},
 	"blocks/theme/query-total": {
 		"applies_to": [],
-		"description": "WordPress 6.8 is set to introduce a new block called Query Total, enhancing the flexibility of the Query Loop block.",
+		"description": "Show how many posts a Query Loop found, or which ones are on the current page, with the Query Total block.",
 		"id": "blocks/theme/query-total",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/query-total.md",
 		"order": 190,
@@ -2654,7 +2654,7 @@
 	},
 	"blocks/theme/read-more": {
 		"applies_to": [],
-		"description": "The Read More block allows you to add links in the query loop block that direct visitors to the posts.",
+		"description": "Add a link to the full post inside a Query Loop with the Read More block.",
 		"id": "blocks/theme/read-more",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/read-more.md",
 		"order": 200,
@@ -2672,7 +2672,7 @@
 	},
 	"blocks/theme/site-logo": {
 		"applies_to": [],
-		"description": "The Site Logo block lets you add a logo or image representing your website identity and help increase brand recognition.",
+		"description": "Show your site's logo with the Site Logo block, and set the logo for the whole site.",
 		"id": "blocks/theme/site-logo",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/site-logo.md",
 		"order": 210,
@@ -2726,7 +2726,7 @@
 	},
 	"blocks/theme/template-part": {
 		"applies_to": [],
-		"description": "The Template Part block is used while creating and editing templates to manage blocks in areas repeated across the website.",
+		"description": "Reuse areas such as the header and footer across templates with the Template Part block.",
 		"id": "blocks/theme/template-part",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/template-part.md",
 		"order": 240,
@@ -2744,7 +2744,7 @@
 	},
 	"blocks/theme/term-description": {
 		"applies_to": [],
-		"description": "Use the Term Description block to display the description of the Category, Tag, or custom Taxonomy on the archive pages.",
+		"description": "Show the description of a category, tag or other term on its archive page with the Term Description block.",
 		"id": "blocks/theme/term-description",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/term-description.md",
 		"order": 250,
@@ -2762,7 +2762,7 @@
 	},
 	"blocks/theme/terms-query": {
 		"applies_to": [],
-		"description": "The Terms Query block displays a list or grid of taxonomy terms (such as Categories, Tags, or custom taxonomies).",
+		"description": "Show a list or grid of categories, tags or other taxonomy terms with the Terms Query block.",
 		"id": "blocks/theme/terms-query",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/terms-query.md",
 		"order": 260,
@@ -2798,7 +2798,7 @@
 	},
 	"blocks/theme/post-title": {
 		"applies_to": [],
-		"description": "Title block (formerly known as Post Title block) displays the title of a post or page.",
+		"description": "Show the title of a post or page with the Title block.",
 		"id": "blocks/theme/post-title",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/post-title.md",
 		"order": 280,
@@ -2817,7 +2817,7 @@
 	},
 	"blocks/embeds": {
 		"applies_to": [],
-		"description": "Since WordPress 5.0, the WordPress block editor has an easy way to add videos, images, tweets, audio, and other content from third-party services into your WordPress site by embedding.",
+		"description": "Add videos, posts, audio and other content from YouTube, Vimeo, Spotify and many other sites with the Embed block.",
 		"id": "blocks/embeds",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/embeds.md",
 		"order": 60,
@@ -2886,7 +2886,7 @@
 	},
 	"design/themes": {
 		"applies_to": [],
-		"description": "Fundamentally, the WordPress Theme system is a way to “skin” your WordPress site. Yet, it is more than just a “skin”. Skinning your site implies that only the design is changed.",
+		"description": "Find, install, preview and switch themes, the designs that control how your site looks.",
 		"id": "design/themes",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/README.md",
 		"order": 10,
@@ -2923,7 +2923,7 @@
 	},
 	"design/themes/themes-screen": {
 		"applies_to": [],
-		"description": "The Appearance Themes Screen allows you to manage your Themes. That means you can install, preview, delete Themes, activate, and update Themes.",
+		"description": "Install, preview, activate, update and delete themes on the Appearance > Themes screen.",
 		"id": "design/themes/themes-screen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/themes-screen.md",
 		"order": 20,
@@ -2941,7 +2941,7 @@
 	},
 	"design/themes/default-themes": {
 		"applies_to": [],
-		"description": "Every default theme WordPress has shipped, newest first: what each one offers and how to customise it. Twenty Twenty-Two and later are block themes; Twenty Twenty-One and earlier are classic themes.",
+		"description": "Every default theme WordPress has shipped, from Twenty Ten to Twenty Twenty-Five: what each one offers and how to customize it.",
 		"id": "design/themes/default-themes",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/README.md",
 		"order": 30,
@@ -2960,7 +2960,7 @@
 	},
 	"design/themes/default-themes/twenty-eleven": {
 		"applies_to": [],
-		"description": "The Twenty Eleven is the default theme for WordPress in 2011, introduced with WordPress version 3.2.",
+		"description": "Twenty Eleven, the default theme introduced in WordPress 3.2: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-eleven",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-eleven.md",
 		"order": 10,
@@ -2980,7 +2980,7 @@
 	},
 	"design/themes/default-themes/twenty-fifteen": {
 		"applies_to": [],
-		"description": "Twenty Fifteen is the default theme for WordPress in 2015. It is super-clean, content-focused, and designed to bring a little more simplicity to our blogs.",
+		"description": "Twenty Fifteen, the default theme introduced in WordPress 4.1: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-fifteen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-fifteen.md",
 		"order": 20,
@@ -3000,7 +3000,7 @@
 	},
 	"design/themes/default-themes/twenty-fourteen": {
 		"applies_to": [],
-		"description": "Twenty Fourteen was the default theme for WordPress 3.8, released in 2013. It is a magazine-style theme with a featured content area and a dark, bold layout.",
+		"description": "Twenty Fourteen, the default theme introduced in WordPress 3.8: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-fourteen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-fourteen.md",
 		"order": 30,
@@ -3019,7 +3019,7 @@
 	},
 	"design/themes/default-themes/twenty-nineteen": {
 		"applies_to": [],
-		"description": "Twenty Nineteen is the new default theme for WordPress Version 5.0. At the core of Twenty Nineteen is its simple, sophisticated typography.",
+		"description": "Twenty Nineteen, the default theme introduced in WordPress 5.0: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-nineteen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-nineteen.md",
 		"order": 40,
@@ -3039,7 +3039,7 @@
 	},
 	"design/themes/default-themes/twenty-seventeen": {
 		"applies_to": [],
-		"description": "Twenty Seventeen is the new default theme for WordPress in 2017.",
+		"description": "Twenty Seventeen, the default theme introduced in WordPress 4.7: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-seventeen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-seventeen.md",
 		"order": 50,
@@ -3059,7 +3059,7 @@
 	},
 	"design/themes/default-themes/twenty-sixteen": {
 		"applies_to": [],
-		"description": "Twenty Sixteen is the default theme for WordPress in 2016.",
+		"description": "Twenty Sixteen, the default theme introduced in WordPress 4.4: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-sixteen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-sixteen.md",
 		"order": 60,
@@ -3079,7 +3079,7 @@
 	},
 	"design/themes/default-themes/twenty-ten": {
 		"applies_to": [],
-		"description": "The Twenty Ten is the default theme for WordPress in 2010, introduced with WordPress version 3.0.",
+		"description": "Twenty Ten, the default theme introduced in WordPress 3.0: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-ten",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-ten.md",
 		"order": 70,
@@ -3099,7 +3099,7 @@
 	},
 	"design/themes/default-themes/twenty-thirteen": {
 		"applies_to": [],
-		"description": "Twenty Thirteen was the default theme for WordPress 3.6, released in 2013. It is a colorful, single-column blog theme with support for post formats.",
+		"description": "Twenty Thirteen, the default theme introduced in WordPress 3.6: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-thirteen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-thirteen.md",
 		"order": 80,
@@ -3118,7 +3118,7 @@
 	},
 	"design/themes/default-themes/twenty-twelve": {
 		"applies_to": [],
-		"description": "The Twenty Twelve is the default theme for WordPress in 2012, designed by Drew Strojny.",
+		"description": "Twenty Twelve, the default theme introduced in WordPress 3.5: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-twelve",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twelve.md",
 		"order": 90,
@@ -3138,7 +3138,7 @@
 	},
 	"design/themes/default-themes/twenty-twenty": {
 		"applies_to": [],
-		"description": "Twenty Twenty is the new default theme for WordPress Version 5.3. It is designed with the flexibility of the block editor at its core.",
+		"description": "Twenty Twenty, the default theme introduced in WordPress 5.3: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-twenty",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twenty.md",
 		"order": 100,
@@ -3158,7 +3158,7 @@
 	},
 	"design/themes/default-themes/twenty-twenty-five": {
 		"applies_to": [],
-		"description": "Twenty Twenty-Five is the new default theme for WordPress Version 6.7. Twenty Twenty-Five emphasizes simplicity and adaptability.",
+		"description": "Twenty Twenty-Five, the default theme introduced in WordPress 6.7: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-twenty-five",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twenty-five.md",
 		"order": 110,
@@ -3177,7 +3177,7 @@
 	},
 	"design/themes/default-themes/twenty-twenty-four": {
 		"applies_to": [],
-		"description": "Twenty Twenty-Four is the new, stylish and versatile, default theme for WordPress Version 6.4.",
+		"description": "Twenty Twenty-Four, the default theme introduced in WordPress 6.4: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-twenty-four",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twenty-four.md",
 		"order": 120,
@@ -3196,7 +3196,7 @@
 	},
 	"design/themes/default-themes/twenty-twenty-one": {
 		"applies_to": [],
-		"description": "Twenty Twenty-One is the new default theme for WordPress Version 5.6.",
+		"description": "Twenty Twenty-One, the default theme introduced in WordPress 5.6: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-twenty-one",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twenty-one.md",
 		"order": 130,
@@ -3216,7 +3216,7 @@
 	},
 	"design/themes/default-themes/twenty-twenty-three": {
 		"applies_to": [],
-		"description": "Twenty Twenty-Three is the new, accessibility-ready, default theme for WordPress Version 6.1.",
+		"description": "Twenty Twenty-Three, the default theme introduced in WordPress 6.1: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-twenty-three",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twenty-three.md",
 		"order": 140,
@@ -3235,7 +3235,7 @@
 	},
 	"design/themes/default-themes/twenty-twenty-two": {
 		"applies_to": [],
-		"description": "Twenty Twenty-Two is the new default theme for WordPress Version 5.9.",
+		"description": "Twenty Twenty-Two, the default theme introduced in WordPress 5.9: what it offers and how to customize it.",
 		"id": "design/themes/default-themes/twenty-twenty-two",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/themes/default-themes/twenty-twenty-two.md",
 		"order": 150,
@@ -3254,7 +3254,7 @@
 	},
 	"design/site-editor": {
 		"applies_to": [],
-		"description": "The Site editor allows you to design the entire site including the header, footer, and everything in between, with blocks. It gives you greater control over how your site looks.",
+		"description": "Design your whole site with blocks in the Site Editor, from the header and footer to every template.",
 		"id": "design/site-editor",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/README.md",
 		"order": 20,
@@ -3275,7 +3275,7 @@
 	},
 	"design/site-editor/templates": {
 		"applies_to": [],
-		"description": "The Template Editor allows you to edit and create templates, using blocks. These templates control the layout of the posts, pages, or page types on your site.",
+		"description": "Templates set the layout of each kind of page on your site; template parts are the pieces they share, such as the header.",
 		"id": "design/site-editor/templates",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/templates.md",
 		"order": 10,
@@ -3293,7 +3293,7 @@
 	},
 	"design/site-editor/styles": {
 		"applies_to": [],
-		"description": "Styles is a feature that allows you to set the overall aesthetics and layout of your site at a global level, instead of editing individual blocks or pages.",
+		"description": "Change the colors, fonts and spacing of your whole site at once with Styles in the Site Editor.",
 		"id": "design/site-editor/styles",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/styles.md",
 		"order": 20,
@@ -3311,7 +3311,7 @@
 	},
 	"design/site-editor/fonts": {
 		"applies_to": [],
-		"description": "The Font Library lets you upload font files, install fonts from Google Fonts, and manage the fonts available on your site..",
+		"description": "Install, upload and manage the fonts on your site with the Font Library.",
 		"id": "design/site-editor/fonts",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/fonts.md",
 		"order": 30,
@@ -3329,7 +3329,7 @@
 	},
 	"design/site-editor/navigation": {
 		"applies_to": [],
-		"description": "WordPress version 6.3 introduces the possibility to edit your site’s menus via the Site Editor.",
+		"description": "Create and edit your site's navigation menus in the Site Editor.",
 		"id": "design/site-editor/navigation",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/navigation.md",
 		"order": 40,
@@ -3347,7 +3347,7 @@
 	},
 	"design/site-editor/site-icon": {
 		"applies_to": [],
-		"description": "A favicon (short for “favorite icon”) is an icon associated with a particular website or web page. It is generally intended to be used when you bookmark a web page.",
+		"description": "Set the small icon that browsers show in tabs and bookmarks for your site.",
 		"id": "design/site-editor/site-icon",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/site-icon.md",
 		"order": 50,
@@ -3366,7 +3366,7 @@
 	},
 	"design/site-editor/command-palette": {
 		"applies_to": [],
-		"description": "The Command Palette offers you a way to quickly navigate and manage your entire site with the ability to invoke different actions such as:",
+		"description": "Jump to any part of your site or run an action from the keyboard with the Command Palette.",
 		"id": "design/site-editor/command-palette",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/site-editor/command-palette.md",
 		"order": 60,
@@ -3384,7 +3384,7 @@
 	},
 	"design/patterns": {
 		"applies_to": [],
-		"description": "Block Patterns are a collection of blocks that you can insert into posts and pages and then customize with your own content.",
+		"description": "Patterns are ready-made groups of blocks that you insert and then change to fit your content.",
 		"id": "design/patterns",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/patterns/README.md",
 		"order": 30,
@@ -3405,7 +3405,7 @@
 	},
 	"design/patterns/pattern-directory": {
 		"applies_to": [],
-		"description": "The Block Pattern Directory is a resource for content creators who want to find more block patterns to use on their site to save time in creating content in unique layouts.",
+		"description": "Find patterns in the WordPress.org Pattern Directory and use them on your site.",
 		"id": "design/patterns/pattern-directory",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/patterns/pattern-directory.md",
 		"order": 10,
@@ -3423,7 +3423,7 @@
 	},
 	"design/patterns/submit-a-pattern": {
 		"applies_to": [],
-		"description": "Block Patterns are a collection of designed core blocks that can be used in posts and pages. They are building blocks to get content created faster.",
+		"description": "Share a pattern you made with every WordPress site by submitting it to the Pattern Directory.",
 		"id": "design/patterns/submit-a-pattern",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/design/patterns/submit-a-pattern.md",
 		"order": 20,
@@ -3457,7 +3457,7 @@
 	},
 	"manage/dashboard": {
 		"applies_to": [],
-		"description": "The Administration Screen provides access to the control features of your WordPress installation.",
+		"description": "A tour of the WordPress admin: the toolbar, the menu, and the screens you reach from it.",
 		"id": "manage/dashboard",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/dashboard/README.md",
 		"order": 10,
@@ -3477,7 +3477,7 @@
 	},
 	"manage/dashboard/dashboard-screen": {
 		"applies_to": [],
-		"description": "From the Dashboard Screen, you can quickly access your site’s content and get glimpses into other areas of the WordPress community.",
+		"description": "The Dashboard screen you see after you log in: its widgets and how to arrange them.",
 		"id": "manage/dashboard/dashboard-screen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/dashboard/dashboard-screen.md",
 		"order": 10,
@@ -3495,7 +3495,7 @@
 	},
 	"manage/dashboard/posts-screen": {
 		"applies_to": [],
-		"description": "The Posts Screen provides the facility to manage all the Posts in a blog. Via this Screen, Posts can be edited, deleted, and viewed.",
+		"description": "List, search, filter and edit your posts, one at a time or in bulk, on the Posts screen.",
 		"id": "manage/dashboard/posts-screen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/dashboard/posts-screen.md",
 		"order": 20,
@@ -3513,7 +3513,7 @@
 	},
 	"manage/dashboard/pages-screen": {
 		"applies_to": [],
-		"description": "The Pages Screen provides the facility to manage all the Pages in a blog. Via this Screen, Pages can be edited, deleted, and viewed.",
+		"description": "List, search, filter and edit your pages, one at a time or in bulk, on the Pages screen.",
 		"id": "manage/dashboard/pages-screen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/dashboard/pages-screen.md",
 		"order": 30,
@@ -3565,7 +3565,7 @@
 	},
 	"manage/settings/general": {
 		"applies_to": [],
-		"description": "This Settings General Screen is the default Screen in the Settings Administration Screen and controls some of the most basic configuration settings for your site: your site’s title and location.",
+		"description": "Set your site's title, tagline, address, admin email, language, time zone and date format on the Settings > General screen.",
 		"id": "manage/settings/general",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/general.md",
 		"order": 10,
@@ -3583,7 +3583,7 @@
 	},
 	"manage/settings/writing": {
 		"applies_to": [],
-		"description": "Use the Settings Writing Screen to control the interface you use when writing new posts.",
+		"description": "Set the default post category and format, and other writing options, on the Settings > Writing screen.",
 		"id": "manage/settings/writing",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/writing.md",
 		"order": 20,
@@ -3601,7 +3601,7 @@
 	},
 	"manage/settings/reading": {
 		"applies_to": [],
-		"description": "The options in the Reading Settings Screen are few in number, but still important. You can decide if you want your latest posts or a “static” Page displayed as your website’s front (home) page.",
+		"description": "Choose what your front page shows and how many posts appear on the Settings > Reading screen.",
 		"id": "manage/settings/reading",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/reading.md",
 		"order": 30,
@@ -3619,7 +3619,7 @@
 	},
 	"manage/settings/discussion": {
 		"applies_to": [],
-		"description": "The Settings Discussion Screen allows you to set the options concerning comments (also called discussion).",
+		"description": "Choose who can comment, how comments are moderated and which avatars appear on the Settings > Discussion screen.",
 		"id": "manage/settings/discussion",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/discussion.md",
 		"order": 40,
@@ -3637,7 +3637,7 @@
 	},
 	"manage/settings/media": {
 		"applies_to": [],
-		"description": "The Settings Media Screen controls the various settings related to images and other media that are used in writing posts and pages.",
+		"description": "Set the sizes WordPress creates for uploaded images and how uploads are organized on the Settings > Media screen.",
 		"id": "manage/settings/media",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/media.md",
 		"order": 50,
@@ -3655,7 +3655,7 @@
 	},
 	"manage/settings/permalinks": {
 		"applies_to": [],
-		"description": "Permalinks are the permanent URLs of your posts, pages, categories, and other archive pages on your website. These URLs are permanent and should never be changed, hence the name permalink.",
+		"description": "Choose the structure of the URLs of your posts and archives on the Settings > Permalinks screen.",
 		"id": "manage/settings/permalinks",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/permalinks.md",
 		"order": 60,
@@ -3674,7 +3674,7 @@
 	},
 	"manage/settings/connectors": {
 		"applies_to": [],
-		"description": "The Settings Connectors screen lets you connect your WordPress site to external services. It comes with the three following featured connectors:",
+		"description": "Connect your site to external services, such as AI providers, on the Settings > Connectors screen.",
 		"id": "manage/settings/connectors",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/connectors.md",
 		"order": 70,
@@ -3692,7 +3692,7 @@
 	},
 	"manage/settings/date-and-time-format": {
 		"applies_to": [],
-		"description": "Certain WordPress tag functions are used to display or return date and time information; the_date() and the_time() are examples of this.",
+		"description": "The format characters WordPress uses to show dates and times, and how to write your own format.",
 		"id": "manage/settings/date-and-time-format",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/settings/date-and-time-format.md",
 		"order": 80,
@@ -3710,7 +3710,7 @@
 	},
 	"manage/users": {
 		"applies_to": [],
-		"description": "Who can do what on your site. Learn about user roles and capabilities, set up your Gravatar profile picture, reset a lost password, and fix problems logging in.",
+		"description": "Who can do what on your site: user roles, adding users and managing profiles.",
 		"id": "manage/users",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/users/README.md",
 		"order": 30,
@@ -3726,7 +3726,7 @@
 	},
 	"manage/users/roles-and-capabilities": {
 		"applies_to": [],
-		"description": "WordPress uses a concept of Roles, designed to give the site owner the ability to control what users can and cannot do within the site.",
+		"description": "The roles a WordPress user can have, from Subscriber to Administrator, and what each one can do.",
 		"id": "manage/users/roles-and-capabilities",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/users/roles-and-capabilities.md",
 		"order": 10,
@@ -3744,7 +3744,7 @@
 	},
 	"manage/users/add-a-user": {
 		"applies_to": [],
-		"description": "The Users Add New Screen allows you to add new users who can login to your site.",
+		"description": "Add a new user to your site and choose their role.",
 		"id": "manage/users/add-a-user",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/users/add-a-user.md",
 		"order": 20,
@@ -3762,7 +3762,7 @@
 	},
 	"manage/users/users-screen": {
 		"applies_to": [],
-		"description": "The Users Screen allows you to add, change, or delete your site’s users. In addition, you can search for users and make bulk changes and deletions to a selected group of users.",
+		"description": "List, search, edit and delete users, and change their roles, on the Users screen.",
 		"id": "manage/users/users-screen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/users/users-screen.md",
 		"order": 30,
@@ -3780,7 +3780,7 @@
 	},
 	"manage/users/your-profile": {
 		"applies_to": [],
-		"description": "The Your Profile Screen is accessible from both the main navigation menu under Users and by clicking on your name link at the top of the WordPress screen.",
+		"description": "Change your name, email, password, color scheme and other personal options on your profile screen.",
 		"id": "manage/users/your-profile",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/users/your-profile.md",
 		"order": 40,
@@ -3798,7 +3798,7 @@
 	},
 	"manage/users/gravatars": {
 		"applies_to": [],
-		"description": "When browsing different web sites, you may notice that many users have a picture next to their name.",
+		"description": "How WordPress uses Gravatar to show profile pictures, and how to set up your own.",
 		"id": "manage/users/gravatars",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/users/gravatars.md",
 		"order": 50,
@@ -3816,7 +3816,7 @@
 	},
 	"manage/plugins": {
 		"applies_to": [],
-		"description": "WordPress Plugins are PHP scripts that extend the functionality of WordPress. They enhance the features of WordPress or add entirely new features to your site.",
+		"description": "Find, install, update, deactivate and delete plugins, which add features to your site.",
 		"id": "manage/plugins",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/plugins.md",
 		"order": 40,
@@ -3837,7 +3837,7 @@
 	},
 	"manage/updates": {
 		"applies_to": [],
-		"description": "You should always update WordPress to the latest version. When a new version of WordPress is available you will receive an update message in your WordPress Admin Screens.",
+		"description": "Update WordPress, plugins, themes and translations, and what to do when an update fails.",
 		"id": "manage/updates",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/updates/README.md",
 		"order": 50,
@@ -3856,7 +3856,7 @@
 	},
 	"manage/updates/auto-updates": {
 		"applies_to": [],
-		"description": "To keep your WordPress site secure, you should always update your plugins and themes to the latest version.",
+		"description": "Turn automatic updates on or off for WordPress, plugins and themes.",
 		"id": "manage/updates/auto-updates",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/updates/auto-updates.md",
 		"order": 10,
@@ -3874,7 +3874,7 @@
 	},
 	"manage/updates/site-maintenance": {
 		"applies_to": [],
-		"description": "To keep WordPress working healthy, there is some site maintenance we recommend you do frequently.",
+		"description": "A checklist of regular tasks that keep a WordPress site healthy: backups, updates, spam and broken links.",
 		"id": "manage/updates/site-maintenance",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/updates/site-maintenance.md",
 		"order": 20,
@@ -3895,7 +3895,7 @@
 	},
 	"manage/updates/update-php": {
 		"applies_to": [],
-		"description": "This page will explain why this matters to you, and then how you can fix it.",
+		"description": "Why the PHP version your site runs on matters, and how to update it.",
 		"id": "manage/updates/update-php",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/updates/update-php.md",
 		"order": 30,
@@ -3929,7 +3929,7 @@
 	},
 	"manage/security/password-best-practices": {
 		"applies_to": [],
-		"description": "Securing your WordPress starts with a strong password. A strong password is complex and elaborate. It isn’t easy to guess since it doesn’t contain recognizable words, names, dates or numbers.",
+		"description": "How to choose a strong password for your WordPress account and keep it safe.",
 		"id": "manage/security/password-best-practices",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/security/password-best-practices.md",
 		"order": 10,
@@ -3947,7 +3947,7 @@
 	},
 	"manage/security/site-was-hacked": {
 		"applies_to": [],
-		"description": "Suffering a hack can be one of the more frustrating experiences you’ll have on your online journey. Like most things however, taking a pragmatic approach can help you maintain your sanity.",
+		"description": "What to do, step by step, when your WordPress site has been hacked.",
 		"id": "manage/security/site-was-hacked",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/security/site-was-hacked.md",
 		"order": 20,
@@ -3965,7 +3965,7 @@
 	},
 	"manage/privacy": {
 		"applies_to": [],
-		"description": "Depending on your national or international privacy regulations (such as the European Union’s General Data Protection Regulation which may be applicable to you) you may be required to display a.",
+		"description": "The privacy tools in WordPress: the privacy policy page, and exporting or erasing a person's personal data.",
 		"id": "manage/privacy",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/privacy.md",
 		"order": 70,
@@ -3986,7 +3986,7 @@
 	},
 	"manage/troubleshooting": {
 		"applies_to": [],
-		"description": "Site Health screen is located in your dashboard under Tools > Site Health > Info.",
+		"description": "Check your site's health on the Site Health screen, and find what to do when something goes wrong.",
 		"id": "manage/troubleshooting",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/troubleshooting/README.md",
 		"order": 80,
@@ -4005,7 +4005,7 @@
 	},
 	"manage/troubleshooting/faq-troubleshooting": {
 		"applies_to": [],
-		"description": "Also refer Common WordPress Errors for the most common WordPress errors experienced by WordPress users such as",
+		"description": "Answers to common WordPress problems, from login trouble to errors after an update.",
 		"id": "manage/troubleshooting/faq-troubleshooting",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/troubleshooting/faq-troubleshooting.md",
 		"order": 10,
@@ -4023,7 +4023,7 @@
 	},
 	"manage/troubleshooting/recovery-mode": {
 		"applies_to": [],
-		"description": "Recovery Mode is a built-in WordPress feature (introduced in version 5.2) that in some cases may help you regain access to your site when a fatal error occurs, without the need to use FTP and/or.",
+		"description": "How recovery mode lets you back into your site after a fatal error, without FTP.",
 		"id": "manage/troubleshooting/recovery-mode",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/troubleshooting/recovery-mode.md",
 		"order": 20,
@@ -4041,7 +4041,7 @@
 	},
 	"manage/troubleshooting/changes-not-showing": {
 		"applies_to": [],
-		"description": "After you make a few changes in your WordPress content or your design, you may notice that nothing has changed.",
+		"description": "Why a change you made may not show on your site yet, and how to clear the caches that cause it.",
 		"id": "manage/troubleshooting/changes-not-showing",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/manage/troubleshooting/changes-not-showing.md",
 		"order": 30,
@@ -4203,7 +4203,7 @@
 	},
 	"classic/classic-editor/write-posts-classic": {
 		"applies_to": [],
-		"description": "Posts are entries that display in reverse order on your home page and/or blog page. Posts usually have comment fields beneath them and are included in your site’s RSS feed.",
+		"description": "Write, format and publish a post with the Classic Editor.",
 		"id": "classic/classic-editor/write-posts-classic",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/classic-editor/write-posts-classic.md",
 		"order": 10,
@@ -4221,7 +4221,7 @@
 	},
 	"classic/classic-editor/write-code-in-posts": {
 		"applies_to": [],
-		"description": "Whether you write plugins or hacks for WordPress, or you want to add bits and pieces of code about your own WordPress site or other programming#Computing) code like HTML, CSS, PHP, or JavaScript.",
+		"description": "Show code in a post written with the Classic Editor without WordPress changing or running it.",
 		"id": "classic/classic-editor/write-code-in-posts",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/classic-editor/write-code-in-posts.md",
 		"order": 20,
@@ -4239,7 +4239,7 @@
 	},
 	"classic/classic-editor/audio-video-shortcodes": {
 		"applies_to": [],
-		"description": "The Audio feature allows you to embed audio files and play them back using a simple Shortcode. This was added as of WordPress 3.6 and is used like this:",
+		"description": "Embed audio and video files in Classic Editor content with the audio and video shortcodes.",
 		"id": "classic/classic-editor/audio-video-shortcodes",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/classic-editor/audio-video-shortcodes.md",
 		"order": 30,
@@ -4258,7 +4258,7 @@
 	},
 	"classic/widgets-menus-customizer": {
 		"applies_to": [],
-		"description": "Classic themes are customised in the Customizer (Appearance > Customize) and on the Widgets and Menus screens.",
+		"description": "Customize a classic theme with the Customizer, widgets and menus.",
 		"id": "classic/widgets-menus-customizer",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/widgets-menus-customizer/README.md",
 		"order": 20,
@@ -4274,7 +4274,7 @@
 	},
 	"classic/widgets-menus-customizer/customizer": {
 		"applies_to": [],
-		"description": "WordPress Version 3.4 introduced Theme Customizer, which allows you to play around with various looks and settings for your current theme or one you’re thinking about switching to without.",
+		"description": "Preview and change a classic theme's settings, such as the site identity, colors, menus and widgets, in the Customizer.",
 		"id": "classic/widgets-menus-customizer/customizer",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/widgets-menus-customizer/customizer.md",
 		"order": 10,
@@ -4292,7 +4292,7 @@
 	},
 	"classic/widgets-menus-customizer/widgets-screen": {
 		"applies_to": [],
-		"description": "Themes usually have at least 1 or 2 sidebars. Each section in the sidebar is known as a “Widget” that you can add or remove, and move up or down.",
+		"description": "Add, arrange and remove widgets in a classic theme's widget areas on the Appearance > Widgets screen.",
 		"id": "classic/widgets-menus-customizer/widgets-screen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/widgets-menus-customizer/widgets-screen.md",
 		"order": 20,
@@ -4311,7 +4311,7 @@
 	},
 	"classic/widgets-menus-customizer/block-widgets-editor": {
 		"applies_to": [],
-		"description": "The Block-based Widgets Editor brings the power of blocks to the Theme Customizer and Appearance > Widgets sections in the WordPress Administration Screens allowing you to add blocks right next.",
+		"description": "Add blocks to the widget areas of a classic theme with the block-based widgets editor.",
 		"id": "classic/widgets-menus-customizer/block-widgets-editor",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/widgets-menus-customizer/block-widgets-editor.md",
 		"order": 30,
@@ -4329,7 +4329,7 @@
 	},
 	"classic/widgets-menus-customizer/menus-screen": {
 		"applies_to": [],
-		"description": "The Menus Screen enables the user to create a custom menu (also known as a navigation bar, navigation menu, or main menu). It is a section of the site that helps visitors to navigate the site.",
+		"description": "Create and manage navigation menus for a classic theme on the Appearance > Menus screen.",
 		"id": "classic/widgets-menus-customizer/menus-screen",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/classic/widgets-menus-customizer/menus-screen.md",
 		"order": 40,

@@ -1,6 +1,6 @@
 ---
 title: Set a static front page
-description: The purpose of this document is to explain the process of setting up a static page on your WordPress site. This document doesn’t discuss the automatic display of posts on the Home page.
+description: "Show a page instead of your latest posts on your site's front page, and put your posts on a page of their own."
 type: guide
 order: 60
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Move blocks
-description: "There are three different ways to move or change the position of a block within your post or page from the admin screen of the WordPress Block Editor: using the move handles, drag & drop, or."
+description: "Move blocks within a post or page with the move arrows, drag and drop, or List View."
 type: guide
 order: 20
 redirect_from:

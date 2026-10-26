@@ -1,6 +1,6 @@
 ---
 title: Post Terms
-description: Use the Categories block to display the posts’ categories. This block is primarily nested inside a query loop block and helps to customize the appearance of the query loop.
+description: "Show a post's categories, tags or other terms with the Categories, Tags and other post terms blocks."
 type: reference
 slug: post-terms-block
 redirect_from:

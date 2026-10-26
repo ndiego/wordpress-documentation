@@ -1,6 +1,6 @@
 ---
 title: Excerpt
-description: Use the Excerpt block to display the excerpt of a post. This block is primarily nested inside a query loop block and helps to customize the appearance of the query loop.
+description: "Show a post's excerpt in a template or a Query Loop with the Excerpt block."
 type: reference
 slug: post-excerpt-block
 redirect_from:

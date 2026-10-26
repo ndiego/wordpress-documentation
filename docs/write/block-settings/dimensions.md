@@ -1,6 +1,6 @@
 ---
 title: Dimensions
-description: You can use the dimension settings in blocks to help you better customize your layout and design.
+description: "Set the padding, margin, spacing and size of a block with the dimensions settings."
 type: reference
 order: 30
 redirect_from:

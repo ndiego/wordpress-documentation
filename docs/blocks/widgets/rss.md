@@ -1,6 +1,6 @@
 ---
 title: RSS
-description: An RSS feed is a machine-readable version of the content of a blog or a website.
+description: Show the latest items from any RSS feed with the RSS block.
 type: reference
 slug: rss-block
 redirect_from:

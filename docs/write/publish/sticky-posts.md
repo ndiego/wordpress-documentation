@@ -1,6 +1,6 @@
 ---
 title: Sticky posts
-description: "Note: Sticky Post is only available for the built-in post type post and not for custom post types."
+description: Keep a post at the top of your blog page by making it sticky.
 type: guide
 order: 40
 redirect_from:

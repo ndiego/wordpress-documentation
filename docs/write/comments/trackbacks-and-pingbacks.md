@@ -1,6 +1,6 @@
 ---
 title: Trackbacks and pingbacks
-description: "Trackbacks and pingbacks are methods for alerting blogs that you have linked to them. The difference between them is:"
+description: "What trackbacks and pingbacks are, how they differ, and how to turn them off."
 type: concept
 order: 40
 redirect_from:

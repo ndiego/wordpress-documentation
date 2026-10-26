@@ -1,6 +1,6 @@
 ---
 title: WordPress.org and WordPress.com
-description: "People are often confused about the differences between WordPress and WordPress.com. WordPress is the free, Open Source web publishing software project, owned by no one individual or company."
+description: "The difference between WordPress.org, the free software you can install anywhere, and WordPress.com, a hosting service built on it."
 type: concept
 order: 20
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Query Total
-description: "WordPress 6.8 is set to introduce a new block called Query Total, enhancing the flexibility of the Query Loop block."
+description: "Show how many posts a Query Loop found, or which ones are on the current page, with the Query Total block."
 type: reference
 slug: query-total-block
 redirect_from:

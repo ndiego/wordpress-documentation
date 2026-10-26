@@ -1,6 +1,6 @@
 ---
 title: Organize your content
-description: "How WordPress structures content and URLs: post types, categories and tags, custom fields, permalinks, and the special pages such as a static front page or a search page."
+description: "How WordPress groups content so visitors can find it: categories and tags, post types, custom fields, a static front page and a search page."
 type: concept
 order: 80
 ---

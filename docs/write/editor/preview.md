@@ -1,6 +1,6 @@
 ---
 title: Preview
-description: The View button is available in the top toolbar in the WordPress Block Editor and Site Editor.
+description: "Preview a post, page or template at desktop, tablet and mobile widths before you publish it."
 type: guide
 order: 20
 redirect_from:

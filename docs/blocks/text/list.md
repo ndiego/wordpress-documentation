@@ -1,6 +1,6 @@
 ---
 title: List
-description: You can use the List block to create a bulleted or numbered list.
+description: "Create a bulleted or numbered list, with nested items, using the List block."
 type: reference
 slug: list-block
 redirect_from:

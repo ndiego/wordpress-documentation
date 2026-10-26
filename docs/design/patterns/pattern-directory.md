@@ -1,6 +1,6 @@
 ---
 title: Pattern Directory
-description: The Block Pattern Directory is a resource for content creators who want to find more block patterns to use on their site to save time in creating content in unique layouts.
+description: Find patterns in the WordPress.org Pattern Directory and use them on your site.
 type: guide
 order: 10
 redirect_from:

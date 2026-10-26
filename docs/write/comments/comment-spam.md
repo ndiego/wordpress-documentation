@@ -1,6 +1,6 @@
 ---
 title: Comment spam
-description: "If you’ve spent any time online, you’ve probably come across spam in one form or another. In general, spam is unwanted content posted for promotional, misleading, or abusive purposes."
+description: "How to stop spam comments, and how to clean up the ones that get through."
 type: guide
 order: 30
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Site icon
-description: A favicon (short for “favorite icon”) is an icon associated with a particular website or web page. It is generally intended to be used when you bookmark a web page.
+description: Set the small icon that browsers show in tabs and bookmarks for your site.
 type: guide
 order: 50
 redirect_from:

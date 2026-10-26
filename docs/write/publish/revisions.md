@@ -1,6 +1,6 @@
 ---
 title: Revisions
-description: The WordPress revisions system stores a record of each saved draft or published update. The revision system allows you to see what changes were made in each revision by dragging a slider.
+description: "See every saved version of a post, compare two versions, and restore an earlier one."
 type: guide
 order: 60
 redirect_from:

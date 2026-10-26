@@ -1,6 +1,6 @@
 ---
 title: Embeds
-description: "Since WordPress 5.0, the WordPress block editor has an easy way to add videos, images, tweets, audio, and other content from third-party services into your WordPress site by embedding."
+description: "Add videos, posts, audio and other content from YouTube, Vimeo, Spotify and many other sites with the Embed block."
 type: reference
 order: 60
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Recovery mode
-description: "Recovery Mode is a built-in WordPress feature (introduced in version 5.2) that in some cases may help you regain access to your site when a fatal error occurs, without the need to use FTP and/or."
+description: "How recovery mode lets you back into your site after a fatal error, without FTP."
 type: guide
 order: 20
 redirect_from:
@@ -23,19 +23,19 @@ At the same time, an email will be sent to the administrator’s email address i
 
 Keep in mind that WordPress loads active plugins in a set order. If your site uses a plugin to change how outgoing emails are sent, but a fatal error happens before that plugin loads, the email will be sent directly from your web server. If your server’s email settings aren’t fully trusted or its IP address is flagged for spam, the email might never reach the admin’s inbox, it could be filtered to spam or blocked entirely during delivery.
 
-### How to enter Recovery Mode
+### How to enter recovery mode
 
 You’ll receive an email in your site administrator’s email account with a link to login and details about the error. Click the link to access your site in Recovery Mode and then proceed to login. You will see a notice about Recovery Mode upon logging in:
 
 ![Admin login for a WordPress site, showing a notice above that says "Recovery Mode Initialized. Please log in to continue."](https://wordpress.org/support/files/2025/08/image-2-926x1024.png)
 
-### What happens in Recovery Mode
+### What happens in recovery mode
 
 -   Faulty plugins or themes are paused just for your admin session so you can log in safely.
 -   Your dashboard loads with error notices pointing to the problematic component.
 -   You can deactivate or fix the issue without affecting your site’s frontend users or needing FTP.
 
-### What to do in Recovery Mode
+### What to do in recovery mode
 
 1.  Log in via the special Recovery Mode link received via your administrator email.
 2.  Look for notices indicating which plugin or theme failed. Go to Plugins or Appearance > Themes to deactivate the problematic item. This is typically a temporary solution to the underlying problem, but provides an immediate resolution for the site to load.

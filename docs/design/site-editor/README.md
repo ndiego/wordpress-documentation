@@ -1,6 +1,6 @@
 ---
 title: The Site Editor
-description: "The Site editor allows you to design the entire site including the header, footer, and everything in between, with blocks. It gives you greater control over how your site looks."
+description: "Design your whole site with blocks in the Site Editor, from the header and footer to every template."
 type: guide
 order: 20
 redirect_from:

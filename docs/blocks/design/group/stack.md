@@ -1,6 +1,6 @@
 ---
 title: Stack
-description: Stack block is one of the container blocks that can be used to nest other blocks vertically.
+description: Stack blocks one above the other with the Stack variation of the Group block.
 type: reference
 slug: stack-block
 redirect_from:

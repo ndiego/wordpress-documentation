@@ -1,6 +1,6 @@
 ---
 title: Login/out
-description: The Login-out block allows you to automatically add a link anywhere on your site which lets your site users login and/or logout if they are already logged in.
+description: "Add a link that lets visitors log in to your site, or log out when they are logged in, with the Login/out block."
 type: reference
 slug: loginout-block
 redirect_from:

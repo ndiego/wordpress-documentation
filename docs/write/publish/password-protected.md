@@ -1,6 +1,6 @@
 ---
 title: Password-protected content
-description: "Once you publish a WordPress post (or Page), it is visible to the public (by default)."
+description: Protect a post or page with a password so that only people who know it can read it.
 type: guide
 order: 30
 redirect_from:

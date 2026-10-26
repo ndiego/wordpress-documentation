@@ -1,6 +1,6 @@
 ---
 title: Tag Cloud
-description: "The Tag Cloud block allows adding tag/category cloud into the page/post. A tag cloud is a list of all tags /categories on your site, displayed in alphabetical order."
+description: Show your most used tags or categories as a cloud of links with the Tag Cloud block.
 type: reference
 slug: tag-cloud-block
 redirect_from:

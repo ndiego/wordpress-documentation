@@ -1,6 +1,6 @@
 ---
 title: Spacer
-description: "If you want to have a space between two blocks, the Spacer block is what you will use."
+description: Add empty space between blocks with the Spacer block.
 type: reference
 slug: spacer-block
 redirect_from:

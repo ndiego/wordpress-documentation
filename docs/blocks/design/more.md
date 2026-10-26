@@ -1,6 +1,6 @@
 ---
 title: More
-description: "The More block is used to display a Read More link to the full blog post, on the blog home page, or on the archive pages."
+description: "Show only the start of a post on your blog page, with a link to read the rest, using the More block."
 type: reference
 slug: more-block
 redirect_from:

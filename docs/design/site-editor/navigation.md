@@ -1,6 +1,6 @@
 ---
 title: Navigation
-description: WordPress version 6.3 introduces the possibility to edit your site’s menus via the Site Editor.
+description: "Create and edit your site's navigation menus in the Site Editor."
 type: guide
 order: 40
 redirect_from:

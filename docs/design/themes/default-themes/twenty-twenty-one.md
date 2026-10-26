@@ -1,6 +1,6 @@
 ---
 title: Twenty Twenty-One
-description: Twenty Twenty-One is the new default theme for WordPress Version 5.6.
+description: "Twenty Twenty-One, the default theme introduced in WordPress 5.6: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-twenty-one-changelog/
@@ -33,7 +33,7 @@ redirect_from:
 -   Support for High Contrast mode and Dark Mode
 -   Support for keyboard navigation
 
-## Starter Content
+## Starter content
 
 Twenty Twenty-One comes with [Starter Content](https://make.wordpress.org/core/2016/11/30/starter-content-for-themes-in-4-7/) that explains how to use the theme’s [block patterns](../../patterns/README.md) and styles. You can only activate starter content on freshly installed sites that do not have any pages or posts. To activate, please head over to the Customizer and click on Publish.
 
@@ -155,7 +155,7 @@ Add your own custom color, or select a color from the palette.
 
 The colors of the elements on your site are automatically calculated based on the background colors you pick. This ensures that the color contrast is always high enough to be accessible to all visitors.
 
-## Site Logo
+## Site logo
 
 Twenty Twenty-One includes a site logo setting which can be used to display the logo of your business or an image of yourself. You can set your site logo by going to Customizer → Site Identity.
 

@@ -1,6 +1,6 @@
 ---
 title: Code
-description: "To add the Code block, open the block inserter by clicking the (+) icon on the upper left corner of the editor."
+description: "Show code examples exactly as typed, in a monospaced font, with the Code block."
 type: reference
 slug: code-block
 redirect_from:

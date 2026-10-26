@@ -1,6 +1,6 @@
 ---
 title: Keyboard shortcuts
-description: Several keyboard shortcuts are available for you in WordPress visual (block) editor. These shortcuts allow you to do simple tasks without reaching for your mouse.
+description: "Keyboard shortcuts for the block editor, the Classic Editor and the Comments screen, on Windows and Mac."
 type: reference
 order: 60
 redirect_from:

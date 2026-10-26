@@ -1,6 +1,6 @@
 ---
 title: Character entities
-description: "In many WordPress sites, you will see odd symbols that will pop up from time to time. Often these symbols appear in navigation links."
+description: "Type special characters, such as the copyright sign, accented letters and arrows, with HTML character entities."
 type: reference
 order: 10
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Changes not showing
-description: "After you make a few changes in your WordPress content or your design, you may notice that nothing has changed."
+description: "Why a change you made may not show on your site yet, and how to clear the caches that cause it."
 type: guide
 order: 30
 redirect_from:

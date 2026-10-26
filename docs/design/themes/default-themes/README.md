@@ -1,6 +1,6 @@
 ---
 title: Default themes
-description: "Every default theme WordPress has shipped, newest first: what each one offers and how to customise it. Twenty Twenty-Two and later are block themes; Twenty Twenty-One and earlier are classic themes."
+description: "Every default theme WordPress has shipped, from Twenty Ten to Twenty Twenty-Five: what each one offers and how to customize it."
 type: reference
 order: 30
 redirect_from:

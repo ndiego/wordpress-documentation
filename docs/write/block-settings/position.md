@@ -1,6 +1,6 @@
 ---
 title: Position
-description: The position settings in blocks allow you to set how an element is positioned in your site. These settings can only be found in a few blocks when they are placed at the root of site.
+description: Make a block stay at the top of the screen as visitors scroll with the position settings.
 type: reference
 order: 70
 redirect_from:

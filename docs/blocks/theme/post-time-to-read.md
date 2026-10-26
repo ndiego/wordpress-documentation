@@ -15,7 +15,7 @@ The Time to Read block shows an estimated reading time for the current post or p
 
 -   WordPress 6.9 or later.
 
-## Add the time to Read block
+## Add the Time to Read block
 
 1.  Open a post or page in the editor.
 2.  Place your cursor where you want the block to appear.

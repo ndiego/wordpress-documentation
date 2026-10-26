@@ -1,6 +1,6 @@
 ---
 title: Poetry
-description: "The Poetry block is specifically designed for writing poetry, song lyrics, or other literary expressions."
+description: "Write poetry and song lyrics with the spacing and line breaks you type, using the Poetry block."
 type: reference
 slug: verse-block
 redirect_from:

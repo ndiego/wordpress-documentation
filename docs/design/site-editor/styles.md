@@ -1,6 +1,6 @@
 ---
 title: Styles
-description: "Styles is a feature that allows you to set the overall aesthetics and layout of your site at a global level, instead of editing individual blocks or pages."
+description: "Change the colors, fonts and spacing of your whole site at once with Styles in the Site Editor."
 type: guide
 order: 20
 redirect_from:

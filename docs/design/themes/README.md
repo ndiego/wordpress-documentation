@@ -1,6 +1,6 @@
 ---
 title: Themes
-description: "Fundamentally, the WordPress Theme system is a way to “skin” your WordPress site. Yet, it is more than just a “skin”. Skinning your site implies that only the design is changed."
+description: "Find, install, preview and switch themes, the designs that control how your site looks."
 type: guide
 order: 10
 redirect_from:

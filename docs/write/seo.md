@@ -1,6 +1,6 @@
 ---
 title: Search engine optimization
-description: "WordPress, straight out of the box, comes ready to embrace search engines."
+description: "What WordPress does for search engines out of the box, and the settings and habits that help people find your site."
 type: guide
 order: 110
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Grid
-description: "Grid block is one of the container blocks that can be used to organize multiple blocks and adjust the height, width, and position of all blocks inside the container."
+description: Arrange blocks in a grid of rows and columns with the Grid variation of the Group block.
 type: reference
 slug: grid-block
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Widgets screen
-description: "Themes usually have at least 1 or 2 sidebars. Each section in the sidebar is known as a “Widget” that you can add or remove, and move up or down."
+description: "Add, arrange and remove widgets in a classic theme's widget areas on the Appearance > Widgets screen."
 type: reference
 order: 20
 redirect_from:

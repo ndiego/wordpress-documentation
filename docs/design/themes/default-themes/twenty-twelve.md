@@ -1,6 +1,6 @@
 ---
 title: Twenty Twelve
-description: "The Twenty Twelve is the default theme for WordPress in 2012, designed by Drew Strojny."
+description: "Twenty Twelve, the default theme introduced in WordPress 3.5: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-twelve-changelog/

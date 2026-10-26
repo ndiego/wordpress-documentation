@@ -1,6 +1,6 @@
 ---
 title: Separator
-description: The separator block creates a break between two blocks of content with a horizontal line. This helps to create a separation between ideas or sections on your post or page.
+description: Add a horizontal line between sections of content with the Separator block.
 type: reference
 slug: separator-block
 redirect_from:

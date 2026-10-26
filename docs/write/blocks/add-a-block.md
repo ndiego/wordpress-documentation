@@ -1,6 +1,6 @@
 ---
 title: Add a block
-description: There are several ways to add a block to your post or page from the admin screen of the WordPress block editor when you are editing your post or page.
+description: "The ways to add a block to a post or page: the block inserter, the slash command and the inserter between blocks."
 type: guide
 order: 10
 redirect_from:

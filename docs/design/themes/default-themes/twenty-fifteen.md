@@ -1,6 +1,6 @@
 ---
 title: Twenty Fifteen
-description: "Twenty Fifteen is the default theme for WordPress in 2015. It is super-clean, content-focused, and designed to bring a little more simplicity to our blogs."
+description: "Twenty Fifteen, the default theme introduced in WordPress 4.1: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-fifteen-changelog/

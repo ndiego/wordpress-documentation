@@ -1,6 +1,6 @@
 ---
 title: Privacy
-description: Depending on your national or international privacy regulations (such as the European Union’s General Data Protection Regulation which may be applicable to you) you may be required to display a.
+description: "The privacy tools in WordPress: the privacy policy page, and exporting or erasing a person's personal data."
 type: guide
 order: 70
 redirect_from:

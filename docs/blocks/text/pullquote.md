@@ -1,6 +1,6 @@
 ---
 title: Pullquote
-description: "If you want to add emphasis to a piece of text in your post or page, the pullquote block can quickly and easily make short snippets look beautiful."
+description: Highlight a short quotation from your text in large type with the Pullquote block.
 type: reference
 slug: pullquote-block
 redirect_from:

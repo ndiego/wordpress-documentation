@@ -1,6 +1,6 @@
 ---
 title: Widget blocks
-description: "Blocks that show dynamic content such as archives, calendars, latest posts and comments, tag clouds, search and social icons. They can be used in posts and pages as well as in widget areas."
+description: "Blocks that show content WordPress keeps up to date, such as archives, latest posts and comments, a search form and social icons."
 type: reference
 order: 40
 slug: widget-blocks

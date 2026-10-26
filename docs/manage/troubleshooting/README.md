@@ -1,6 +1,6 @@
 ---
 title: Site Health and troubleshooting
-description: "Site Health screen is located in your dashboard under Tools > Site Health > Info."
+description: "Check your site's health on the Site Health screen, and find what to do when something goes wrong."
 type: guide
 order: 80
 redirect_from:

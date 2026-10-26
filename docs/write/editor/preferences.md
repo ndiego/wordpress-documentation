@@ -1,6 +1,6 @@
 ---
 title: Preferences
-description: "When you start using the WordPress Block Editor or the Site Editor and you find the number of choices and panels overwhelming, you can use the Preferences feature to turn on/off the various."
+description: "Turn editor features and panels on or off in the editor's Preferences."
 type: reference
 order: 40
 redirect_from:

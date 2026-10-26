@@ -1,6 +1,6 @@
 ---
 title: Quote
-description: Use the Quote block to easily add a quote to any post or page. Adding quotes can help you highlight great reviews from your audience or phrases that inspire you.
+description: "Set a quotation apart from the rest of the text, with an optional citation, using the Quote block."
 type: reference
 slug: quote-block
 redirect_from:

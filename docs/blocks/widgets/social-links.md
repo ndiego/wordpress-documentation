@@ -1,6 +1,6 @@
 ---
 title: Social Icons
-description: The Social Icons block allows you to add icons linking to your social media profiles or sites. This helps to increase the visibility of your social media profiles and drive traffic to them.
+description: Add icons that link to your social media profiles with the Social Icons block.
 type: reference
 slug: social-links-block
 redirect_from:

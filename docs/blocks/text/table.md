@@ -1,6 +1,6 @@
 ---
 title: Table
-description: Use the Table block to easily create a table in any post or page.
+description: Add a table of rows and columns to a post or page with the Table block.
 type: reference
 slug: table-block
 redirect_from:

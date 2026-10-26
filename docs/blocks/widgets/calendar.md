@@ -1,6 +1,6 @@
 ---
 title: Calendar
-description: "The Calendar block displays your posts in a calendar format. When you publish a new post, it is automatically added to the Calendar block."
+description: Show a monthly calendar that links to the days you published posts with the Calendar block.
 type: reference
 slug: calendar-block
 redirect_from:

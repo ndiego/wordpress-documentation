@@ -1,6 +1,6 @@
 ---
 title: Connectors settings
-description: "The Settings Connectors screen lets you connect your WordPress site to external services. It comes with the three following featured connectors:"
+description: "Connect your site to external services, such as AI providers, on the Settings > Connectors screen."
 type: reference
 order: 70
 redirect_from:

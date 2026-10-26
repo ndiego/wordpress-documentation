@@ -1,6 +1,6 @@
 ---
 title: Terms Query
-description: "The Terms Query block displays a list or grid of taxonomy terms (such as Categories, Tags, or custom taxonomies)."
+description: "Show a list or grid of categories, tags or other taxonomy terms with the Terms Query block."
 type: reference
 slug: terms-query-block
 redirect_from:

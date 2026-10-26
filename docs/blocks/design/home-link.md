@@ -1,6 +1,6 @@
 ---
 title: Home Link
-description: The Home Link block allows you to automatically add a link to your site’s homepage. The Home Link block is only available as a sub-block of the Navigation block.
+description: "Add a link to your site's home page inside a Navigation block with the Home Link block."
 type: reference
 slug: home-link-block
 redirect_from:

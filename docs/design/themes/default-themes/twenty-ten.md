@@ -1,6 +1,6 @@
 ---
 title: Twenty Ten
-description: "The Twenty Ten is the default theme for WordPress in 2010, introduced with WordPress version 3.0."
+description: "Twenty Ten, the default theme introduced in WordPress 3.0: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-ten-changelog/

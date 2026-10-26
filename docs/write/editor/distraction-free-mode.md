@@ -1,6 +1,6 @@
 ---
 title: Distraction free mode
-description: Distraction Free mode is a new visual option that creates a focused writing experience by hiding various parts of the editor interface.
+description: "Hide the editor's toolbars and panels so you can focus on writing with Distraction free mode."
 type: guide
 order: 50
 redirect_from:
@@ -45,7 +45,7 @@ To see the top toolbar in this view, move your cursor to the top of the editor. 
 
 Because this mode is built for writing, you can create new paragraphs by hitting enter. To add different kinds of blocks though, like a Heading or Image, you must use the slash command (`/`) as it’s the only way to add additional blocks. [Learn more about how to add blocks.](../blocks/add-a-block.md#how-to-add-blocks-using-the-slash-command)
 
-## Demonstration of Distraction Free mode
+## Demonstration of distraction free mode
 
 [Watch the video on VideoPress](https://videopress.com/v/G2qkhryC)
 

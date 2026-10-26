@@ -1,6 +1,6 @@
 ---
 title: Gravatars
-description: "When browsing different web sites, you may notice that many users have a picture next to their name."
+description: "How WordPress uses Gravatar to show profile pictures, and how to set up your own."
 type: guide
 order: 50
 redirect_from:
@@ -49,7 +49,7 @@ To [start using Gravatars](https://en.gravatar.com/site/signup) on your site:
 
 ![Avatar rating and default icon](https://wordpress.org/documentation/files/2018/11/avatar_rating_default.png)
 
-### Using gravatar’s hovercards
+### Using Gravatar’s hovercards
 
 If you want to use Gravatar’s Hovercard feature, like on WordPress.com, you can install the [Jetpack](https://jetpack.me/) Plugin.
 

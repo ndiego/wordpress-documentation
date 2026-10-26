@@ -1,6 +1,6 @@
 ---
 title: Paragraph
-description: The Paragraph block is a basic building block that allows you to add text content to a post or page. It is the default block that appears when you create a new post or page.
+description: "Add and format text with the Paragraph block, the default block in the editor."
 type: reference
 slug: paragraph-block
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Latest Comments
-description: "The Latest Comments block displays the most recent comments readers have left on your blog, including the users and blog posts."
+description: Show the most recent comments on your site with the Latest Comments block.
 type: reference
 slug: latest-comments-block
 redirect_from:

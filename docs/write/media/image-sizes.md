@@ -1,6 +1,6 @@
 ---
 title: Image sizes and quality
-description: The size and quality of an image for use on a web page is determined by a variety of things.
+description: "How WordPress resizes the images you upload, and how to keep images sharp and quick to load."
 type: concept
 order: 30
 redirect_from:

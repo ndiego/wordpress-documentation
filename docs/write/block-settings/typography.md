@@ -1,6 +1,6 @@
 ---
 title: Typography
-description: You can use the typography settings in your block to change the font and appearance of your texts.
+description: "Change the font, size, line height, letter case and other text settings of a block."
 type: reference
 order: 20
 redirect_from:

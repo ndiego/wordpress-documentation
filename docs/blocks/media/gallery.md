@@ -1,6 +1,6 @@
 ---
 title: Gallery
-description: The Gallery block allows you to easily add multiple photos and automatically arrange them in a gallery. You can control the number of columns and the size of the images in the gallery.
+description: "Show several images together with the Gallery block, and choose its columns, image sizes and links."
 type: reference
 slug: gallery-block
 redirect_from:

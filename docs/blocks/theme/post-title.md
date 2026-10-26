@@ -1,6 +1,6 @@
 ---
 title: Title
-description: Title block (formerly known as Post Title block) displays the title of a post or page.
+description: Show the title of a post or page with the Title block.
 type: reference
 slug: post-title-block
 redirect_from:

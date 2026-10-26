@@ -1,6 +1,6 @@
 ---
 title: Footnotes
-description: WordPress 6.3 introduces a new feature to insert and display footnotes. This option can be found on the toolbar of individual blocks under the Rich Editing option.
+description: Add numbered notes to a post or page and list them at the end with the Footnotes block.
 type: reference
 slug: footnotes-block
 redirect_from:

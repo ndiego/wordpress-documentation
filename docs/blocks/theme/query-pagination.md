@@ -1,6 +1,6 @@
 ---
 title: Pagination
-description: "The Pagination block displays paginated navigation to the next/previous set of posts, when applicable."
+description: Add links to the next and previous pages of results in a Query Loop with the Pagination block.
 type: reference
 slug: query-pagination-block
 redirect_from:

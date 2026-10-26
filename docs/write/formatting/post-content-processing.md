@@ -1,6 +1,6 @@
 ---
 title: How WordPress processes post content
-description: WordPress processes text entered in the Write Post Screen multiple times before the text is finally displayed on a web page within your WordPress blog.
+description: "The changes WordPress makes to post content before showing it, such as curly quotes and paragraph tags, and how to prevent them."
 type: reference
 order: 40
 redirect_from:

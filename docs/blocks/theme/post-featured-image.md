@@ -1,6 +1,6 @@
 ---
 title: Featured Image
-description: Use the Post Featured Image block to display the featured image of a post. This block is primarily nested inside a query loop block and helps to customize the appearance of the query loop.
+description: "Show a post's featured image in a template or a Query Loop with the Featured Image block."
 type: reference
 slug: post-featured-image-block
 redirect_from:

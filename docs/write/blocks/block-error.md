@@ -1,6 +1,6 @@
 ---
 title: Block errors
-description: "If you’re encountering this error message in the Block Editor, it typically means that there is a problem with the content you’re trying to insert or edit within a block."
+description: "What a block error message means and how to recover the block's content."
 type: guide
 order: 90
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Twenty Twenty-Two
-description: Twenty Twenty-Two is the new default theme for WordPress Version 5.9.
+description: "Twenty Twenty-Two, the default theme introduced in WordPress 5.9: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-twenty-two-changelog/

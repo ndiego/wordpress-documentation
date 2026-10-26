@@ -1,6 +1,6 @@
 ---
 title: Cover
-description: "The Cover block lets you add a background color, image or video with a text overlay. It is an excellent tool for creating headers, banner-style displays, call-to-actions, and more."
+description: "Put text over an image, a video or a color with the Cover block, for headers, banners and calls to action."
 type: reference
 slug: cover-block
 redirect_from:
@@ -49,7 +49,7 @@ This change will set a Minimum height value that you can see in the Block Settin
 
 *Resizing the Cover block from handles and block settings*
 
-## Display a Featured Image
+## Display a featured image
 
 You can set the [featured image](https://wordpress.com/support/featured-images/) of your page or post as the Cover block background.
 

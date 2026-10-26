@@ -1,6 +1,6 @@
 ---
 title: Columns
-description: "The Columns block allows you to insert text, media, and other types of content into columns. When used one after another, the columns can create a grid effect."
+description: "Lay out text, images and other blocks side by side in columns with the Columns block."
 type: reference
 slug: columns-block
 redirect_from:

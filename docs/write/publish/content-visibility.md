@@ -1,6 +1,6 @@
 ---
 title: Content visibility
-description: "Note: This page uses Block Editor. If you are a Classic Editor User, refer this page."
+description: "Make a post or page public, private or password protected with the Visibility setting."
 type: guide
 order: 20
 redirect_from:

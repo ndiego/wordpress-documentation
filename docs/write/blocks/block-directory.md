@@ -1,6 +1,6 @@
 ---
 title: Block Directory
-description: "The Block Directory is a new way for block editor users to discover, test, and install new blocks on their website."
+description: Find and install blocks made by the community from inside the editor with the Block Directory.
 type: guide
 order: 80
 redirect_from:

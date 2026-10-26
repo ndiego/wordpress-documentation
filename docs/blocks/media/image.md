@@ -1,6 +1,6 @@
 ---
 title: Image
-description: Use the Image block to easily add an image to your page.
+description: "Add an image to a post or page with the Image block, then crop, resize, link and caption it."
 type: reference
 slug: image-block
 redirect_from:

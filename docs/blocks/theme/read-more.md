@@ -1,6 +1,6 @@
 ---
 title: Read More
-description: The Read More block allows you to add links in the query loop block that direct visitors to the posts.
+description: Add a link to the full post inside a Query Loop with the Read More block.
 type: reference
 slug: read-more-block
 redirect_from:

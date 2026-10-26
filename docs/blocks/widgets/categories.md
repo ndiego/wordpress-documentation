@@ -1,6 +1,6 @@
 ---
 title: Terms List
-description: The Categories List block organizes your previously published posts by category. This can be handy for readers who want to find more of your posts about certain topics.
+description: Show a list or dropdown of your post categories with the Categories List block.
 type: reference
 slug: categories-block
 redirect_from:

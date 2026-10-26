@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting FAQ
-description: Also refer Common WordPress Errors for the most common WordPress errors experienced by WordPress users such as
+description: "Answers to common WordPress problems, from login trouble to errors after an update."
 type: guide
 order: 10
 redirect_from:

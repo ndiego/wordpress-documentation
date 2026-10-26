@@ -1,6 +1,6 @@
 ---
 title: Users and roles
-description: "Who can do what on your site. Learn about user roles and capabilities, set up your Gravatar profile picture, reset a lost password, and fix problems logging in."
+description: "Who can do what on your site: user roles, adding users and managing profiles."
 type: guide
 order: 30
 ---

@@ -1,6 +1,6 @@
 ---
 title: Archives
-description: Use the Archives block to display a date archive of your posts.
+description: Show links to your posts grouped by month or year with the Archives block.
 type: reference
 slug: archives-block
 redirect_from:

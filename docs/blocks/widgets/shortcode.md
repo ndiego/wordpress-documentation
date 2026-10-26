@@ -1,6 +1,6 @@
 ---
 title: Shortcode
-description: A shortcode is a WordPress-specific code that lets you do nifty things with very little effort.
+description: Add a shortcode from a plugin or theme to a post or page with the Shortcode block.
 type: reference
 slug: shortcode-block
 redirect_from:

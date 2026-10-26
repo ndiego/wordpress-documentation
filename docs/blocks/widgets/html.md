@@ -1,6 +1,6 @@
 ---
 title: Custom HTML
-description: "Starting in WordPress 7.0, the Custom HTML block introduces separate editing panels for HTML, CSS, and JavaScript."
+description: "Add your own HTML code to a post, page or template with the Custom HTML block."
 type: reference
 slug: html-block
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Excerpts
-description: "Note: This page uses Block Editor. If you are a Classic Editor User, refer this page."
+description: "Write a short summary of a post, called an excerpt, and control where WordPress shows it."
 type: guide
 order: 50
 redirect_from:

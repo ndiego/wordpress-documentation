@@ -1,6 +1,6 @@
 ---
 title: Menus screen
-description: "The Menus Screen enables the user to create a custom menu (also known as a navigation bar, navigation menu, or main menu). It is a section of the site that helps visitors to navigate the site."
+description: "Create and manage navigation menus for a classic theme on the Appearance > Menus screen."
 type: reference
 order: 40
 redirect_from:

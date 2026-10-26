@@ -1,6 +1,6 @@
 ---
 title: Group
-description: "The Group block allows you to group different blocks together and customize them to your liking, including setting custom background colors, spacing, and more."
+description: "Put blocks together in a Group block so you can style, move and lay them out as one unit."
 type: reference
 slug: group-block
 redirect_from:

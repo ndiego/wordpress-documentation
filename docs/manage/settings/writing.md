@@ -1,6 +1,6 @@
 ---
 title: Writing settings
-description: Use the Settings Writing Screen to control the interface you use when writing new posts.
+description: "Set the default post category and format, and other writing options, on the Settings > Writing screen."
 type: reference
 order: 20
 redirect_from:

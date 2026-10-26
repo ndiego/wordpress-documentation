@@ -1,6 +1,6 @@
 ---
 title: Post status
-description: Posts in WordPress can have one of a number of statuses. The status of a given post determines how WordPress handles that post.
+description: "The statuses a post can have, such as draft, pending, scheduled, private and published, and what each one means."
 type: reference
 order: 10
 redirect_from:

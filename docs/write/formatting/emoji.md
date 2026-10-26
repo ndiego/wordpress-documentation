@@ -1,6 +1,6 @@
 ---
 title: Emoji
-description: Emoji are the ideograms or smileys 😃 used in electronic messages and Web pages.
+description: How emoji work in WordPress and how to add them to your content on mobile and desktop.
 type: reference
 order: 20
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
 
 # Emoji
 
-## Introduction to Emoji
+## Introduction to emoji
 
 Emoji are the ideograms or smileys 😃 used in electronic messages and Web pages. Originating in Japan on mobile devices, they are now commonly available on devices worldwide, ranging from mobile to desktop computers.
 
@@ -19,7 +19,7 @@ Different operating systems have distinct methods of accessing emoji. Note that 
 
 Not quite. Emoji are a newer development than smileys (a.k.a. emoticons). They are created differently, and handled differently by operating systems and web browsers. For more information about smileys, please see the [Using Smileys](smilies.md) page.
 
-## Using Emoji on mobile
+## Using emoji on mobile
 
 ### iOS (iPhones, iPads, etc. running iOS 5 and higher)
 
@@ -43,7 +43,7 @@ In some apps, you may need to tap and hold the Enter button for the smiley face 
 
 ![Android Keyboard with emoji shortcut key](https://wordpress.org/support/files/2019/02/721px-AndroidKeyboard2.jpg)
 
-## Using Emoji on desktops
+## Using emoji on desktops
 
 ### Windows 10
 
@@ -106,6 +106,6 @@ For backwards compatibility there are wp-emoji.js and twemoji.js JavaScript file
 
 If you are a developer working on forms, you might want to disable this behaviour in your input fields and textareas. You can use the class attribute with ‘wp-exclude-emoji’ for this.
 
-## Common Emoji
+## Common emoji
 
 Beyond the standard emoticon-type “smileys”, (e.g. 😃 or 😢) there are hundreds of emoji, ranging from plants and animals (🐱, 🐴, 🌹) to people (👫, 💁), objects (🎥, 🎃), vehicles (🚕), food (🍔), the Sun and Moon, and more.

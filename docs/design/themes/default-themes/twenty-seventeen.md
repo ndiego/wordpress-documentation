@@ -1,6 +1,6 @@
 ---
 title: Twenty Seventeen
-description: Twenty Seventeen is the new default theme for WordPress in 2017.
+description: "Twenty Seventeen, the default theme introduced in WordPress 4.7: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-seventeen-changelog/
@@ -89,7 +89,7 @@ Twenty Seventeen includes optimal font styles for many languages, thanks to feed
 
 To improve legibility, Twenty Seventeen also removes its letter-spacing styles for all non-Latin alphabets.
 
-## One- and Two-Column layouts
+## One- and two-column layouts
 
 For [pages](../../../write/create-a-page.md), Twenty Seventeen allows you to choose between a one- and two-column layout. This can be changed via Customizer > Theme Options. The theme defaults to the two-column layout, which displays the page title in one column and the page content in the other.
 

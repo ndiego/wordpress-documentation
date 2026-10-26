@@ -1,6 +1,6 @@
 ---
 title: Page jumps
-description: "Page jumping, also sometimes referred to as anchor links, is where you click a link and instantly get moved somewhere further up or down a page. This can be particularly useful with a long page."
+description: "Link to a heading or block further down a page with an HTML anchor, so readers jump straight to it."
 type: guide
 order: 70
 redirect_from:

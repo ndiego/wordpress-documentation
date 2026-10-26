@@ -1,6 +1,6 @@
 ---
 title: Post types
-description: WordPress houses lots of different types of content and they are divided into something called Post Types.
+description: "Posts, pages, attachments and the other kinds of content WordPress stores, and how custom post types add more."
 type: concept
 order: 40
 redirect_from:

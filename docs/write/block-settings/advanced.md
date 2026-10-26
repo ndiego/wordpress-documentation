@@ -1,6 +1,6 @@
 ---
 title: Advanced
-description: "Use Advanced Settings to further customize your block. While some of the options listed below apply to multiple blocks, others are block-specific."
+description: Add an HTML anchor or extra CSS classes to a block in its Advanced settings.
 type: reference
 order: 100
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Categories
-description: Each post in WordPress is filed under one or more Categories. This aids in navigation and allows posts to be grouped with others of similar content.
+description: "Create, edit and organize post categories on the Posts > Categories screen."
 type: guide
 order: 10
 redirect_from:

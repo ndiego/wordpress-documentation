@@ -1,6 +1,6 @@
 ---
 title: Preformatted
-description: "If you wish to add text to a post or page that is displayed exactly as you type it, the Preformatted block is for you."
+description: "Show text exactly as you type it, spaces and line breaks included, with the Preformatted block."
 type: reference
 slug: preformatted-block
 redirect_from:

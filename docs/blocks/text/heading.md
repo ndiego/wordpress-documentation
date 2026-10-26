@@ -1,6 +1,6 @@
 ---
 title: Heading
-description: Headings help to introduce new sections and organize the content on the page. They make your website more readable by humans and search engines.
+description: Add headings that introduce sections and give a page a clear structure with the Heading block.
 type: reference
 slug: heading-block
 redirect_from:

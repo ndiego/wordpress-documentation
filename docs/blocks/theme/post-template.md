@@ -1,6 +1,6 @@
 ---
 title: Post Template
-description: The Post Template block is a container block that is nested in the Query Loop block.
+description: Set the layout of each post in a Query Loop with the Post Template block.
 type: reference
 slug: post-template-block
 redirect_from:

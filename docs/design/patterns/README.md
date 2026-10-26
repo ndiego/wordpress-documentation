@@ -1,6 +1,6 @@
 ---
 title: Patterns
-description: Block Patterns are a collection of blocks that you can insert into posts and pages and then customize with your own content.
+description: Patterns are ready-made groups of blocks that you insert and then change to fit your content.
 type: concept
 order: 30
 redirect_from:
@@ -148,7 +148,7 @@ Patterns are ready-made collections of blocks you can insert and customise. Sync
 Learn how to use patterns, find more in the Pattern Directory, submit your own, and how
 patterns differ from template parts.
 
-## Synced Patterns (Reusable blocks)
+## Synced patterns (Reusable blocks)
 
 <!-- TODO: merge: this section was absorbed from https://wordpress.org/documentation/article/reusable-blocks/; edit it into the page. -->
 
@@ -290,7 +290,7 @@ The second icon, **View Options**, provides more detailed controls. You can chan
 
 ![Appearance Settings icons and opened appearance settings section](https://wordpress.org/documentation/files/2023/08/layout.png)
 
-## Comparing patterns, Template Parts, and Synced Patterns (Reusable blocks)
+## Comparing patterns, template parts, and synced patterns (Reusable blocks)
 
 <!-- TODO: merge: this section was absorbed from https://wordpress.org/documentation/article/comparing-patterns-template-parts-and-reusable-blocks/; edit it into the page. -->
 
@@ -301,7 +301,7 @@ With more types of reusable content you can create with WordPress, this article 
 > [!NOTE]
 > WordPress 6.3 renamed Reusable Blocks to Patterns. A synced pattern will behave in exactly the same way as a reusable block.
 
-#### Template Part
+#### Template part
 
 The Template Part block is an advanced block that can be used with a block theme or a theme that supports [template editing](https://wordpress.org/themes/tags/template-editing/). They often come with your theme and are used to organize and display your site structure. For more information, you can learn more in the [Template Part block support article](../../blocks/theme/template-part.md).
 

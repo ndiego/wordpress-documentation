@@ -1,6 +1,6 @@
 ---
 title: My site was hacked
-description: "Suffering a hack can be one of the more frustrating experiences you’ll have on your online journey. Like most things however, taking a pragmatic approach can help you maintain your sanity."
+description: "What to do, step by step, when your WordPress site has been hacked."
 type: guide
 order: 20
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Permalink settings
-description: "Permalinks are the permanent URLs of your posts, pages, categories, and other archive pages on your website. These URLs are permanent and should never be changed, hence the name permalink."
+description: "Choose the structure of the URLs of your posts and archives on the Settings > Permalinks screen."
 type: reference
 order: 60
 redirect_from:

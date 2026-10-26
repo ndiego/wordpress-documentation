@@ -1,6 +1,6 @@
 ---
 title: Border and shadow
-description: You can use the border and shadow settings in your block to set a visible border or shadow on specific blocks. These settings allow you to control the width and radius on each side of the border.
+description: "Add a border, rounded corners or a shadow to a block."
 type: reference
 order: 40
 redirect_from:

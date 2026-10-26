@@ -1,6 +1,6 @@
 ---
 title: Twenty Fourteen
-description: "Twenty Fourteen was the default theme for WordPress 3.8, released in 2013. It is a magazine-style theme with a featured content area and a dark, bold layout."
+description: "Twenty Fourteen, the default theme introduced in WordPress 3.8: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-fourteen-changelog/

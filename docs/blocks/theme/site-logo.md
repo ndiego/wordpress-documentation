@@ -1,6 +1,6 @@
 ---
 title: Site Logo
-description: The Site Logo block lets you add a logo or image representing your website identity and help increase brand recognition.
+description: "Show your site's logo with the Site Logo block, and set the logo for the whole site."
 type: reference
 slug: site-logo-block
 redirect_from:

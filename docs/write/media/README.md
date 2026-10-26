@@ -1,6 +1,6 @@
 ---
 title: Media
-description: "Media consists of the images, video, recordings, and files that you upload and use in your blog. Media is typically uploaded and inserted into the content when writing a Post or writing a Page."
+description: "Upload, find and manage the images, video, audio and documents on your site in the Media Library."
 type: guide
 order: 60
 redirect_from:
@@ -12,7 +12,7 @@ redirect_from:
 
 # Media
 
-## Media →︎ library
+## Media →︎ Library
 
 Media consists of the images, video, recordings, and files that you upload and use in your blog. Media is typically uploaded and inserted into the content when [writing a Post](../../classic/classic-editor/write-posts-classic.md) or [writing a Page](../create-a-page.md). Note that the Uploading Setting in the [Settings Media Screen](../../manage/settings/media.md) describes the location and structure of the upload directory (where your media files are stored). If you do need to upload Media, even if that Media is not related to a Post or Page, then you need to use the [Media Add New Screen](add-media.md).
 

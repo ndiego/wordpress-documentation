@@ -1,6 +1,6 @@
 ---
 title: Update PHP
-description: "This page will explain why this matters to you, and then how you can fix it."
+description: "Why the PHP version your site runs on matters, and how to update it."
 type: guide
 order: 30
 redirect_from:

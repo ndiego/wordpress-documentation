@@ -1,6 +1,6 @@
 ---
 title: Write posts in the Classic Editor
-description: Posts are entries that display in reverse order on your home page and/or blog page. Posts usually have comment fields beneath them and are included in your site’s RSS feed.
+description: "Write, format and publish a post with the Classic Editor."
 type: guide
 order: 10
 redirect_from:

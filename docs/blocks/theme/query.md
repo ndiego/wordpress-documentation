@@ -1,6 +1,6 @@
 ---
 title: Query Loop
-description: "The Query Loop block is an advanced block that allows you to display posts based on specified parameters, like a PHP loop without the code."
+description: "Show a list of posts chosen by type, category, author and other filters with the Query Loop block."
 type: reference
 slug: query-block
 redirect_from:
@@ -58,7 +58,7 @@ Once added to the page, open [List View](../../write/blocks/list-view.md) to see
 
 Use the Query Loop block settings to control which posts appear. This includes options such as post type, filters, order, and the number of items shown.
 
-### Post Template
+### Post template
 
 Post Template is a container block inside the Query Loop that controls the layout that repeats for each post in the Query Loop. For example, you can display posts in a list or grid.
 

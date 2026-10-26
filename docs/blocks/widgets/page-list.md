@@ -1,6 +1,6 @@
 ---
 title: Page List
-description: "The Page List block allows you to display your website’s published pages in a page, post, and sidebar."
+description: "Show a list of your site's published pages with the Page List block."
 type: reference
 slug: page-list-block
 redirect_from:

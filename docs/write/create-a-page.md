@@ -1,6 +1,6 @@
 ---
 title: Create a page
-description: "In WordPress, you can put content on your site as either a Post or a Page."
+description: "Create a page for content that sits outside your blog, such as an About or Contact page."
 type: guide
 order: 20
 redirect_from:

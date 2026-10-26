@@ -1,6 +1,6 @@
 ---
 title: Edit media
-description: The Edit Media page is where you manage information about your media that is saved in the Media Library.
+description: "Edit a file's title, caption, alt text and description, and crop or rotate images, in the Media Library."
 type: guide
 order: 20
 redirect_from:

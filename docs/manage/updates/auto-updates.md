@@ -1,6 +1,6 @@
 ---
 title: Auto-updates
-description: "To keep your WordPress site secure, you should always update your plugins and themes to the latest version."
+description: "Turn automatic updates on or off for WordPress, plugins and themes."
 type: guide
 order: 10
 redirect_from:

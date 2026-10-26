@@ -1,6 +1,6 @@
 ---
 title: Custom fields
-description: "WordPress has the ability to allow post authors to assign custom fields to a post. This arbitrary extra information is known as metadata. This metadata can include bits of information such as:"
+description: "Add extra information, called metadata, to a post with custom fields."
 type: guide
 order: 50
 redirect_from:

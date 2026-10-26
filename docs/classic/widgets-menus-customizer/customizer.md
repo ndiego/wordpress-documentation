@@ -1,6 +1,6 @@
 ---
 title: Customizer
-description: "WordPress Version 3.4 introduced Theme Customizer, which allows you to play around with various looks and settings for your current theme or one you’re thinking about switching to without."
+description: "Preview and change a classic theme's settings, such as the site identity, colors, menus and widgets, in the Customizer."
 type: guide
 order: 10
 redirect_from:

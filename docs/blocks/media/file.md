@@ -1,6 +1,6 @@
 ---
 title: File
-description: The File block allows you to add a link to the downloadable files on your website.
+description: "Add a link to a file that visitors can download, with an optional download button, using the File block."
 type: reference
 slug: file-block
 redirect_from:

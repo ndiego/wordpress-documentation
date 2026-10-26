@@ -1,6 +1,6 @@
 ---
 title: Pages screen
-description: "The Pages Screen provides the facility to manage all the Pages in a blog. Via this Screen, Pages can be edited, deleted, and viewed."
+description: "List, search, filter and edit your pages, one at a time or in bulk, on the Pages screen."
 type: reference
 order: 30
 redirect_from:

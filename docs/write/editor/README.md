@@ -1,6 +1,6 @@
 ---
 title: The editor
-description: "The WordPress block editor also called the block editor, WordPress editor or Gutenberg editor is the new way of publishing content in WordPress."
+description: "A tour of the block editor: the top toolbar, the content area, the settings sidebar and the document tools."
 type: concept
 order: 30
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Content
-description: Use the Content block to display the contents of a post or page. This block is a child block of the Query Loop block and helps to customize the appearance of the query loop.
+description: Show the content of a post or page in a template or a Query Loop with the Content block.
 type: reference
 slug: post-content-block
 redirect_from:

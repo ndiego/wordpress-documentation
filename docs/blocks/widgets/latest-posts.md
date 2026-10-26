@@ -1,6 +1,6 @@
 ---
 title: Latest Posts
-description: "The latest posts block displays your most recent posts, making it easy for your readers to see what’s new on your blog."
+description: Show a list of your most recent posts with the Latest Posts block.
 type: reference
 slug: latest-posts-block
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Add a user
-description: The Users Add New Screen allows you to add new users who can login to your site.
+description: Add a new user to your site and choose their role.
 type: guide
 order: 20
 redirect_from:

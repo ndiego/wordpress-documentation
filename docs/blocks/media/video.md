@@ -1,6 +1,6 @@
 ---
 title: Video
-description: Use the Video block to upload and embed video into your post or page.
+description: "Upload a video, or pick one from the Media Library, and show it in a post or page with the Video block."
 type: reference
 slug: video-block
 redirect_from:

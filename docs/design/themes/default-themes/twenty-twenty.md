@@ -1,6 +1,6 @@
 ---
 title: Twenty Twenty
-description: Twenty Twenty is the new default theme for WordPress Version 5.3. It is designed with the flexibility of the block editor at its core.
+description: "Twenty Twenty, the default theme introduced in WordPress 5.3: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-twenty-changelog/
@@ -22,7 +22,7 @@ redirect_from:
 -   There are two widget areas in the footer with a maximum column width of 570px.
 -   The recommended Featured Image size is 1980px wide by 1485px high.
 
-## Starter Content
+## Starter content
 
 Twenty Twenty contains Starter Content that helps to set up the theme identical to the theme demo page. The Starter Content can only be activated on freshly installed sites that do not have any pages or posts yet. To activate, please head over to the Customizer and click on `Publish`.
 
@@ -34,7 +34,7 @@ Twenty Twenty is designed and developed to take maximum advantage of the creativ
 
 *The block editor in Twenty Twenty*
 
-## Site Logo
+## Site logo
 
 Twenty Twenty includes a site logo setting which can be used to display the logo of your business or an image of yourself. You can set your site logo by going to Customizer → Site Identity. The recommended resolution of the logo is 240px wide by 180px high.
 

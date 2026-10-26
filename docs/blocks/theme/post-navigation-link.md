@@ -1,6 +1,6 @@
 ---
 title: Post Navigation Link
-description: Use the Post Navigation Link block to display the post pages link navigation for the previous and next pages.
+description: Link to the previous or next post with the Previous Post and Next Post blocks.
 type: reference
 slug: post-navigation-link-block
 redirect_from:

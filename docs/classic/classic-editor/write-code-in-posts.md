@@ -1,6 +1,6 @@
 ---
 title: Write code in your posts
-description: "Whether you write plugins or hacks for WordPress, or you want to add bits and pieces of code about your own WordPress site or other programming#Computing) code like HTML, CSS, PHP, or JavaScript."
+description: Show code in a post written with the Classic Editor without WordPress changing or running it.
 type: guide
 order: 20
 redirect_from:

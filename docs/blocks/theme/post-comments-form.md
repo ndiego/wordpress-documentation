@@ -1,6 +1,6 @@
 ---
 title: Comments Form
-description: The Post Comments Form block displays a post’s comments form. This block is located inside a Comments block and lets you customize the appearance of the post comments form.
+description: Show the form visitors use to leave a comment with the Comments Form block.
 type: reference
 slug: post-comments-form-block
 redirect_from:

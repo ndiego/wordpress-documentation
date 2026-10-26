@@ -1,6 +1,6 @@
 ---
 title: Glossary
-description: "This document is designed to offer definitions of various terms, exclusive to WordPress, that users may not be familiar with."
+description: Definitions of the terms used in WordPress and in this documentation.
 type: reference
 order: 90
 redirect_from:

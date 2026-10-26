@@ -1,6 +1,6 @@
 ---
 title: Twenty Sixteen
-description: Twenty Sixteen is the default theme for WordPress in 2016.
+description: "Twenty Sixteen, the default theme introduced in WordPress 4.4: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-sixteen-changelog/
@@ -45,7 +45,7 @@ Twenty Sixteen has a small but nifty intro feature. Also known as a “deck” o
 
 Add your intro in the [Excerpt option](../../../write/publish/excerpts.md#classic-editor) in your Post panel.
 
-## Overhanging Full-Size image
+## Overhanging full-size image
 
 Have you ever wanted to show off your large images without sacrificing the post’s readability? On a large screen, full-size images wider than or equal to 840px overhang the column.
 

@@ -1,6 +1,6 @@
 ---
 title: Create a search page
-description: A Search Page is a WordPress Page with a custom Page template to give users more information for searching your site.
+description: Create a page that helps visitors search your site.
 type: guide
 order: 70
 redirect_from:

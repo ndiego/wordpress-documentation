@@ -1,6 +1,6 @@
 ---
 title: Plugins
-description: WordPress Plugins are PHP scripts that extend the functionality of WordPress. They enhance the features of WordPress or add entirely new features to your site.
+description: "Find, install, update, deactivate and delete plugins, which add features to your site."
 type: guide
 order: 40
 redirect_from:

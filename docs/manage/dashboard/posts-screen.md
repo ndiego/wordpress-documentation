@@ -1,6 +1,6 @@
 ---
 title: Posts screen
-description: "The Posts Screen provides the facility to manage all the Posts in a blog. Via this Screen, Posts can be edited, deleted, and viewed."
+description: "List, search, filter and edit your posts, one at a time or in bulk, on the Posts screen."
 type: reference
 order: 20
 redirect_from:

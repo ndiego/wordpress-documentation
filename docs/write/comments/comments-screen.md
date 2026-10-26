@@ -1,6 +1,6 @@
 ---
 title: Comments screen
-description: "In the Comments Screen you can edit or delete content found in comments to your posts, and you can mark comments as spam, send comments to the trash, and reply to comments."
+description: "Approve, reply to, edit, mark as spam and delete comments on the Comments screen."
 type: reference
 order: 10
 redirect_from:

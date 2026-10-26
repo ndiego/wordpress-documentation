@@ -1,6 +1,6 @@
 ---
 title: Fonts
-description: "The Font Library lets you upload font files, install fonts from Google Fonts, and manage the fonts available on your site.."
+description: "Install, upload and manage the fonts on your site with the Font Library."
 type: guide
 order: 30
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Discussion settings
-description: The Settings Discussion Screen allows you to set the options concerning comments (also called discussion).
+description: "Choose who can comment, how comments are moderated and which avatars appear on the Settings > Discussion screen."
 type: reference
 order: 40
 redirect_from:

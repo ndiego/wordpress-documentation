@@ -1,6 +1,6 @@
 ---
 title: Term Description
-description: "Use the Term Description block to display the description of the Category, Tag, or custom Taxonomy on the archive pages."
+description: "Show the description of a category, tag or other term on its archive page with the Term Description block."
 type: reference
 slug: term-description-block
 redirect_from:

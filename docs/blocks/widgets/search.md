@@ -1,6 +1,6 @@
 ---
 title: Search
-description: Use the Search block to place a search widget on your page or post.
+description: "Add a search form to a post, page or template with the Search block."
 type: reference
 slug: search-block
 redirect_from:

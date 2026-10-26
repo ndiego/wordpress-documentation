@@ -1,6 +1,6 @@
 ---
 title: Add media
-description: "The Media Add New Screen allows you to upload Media (Images, video, files, etc.) for later use in your posts and pages."
+description: "Upload images, video, audio and other files to the Media Library."
 type: guide
 order: 10
 redirect_from:

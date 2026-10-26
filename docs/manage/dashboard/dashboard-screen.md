@@ -1,6 +1,6 @@
 ---
 title: Dashboard screen
-description: "From the Dashboard Screen, you can quickly access your site’s content and get glimpses into other areas of the WordPress community."
+description: "The Dashboard screen you see after you log in: its widgets and how to arrange them."
 type: reference
 order: 10
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
 
 # Dashboard screen
 
-## Dashboard → home
+## Dashboard → Home
 
 From the Dashboard Screen, you can quickly access your site’s content and get glimpses into other areas of the WordPress community.
 

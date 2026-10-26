@@ -1,6 +1,6 @@
 ---
 title: Navigation Link
-description: "The Custom Link block allows you to embed a link, page, category, or another item in your Navigation section."
+description: "Add a link to a page, post, category or any URL inside a Navigation block with the Custom Link block."
 type: reference
 slug: navigation-link-block
 redirect_from:

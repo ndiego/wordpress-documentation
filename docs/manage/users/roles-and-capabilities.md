@@ -1,6 +1,6 @@
 ---
 title: Roles and capabilities
-description: "WordPress uses a concept of Roles, designed to give the site owner the ability to control what users can and cannot do within the site."
+description: "The roles a WordPress user can have, from Subscriber to Administrator, and what each one can do."
 type: reference
 order: 10
 redirect_from:
@@ -174,7 +174,7 @@ define( 'ALLOW_UNFILTERED_UPLOADS', true );
 
 With this constant defined, all roles on a single site install can be given the unfiltered_upload capability, but only Super Admins can be given the capability on a Multisite install.
 
-### Capability vs. Role table
+### Capability vs. role table
 
 Note that the capabilities of Administrators **differs** between single site and [Multisite](../../get-started/glossary.md#multisite) WordPress installations, [as described above](#additional-admin-capabilities) .
 

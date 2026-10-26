@@ -1,6 +1,6 @@
 ---
 title: Submit a pattern
-description: Block Patterns are a collection of designed core blocks that can be used in posts and pages. They are building blocks to get content created faster.
+description: Share a pattern you made with every WordPress site by submitting it to the Pattern Directory.
 type: guide
 order: 20
 redirect_from:

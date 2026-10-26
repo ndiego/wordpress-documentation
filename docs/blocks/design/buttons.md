@@ -1,6 +1,6 @@
 ---
 title: Buttons
-description: Use the Buttons block to add one or more buttons to your page or post.
+description: Add one or more buttons that link to other pages or sites with the Buttons block.
 type: reference
 slug: buttons-block
 redirect_from:

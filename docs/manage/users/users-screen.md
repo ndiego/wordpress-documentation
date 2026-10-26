@@ -1,6 +1,6 @@
 ---
 title: Users screen
-description: "The Users Screen allows you to add, change, or delete your site’s users. In addition, you can search for users and make bulk changes and deletions to a selected group of users."
+description: "List, search, edit and delete users, and change their roles, on the Users screen."
 type: reference
 order: 30
 redirect_from:

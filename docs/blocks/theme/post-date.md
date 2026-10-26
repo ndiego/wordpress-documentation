@@ -1,6 +1,6 @@
 ---
 title: Date
-description: Use the Date block to display a custom date.
+description: Show the date a post was published or last updated with the Date block.
 type: reference
 slug: post-date-block
 redirect_from:

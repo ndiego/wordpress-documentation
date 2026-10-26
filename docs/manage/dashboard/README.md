@@ -1,6 +1,6 @@
 ---
 title: Dashboard and admin screens
-description: The Administration Screen provides access to the control features of your WordPress installation.
+description: "A tour of the WordPress admin: the toolbar, the menu, and the screens you reach from it."
 type: reference
 order: 10
 redirect_from:

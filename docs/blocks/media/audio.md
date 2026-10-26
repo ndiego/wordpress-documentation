@@ -1,6 +1,6 @@
 ---
 title: Audio
-description: "Creating an Audio block will allow you to embed a piece of music, podcast, or other sound file right into your page or post."
+description: "Add an audio file, such as music or a podcast episode, to a post or page with the Audio block."
 type: reference
 slug: audio-block
 redirect_from:

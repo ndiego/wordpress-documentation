@@ -1,6 +1,6 @@
 ---
 title: Twenty Twenty-Four
-description: "Twenty Twenty-Four is the new, stylish and versatile, default theme for WordPress Version 6.4."
+description: "Twenty Twenty-Four, the default theme introduced in WordPress 6.4: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-twenty-four-changelog/
@@ -60,7 +60,7 @@ You can use the Replace Template functionality to select one of the alternative 
 
 [Watch the video](https://wordpress.org/documentation/files/2023/11/tt4-howto-replace-template_compressed.mp4)
 
-### Template Parts
+### Template parts
 
 Twenty Twenty-Four also includes a range of different layouts for the Header and Footer of your site. When editing your Templates you can [replace the template part](../../../blocks/theme/template-part.md#replacing-one-template-part-with-another) with one of the variants.
 

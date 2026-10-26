@@ -1,6 +1,6 @@
 ---
 title: Themes screen
-description: "The Appearance Themes Screen allows you to manage your Themes. That means you can install, preview, delete Themes, activate, and update Themes."
+description: "Install, preview, activate, update and delete themes on the Appearance > Themes screen."
 type: reference
 order: 20
 redirect_from:

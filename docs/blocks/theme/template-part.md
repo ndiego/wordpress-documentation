@@ -1,6 +1,6 @@
 ---
 title: Template Part
-description: The Template Part block is used while creating and editing templates to manage blocks in areas repeated across the website.
+description: Reuse areas such as the header and footer across templates with the Template Part block.
 type: reference
 slug: template-part-block
 redirect_from:
@@ -18,7 +18,7 @@ The Template Part block is used while creating and editing templates to manage b
 
 https://videopress.com/v/GEDQAobI
 
-## Add a Template Part
+## Add a template part
 
 You can add templates when using the [Template Editor](../../design/site-editor/templates.md) or [Site Editor](../../design/site-editor/README.md) to edit templates directly. In order to add a Template Part block, click on the add block button and select the Template Part block. You can also type `/template part` and hit enter in a new paragraph block to add one quickly.
 

@@ -1,6 +1,6 @@
 ---
 title: Submenu
-description: The Submenu Block is an advanced block that can only be used as a child block of the Navigation Block released with WordPress 5.9.
+description: Add a dropdown list of links inside a Navigation block with the Submenu block.
 type: reference
 slug: navigation-submenu-block
 redirect_from:

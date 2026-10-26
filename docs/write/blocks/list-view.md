@@ -74,7 +74,7 @@ If a block has been hidden, a small eye icon will show next to its name in the L
 
 *Screenshot*
 
-## Synced Patterns
+## Synced patterns
 
 [Synced patterns](../../design/patterns/README.md) are highlighted in purple to distinguish them from regular blocks. When you select a Synced pattern from the List view, you will see additional options in the editor.
 

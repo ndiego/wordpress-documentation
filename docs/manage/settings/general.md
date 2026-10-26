@@ -1,6 +1,6 @@
 ---
 title: General settings
-description: "This Settings General Screen is the default Screen in the Settings Administration Screen and controls some of the most basic configuration settings for your site: your site’s title and location."
+description: "Set your site's title, tagline, address, admin email, language, time zone and date format on the Settings > General screen."
 type: reference
 order: 10
 redirect_from:

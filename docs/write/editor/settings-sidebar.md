@@ -1,6 +1,6 @@
 ---
 title: Page and post settings sidebar
-description: The Settings Sidebar is used to customize the key aspects of the page or post that is being published. It’s an essential component of the WordPress Block Editor.
+description: "The post and page settings in the editor sidebar, from status and publish date to categories, tags and featured image."
 type: reference
 order: 10
 redirect_from:

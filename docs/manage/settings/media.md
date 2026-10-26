@@ -1,6 +1,6 @@
 ---
 title: Media settings
-description: The Settings Media Screen controls the various settings related to images and other media that are used in writing posts and pages.
+description: "Set the sizes WordPress creates for uploaded images and how uploads are organized on the Settings > Media screen."
 type: reference
 order: 50
 slug: media-settings

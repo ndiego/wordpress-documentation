@@ -193,7 +193,7 @@ This reference has one page per core block, grouped the way the block inserter g
 
 -   [Footnotes](text/footnotes.md)
 
-## Most Used blocks
+## Most used blocks
 
 You will also find a Most Used blocks category which is not shown by default. This category will be visible only if you enable ‘Show most used blocks’ in your [Preferences](../write/editor/preferences.md#blocks).
 

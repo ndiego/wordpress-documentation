@@ -286,6 +286,188 @@ DESCRIPTIONS = {
     "classic/README.md": "The Classic Editor, widgets, menus and the Customizer, for sites that use the Classic Editor plugin or a classic theme.",
 }
 
+DESCRIPTIONS.update({
+    'blocks/design/buttons.md': 'Add one or more buttons that link to other pages or sites with the Buttons block.',
+    'blocks/design/columns.md': 'Lay out text, images and other blocks side by side in columns with the Columns block.',
+    'blocks/design/group/README.md': 'Put blocks together in a Group block so you can style, move and lay them out as one unit.',
+    'blocks/design/group/grid.md': 'Arrange blocks in a grid of rows and columns with the Grid variation of the Group block.',
+    'blocks/design/group/row.md': 'Arrange blocks side by side in a single horizontal line with the Row variation of the Group block.',
+    'blocks/design/group/stack.md': 'Stack blocks one above the other with the Stack variation of the Group block.',
+    'blocks/design/home-link.md': "Add a link to your site's home page inside a Navigation block with the Home Link block.",
+    'blocks/design/more.md': 'Show only the start of a post on your blog page, with a link to read the rest, using the More block.',
+    'blocks/design/navigation-link.md': 'Add a link to a page, post, category or any URL inside a Navigation block with the Custom Link block.',
+    'blocks/design/navigation-submenu.md': 'Add a dropdown list of links inside a Navigation block with the Submenu block.',
+    'blocks/design/nextpage.md': 'Split a long post or page into several pages with the Page Break block.',
+    'blocks/design/separator.md': 'Add a horizontal line between sections of content with the Separator block.',
+    'blocks/design/spacer.md': 'Add empty space between blocks with the Spacer block.',
+    'blocks/embeds.md': 'Add videos, posts, audio and other content from YouTube, Vimeo, Spotify and many other sites with the Embed block.',
+    'blocks/media/audio.md': 'Add an audio file, such as music or a podcast episode, to a post or page with the Audio block.',
+    'blocks/media/cover.md': 'Put text over an image, a video or a color with the Cover block, for headers, banners and calls to action.',
+    'blocks/media/file.md': 'Add a link to a file that visitors can download, with an optional download button, using the File block.',
+    'blocks/media/gallery.md': 'Show several images together with the Gallery block, and choose its columns, image sizes and links.',
+    'blocks/media/image.md': 'Add an image to a post or page with the Image block, then crop, resize, link and caption it.',
+    'blocks/media/media-text.md': 'Place an image or video side by side with text using the Media & Text block.',
+    'blocks/media/video.md': 'Upload a video, or pick one from the Media Library, and show it in a post or page with the Video block.',
+    'blocks/text/code.md': 'Show code examples exactly as typed, in a monospaced font, with the Code block.',
+    'blocks/text/details.md': 'Hide content behind a short summary that visitors click to expand, using the Details block.',
+    'blocks/text/footnotes.md': 'Add numbered notes to a post or page and list them at the end with the Footnotes block.',
+    'blocks/text/freeform.md': 'Edit content with the Classic Editor toolbar inside the block editor using the Classic block.',
+    'blocks/text/heading.md': 'Add headings that introduce sections and give a page a clear structure with the Heading block.',
+    'blocks/text/list.md': 'Create a bulleted or numbered list, with nested items, using the List block.',
+    'blocks/text/paragraph.md': 'Add and format text with the Paragraph block, the default block in the editor.',
+    'blocks/text/preformatted.md': 'Show text exactly as you type it, spaces and line breaks included, with the Preformatted block.',
+    'blocks/text/pullquote.md': 'Highlight a short quotation from your text in large type with the Pullquote block.',
+    'blocks/text/quote.md': 'Set a quotation apart from the rest of the text, with an optional citation, using the Quote block.',
+    'blocks/text/table.md': 'Add a table of rows and columns to a post or page with the Table block.',
+    'blocks/text/verse.md': 'Write poetry and song lyrics with the spacing and line breaks you type, using the Poetry block.',
+    'blocks/theme/comments.md': "Show a post's comments and the comment form in a template with the Comments block and its inner blocks.",
+    'blocks/theme/loginout.md': 'Add a link that lets visitors log in to your site, or log out when they are logged in, with the Login/out block.',
+    'blocks/theme/post-author-name.md': "Show the name of a post's author with the Author Name block, usually in a template or a Query Loop.",
+    'blocks/theme/post-comments-form.md': 'Show the form visitors use to leave a comment with the Comments Form block.',
+    'blocks/theme/post-content.md': 'Show the content of a post or page in a template or a Query Loop with the Content block.',
+    'blocks/theme/post-date.md': 'Show the date a post was published or last updated with the Date block.',
+    'blocks/theme/post-excerpt.md': "Show a post's excerpt in a template or a Query Loop with the Excerpt block.",
+    'blocks/theme/post-featured-image.md': "Show a post's featured image in a template or a Query Loop with the Featured Image block.",
+    'blocks/theme/post-navigation-link.md': 'Link to the previous or next post with the Previous Post and Next Post blocks.',
+    'blocks/theme/post-template.md': 'Set the layout of each post in a Query Loop with the Post Template block.',
+    'blocks/theme/post-terms.md': "Show a post's categories, tags or other terms with the Categories, Tags and other post terms blocks.",
+    'blocks/theme/post-title.md': 'Show the title of a post or page with the Title block.',
+    'blocks/theme/query-pagination.md': 'Add links to the next and previous pages of results in a Query Loop with the Pagination block.',
+    'blocks/theme/query-title.md': 'Show a heading that matches the archive or search results being viewed with the Query Title block.',
+    'blocks/theme/query-total.md': 'Show how many posts a Query Loop found, or which ones are on the current page, with the Query Total block.',
+    'blocks/theme/query.md': 'Show a list of posts chosen by type, category, author and other filters with the Query Loop block.',
+    'blocks/theme/read-more.md': 'Add a link to the full post inside a Query Loop with the Read More block.',
+    'blocks/theme/site-logo.md': "Show your site's logo with the Site Logo block, and set the logo for the whole site.",
+    'blocks/theme/template-part.md': 'Reuse areas such as the header and footer across templates with the Template Part block.',
+    'blocks/theme/term-description.md': 'Show the description of a category, tag or other term on its archive page with the Term Description block.',
+    'blocks/theme/terms-query.md': 'Show a list or grid of categories, tags or other taxonomy terms with the Terms Query block.',
+    'blocks/widgets/README.md': 'Blocks that show content WordPress keeps up to date, such as archives, latest posts and comments, a search form and social icons.',
+    'blocks/widgets/archives.md': 'Show links to your posts grouped by month or year with the Archives block.',
+    'blocks/widgets/calendar.md': 'Show a monthly calendar that links to the days you published posts with the Calendar block.',
+    'blocks/widgets/categories.md': 'Show a list or dropdown of your post categories with the Categories List block.',
+    'blocks/widgets/html.md': 'Add your own HTML code to a post, page or template with the Custom HTML block.',
+    'blocks/widgets/latest-comments.md': 'Show the most recent comments on your site with the Latest Comments block.',
+    'blocks/widgets/latest-posts.md': 'Show a list of your most recent posts with the Latest Posts block.',
+    'blocks/widgets/page-list.md': "Show a list of your site's published pages with the Page List block.",
+    'blocks/widgets/rss.md': 'Show the latest items from any RSS feed with the RSS block.',
+    'blocks/widgets/search.md': 'Add a search form to a post, page or template with the Search block.',
+    'blocks/widgets/shortcode.md': 'Add a shortcode from a plugin or theme to a post or page with the Shortcode block.',
+    'blocks/widgets/social-links.md': 'Add icons that link to your social media profiles with the Social Icons block.',
+    'blocks/widgets/tag-cloud.md': 'Show your most used tags or categories as a cloud of links with the Tag Cloud block.',
+    'classic/classic-editor/audio-video-shortcodes.md': 'Embed audio and video files in Classic Editor content with the audio and video shortcodes.',
+    'classic/classic-editor/write-code-in-posts.md': 'Show code in a post written with the Classic Editor without WordPress changing or running it.',
+    'classic/classic-editor/write-posts-classic.md': 'Write, format and publish a post with the Classic Editor.',
+    'classic/widgets-menus-customizer/README.md': 'Customize a classic theme with the Customizer, widgets and menus.',
+    'classic/widgets-menus-customizer/block-widgets-editor.md': 'Add blocks to the widget areas of a classic theme with the block-based widgets editor.',
+    'classic/widgets-menus-customizer/customizer.md': "Preview and change a classic theme's settings, such as the site identity, colors, menus and widgets, in the Customizer.",
+    'classic/widgets-menus-customizer/menus-screen.md': 'Create and manage navigation menus for a classic theme on the Appearance > Menus screen.',
+    'classic/widgets-menus-customizer/widgets-screen.md': "Add, arrange and remove widgets in a classic theme's widget areas on the Appearance > Widgets screen.",
+    'design/patterns/README.md': 'Patterns are ready-made groups of blocks that you insert and then change to fit your content.',
+    'design/patterns/pattern-directory.md': 'Find patterns in the WordPress.org Pattern Directory and use them on your site.',
+    'design/patterns/submit-a-pattern.md': 'Share a pattern you made with every WordPress site by submitting it to the Pattern Directory.',
+    'design/site-editor/README.md': 'Design your whole site with blocks in the Site Editor, from the header and footer to every template.',
+    'design/site-editor/command-palette.md': 'Jump to any part of your site or run an action from the keyboard with the Command Palette.',
+    'design/site-editor/fonts.md': 'Install, upload and manage the fonts on your site with the Font Library.',
+    'design/site-editor/navigation.md': "Create and edit your site's navigation menus in the Site Editor.",
+    'design/site-editor/site-icon.md': 'Set the small icon that browsers show in tabs and bookmarks for your site.',
+    'design/site-editor/styles.md': 'Change the colors, fonts and spacing of your whole site at once with Styles in the Site Editor.',
+    'design/site-editor/templates.md': 'Templates set the layout of each kind of page on your site; template parts are the pieces they share, such as the header.',
+    'design/themes/README.md': 'Find, install, preview and switch themes, the designs that control how your site looks.',
+    'design/themes/default-themes/README.md': 'Every default theme WordPress has shipped, from Twenty Ten to Twenty Twenty-Five: what each one offers and how to customize it.',
+    'design/themes/default-themes/twenty-eleven.md': 'Twenty Eleven, the default theme introduced in WordPress 3.2: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-fifteen.md': 'Twenty Fifteen, the default theme introduced in WordPress 4.1: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-fourteen.md': 'Twenty Fourteen, the default theme introduced in WordPress 3.8: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-nineteen.md': 'Twenty Nineteen, the default theme introduced in WordPress 5.0: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-seventeen.md': 'Twenty Seventeen, the default theme introduced in WordPress 4.7: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-sixteen.md': 'Twenty Sixteen, the default theme introduced in WordPress 4.4: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-ten.md': 'Twenty Ten, the default theme introduced in WordPress 3.0: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-thirteen.md': 'Twenty Thirteen, the default theme introduced in WordPress 3.6: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-twelve.md': 'Twenty Twelve, the default theme introduced in WordPress 3.5: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-twenty-five.md': 'Twenty Twenty-Five, the default theme introduced in WordPress 6.7: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-twenty-four.md': 'Twenty Twenty-Four, the default theme introduced in WordPress 6.4: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-twenty-one.md': 'Twenty Twenty-One, the default theme introduced in WordPress 5.6: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-twenty-three.md': 'Twenty Twenty-Three, the default theme introduced in WordPress 6.1: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-twenty-two.md': 'Twenty Twenty-Two, the default theme introduced in WordPress 5.9: what it offers and how to customize it.',
+    'design/themes/default-themes/twenty-twenty.md': 'Twenty Twenty, the default theme introduced in WordPress 5.3: what it offers and how to customize it.',
+    'design/themes/themes-screen.md': 'Install, preview, activate, update and delete themes on the Appearance > Themes screen.',
+    'get-started/glossary.md': 'Definitions of the terms used in WordPress and in this documentation.',
+    'get-started/where-to-find-help.md': 'Where to look when you are stuck: this documentation, the support forums, and how to search for an answer.',
+    'get-started/wordpress-org-and-wordpress-com.md': 'The difference between WordPress.org, the free software you can install anywhere, and WordPress.com, a hosting service built on it.',
+    'manage/dashboard/README.md': 'A tour of the WordPress admin: the toolbar, the menu, and the screens you reach from it.',
+    'manage/dashboard/dashboard-screen.md': 'The Dashboard screen you see after you log in: its widgets and how to arrange them.',
+    'manage/dashboard/pages-screen.md': 'List, search, filter and edit your pages, one at a time or in bulk, on the Pages screen.',
+    'manage/dashboard/posts-screen.md': 'List, search, filter and edit your posts, one at a time or in bulk, on the Posts screen.',
+    'manage/plugins.md': 'Find, install, update, deactivate and delete plugins, which add features to your site.',
+    'manage/privacy.md': "The privacy tools in WordPress: the privacy policy page, and exporting or erasing a person's personal data.",
+    'manage/security/password-best-practices.md': 'How to choose a strong password for your WordPress account and keep it safe.',
+    'manage/security/site-was-hacked.md': 'What to do, step by step, when your WordPress site has been hacked.',
+    'manage/settings/connectors.md': 'Connect your site to external services, such as AI providers, on the Settings > Connectors screen.',
+    'manage/settings/date-and-time-format.md': 'The format characters WordPress uses to show dates and times, and how to write your own format.',
+    'manage/settings/discussion.md': 'Choose who can comment, how comments are moderated and which avatars appear on the Settings > Discussion screen.',
+    'manage/settings/general.md': "Set your site's title, tagline, address, admin email, language, time zone and date format on the Settings > General screen.",
+    'manage/settings/media.md': 'Set the sizes WordPress creates for uploaded images and how uploads are organized on the Settings > Media screen.',
+    'manage/settings/permalinks.md': 'Choose the structure of the URLs of your posts and archives on the Settings > Permalinks screen.',
+    'manage/settings/reading.md': 'Choose what your front page shows and how many posts appear on the Settings > Reading screen.',
+    'manage/settings/writing.md': 'Set the default post category and format, and other writing options, on the Settings > Writing screen.',
+    'manage/troubleshooting/README.md': "Check your site's health on the Site Health screen, and find what to do when something goes wrong.",
+    'manage/troubleshooting/changes-not-showing.md': 'Why a change you made may not show on your site yet, and how to clear the caches that cause it.',
+    'manage/troubleshooting/faq-troubleshooting.md': 'Answers to common WordPress problems, from login trouble to errors after an update.',
+    'manage/troubleshooting/recovery-mode.md': 'How recovery mode lets you back into your site after a fatal error, without FTP.',
+    'manage/updates/README.md': 'Update WordPress, plugins, themes and translations, and what to do when an update fails.',
+    'manage/updates/auto-updates.md': 'Turn automatic updates on or off for WordPress, plugins and themes.',
+    'manage/updates/site-maintenance.md': 'A checklist of regular tasks that keep a WordPress site healthy: backups, updates, spam and broken links.',
+    'manage/updates/update-php.md': 'Why the PHP version your site runs on matters, and how to update it.',
+    'manage/users/README.md': 'Who can do what on your site: user roles, adding users and managing profiles.',
+    'manage/users/add-a-user.md': 'Add a new user to your site and choose their role.',
+    'manage/users/gravatars.md': 'How WordPress uses Gravatar to show profile pictures, and how to set up your own.',
+    'manage/users/roles-and-capabilities.md': 'The roles a WordPress user can have, from Subscriber to Administrator, and what each one can do.',
+    'manage/users/users-screen.md': 'List, search, edit and delete users, and change their roles, on the Users screen.',
+    'manage/users/your-profile.md': 'Change your name, email, password, color scheme and other personal options on your profile screen.',
+    'write/block-settings/advanced.md': 'Add an HTML anchor or extra CSS classes to a block in its Advanced settings.',
+    'write/block-settings/border.md': 'Add a border, rounded corners or a shadow to a block.',
+    'write/block-settings/dimensions.md': 'Set the padding, margin, spacing and size of a block with the dimensions settings.',
+    'write/block-settings/position.md': 'Make a block stay at the top of the screen as visitors scroll with the position settings.',
+    'write/block-settings/typography.md': 'Change the font, size, line height, letter case and other text settings of a block.',
+    'write/blocks/add-a-block.md': 'The ways to add a block to a post or page: the block inserter, the slash command and the inserter between blocks.',
+    'write/blocks/block-directory.md': 'Find and install blocks made by the community from inside the editor with the Block Directory.',
+    'write/blocks/block-error.md': "What a block error message means and how to recover the block's content.",
+    'write/blocks/move-blocks.md': 'Move blocks within a post or page with the move arrows, drag and drop, or List View.',
+    'write/blocks/page-jumps.md': 'Link to a heading or block further down a page with an HTML anchor, so readers jump straight to it.',
+    'write/comments/comment-spam.md': 'How to stop spam comments, and how to clean up the ones that get through.',
+    'write/comments/comments-screen.md': 'Approve, reply to, edit, mark as spam and delete comments on the Comments screen.',
+    'write/comments/trackbacks-and-pingbacks.md': 'What trackbacks and pingbacks are, how they differ, and how to turn them off.',
+    'write/create-a-page.md': 'Create a page for content that sits outside your blog, such as an About or Contact page.',
+    'write/editor/README.md': 'A tour of the block editor: the top toolbar, the content area, the settings sidebar and the document tools.',
+    'write/editor/distraction-free-mode.md': "Hide the editor's toolbars and panels so you can focus on writing with Distraction free mode.",
+    'write/editor/keyboard-shortcuts.md': 'Keyboard shortcuts for the block editor, the Classic Editor and the Comments screen, on Windows and Mac.',
+    'write/editor/preferences.md': "Turn editor features and panels on or off in the editor's Preferences.",
+    'write/editor/preview.md': 'Preview a post, page or template at desktop, tablet and mobile widths before you publish it.',
+    'write/editor/settings-sidebar.md': 'The post and page settings in the editor sidebar, from status and publish date to categories, tags and featured image.',
+    'write/formatting/character-entities.md': 'Type special characters, such as the copyright sign, accented letters and arrows, with HTML character entities.',
+    'write/formatting/emoji.md': 'How emoji work in WordPress and how to add them to your content on mobile and desktop.',
+    'write/formatting/post-content-processing.md': 'The changes WordPress makes to post content before showing it, such as curly quotes and paragraph tags, and how to prevent them.',
+    'write/formatting/smilies.md': 'How WordPress turns text smileys such as :-) into images, and how to turn that off.',
+    'write/media/README.md': 'Upload, find and manage the images, video, audio and documents on your site in the Media Library.',
+    'write/media/add-media.md': 'Upload images, video, audio and other files to the Media Library.',
+    'write/media/edit-media.md': "Edit a file's title, caption, alt text and description, and crop or rotate images, in the Media Library.",
+    'write/media/image-sizes.md': 'How WordPress resizes the images you upload, and how to keep images sharp and quick to load.',
+    'write/organize/README.md': 'How WordPress groups content so visitors can find it: categories and tags, post types, custom fields, a static front page and a search page.',
+    'write/organize/categories.md': 'Create, edit and organize post categories on the Posts > Categories screen.',
+    'write/organize/custom-fields.md': 'Add extra information, called metadata, to a post with custom fields.',
+    'write/organize/post-types.md': 'Posts, pages, attachments and the other kinds of content WordPress stores, and how custom post types add more.',
+    'write/organize/search-page.md': 'Create a page that helps visitors search your site.',
+    'write/organize/static-front-page.md': "Show a page instead of your latest posts on your site's front page, and put your posts on a page of their own.",
+    'write/organize/tags.md': 'Create, edit and manage post tags on the Posts > Tags screen.',
+    'write/organize/taxonomies.md': 'What taxonomies are, the categories and tags WordPress includes, and how custom taxonomies add more.',
+    'write/publish/content-visibility.md': 'Make a post or page public, private or password protected with the Visibility setting.',
+    'write/publish/excerpts.md': 'Write a short summary of a post, called an excerpt, and control where WordPress shows it.',
+    'write/publish/password-protected.md': 'Protect a post or page with a password so that only people who know it can read it.',
+    'write/publish/post-status.md': 'The statuses a post can have, such as draft, pending, scheduled, private and published, and what each one means.',
+    'write/publish/revisions.md': 'See every saved version of a post, compare two versions, and restore an earlier one.',
+    'write/publish/sticky-posts.md': 'Keep a post at the top of your blog page by making it sticky.',
+    'write/seo.md': 'What WordPress does for search engines out of the box, and the settings and habits that help people find your site.',
+})
+
 # New bodies for group landings whose hub page was a stub (replace everything after the H1).
 INTROS = {
     "blocks/text/README.md": (
@@ -355,25 +537,29 @@ MINOR = {"a", "an", "the", "and", "or", "of", "to", "in", "on", "for", "with", "
          "via", "is", "are", "your", "you", "it", "its", "into", "be", "not", "do", "how", "what"}
 PROPER = {
     "WordPress", "Gutenberg", "Gravatar", "Gravatars", "Google", "Bing", "Yahoo", "Linux", "Windows", "Mac",
-    "Apache", "Nginx", "Customizer", "Openverse", "Playground", "Studio", "Akismet", "Jetpack", "Emoji",
+    "Apache", "Nginx", "Customizer", "Openverse", "Playground", "Studio", "Akismet", "Jetpack", "FTP",
     "Twenty", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Nineteen",
     "Twenty-One", "Twenty-Two", "Twenty-Three", "Twenty-Four", "Twenty-Five", "Arch", "Ubuntu", "Debian",
     "Fedora", "Microsoft", "Word", "Excel", "YouTube", "Vimeo", "Spotify", "Instagram", "Facebook", "Twitter",
-    "English", "Unicode", "Markdown", "I", "OS", "X", "Quicktags", "QuickTags", "Classic", "Gmail", "Chrome",
+    "English", "Unicode", "Markdown", "I", "OS", "X", "Quicktags", "QuickTags", "Gmail", "Chrome",
     "Firefox", "Safari", "Edge", "Ajax", "JavaScript", "Dashicons", "Abilities", "Hello", "Dolly",
 }
 PHRASES = [
     "Site Editor", "Block Editor Handbook", "Block Directory", "Pattern Directory", "Plugin Directory",
     "Theme Directory", "Font Library", "Media Library", "List View", "Command Palette", "Classic Editor",
     "Query Loop", "Site Health", "Global Styles", "Code Reference", "Media & Text", "Social Icons",
-    "Latest Posts", "Latest Comments", "Tag Cloud", "Page List", "Custom HTML", "Post Template",
-    "Template Part", "Site Title", "Site Logo", "Site Tagline", "Post Title", "Post Content", "Post Excerpt",
-    "Post Date", "Featured Image", "Read More", "Query Pagination", "Comments Pagination", "Navigation Link",
-    "Home Link", "Page Break", "Distraction Free", "Zen Mode", "Spotlight Mode", "Quick Edit", "Bulk Edit",
-    "Screen Options", "Help Tab", "Starter Content", "Recovery Mode", "Application Passwords", "Abilities API",
-    "REST API", "Block Inserter", "Twenty Twenty", "Hello Dolly", "Synced Patterns", "Learn WordPress",
+    "Quick Edit", "Bulk Edit", "Screen Options", "Help Tab", "Application Passwords", "Abilities API",
+    "REST API", "Block Inserter", "Twenty Twenty", "Hello Dolly", "Learn WordPress",
     "Support Forums", "Theme Handbook", "Plugin Handbook", "Common APIs Handbook",
 ]
+
+
+def lower_word(w):
+    """Lowercase one word unless it is a name, an acronym, CamelCase or has digits."""
+    if not w or w in PROPER or re.sub(r"[’'](s)?$", "", w) in PROPER or re.search(r"\d", w) \
+            or re.search(r"[a-z][A-Z]", w) or (len(w) > 1 and w.rstrip("s").isupper()) or w[0].islower():
+        return w
+    return w[0].lower() + w[1:]
 
 
 def sentence_case(text):
@@ -391,8 +577,8 @@ def sentence_case(text):
         for m in re.finditer(re.escape(ph), text):
             keep.update(range(m.start(), m.end()))
     # Words that name a block: Capitalized words right before "block" or "blocks".
-    for m in re.finditer(r"((?:[A-Z][\w&’'-]*\s+)+)(?=[Bb]locks?\b)", text):
-        if m.start() > 0 or True:
+    for m in re.finditer(r"([A-Z][\w&’'-]*\s+(?:(?:to|of|and|&|[A-Z][\w&’'-]*)\s+)*)(?=[Bb]locks?\b)", text):
+        if not re.match(r"(Most|Other|Embed|Theme|Hidden|Locked|Parent|Synced)\b", m.group(1)):
             keep.update(range(m.start(), m.end()))
     for m in re.finditer(r"`[^`]*`|\]\([^)]*\)|\*\*[^*]+\*\*|“[^”]*”|\"[^\"]*\"", text):
         keep.update(range(m.start(), m.end()))
@@ -402,12 +588,12 @@ def sentence_case(text):
         out.append(text[pos:m.start()])
         w = m.group(0)
         before = text[:m.start()].rstrip()
-        after_break = before.endswith((":", "?", "!")) or (before.endswith(".") and not before.endswith(".."))
-        if first or after_break or m.start() in keep or w in PROPER or re.search(r"[A-Z].*[A-Z]", w) \
-                or re.search(r"\d", w) or (len(w) > 1 and w.isupper()) or w[0].islower():
+        after_break = before.endswith((":", "?", "!", "→", "→︎")) or \
+            (before.endswith(".") and not before.endswith("..") and not before.lower().endswith("vs."))
+        if first or after_break or m.start() in keep:
             out.append(w)
         else:
-            out.append(w[0].lower() + w[1:])
+            out.append("-".join(lower_word(p) for p in w.split("-")))
         if re.match(r"[A-Za-z]", w):
             first = False
         pos = m.end()

@@ -1,6 +1,6 @@
 ---
 title: Page Break
-description: "Use the page break block to separate your content into a multiple-page experience and add pagination, or page breaks, to a page or post."
+description: Split a long post or page into several pages with the Page Break block.
 type: reference
 slug: nextpage-block
 redirect_from:

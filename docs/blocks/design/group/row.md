@@ -1,6 +1,6 @@
 ---
 title: Row
-description: Row block is one of the container blocks that can be used to arrange blocks in a single horizontal line.
+description: Arrange blocks side by side in a single horizontal line with the Row variation of the Group block.
 type: reference
 slug: row-block
 redirect_from:

@@ -1,6 +1,6 @@
 ---
 title: Classic
-description: "The Classic block looks just like the classic editor, but it’s in block form. Custom TinyMCE buttons are found in this block."
+description: Edit content with the Classic Editor toolbar inside the block editor using the Classic block.
 type: reference
 slug: freeform-block
 redirect_from:

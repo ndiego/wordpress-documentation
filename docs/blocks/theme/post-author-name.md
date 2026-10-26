@@ -1,6 +1,6 @@
 ---
 title: Author Name
-description: The Author Name block displays the post author’s name or username. This block is often nested inside a query loop block or added to a Template in the Site Editor.
+description: "Show the name of a post's author with the Author Name block, usually in a template or a Query Loop."
 type: reference
 slug: post-author-name-block
 redirect_from:

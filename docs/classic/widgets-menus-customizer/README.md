@@ -1,6 +1,6 @@
 ---
 title: "Widgets, menus and the Customizer"
-description: "Classic themes are customised in the Customizer (Appearance > Customize) and on the Widgets and Menus screens."
+description: "Customize a classic theme with the Customizer, widgets and menus."
 type: guide
 order: 20
 ---

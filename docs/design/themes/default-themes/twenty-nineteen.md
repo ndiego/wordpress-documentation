@@ -1,6 +1,6 @@
 ---
 title: Twenty Nineteen
-description: "Twenty Nineteen is the new default theme for WordPress Version 5.0. At the core of Twenty Nineteen is its simple, sophisticated typography."
+description: "Twenty Nineteen, the default theme introduced in WordPress 5.0: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-nineteen-changelog/
@@ -28,7 +28,7 @@ The block editor introduced in WordPress 5.0 grants users an unprecedented level
 
 ![A screenshot of a post in Twenty Nineteen that uses the Cover block. The block settings are opened and shows the color options.](https://wordpress.org/documentation/files/2018/12/Twenty-Nineteen-Post-Editor-Gutenberg.jpeg)
 
-## Site Logo
+## Site logo
 
 Twenty Nineteen supports a Site Logo which works great as an avatar for a personal blog or an business logo or icon. To modify it on your site, navigate to Customizer > Site Identity.
 

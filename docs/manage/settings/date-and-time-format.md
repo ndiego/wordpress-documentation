@@ -1,6 +1,6 @@
 ---
 title: Date and time format
-description: Certain WordPress tag functions are used to display or return date and time information; the_date() and the_time() are examples of this.
+description: "The format characters WordPress uses to show dates and times, and how to write your own format."
 type: reference
 order: 80
 redirect_from:

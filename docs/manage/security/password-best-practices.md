@@ -1,6 +1,6 @@
 ---
 title: Password best practices
-description: "Securing your WordPress starts with a strong password. A strong password is complex and elaborate. It isn’t easy to guess since it doesn’t contain recognizable words, names, dates or numbers."
+description: How to choose a strong password for your WordPress account and keep it safe.
 type: guide
 order: 10
 redirect_from:

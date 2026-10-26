@@ -1,6 +1,6 @@
 ---
 title: Taxonomies
-description: A taxonomy within WordPress is a way of grouping posts together based on a select number of relationships.
+description: "What taxonomies are, the categories and tags WordPress includes, and how custom taxonomies add more."
 type: concept
 order: 30
 redirect_from:

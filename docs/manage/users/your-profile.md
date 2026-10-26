@@ -1,6 +1,6 @@
 ---
 title: Your profile
-description: The Your Profile Screen is accessible from both the main navigation menu under Users and by clicking on your name link at the top of the WordPress screen.
+description: "Change your name, email, password, color scheme and other personal options on your profile screen."
 type: reference
 order: 40
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
 
 # Your profile
 
-## Users → your profile
+## Users → Your profile
 
 The [Your Profile Screen](your-profile.md) is accessible from both the main navigation menu under [Users](../dashboard/README.md#your-profile) and by clicking on your name link at the top of the WordPress screen. Here you can specify your name and how it will be displayed on your site, your e-mail address (for administrative purposes), other personal information, and personal options.
 

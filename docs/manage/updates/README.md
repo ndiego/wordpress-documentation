@@ -1,6 +1,6 @@
 ---
 title: Updates
-description: You should always update WordPress to the latest version. When a new version of WordPress is available you will receive an update message in your WordPress Admin Screens.
+description: "Update WordPress, plugins, themes and translations, and what to do when an update fails."
 type: guide
 order: 50
 redirect_from:

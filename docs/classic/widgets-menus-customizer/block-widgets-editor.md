@@ -1,6 +1,6 @@
 ---
 title: Block-based widgets editor
-description: "The Block-based Widgets Editor brings the power of blocks to the Theme Customizer and Appearance > Widgets sections in the WordPress Administration Screens allowing you to add blocks right next."
+description: Add blocks to the widget areas of a classic theme with the block-based widgets editor.
 type: guide
 order: 30
 redirect_from:

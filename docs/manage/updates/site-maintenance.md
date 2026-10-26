@@ -1,6 +1,6 @@
 ---
 title: Site maintenance
-description: "To keep WordPress working healthy, there is some site maintenance we recommend you do frequently."
+description: "A checklist of regular tasks that keep a WordPress site healthy: backups, updates, spam and broken links."
 type: guide
 order: 20
 redirect_from:

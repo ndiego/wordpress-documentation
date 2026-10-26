@@ -1,6 +1,6 @@
 ---
 title: Comments
-description: The Comments block is an advanced block that displays post comments with various visual configurations.
+description: "Show a post's comments and the comment form in a template with the Comments block and its inner blocks."
 type: reference
 slug: comments-block
 redirect_from:

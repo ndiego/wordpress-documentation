@@ -1,6 +1,6 @@
 ---
 title: Twenty Twenty-Three
-description: "Twenty Twenty-Three is the new, accessibility-ready, default theme for WordPress Version 6.1."
+description: "Twenty Twenty-Three, the default theme introduced in WordPress 6.1: what it offers and how to customize it."
 type: reference
 redirect_from:
   - /documentation/article/twenty-twenty-three-changelog/

@@ -1,6 +1,6 @@
 ---
 title: Templates and template parts
-description: "The Template Editor allows you to edit and create templates, using blocks. These templates control the layout of the posts, pages, or page types on your site."
+description: "Templates set the layout of each kind of page on your site; template parts are the pieces they share, such as the header."
 type: concept
 order: 10
 redirect_from:
