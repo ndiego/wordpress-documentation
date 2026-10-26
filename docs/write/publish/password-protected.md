@@ -9,6 +9,11 @@ redirect_from:
 
 # Password-protected content
 
+A password-protected post or page is published, but only people who know the password can read its content; everyone else sees a password form. This page explains how to set a password, how protected content looks on your site, and how to customize the password form.
+
+> [!NOTE]
+> The steps below describe the **Publish** box of the Classic Editor. In the block editor, the password option is in the post settings sidebar, with the post's status and visibility; see [Content visibility](content-visibility.md).
+
 ## Post visibility settings
 
 Once you publish a WordPress post (or Page), it is visible to the public (by default). In WordPress terms, this means a post with a *Published* status has a default visibility of *Public*, based on the settings in the [Publish box](../../classic/classic-editor/write-posts-classic.md#post-field-descriptions) of a [Edit Post Screen](../../manage/dashboard/README.md#posts--make-some-content).
@@ -17,11 +22,13 @@ WordPress also offers two less public options for your post’s [Content Visibil
 
 -   *Public* is selected by default.
 -   Checking *Password protected* reveals a text field for entering a password, that will be required to view that post. **The password is limited to 20 characters.**
--   Checking *Private* makes your post visible only to your site’s Users with the role of [Administrator or Editor](../../manage/users/roles-and-capabilities.md).Visibility Settings
+-   Checking *Private* makes your post visible only to your site’s Users with the role of [Administrator or Editor](../../manage/users/roles-and-capabilities.md).
 
 ![Publish panel showing the Visibility settings with “Password protected” selected and a password field displayed.](https://wordpress.org/documentation/files/2019/02/protected_edit.png)
 
-When you’re done editing the post’s visibility, click the “OK” button. You should now see your post’s new setting, e.g., **Visibility: Password Protected**.Remember: a setting change does not take effect until you click the “Publish” button (or “Update” if the post is already published.)
+When you’re done editing the post’s visibility, click the “OK” button. You should now see your post’s new setting, for example **Visibility: Password Protected**.
+
+Remember: a setting change does not take effect until you click the “Publish” button (or “Update” if the post is already published.)
 
 ## Finding or changing a password
 
@@ -29,7 +36,7 @@ Only an Administrator, Editor, or the post’s Author can change a post’s pass
 
 The **Visibility** “Edit” link (or “Quick Edit”) is also a good way to reveal a forgotten post password.
 
-## Password protected posts
+## How protected posts appear
 
 ![Publish panel showing status, visibility set to “Password Protected,” publish timing, and the Publish button](https://wordpress.org/documentation/files/2019/02/protected_password.png)
 
@@ -43,7 +50,7 @@ WordPress displays a password-protected post differently. It makes these changes
 
 So, a password-protected post with a title of “My Post” would display like this:
 
-### Password protecting many posts and pages
+### Protect many posts and pages
 
 WordPress stores this password in a browser cookie so readers don’t have to re-enter passwords if they visit the same page multiple times. Furthermore, if multiple posts use the same password, the reader will only have to enter the password once to access every post (see caveat below).
 
@@ -131,7 +138,7 @@ This will get the default WordPress password form and text or [any customization
 
 In this same WordPress core file you’ll also find the the_excerpt and the_password_form filters, and the functions [get_the_excerpt()](https://developer.wordpress.org/reference/functions/get_the_excerpt/), [get_the_title()](https://developer.wordpress.org/reference/functions/get_the_title/), and [get_the_content()](https://developer.wordpress.org/reference/functions/get_the_content/). These functions control how a post’s title, excerpt and content display, depending on its visibility setting.
 
-## Hiding password protected posts
+## Hide password-protected posts
 
 Sometimes, you don’t want your password protected posts to show up on other places around your site, like on the home page or archive pages. To effectively hide them from these pages without affecting your pagination, place the following code in your custom plugin file:
 

@@ -9,31 +9,25 @@ redirect_from:
 
 # Add a user
 
-The **Users Add New Screen** allows you to add new users who can login to your site.
+Administrators can add people to a site from the dashboard, without waiting for them to register. You choose each person's role when you add them, which decides what they can do on the site (see [Roles and capabilities](roles-and-capabilities.md)).
 
-[![](https://wordpress.org/documentation/files/2019/01/add-user.png)](https://wordpress.org/support/?attachment_id=11150900)
+![The Add New User screen.](https://wordpress.org/documentation/files/2019/01/add-user.png)
 
-## Add new user
+## Add a new user
 
-In this Screen, you may add new Users to your site. If the **Anyone can register** option is set in the Membership section of Administration > Settings > General, users can register themselves at http://your wordpress url/wp-register.php. Regardless of that setting, you can manually create new users here.
+1.  In the dashboard, go to **Users > Add New User**.
+2.  Fill in the fields described below. Only the username and email are required.
+3.  Select **Add New User**. A message at the top of the screen confirms that the user was added.
 
--   **Username (required)** – Enter the username of the new user here. This will also be used as the **Login** name of the new user.
--   **E-mail (required)** – Enter a valid e-mail address of the new
-    user here. The e-mail address must be unique for each user. If a
-    published post or page is authored by this user, then when approved
-    comments are made to that post or page, a notification e-mail is sent to
-    this e-mail address.
--   **First Name** – Enter the first name of the new user here.
--   **Last Name** – Enter the last name of the new user in this text box (the display name defaults to first and last name).
--   **Website** -: You may enter the new user’s website URL in this text box.
--   **Password (twice)** – Enter a password for the new user twice here, once in each text box.
+If **Anyone can register** is selected in **Settings > General** (see [General settings](../settings/general.md)), people can also create an account themselves from the login screen. Either way, you can add users here.
 
-**Strength Indicator** This indicates if the password you
-entered is Very Weak, Weak, Medium, or Strong (displayed in green). The
-stronger the password the more secure the login. Hint: The password
-should be at least seven characters long. To make it stronger, use upper
-and lower case letters, numbers and symbols like *!”?$%^&)*.
+## The fields
 
--   **Send Password?** – Check the box to **Send this password to the new user by email**.
--   **Role** – Select the desired [Role](roles-and-capabilities.md) for this User from the drop-down box. Default: Administration > Settings > General – New User Default Role
--   **Add New User** – Click this important button to save the new user’s information into WordPress’ database. If you don’t click this button, the user will not be added. A flash message at the top of the screen will advise you that the new user has been added.
+-   **Username**: the name the user logs in with. It cannot be changed later.
+-   **Email**: a valid email address, unique to this user. WordPress sends account emails here, and notifications about comments on the user's posts.
+-   **First Name** and **Last Name**: optional; the display name defaults to them.
+-   **Website**: optional; the user's website.
+-   **Language**: the language of the dashboard for this user. **Site Default** uses the language set in **Settings > General**.
+-   **Password**: WordPress suggests a strong password. You can replace it with your own; the strength indicator shows how strong it is.
+-   **Send User Notification**: select it to email the new user a link to set their password and log in.
+-   **Role**: what the user can do on the site. The default comes from **New User Default Role** in **Settings > General**.

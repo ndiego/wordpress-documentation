@@ -135,6 +135,8 @@ HAND_EDITED = {
     "blocks/README.md",
     "write/blocks/README.md",
     "write/organize/static-front-page.md",
+    "manage/users/add-a-user.md",
+    "write/publish/password-protected.md",
 }
 
 # Hub sections that are not part of this repository, and where their pages live on developer.wordpress.org.
