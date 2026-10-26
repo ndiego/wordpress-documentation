@@ -1056,6 +1056,85 @@ def fix_anchors(dst, problems, cache):
             fh.write(new)
 
 
+# Codex pages that have a home here or on developer.wordpress.org. Glossary#Term links go to the glossary here.
+CODEX_LOCAL = {
+    "Users_Screen": "manage/users/users-screen.md",
+    "Editing_wp-config.php": "manage/wp-config.md",
+    "Comment_Moderation": "write/comments/comment-moderation.md",
+    "Comment_Spam": "write/comments/comment-spam.md",
+    "Combating_Comment_Spam": "write/comments/comment-spam.md",
+    "Using_Permalinks": "manage/settings/permalinks.md",
+    "Permalinks": "manage/settings/permalinks.md",
+    "Pages": "write/create-a-page.md",
+    "Administration_Panels": "manage/dashboard/README.md",
+    "Administration_Screens": "manage/dashboard/README.md",
+    "Using_Themes": "design/themes/README.md",
+    "Plugins": "manage/plugins.md",
+    "Managing_Plugins": "manage/plugins.md",
+    "Glossary": "get-started/glossary.md",
+}
+CODEX_DEV = {
+    "Template_Tags": f"{DEV}/themes/basics/template-tags/",
+    "Template_Hierarchy": f"{DEV}/themes/basics/template-hierarchy/",
+    "Templates": f"{DEV}/themes/basics/template-files/",
+    "Stepping_Into_Templates": f"{DEV}/themes/basics/template-files/",
+    "Plugin_API": f"{DEV}/plugins/hooks/",
+    "Plugin_API/Action_Reference": f"{DEV}/apis/hooks/action-reference/",
+    "Plugin_API/Filter_Reference": f"{DEV}/apis/hooks/filter-reference/",
+    "Options_API": f"{DEV}/apis/options/",
+    "Create_A_Network": f"{DEV}/advanced-administration/multisite/create-network/",
+    "Network_Admin": f"{DEV}/advanced-administration/multisite/admin/",
+    "Changing_File_Permissions": f"{DEV}/advanced-administration/server/file-permissions/",
+}
+
+
+def codex_target(url):
+    """(kind, target) for a Codex URL that has a better home, else None. kind is 'local' or 'url'."""
+    m = re.match(r"^https?://codex\.wordpress\.org/(?:index\.php\?title=)?([^#?]+?)/?(?:#(.*))?$", url)
+    if not m:
+        return None
+    page, frag = m.group(1), m.group(2)
+    if page == "Glossary":
+        return "local", "get-started/glossary.md", (github_slug(frag.replace("_", " ")) if frag else "")
+    if page in CODEX_LOCAL:
+        return "local", CODEX_LOCAL[page], ""
+    if page in CODEX_DEV:
+        return "url", CODEX_DEV[page], ""
+    fr = re.match(r"(?:Function_Reference|Template_Tags)/(\w+)$", page)
+    if fr:
+        return "url", f"{DEV}/reference/functions/{fr.group(1)}/", ""
+    ver = re.match(r"Version_(\d+(?:\.\d+)*)$", page)
+    if ver:
+        return "url", "https://wordpress.org/documentation/wordpress-version/version-" + ver.group(1).replace(".", "-") + "/", ""
+    return None
+
+
+def fix_codex(dst):
+    path = os.path.join(DOCS, dst)
+    text = open(path, encoding="utf-8").read()
+
+    def repl(m):
+        bang, label, url, title = m.group(1), m.group(2), m.group(3), m.group(4)
+        t = None if bang else codex_target(url.strip("<>"))
+        if not t:
+            return m.group(0)
+        kind, target, frag = t
+        if kind == "url":
+            return f"[{label}]({target}{title})"
+        if target == dst:
+            return f"[{label}](#{frag}{title})" if frag else label
+        rel = os.path.relpath(target, os.path.dirname(dst) or ".")
+        return f"[{label}]({rel}{('#' + frag) if frag else ''}{title})"
+
+    out = []
+    for code, chunk in split_fences(text.rstrip("\n")):
+        out += chunk if code else [LINK.sub(repl, x) for x in chunk]
+    new = "\n".join(out) + "\n"
+    if new != text:
+        with open(path, "w", encoding="utf-8", newline="\n") as fh:
+            fh.write(new)
+
+
 # ---------------------------------------------------------------------------------------------- main
 
 
@@ -1212,8 +1291,9 @@ def main():
     if not a.dry_run:
         cache = {}
         for dst in sorted(plan):
-            if dst not in HAND_EDITED or a.force:
-                fix_anchors(dst, problems, cache)
+            fix_codex(dst)
+        for dst in sorted(plan):
+            fix_anchors(dst, problems, cache)
     print(f"ported {written} pages from {len(sources)} hub files")
     if other_redirects:
         print("\nredirect_from for pages written by another author (add them there):")

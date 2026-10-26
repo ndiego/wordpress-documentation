@@ -40,7 +40,7 @@ Here is what each format character in the string above represents:
 -   `j` = The day of the month.
 -   `Y` = The year in 4 digits. (lower-case y gives the year’s last 2 digits)
 
-Format characters are standardized and globally used in [PHP](https://codex.wordpress.org/Glossary#PHP) programming language. As WordPress is written in PHP programming language you can use the table of Date and Time format characters [directly from the PHP website](http://php.net/date).
+Format characters are standardized and globally used in [PHP](../../get-started/glossary.md#php) programming language. As WordPress is written in PHP programming language you can use the table of Date and Time format characters [directly from the PHP website](http://php.net/date).
 
 Here is a table of some of the more useful items found there:
 

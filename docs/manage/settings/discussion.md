@@ -9,7 +9,7 @@ redirect_from:
 
 # Discussion settings
 
-The **Settings Discussion Screen** allows you to set the options concerning comments (also called discussion). It is here the administrator decides if [comments](../../get-started/glossary.md#comments) are allowed, if [pingbacks](../../get-started/glossary.md#pingback) and [trackbacks](../../get-started/glossary.md#trackback) are acceptable, and what constitutes [Comment Spam](https://codex.wordpress.org/Combating_Comment_Spam). On this Screen you also control the circumstances under which your blog sends you e-mail notification of certain events at your site.
+The **Settings Discussion Screen** allows you to set the options concerning comments (also called discussion). It is here the administrator decides if [comments](../../get-started/glossary.md#comments) are allowed, if [pingbacks](../../get-started/glossary.md#pingback) and [trackbacks](../../get-started/glossary.md#trackback) are acceptable, and what constitutes [Comment Spam](../../write/comments/comment-spam.md). On this Screen you also control the circumstances under which your blog sends you e-mail notification of certain events at your site.
 
 ![](https://wordpress.org/documentation/files/2018/11/settings-discussion-screenshot-scaled-1.png)
 
@@ -48,7 +48,7 @@ These settings provide you even more control over the instances of when and how 
 
 ### Comment moderation
 
-In the [Comment Moderation](https://codex.wordpress.org/Comment_Moderation) section you specify these options to help you deal with [Comment Spam](https://codex.wordpress.org/Comment_Spam).
+In the [Comment Moderation](../../write/comments/comment-moderation.md) section you specify these options to help you deal with [Comment Spam](../../write/comments/comment-spam.md).
 
 -   **Hold a comment in the queue if it contains [X] or more links (A common characteristic of comment spam is a large number of hyperlinks.)** – Not too long ago, comment spammers would have five, ten, or more hyperlinks in their comment spam. This made it very easy for bloggers to quickly screen comments but spammers recognized that and commonly use only one or two hyperlinks. You can enter a number in this box to tell WordPress how many links you allow in a comment before holding it for moderation.
 -   **When a comment contains any of these words in its content, name, URL, e-mail, IP or browser’s user-agent string it will be held in the moderation queue. One word or IP per line. It will match inside words, so “press” will match “WordPress”** – In this text box you can add your own spam words which will filter the comments when posted.

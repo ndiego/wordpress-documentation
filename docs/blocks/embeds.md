@@ -64,41 +64,41 @@ WordPress can embed content from the services listed below:
 |  |  |  |  |
 | --- | --- | --- | --- |
 | **Service** | **Block** | **Embed Type** | **Since** |
-| [Amazon Kindle](http://amazon.com/) | [Amazon Kindle Block](embeds.md) | Videos | [WordPress 4.9](https://codex.wordpress.org/Version_4.9) |
-| [Animoto](http://animoto.com/) | [Animato Block](embeds.md) | Videos | [WordPress 4.0](https://codex.wordpress.org/Version_4.0) |
+| [Amazon Kindle](http://amazon.com/) | [Amazon Kindle Block](embeds.md) | Videos | [WordPress 4.9](https://wordpress.org/documentation/wordpress-version/version-4-9/) |
+| [Animoto](http://animoto.com/) | [Animato Block](embeds.md) | Videos | [WordPress 4.0](https://wordpress.org/documentation/wordpress-version/version-4-0/) |
 | [Bluesky](https://bsky.app/) | [Bluesky Block](README.md) | Bluesky Post | [WordPress 6.6](https://wordpress.org/documentation/wordpress-version/version-6-6/) |
-| [Cloudup](http://cloudup.com/) | [Cloudup Block](embeds.md) | Videos, Galleries, Images | [WordPress 4.4](https://codex.wordpress.org/Version_4.4) |
-| [Crowdsignal](https://crowdsignal.com/) | [Crowdsignal Block](embeds.md) | Polls & Surveys | [WordPress 3.0](https://codex.wordpress.org/Version_3.0) |
-| [DailyMotion](http://www.dailymotion.com/) | [DailyMotion Block](embeds.md) | Videos | [WordPress 2.9](https://codex.wordpress.org/Version_2.9) |
-| [Facebook](https://www.facebook.com/) | [Facebook Block](embeds.md) | Post, activity, photo, video, media, question, note | [WordPress 4.7](https://codex.wordpress.org/Version_4.7) |
-| [Flickr](http://www.flickr.com/) | [Flickr Block](embeds.md) | Videos & Images | [WordPress 2.9](https://codex.wordpress.org/Version_2.9) |
-| [Imgur](http://imgur.com/) | [Imgur Block](embeds.md) | Images | [WordPress 3.9](https://codex.wordpress.org/Version_3.9) |
-| [Instagram](http://instagram.com/) | [Instagram Block](embeds.md) | Images | [WordPress 3.5](https://codex.wordpress.org/Version_3.5) |
-| [Issuu](http://issuu.com/) | [Issuu Block](embeds.md) | Documents | [WordPress 4.0](https://codex.wordpress.org/Version_4.0) |
-| [Kickstarter](http://www.kickstarter.com/) | [Kickstarter Block](embeds.md) | Projects | [WordPress 4.2](https://codex.wordpress.org/Version_4.2) |
-| [Mixcloud](http://mixcloud.com/) | [Mixcloud Block](embeds.md) | Music | [WordPress 4.0](https://codex.wordpress.org/Version_4.0) |
-| [Photobucket](http://photobucket.com/) |  | Images | [WordPress 2.9](https://codex.wordpress.org/Version_2.9) |
+| [Cloudup](http://cloudup.com/) | [Cloudup Block](embeds.md) | Videos, Galleries, Images | [WordPress 4.4](https://wordpress.org/documentation/wordpress-version/version-4-4/) |
+| [Crowdsignal](https://crowdsignal.com/) | [Crowdsignal Block](embeds.md) | Polls & Surveys | [WordPress 3.0](https://wordpress.org/documentation/wordpress-version/version-3-0/) |
+| [DailyMotion](http://www.dailymotion.com/) | [DailyMotion Block](embeds.md) | Videos | [WordPress 2.9](https://wordpress.org/documentation/wordpress-version/version-2-9/) |
+| [Facebook](https://www.facebook.com/) | [Facebook Block](embeds.md) | Post, activity, photo, video, media, question, note | [WordPress 4.7](https://wordpress.org/documentation/wordpress-version/version-4-7/) |
+| [Flickr](http://www.flickr.com/) | [Flickr Block](embeds.md) | Videos & Images | [WordPress 2.9](https://wordpress.org/documentation/wordpress-version/version-2-9/) |
+| [Imgur](http://imgur.com/) | [Imgur Block](embeds.md) | Images | [WordPress 3.9](https://wordpress.org/documentation/wordpress-version/version-3-9/) |
+| [Instagram](http://instagram.com/) | [Instagram Block](embeds.md) | Images | [WordPress 3.5](https://wordpress.org/documentation/wordpress-version/version-3-5/) |
+| [Issuu](http://issuu.com/) | [Issuu Block](embeds.md) | Documents | [WordPress 4.0](https://wordpress.org/documentation/wordpress-version/version-4-0/) |
+| [Kickstarter](http://www.kickstarter.com/) | [Kickstarter Block](embeds.md) | Projects | [WordPress 4.2](https://wordpress.org/documentation/wordpress-version/version-4-2/) |
+| [Mixcloud](http://mixcloud.com/) | [Mixcloud Block](embeds.md) | Music | [WordPress 4.0](https://wordpress.org/documentation/wordpress-version/version-4-0/) |
+| [Photobucket](http://photobucket.com/) |  | Images | [WordPress 2.9](https://wordpress.org/documentation/wordpress-version/version-2-9/) |
 | Pinterest |  | Images |  |
 | [Pocket Casts](https://pocketcasts.com/) | [Pocket Casts](embeds.md) | Podcasts | WordPress 6.1 |
-| [Reddit](http://reddit.com/) | [Reddit Block](embeds.md) | Posts & Comments | [WordPress 4.4](https://codex.wordpress.org/Version_4.4) |
-| [ReverbNation](http://reverbnation.com/) | [ReverbNation Block](embeds.md) | Music | [WordPress 4.4](https://codex.wordpress.org/Version_4.4) |
+| [Reddit](http://reddit.com/) | [Reddit Block](embeds.md) | Posts & Comments | [WordPress 4.4](https://wordpress.org/documentation/wordpress-version/version-4-4/) |
+| [ReverbNation](http://reverbnation.com/) | [ReverbNation Block](embeds.md) | Music | [WordPress 4.4](https://wordpress.org/documentation/wordpress-version/version-4-4/) |
 | [Screencast](https://www.screencast.com/) | [Screencast Block](embeds.md) | Video |  |
-| [Scribd](http://www.scribd.com/) | [Scribd Block](embeds.md) | Documents | [WordPress 2.9](https://codex.wordpress.org/Version_2.9) |
-| [SlideShare](http://www.slideshare.net/) | [SlideShare Block](embeds.md) | Presentation slideshows | [WordPress 3.5](https://codex.wordpress.org/Version_3.5) |
-| [SmugMug](http://www.smugmug.com/) | [SmugMug Block](embeds.md) | Various | [WordPress 3.0](https://codex.wordpress.org/Version_3.0) |
-| [SoundCloud](http://soundcloud.com/) | [SoundCloud Block](embeds.md) | Music | [WordPress 3.5](https://codex.wordpress.org/Version_3.5) |
-| [Speaker Deck](http://speakerdeck.com/) | [Speaker Deck Block](embeds.md) | Presentation slideshows | [WordPress 4.4](https://codex.wordpress.org/Version_4.4) |
-| [Spotify](http://www.spotify.com/) | [Spotify Block](embeds.md) | Music | [WordPress 3.6](https://codex.wordpress.org/Version_3.6) |
-| [TED](http://www.ted.com/) | [TED Block](embeds.md) | Videos | [WordPress 4.0](https://codex.wordpress.org/Version_4.0) |
+| [Scribd](http://www.scribd.com/) | [Scribd Block](embeds.md) | Documents | [WordPress 2.9](https://wordpress.org/documentation/wordpress-version/version-2-9/) |
+| [SlideShare](http://www.slideshare.net/) | [SlideShare Block](embeds.md) | Presentation slideshows | [WordPress 3.5](https://wordpress.org/documentation/wordpress-version/version-3-5/) |
+| [SmugMug](http://www.smugmug.com/) | [SmugMug Block](embeds.md) | Various | [WordPress 3.0](https://wordpress.org/documentation/wordpress-version/version-3-0/) |
+| [SoundCloud](http://soundcloud.com/) | [SoundCloud Block](embeds.md) | Music | [WordPress 3.5](https://wordpress.org/documentation/wordpress-version/version-3-5/) |
+| [Speaker Deck](http://speakerdeck.com/) | [Speaker Deck Block](embeds.md) | Presentation slideshows | [WordPress 4.4](https://wordpress.org/documentation/wordpress-version/version-4-4/) |
+| [Spotify](http://www.spotify.com/) | [Spotify Block](embeds.md) | Music | [WordPress 3.6](https://wordpress.org/documentation/wordpress-version/version-3-6/) |
+| [TED](http://www.ted.com/) | [TED Block](embeds.md) | Videos | [WordPress 4.0](https://wordpress.org/documentation/wordpress-version/version-4-0/) |
 | [TikTok](https://www.tiktok.com/en) | [TikTok Block](embeds.md) | Videos | [WordPress 5.4](https://wordpress.org/documentation/wordpress-version/version-5-4/) |
-| [Tumblr](http://www.tumblr.com/) | [Tumblr Block](embeds.md) | Various | [WordPress 4.2](https://codex.wordpress.org/Version_4.2) |
-| [Twitter](http://twitter.com/) | [Twitter Block](embeds.md) | Tweet, profile, list, collection, likes, Moment | [WordPress 3.4](https://codex.wordpress.org/Version_3.4) |
-| [VideoPress](http://videopress.com/) | [VideoPress Block](embeds.md) | Videos | [WordPress 4.4](https://codex.wordpress.org/Version_4.4) |
-| [Vimeo](http://vimeo.com/) | [Vimeo Block](embeds.md) | Videos | [WordPress 2.9](https://codex.wordpress.org/Version_2.9) |
+| [Tumblr](http://www.tumblr.com/) | [Tumblr Block](embeds.md) | Various | [WordPress 4.2](https://wordpress.org/documentation/wordpress-version/version-4-2/) |
+| [Twitter](http://twitter.com/) | [Twitter Block](embeds.md) | Tweet, profile, list, collection, likes, Moment | [WordPress 3.4](https://wordpress.org/documentation/wordpress-version/version-3-4/) |
+| [VideoPress](http://videopress.com/) | [VideoPress Block](embeds.md) | Videos | [WordPress 4.4](https://wordpress.org/documentation/wordpress-version/version-4-4/) |
+| [Vimeo](http://vimeo.com/) | [Vimeo Block](embeds.md) | Videos | [WordPress 2.9](https://wordpress.org/documentation/wordpress-version/version-2-9/) |
 | [Wolfram](https://www.wolfram.com/featureset/notebooks/) | [Wolfram Block](embeds.md) | Various |  |
-| [WordPress](https://wordpress.org/plugins-wp/) | [WordPress Block](embeds.md) | Various | [WordPress 4.4](https://codex.wordpress.org/Version_4.4) |
-| [WordPress.tv](http://wordpress.tv/) | [WordPress.tv Block](embeds.md) | Videos | [WordPress 2.9](https://codex.wordpress.org/Version_2.9) |
-| [YouTube](http://www.youtube.com/) | [YouTube Block](embeds.md) | Videos | [WordPress 2.9](https://codex.wordpress.org/Version_2.9) |
+| [WordPress](https://wordpress.org/plugins-wp/) | [WordPress Block](embeds.md) | Various | [WordPress 4.4](https://wordpress.org/documentation/wordpress-version/version-4-4/) |
+| [WordPress.tv](http://wordpress.tv/) | [WordPress.tv Block](embeds.md) | Videos | [WordPress 2.9](https://wordpress.org/documentation/wordpress-version/version-2-9/) |
+| [YouTube](http://www.youtube.com/) | [YouTube Block](embeds.md) | Videos | [WordPress 2.9](https://wordpress.org/documentation/wordpress-version/version-2-9/) |
 
 -   **Facebook** and **Instagram**: Due to Facebook’s [decision to close the oEmbed end](https://make.wordpress.org/core/2020/09/22/facebook-and-instagram-embeds-to-be-deprecated-october-24th/)point for embedding Facebook and Instagram links, the block will not work anymore after October 24, 2020. To embed Facebook and Instagram links into your site, you need a developer account and an appid, and provide an authentication token with their call to the endpoint. Refer to the [Facebook Documentation](https://developers.facebook.com/docs/development).
 -   **Tumblr** – only posts (name.tumblr.com/post/etc) are recognized, not standalone images (name.tumblr.com/image)

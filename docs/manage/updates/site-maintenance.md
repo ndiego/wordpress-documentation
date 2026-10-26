@@ -142,15 +142,15 @@ Luckily with WordPress, you have some options for dealing with all those posts. 
 
 #### Checking comments
 
-After you have cleaned up the content on your site, it is time to find out what they have been saying about what you say. On the [Administration Screens](../dashboard/README.md) > [Comments Screen](https://codex.wordpress.org/Comments_Screen), you can inspect the comments posted to your site. If a comment has been marked for [moderation approval](https://codex.wordpress.org/Comment_Moderation), it will look lighter colored than the rest of the comments. Click [Edit Comment](https://codex.wordpress.org/Manage_Comments_SubPanel#View_Mode) to access the comment and set it to be approved. Click **Delete Comment** if you want it removed.
+After you have cleaned up the content on your site, it is time to find out what they have been saying about what you say. On the [Administration Screens](../dashboard/README.md) > [Comments Screen](https://codex.wordpress.org/Comments_Screen), you can inspect the comments posted to your site. If a comment has been marked for [moderation approval](../../write/comments/comment-moderation.md), it will look lighter colored than the rest of the comments. Click [Edit Comment](https://codex.wordpress.org/Manage_Comments_SubPanel#View_Mode) to access the comment and set it to be approved. Click **Delete Comment** if you want it removed.
 
 The [Moderation Screen](https://codex.wordpress.org/Awaiting_Moderation_SubPanel) will segregate the comments awaiting moderation from the rest of the comments if you have set your [Administration Screens](../dashboard/README.md) > [Settings](../dashboard/README.md#settings--configuration-settings) > [Discussion](../settings/discussion.md) to moderate all comments. This allows for quick and easy comment moderation.
 
 Determining which comments to keep and delete is a challenge. Be aware that often nice comments like *“I really like your site. Keep up the great work.”* and *“It shows you put a lot of time and effort in this. Thanks.”* might be benign comments, or more likely comment [spam](../../get-started/glossary.md#spam). To help you determine and check on what might be comment spam, and how to increase your protection against comment spammers, check out the following documents:
 
--   [Introduction to Dealing with Comment Spam](https://codex.wordpress.org/Comment_Spam)
--   [Moderating Comments](https://codex.wordpress.org/Comment_Moderation)
--   [Combating Comment Spam](https://codex.wordpress.org/Combating_Comment_Spam)
+-   [Introduction to Dealing with Comment Spam](../../write/comments/comment-spam.md)
+-   [Moderating Comments](../../write/comments/comment-moderation.md)
+-   [Combating Comment Spam](../../write/comments/comment-spam.md)
 -   [Denying Access to Comment Spammers with .htaccess](https://codex.wordpress.org/Combating_Comment_Spam/Denying_Access)
 
 #### Users and authors
@@ -191,7 +191,7 @@ As the administrator or site owner, there are a few more tasks you should add to
 -   [Manage WordPress Settings](../dashboard/README.md#settings--configuration-settings)
 -   [Manage Discussion Options](../settings/discussion.md)
 -   [Using Permalinks](../settings/permalinks.md)
--   [Moderate Comments](https://codex.wordpress.org/Comment_Moderation)
+-   [Moderate Comments](../../write/comments/comment-moderation.md)
 -   [Manage Plugins](../plugins.md)
 -   [Manage Themes](../../design/themes/README.md)
 

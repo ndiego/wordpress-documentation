@@ -46,7 +46,7 @@ Note: Remove Space between “&#” and “9829” for black heart. Other symbol
 
 ## Using character entities in WordPress
 
-Using *character entities* can be a fun part of your design! You can use these special accents with [template tags](https://codex.wordpress.org/Template_Tags) such as the [the_category()](https://codex.wordpress.org/Template_Tags/the_category) tag. Note: [the_category()](https://codex.wordpress.org/Template_Tags/the_category) [template tag](https://codex.wordpress.org/Template_Tags) lists, in [*post meta data*](https://codex.wordpress.org/Post_Meta_Data_Section) section, the various [categor](../../get-started/glossary.md#category)[ies](https://codex.wordpress.org/Glossary#Category) assigned to a [post](../../get-started/glossary.md#post).
+Using *character entities* can be a fun part of your design! You can use these special accents with [template tags](https://developer.wordpress.org/themes/basics/template-tags/) such as the [the_category()](https://developer.wordpress.org/reference/functions/the_category/) tag. Note: [the_category()](https://developer.wordpress.org/reference/functions/the_category/) [template tag](https://developer.wordpress.org/themes/basics/template-tags/) lists, in [*post meta data*](https://codex.wordpress.org/Post_Meta_Data_Section) section, the various [categor](../../get-started/glossary.md#category)[ies](../../get-started/glossary.md#category) assigned to a [post](../../get-started/glossary.md#post).
 
 In this example, the special *character entity*, the heart (**♥**) symbol, separates the [categories](../../get-started/glossary.md#category) of WordPress, Computers, and Internet News:
 
@@ -57,7 +57,7 @@ In this example, the special *character entity*, the heart (**♥**) symbol, sep
 > [!NOTE]
 > WordPress ♥ Computers ♥ Internet News
 
-In this example you see the use of an accent in your [post’s title](https://codex.wordpress.org/Template_Tags/the_title):
+In this example you see the use of an accent in your [post’s title](https://developer.wordpress.org/reference/functions/the_title/):
 
 ```php
 <?php the_title('∞ ', ' ∞'); ?>
@@ -66,7 +66,7 @@ In this example you see the use of an accent in your [post’s title](https://co
 > [!NOTE]
 > ∞ WordPress Makes Me Smile ∞
 
-If you want to highlight the [post’s author](https://codex.wordpress.org/Template_Tags/the_author), you don’t have to use a character entity inside of a WordPress template tag. You can use it in the text.
+If you want to highlight the [post’s author](https://developer.wordpress.org/reference/functions/the_author/), you don’t have to use a character entity inside of a WordPress template tag. You can use it in the text.
 
 ```php
 <div id="author">&diams; <?php the_author(); ?></div>
@@ -77,7 +77,7 @@ If you want to highlight the [post’s author](https://codex.wordpress.org/Templ
 
 As you have seen, there are a many uses for *character entities* within your site. With this information you can experiment and find creative ways to use these symbols in your design!
 
-**Note:** Not all [template tags](https://codex.wordpress.org/Template_Tags) can use *character entities*, especially those [tags](https://codex.wordpress.org/Template_Tags) that use [boolean parameters](https://codex.wordpress.org/Template_Tags/How_to_Pass_Tag_Parameters#Boolean). Test a [template tag](https://codex.wordpress.org/Template_Tags)
+**Note:** Not all [template tags](https://developer.wordpress.org/themes/basics/template-tags/) can use *character entities*, especially those [tags](https://developer.wordpress.org/themes/basics/template-tags/) that use [boolean parameters](https://developer.wordpress.org/reference/functions/How_to_Pass_Tag_Parameters/). Test a [template tag](https://developer.wordpress.org/themes/basics/template-tags/)
 
 **thoroughly** to be sure that it will accept the symbols.
 

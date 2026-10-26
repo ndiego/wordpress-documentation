@@ -28,13 +28,13 @@ Not all WordPress bloggers use Visual Editor, but if you do, it will change vari
 
 ## wpautop() WordPress function
 
-[`wpautop()`](https://codex.wordpress.org/Function_Reference/wpautop) is a core WordPress [function](https://developer.wordpress.org/reference/) that automatically processes, fixes, and modifies the text of a post.
+[`wpautop()`](https://developer.wordpress.org/reference/functions/wpautop/) is a core WordPress [function](https://developer.wordpress.org/reference/) that automatically processes, fixes, and modifies the text of a post.
 
 It puts in line breaks, paragraph tags, opens and closes tags that aren’t opened and closed, and cleans up duplicate HTML tags.
 
 ## Texturize
 
-Texturize ([wptexturize()](https://codex.wordpress.org/Function_Reference/wptexturize)) is a text filter enabled by default that modifies posted text or comments to present a more readable and visually attractive output.
+Texturize ([wptexturize()](https://developer.wordpress.org/reference/functions/wptexturize/)) is a text filter enabled by default that modifies posted text or comments to present a more readable and visually attractive output.
 
 While it creates aesthetically pleasant text, it might create difficulties when posting code examples in a programming language. In such situations modification of the text is not desirable because it might create syntactically incorrect code.
 

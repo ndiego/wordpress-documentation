@@ -51,7 +51,7 @@ WordPress will only track one password at a time. Therefore, if two posts use tw
 
 ## Protect custom fields
 
-WordPress does not print a password-protected post’s Content or Excerpt until the correct password is entered. But a post’s [Custom Field(s)](../organize/custom-fields.md) data is not protected, and can still show. To stop CFs from printing, wrap your [get_post_meta](https://codex.wordpress.org/Function_Reference/get_post_meta) calls (e.g., in single.php or page.php) with a conditional statement using: [post_password_required](https://codex.wordpress.org/Function_Reference/post_password_required). This one WordPress function checks both whether your post requires a password and whether the correct password has been provided:
+WordPress does not print a password-protected post’s Content or Excerpt until the correct password is entered. But a post’s [Custom Field(s)](../organize/custom-fields.md) data is not protected, and can still show. To stop CFs from printing, wrap your [get_post_meta](https://developer.wordpress.org/reference/functions/get_post_meta/) calls (e.g., in single.php or page.php) with a conditional statement using: [post_password_required](https://developer.wordpress.org/reference/functions/post_password_required/). This one WordPress function checks both whether your post requires a password and whether the correct password has been provided:
 
 ```php
 <?php
@@ -67,7 +67,7 @@ The post_password_required function within in an if statement is also handy for 
 
 ## Customize the protected text
 
-With [WordPress Filters](https://codex.wordpress.org/Plugin_API/Filter_Reference) you can: change the default text in the password form, change the default text for the password-protected post Excerpt, and insert the password form into the post Excerpt. To do so, add the following code to your custom plugin file.
+With [WordPress Filters](https://developer.wordpress.org/apis/hooks/filter-reference/) you can: change the default text in the password form, change the default text for the password-protected post Excerpt, and insert the password form into the post Excerpt. To do so, add the following code to your custom plugin file.
 
 ### Password form text
 
@@ -129,7 +129,7 @@ add_filter( 'the_excerpt', 'my_excerpt_password_form' );
 
 This will get the default WordPress password form and text or [any customizations](#password-form-text) you’ve made. For a better understanding of how post_password_required() and get_the_password_form() work, read their function definitions in [`wp-includes/post-template.php`](https://core.trac.wordpress.org/browser/tags/5.1.0/src/wp-includes/post-template.php#L0).
 
-In this same WordPress core file you’ll also find the the_excerpt and the_password_form filters, and the functions [get_the_excerpt()](https://codex.wordpress.org/Function_Reference/get_the_excerpt), [get_the_title()](https://codex.wordpress.org/Function_Reference/get_the_title), and [get_the_content()](https://codex.wordpress.org/Function_Reference/get_the_content). These functions control how a post’s title, excerpt and content display, depending on its visibility setting.
+In this same WordPress core file you’ll also find the the_excerpt and the_password_form filters, and the functions [get_the_excerpt()](https://developer.wordpress.org/reference/functions/get_the_excerpt/), [get_the_title()](https://developer.wordpress.org/reference/functions/get_the_title/), and [get_the_content()](https://developer.wordpress.org/reference/functions/get_the_content/). These functions control how a post’s title, excerpt and content display, depending on its visibility setting.
 
 ## Hiding password protected posts
 

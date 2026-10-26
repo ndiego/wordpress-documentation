@@ -77,7 +77,7 @@ Alternatively, explain your problem to a non-WordPress user. Stating the issue i
 
 ### Search engine site search
 
-Once you have selected your keywords, it’s time to put them to work. As you sort through the search results, you may end up replacing your initial keywords with more specific ones, in order to narrow down the results. For example, while searching for “wordpress sidebar layout nested links”, you may discover that the problem lies within the specific [theme](https://codex.wordpress.org/Using_Themes) you are using. Add the name of the theme to your keywords in order to narrow down your search.
+Once you have selected your keywords, it’s time to put them to work. As you sort through the search results, you may end up replacing your initial keywords with more specific ones, in order to narrow down the results. For example, while searching for “wordpress sidebar layout nested links”, you may discover that the problem lies within the specific [theme](../design/themes/README.md) you are using. Add the name of the theme to your keywords in order to narrow down your search.
 
 Another way to improve the quality of your search results is to search a specific site, rather than the entire internet. Most search engines allow you to run a search across one specific web address, helping you to avoid irrelevant results.
 

@@ -9,7 +9,7 @@ redirect_from:
 
 # Create a search page
 
-A Search Page is a WordPress [Page](https://codex.wordpress.org/Pages) with a custom [Page template](https://codex.wordpress.org/Pages#Page_Templates) to give users more information for searching your site.
+A Search Page is a WordPress [Page](../create-a-page.md) with a custom [Page template](../create-a-page.md) to give users more information for searching your site.
 
 ## How to create it?
 

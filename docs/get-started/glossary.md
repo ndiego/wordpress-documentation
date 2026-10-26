@@ -53,14 +53,14 @@ Examples:
 
 In WordPress, an action is a [PHP function](http://www.w3schools.com/php/php_functions.asp) that is executed at specific points throughout the WordPress Core.
 
-Developers can create a **custom** Action using the [Action API](https://codex.wordpress.org/Function_Reference/add_action) to add or remove code from an existing Action by specifying any [existing Hook](https://codex.wordpress.org/Plugin_API/Action_Reference). This process is called “[hooking](https://codex.wordpress.org/Glossary#Hook)“.
+Developers can create a **custom** Action using the [Action API](https://developer.wordpress.org/reference/functions/add_action/) to add or remove code from an existing Action by specifying any [existing Hook](https://developer.wordpress.org/apis/hooks/action-reference/). This process is called “[hooking](#hook)“.
 
 **For example:** A developer may want to **add** code to the footer of a Theme. This could be accomplished by writing new function, then Hooking it to the [wp_footer](https://codex.wordpress.org/Plugin_API/Action_Reference/wp_footer) Action.
 
 **Custom Actions differ from custom *[Filters](#filter)*** because custom Actions allow you to **add or remove** code from existing Actions. Whereas custom Filters allow you to **replace** specific data (such as a variable) found within an existing Action.
 
 -   See also: [Filter](#filter), [Hook](#hook), [Terminology Confusion](#terminology-confusion)
--   Related articles: [Actions](https://codex.wordpress.org/Plugin_API#Actions), [Action Reference](https://codex.wordpress.org/Plugin_API/Action_Reference), [add_action()](https://codex.wordpress.org/Function_Reference/add_action)
+-   Related articles: [Actions](https://developer.wordpress.org/plugins/hooks/), [Action Reference](https://developer.wordpress.org/apis/hooks/action-reference/), [add_action()](https://developer.wordpress.org/reference/functions/add_action/)
 -   Forum posts: [Filters vs. Actions Discussion and Explanation](https://wordpress.org/support/topic/fliters-vs-actions-from-a-newbe)
 
 ## Admin bar
@@ -69,7 +69,7 @@ An area of the screen just above your site that gives you quick
 access to features such as adding a new post or editing your profile.
 It is only visible if you are logged in.
 
-The admin bar concept was added to WordPress in [Version 3.1](https://codex.wordpress.org/Version_3.1) and was replaced by the [Toolbar](https://codex.wordpress.org/Toolbar) in WordPress [Version 3.3](https://codex.wordpress.org/Version_3.3). To turn it on (or off), open the Dashboard and navigate to [Administration](../manage/dashboard/README.md) > [Users](../manage/dashboard/README.md#your-profile) > [Your Profile](../manage/users/your-profile.md).
+The admin bar concept was added to WordPress in [Version 3.1](https://wordpress.org/documentation/wordpress-version/version-3-1/) and was replaced by the [Toolbar](https://codex.wordpress.org/Toolbar) in WordPress [Version 3.3](https://wordpress.org/documentation/wordpress-version/version-3-3/). To turn it on (or off), open the Dashboard and navigate to [Administration](../manage/dashboard/README.md) > [Users](../manage/dashboard/README.md#your-profile) > [Your Profile](../manage/users/your-profile.md).
 
 -   Related articles: [Toolbar](https://codex.wordpress.org/Toolbar)
 -   See also: [Your Profile Screen](../manage/users/your-profile.md)
@@ -98,7 +98,7 @@ A one-dimension array seven (7) elements would be:
 | 105 | 200 | 54 | 53 | 102 | 13 | 405 |
 | --- | --- | --- | --- | --- | --- | --- |
 
-The [Template Tag](https://codex.wordpress.org/Template_Tags) [wp_list_categories()](https://codex.wordpress.org/Template_Tags/wp_list_categories) uses a one-dimensional array for the ‘exclude’ parameter.
+The [Template Tag](https://developer.wordpress.org/themes/basics/template-tags/) [wp_list_categories()](https://developer.wordpress.org/reference/functions/wp_list_categories/) uses a one-dimensional array for the ‘exclude’ parameter.
 
 An example of two-dimensional array, 7 by 3 elements in size, would be:
 
@@ -238,7 +238,7 @@ A **blogroll** is a list of links to various blogs or news sites. Often a blogro
 
 ## Bookmarklet
 
-A **bookmarklet** (or **favelet**) is a “faux” bookmark containing scripting code, usually written in [JavaScript](https://codex.wordpress.org/Glossary#javascript), that allows the user to perform a function.
+A **bookmarklet** (or **favelet**) is a “faux” bookmark containing scripting code, usually written in [JavaScript](#javascript), that allows the user to perform a function.
 
 Examples:
 
@@ -253,15 +253,15 @@ A variable or expression which evaluates to either true or false.
 
 ## Category
 
-Each [post](https://codex.wordpress.org/Glossary#Post) in WordPress can be filed under one or more **categories**. Thoughtful categorization allows posts to be grouped with others of similar content and aids in the navigation of a site.
+Each [post](#post) in WordPress can be filed under one or more **categories**. Thoughtful categorization allows posts to be grouped with others of similar content and aids in the navigation of a site.
 
-Please note that a **post** category should not be confused with a [**link** category](https://codex.wordpress.org/Administration_Panels#Link_Categories), which is used to classify and manage [links](https://codex.wordpress.org/Administration_Panels#Links_-_Putting_the_Inter_in_the_Internet).
+Please note that a **post** category should not be confused with a [**link** category](../manage/dashboard/README.md), which is used to classify and manage [links](../manage/dashboard/README.md).
 
 ## Capabilities
 
 A **capability** is permission to perform one or more types of
 task. Each user of a WordPress site might have some permissions but not
-others, depending on their [role](https://codex.wordpress.org/Glossary#Role).
+others, depending on their [role](#role).
 For example, users who have the Author role usually have permission to
 edit their own posts (the “edit_posts” capability), but not permission
 to edit other users’ posts (the “edit_others_posts” capability).
@@ -273,11 +273,11 @@ role-based access system. Plugins can modify the system.
 
 ## CGI
 
-**CGI** (Common Gateway Interface) is a specification for [server-side](http://en.wikipedia.org/wiki/Server-side) communication scripts designed to transfer information between a [web server](https://codex.wordpress.org/Glossary#Web_server) and a [web-client (browser)](http://en.wikipedia.org/wiki/Client-side). Typically, [HTML](https://codex.wordpress.org/Glossary#HTML) pages that collect data via forms use *CGI* programming to process the form data once the client submits it.
+**CGI** (Common Gateway Interface) is a specification for [server-side](http://en.wikipedia.org/wiki/Server-side) communication scripts designed to transfer information between a [web server](#web-server) and a [web-client (browser)](http://en.wikipedia.org/wiki/Client-side). Typically, [HTML](#html) pages that collect data via forms use *CGI* programming to process the form data once the client submits it.
 
 ## Character entity
 
-A **character entity** is a method used to display *special characters* normally *reserved* for use in [HTML](https://codex.wordpress.org/Glossary#HTML). For example, the *less than* (**<**) and *greater than* (**>**) are used as part the [HTML](https://codex.wordpress.org/Glossary#HTML) tag structure, so both symbols are *reserved* for that use. But, if you need to display those symbols on your site, you can use *character entities*. For example:
+A **character entity** is a method used to display *special characters* normally *reserved* for use in [HTML](#html). For example, the *less than* (**<**) and *greater than* (**>**) are used as part the [HTML](#html) tag structure, so both symbols are *reserved* for that use. But, if you need to display those symbols on your site, you can use *character entities*. For example:
 use **`&lt;`**  for the less than (<) symbol
 use **`&gt;`**  for the greater than (>) symbol
 
@@ -289,23 +289,23 @@ A **character set** is a collection of symbols (letters, numbers,
 punctuation, and special characters), when used together, represent
 meaningful words in a language. Computers use an encoding scheme so
 members of a character set are stored with a numeric value (e.g. 0=A,
-1=B, 2=C, 3=D). In addition, a [collation](https://codex.wordpress.org/Glossary#Collation) determines the order (i.e alphabetic) to use when sorting the character set.
+1=B, 2=C, 3=D). In addition, a [collation](#collation) determines the order (i.e alphabetic) to use when sorting the character set.
 
-By default, WordPress uses the Unicode UTF-8 (**utf8**) character set for the [WordPress MySQL database tables](https://codex.wordpress.org/Database_Description) created during the [installation process](https://codex.wordpress.org/Installing_WordPress). Beginning with [Version 2.2](https://codex.wordpress.org/Version_2.2), the database character set (and collation) is defined in the *wp-config.php* file.
+By default, WordPress uses the Unicode UTF-8 (**utf8**) character set for the [WordPress MySQL database tables](https://codex.wordpress.org/Database_Description) created during the [installation process](https://codex.wordpress.org/Installing_WordPress). Beginning with [Version 2.2](https://wordpress.org/documentation/wordpress-version/version-2-2/), the database character set (and collation) is defined in the *wp-config.php* file.
 
--   See also: [Collation](https://codex.wordpress.org/Glossary#Collation)
--   Related articles: [Editing wp-config.php](https://codex.wordpress.org/Editing_wp-config.php), [Converting Database Character Sets](https://codex.wordpress.org/Converting_Database_Character_Sets)
+-   See also: [Collation](#collation)
+-   Related articles: [Editing wp-config.php](../manage/wp-config.md), [Converting Database Character Sets](https://codex.wordpress.org/Converting_Database_Character_Sets)
 -   External links: [Character set at Wikipedia](http://en.wikipedia.org/wiki/Character_set), [Unicode at Wikipedia](http://en.wikipedia.org/wiki/Unicode), [UTF-8 at Wikipedia](http://en.wikipedia.org/wiki/UTF-8), [Character sets and collation at MySQL](http://dev.mysql.com/doc/refman/5.0/en/charset-general.html)
 
 ## chmod
 
-**chmod** is a [Unix](https://codex.wordpress.org/Glossary#Unix)/[Linux](https://codex.wordpress.org/Glossary#Linux) [shell](https://codex.wordpress.org/Glossary#Shell) command used to change [permissions](https://codex.wordpress.org/Glossary#Permissions) on files. Its name is a contraction of “**ch**ange **mod**e.”
+**chmod** is a [Unix](#unix)/[Linux](#linux) [shell](#shell) command used to change [permissions](#permissions) on files. Its name is a contraction of “**ch**ange **mod**e.”
 
--   Related articles: [Changing File Permissions](https://codex.wordpress.org/Changing_File_Permissions), [UNIX Shell Skills](https://codex.wordpress.org/UNIX_Shell_Skills), [htaccess for subdirectories](https://codex.wordpress.org/htaccess_for_subdirectories)
+-   Related articles: [Changing File Permissions](https://developer.wordpress.org/advanced-administration/server/file-permissions/), [UNIX Shell Skills](https://codex.wordpress.org/UNIX_Shell_Skills), [htaccess for subdirectories](https://codex.wordpress.org/htaccess_for_subdirectories)
 
 ## Class
 
-**Classes** are groupings of [CSS](https://codex.wordpress.org/Glossary#CSS) styles which can be applied to any [HTML](https://codex.wordpress.org/Glossary#HTML) element.
+**Classes** are groupings of [CSS](#css) styles which can be applied to any [HTML](#html) element.
 For classes in PHP, see the [Class (Computing)](http://en.wikipedia.org/wiki/Class#Computing) article at Wikipedia and [PHP Manual: Classes and Objects](http://php.net/manual/en/language.oop5.php).
 
 -   Related articles: [CSS](https://codex.wordpress.org/CSS), [Blog Design and Layout](https://codex.wordpress.org/Blog_Design_and_Layout)
@@ -324,42 +324,42 @@ voluntarily.
 
 ## Collation
 
-**Collation** refers to the order used to sort the letters, numbers, and symbols of a given [character set](https://codex.wordpress.org/Glossary#Character_set). For example, because WordPress, by default, uses the UTF-8 (**utf8**) character set, and when the [WordPress MySQL database tables](https://codex.wordpress.org/Database_Description) are created during the [installation process](https://codex.wordpress.org/Installing_WordPress), MySQL assigns **utf8_general_ci** collation to those tables. Beginning with [Version 2.2](https://codex.wordpress.org/Version_2.2), the collation (and character set) used by WordPress is defined in the *wp-config.php* file.
+**Collation** refers to the order used to sort the letters, numbers, and symbols of a given [character set](#character-set). For example, because WordPress, by default, uses the UTF-8 (**utf8**) character set, and when the [WordPress MySQL database tables](https://codex.wordpress.org/Database_Description) are created during the [installation process](https://codex.wordpress.org/Installing_WordPress), MySQL assigns **utf8_general_ci** collation to those tables. Beginning with [Version 2.2](https://wordpress.org/documentation/wordpress-version/version-2-2/), the collation (and character set) used by WordPress is defined in the *wp-config.php* file.
 
--   See also: [Character set](https://codex.wordpress.org/Glossary#Character_set)
--   Related articles: [Editing wp-config.php](https://codex.wordpress.org/Editing_wp-config.php), [Converting Database Character Sets](https://codex.wordpress.org/Converting_Database_Character_Sets)
+-   See also: [Character set](#character-set)
+-   Related articles: [Editing wp-config.php](../manage/wp-config.md), [Converting Database Character Sets](https://codex.wordpress.org/Converting_Database_Character_Sets)
 -   External links: [Collation at Wikipedia](http://en.wikipedia.org/wiki/Collation), [Character set at Wikipedia](http://en.wikipedia.org/wiki/Character_set), [UTF-8 at Wikipedia](http://en.wikipedia.org/wiki/UTF-8), [Character sets and collation at MySQL](http://dev.mysql.com/doc/refman/5.0/en/charset-general.html)
 
 ## Comments
 
-**Comments** are a feature of [blogs](https://codex.wordpress.org/Glossary#Blog) which allow readers to respond to [posts](https://codex.wordpress.org/Glossary#Post). Typically readers simply provide their own thoughts regarding the [content](https://codex.wordpress.org/Glossary#Content) of the post, but users may also provide [links](http://en.wikipedia.org/wiki/Hyperlink) to other resources, generate discussion, or simply compliment the author for a well-written post.
+**Comments** are a feature of [blogs](#blog) which allow readers to respond to [posts](#post). Typically readers simply provide their own thoughts regarding the [content](#content) of the post, but users may also provide [links](http://en.wikipedia.org/wiki/Hyperlink) to other resources, generate discussion, or simply compliment the author for a well-written post.
 
 You can control and regulate comments by filters for language and
 content. Comments can be queued for approval before they are visible on
-the web site. This is useful in dealing with [comment spam](https://codex.wordpress.org/Comment_Spam).
+the web site. This is useful in dealing with [comment spam](../write/comments/comment-spam.md).
 
--   See also: [Blog](https://codex.wordpress.org/Glossary#Blog)
--   Related articles: [Comment-related plugins](https://codex.wordpress.org/Plugins#Comment_Plugins), [Dealing with comment spam](https://codex.wordpress.org/Comment_Spam), [Settings Discussion SubPanel](https://codex.wordpress.org/Settings_Discussion_SubPanel)
+-   See also: [Blog](#blog)
+-   Related articles: [Comment-related plugins](../manage/plugins.md), [Dealing with comment spam](../write/comments/comment-spam.md), [Settings Discussion SubPanel](https://codex.wordpress.org/Settings_Discussion_SubPanel)
 -   External links: [Hyperlink at Wikipedia](http://en.wikipedia.org/wiki/Hyperlink)
 
 ## Content
 
-**Content** consists of text, images, or other information shared in [posts](https://codex.wordpress.org/Glossary#Post).
+**Content** consists of text, images, or other information shared in [posts](#post).
 This is separate from the structural design of a web site, which
 provides a framework into which the content is inserted, and the
-presentation of a site, which involves graphic design. A [Content Management System](https://codex.wordpress.org/Glossary#Content_Management_System) changes and updates content, rather than the structural or graphic design of a web site.
+presentation of a site, which involves graphic design. A [Content Management System](#content-management-system) changes and updates content, rather than the structural or graphic design of a web site.
 
 ## Content management system
 
-A **Content Management System**, or **CMS**, is software for facilitating the maintenance of [content](https://codex.wordpress.org/Glossary#Content), but not design, on a web site. A [blogging](https://codex.wordpress.org/Glossary#Blog) tool is an example of a Content Management System.
+A **Content Management System**, or **CMS**, is software for facilitating the maintenance of [content](#content), but not design, on a web site. A [blogging](#blog) tool is an example of a Content Management System.
 
--   See also: [Blog](https://codex.wordpress.org/Glossary#Blog)
+-   See also: [Blog](#blog)
 
 ## cPanel
 
-**cPanel** is a popular web-based administration tool that many [hosting providers](https://codex.wordpress.org/Glossary#Hosting_provider) provide to allow users to configure their own accounts using an easy-to-use interface.
+**cPanel** is a popular web-based administration tool that many [hosting providers](#hosting-provider) provide to allow users to configure their own accounts using an easy-to-use interface.
 
--   Related articles: [Using cPanel](https://codex.wordpress.org/Using_cPanel), [Adding New Themes by using cPanel](https://codex.wordpress.org/Using_Themes#Adding_New_Themes_by_using_cPanel)
+-   Related articles: [Using cPanel](https://codex.wordpress.org/Using_cPanel), [Adding New Themes by using cPanel](../design/themes/README.md)
 -   External links: [cPanel website](http://cpanel.net/)
 
 ## CSS
@@ -374,7 +374,7 @@ independently of its content.
 
 ## CVS
 
-**CVS** stands for **Concurrent Versions System** and is the software that used to be used to coordinate WordPress development. As of February 2005, this function is carried out by Subversion ([SVN](https://codex.wordpress.org/Glossary#SVN)).
+**CVS** stands for **Concurrent Versions System** and is the software that used to be used to coordinate WordPress development. As of February 2005, this function is carried out by Subversion (SVN).
 
 For more information on Subversion, see [Using Subversion](https://codex.wordpress.org/Using_Subversion).
 
@@ -383,19 +383,19 @@ For more information on Subversion, see [Using Subversion](https://codex.wordpre
 In WordPress a **Dashboard** is the main administration screen for
 a site (a weblog), or for a network of sites. It summarizes information
 about the site or network, and also external information, in one or
-more [widgets](https://codex.wordpress.org/Glossary#Widget) that the Dashboard user can enable, disable, and move around.
+more [widgets](#widget) that the Dashboard user can enable, disable, and move around.
 
 -   Related articles: [Dashboard Screen](https://codex.wordpress.org/Dashboard_Screen)
 
 ## Database
 
-A **database** in computing terms is software used to manage information in an organized fashion. [WordPress](https://codex.wordpress.org/Glossary#WordPress) uses the [MySQL](https://codex.wordpress.org/Glossary#MySQL) or [MariaDB](https://codex.wordpress.org/Glossary#MariaDB) relational databases management system for storing and retrieving the content of your [blog](https://codex.wordpress.org/Glossary#Blog), such as [posts](https://codex.wordpress.org/Glossary#Posts), [comments](https://codex.wordpress.org/Glossary#Comments), and so on.
+A **database** in computing terms is software used to manage information in an organized fashion. WordPress uses the [MySQL](#mysql) or [MariaDB](#mariadb) relational databases management system for storing and retrieving the content of your [blog](#blog), such as [posts](#post), [comments](#comments), and so on.
 
 -   Related articles: [Database Description](https://codex.wordpress.org/Database_Description), [Backing Up Your Database](https://codex.wordpress.org/Backing_Up_Your_Database)
 
 ## Database version
 
-In WordPress, the **database version** is a number that increases every time changes are made to the way WordPress organizes the data in its [database](https://codex.wordpress.org/Glossary#database). It is not the same as the version of the database software, [MySQL](https://codex.wordpress.org/Glossary#MySQL) or [MariaDB](https://codex.wordpress.org/Glossary#MariaDB).
+In WordPress, the **database version** is a number that increases every time changes are made to the way WordPress organizes the data in its [database](#database). It is not the same as the version of the database software, [MySQL](#mysql) or [MariaDB](#mariadb).
 
 For example, the database version in WordPress 3.3 was 19470, and
 the database version in WordPress 3.3.1 did not change. This tells
@@ -422,17 +422,17 @@ Every installation of WordPress has a default theme. The default theme is someti
 
 A **developer**, or **dev**, is a computer programmer who is active in creating, modifying, and updating a software product.
 
--   Related articles: [Plugin API](https://codex.wordpress.org/Plugin_API)
+-   Related articles: [Plugin API](https://developer.wordpress.org/plugins/hooks/)
 
 ## DIV
 
-A **DIV** element in [HTML](https://codex.wordpress.org/Glossary#HTML) marks a section of text. DIVs are used extensively in WordPress to apply [CSS](https://codex.wordpress.org/Glossary#CSS) stylings to particular [blog](https://codex.wordpress.org/Glossary#Blog) elements.
+A **DIV** element in [HTML](#html) marks a section of text. DIVs are used extensively in WordPress to apply [CSS](#css) stylings to particular [blog](#blog) elements.
 
 -   Related articles: [CSS](https://codex.wordpress.org/CSS), [Blog Design and Layout](https://codex.wordpress.org/Blog_Design_and_Layout)
 
 ## DNS
 
-**DNS**, the domain name system, is the system that maps [domain names](https://codex.wordpress.org/Glossary#Domain_name) to [IP addresses](https://codex.wordpress.org/Glossary#IP_address).
+**DNS**, the domain name system, is the system that maps [domain names](#domain-name) to [IP addresses](#ip-address).
 When you use a web browser to visit a website, your browser first
 extracts the site’s domain name from the URL. Then it uses the DNS to
 find the IP address for that domain name. Then it connects to that IP
@@ -454,7 +454,7 @@ DOM connects programming scripts to web pages.
 A **domain name** is a name used for identification purposes on
 the Internet. In WordPress a domain name usually identifies a server
 where WordPress is installed. To make this work, the Internet’s domain
-name system ([DNS](https://codex.wordpress.org/Glossary#DNS)) maps the domain name to a server’s [IP address](https://codex.wordpress.org/Glossary#IP_address). For example, the domain name *example.com* maps to the IP address *192.0.43.10*.
+name system ([DNS](#dns)) maps the domain name to a server’s [IP address](#ip-address). For example, the domain name *example.com* maps to the IP address *192.0.43.10*.
 Many domain names can map to the same IP address, allowing a single
 server to run many websites. For example, the domain names *www.example.com* and *example.net* also map to the IP address *192.0.43.10*.
 
@@ -462,7 +462,7 @@ server to run many websites. For example, the domain names *www.example.com* and
 
 ## Draft
 
-The **draft** [post status](https://codex.wordpress.org/Glossary#Post_status) is for WordPress [posts](https://codex.wordpress.org/Glossary#Post) which are saved, but as yet unpublished. A draft post can only be edited through the [Administration Panel](https://codex.wordpress.org/Administration_Panels), [Write Post SubPanel](https://codex.wordpress.org/Write_Post_SubPanel) by [users](https://codex.wordpress.org/Authors_and_Users_SubPanel#Table_of_Authors) of equal or greater [User Level](https://codex.wordpress.org/User_Levels) than the [post’s author](https://codex.wordpress.org/Authors_and_Users_SubPanel#Table_of_Registered_Users).
+The **draft** [post status](#post-status) is for WordPress [posts](#post) which are saved, but as yet unpublished. A draft post can only be edited through the [Administration Panel](../manage/dashboard/README.md), [Write Post SubPanel](https://codex.wordpress.org/Write_Post_SubPanel) by [users](https://codex.wordpress.org/Authors_and_Users_SubPanel#Table_of_Authors) of equal or greater [User Level](https://codex.wordpress.org/User_Levels) than the [post’s author](https://codex.wordpress.org/Authors_and_Users_SubPanel#Table_of_Registered_Users).
 
 ## Dynamic block
 
@@ -470,11 +470,11 @@ A type of block where the content of which may change and cannot be determined a
 
 ## Excerpt
 
-An **excerpt** is a condensed description of your blog [post](https://codex.wordpress.org/Glossary#Post) and refers to the summary entered in the Excerpt field of the [Administration](https://codex.wordpress.org/Administration_Panels) > [Posts](https://codex.wordpress.org/Administration_Panels#Add_New_Post) > [Add New SubPanel](https://codex.wordpress.org/Posts_Add_New_SubPanel). The *excerpt* is used to describe your post in RSS feeds and is typically used in displaying search results. The *excerpt* is sometimes used in displaying the **Archives** and [Category](https://codex.wordpress.org/Glossary#Category) views of your posts. Use the [Template Tag](https://codex.wordpress.org/Template_Tags) [the_excerpt()](https://codex.wordpress.org/Template_Tags/the_excerpt)
+An **excerpt** is a condensed description of your blog [post](#post) and refers to the summary entered in the Excerpt field of the [Administration](../manage/dashboard/README.md) > [Posts](../manage/dashboard/README.md) > [Add New SubPanel](https://codex.wordpress.org/Posts_Add_New_SubPanel). The *excerpt* is used to describe your post in RSS feeds and is typically used in displaying search results. The *excerpt* is sometimes used in displaying the **Archives** and [Category](#category) views of your posts. Use the [Template Tag](https://developer.wordpress.org/themes/basics/template-tags/) [the_excerpt()](https://developer.wordpress.org/reference/functions/the_excerpt/)
 to display the contents of this field. Note that if you do not enter
-information into the Excerpt field when writing a post, and you use [the_excerpt()](https://codex.wordpress.org/Template_Tags/the_excerpt) in your theme template files, WordPress will automatically display the first 55 words of the [post](https://codex.wordpress.org/Glossary#Post)‘s content.
+information into the Excerpt field when writing a post, and you use [the_excerpt()](https://developer.wordpress.org/reference/functions/the_excerpt/) in your theme template files, WordPress will automatically display the first 55 words of the [post](#post)‘s content.
 
-An *excerpt* should not be confused with the **teaser**, which refers to words before the `<!--more-->` in a [post’s](https://codex.wordpress.org/Glossary#Post) content. When typing a long post you can insert the `<!--more-->` [Quicktag](https://codex.wordpress.org/Posts_Add_New_SubPanel#Visual_Versus_HTML_Editor) after a few sentences to act as a cut-off point. When the post is displayed, the **teaser**, followed by a hyperlink (such as **Read the rest of this entry…**), is displayed. Your visitor can then click on that link to see the full version of your [post](https://codex.wordpress.org/Glossary#Post). The [Template Tag](https://codex.wordpress.org/Template_Tags), [the_content()](https://codex.wordpress.org/Template_Tags/the_content) should be used to display the teaser.
+An *excerpt* should not be confused with the **teaser**, which refers to words before the `<!--more-->` in a [post’s](#post) content. When typing a long post you can insert the `<!--more-->` [Quicktag](https://codex.wordpress.org/Posts_Add_New_SubPanel#Visual_Versus_HTML_Editor) after a few sentences to act as a cut-off point. When the post is displayed, the **teaser**, followed by a hyperlink (such as **Read the rest of this entry…**), is displayed. Your visitor can then click on that link to see the full version of your [post](#post). The [Template Tag](https://developer.wordpress.org/themes/basics/template-tags/), [the_content()](https://developer.wordpress.org/reference/functions/the_content/) should be used to display the teaser.
 
 -   Related articles: [Customizing the Read More](https://codex.wordpress.org/Customizing_the_Read_More), [Excerpt](https://codex.wordpress.org/Excerpt)
 
@@ -487,7 +487,7 @@ site. This provides a way for users to keep up with the latest and
 hottest information posted on different blogging sites. Some Feeds
 include RSS (alternately defined as “Rich Site Summary” or “Really
 Simple Syndication”), Atom or RDF files. Dave Shea, author of the web
-design weblog [Mezzoblue](http://mezzoblue.com) has written [a comprehensive summary](http://www.mezzoblue.com/archives/2004/05/19/what_is_rssx/) of feeds. Feeds generally are based on [XML](https://codex.wordpress.org/Glossary#XML) technology.
+design weblog [Mezzoblue](http://mezzoblue.com) has written [a comprehensive summary](http://www.mezzoblue.com/archives/2004/05/19/what_is_rssx/) of feeds. Feeds generally are based on [XML](#xml) technology.
 
 ## Feed reader
 
@@ -495,23 +495,23 @@ The role of Feedreader is to gather and display the webfeed from various website
 
 ## Filter
 
-In WordPress, a Filter is a [function](http://www.w3schools.com/php/php_functions.asp) that is associated with an existing [Action](https://codex.wordpress.org/Glossary#Action) by specifying any [existing Hook](https://codex.wordpress.org/Plugin_API/Action_Reference).
+In WordPress, a Filter is a [function](http://www.w3schools.com/php/php_functions.asp) that is associated with an existing [Action](#action) by specifying any [existing Hook](https://developer.wordpress.org/apis/hooks/action-reference/).
 
-Developers can create [**custom** Filters](https://codex.wordpress.org/Function_Reference/add_filter) using the [Filter API](https://codex.wordpress.org/Plugin_API/Filter_Reference) to **replace** code from an existing Action. This process is called “[hooking](https://codex.wordpress.org/Glossary#Hook)“.
+Developers can create [**custom** Filters](https://developer.wordpress.org/reference/functions/add_filter/) using the [Filter API](https://developer.wordpress.org/apis/hooks/filter-reference/) to **replace** code from an existing Action. This process is called “[hooking](#hook)“.
 
-**Custom Filters differ from custom *[Actions](https://codex.wordpress.org/Glossary#Action)*** because custom Actions allow you to **add or remove** code from existing Actions. Whereas custom Filters allow you to **replace** specific data (such as a variable) found within an existing Action.
+**Custom Filters differ from custom *[Actions](#action)*** because custom Actions allow you to **add or remove** code from existing Actions. Whereas custom Filters allow you to **replace** specific data (such as a variable) found within an existing Action.
 
--   See also: [Action](https://codex.wordpress.org/Glossary#Action), [Hook](https://codex.wordpress.org/Glossary#Hook), [Terminology Confusion](https://codex.wordpress.org/Glossary#Terminology_Confusion)
--   Related articles: [Filters](https://codex.wordpress.org/Plugin_API#Filters), [Filter Reference](https://codex.wordpress.org/Plugin_API/Filter_Reference), [add_filter()](https://codex.wordpress.org/Function_Reference/add_filter)
+-   See also: [Action](#action), [Hook](#hook), [Terminology Confusion](#terminology-confusion)
+-   Related articles: [Filters](https://developer.wordpress.org/plugins/hooks/), [Filter Reference](https://developer.wordpress.org/apis/hooks/filter-reference/), [add_filter()](https://developer.wordpress.org/reference/functions/add_filter/)
 
 ## Footer area
 
-A **footer area** is a horizontal area provided by a [theme](https://codex.wordpress.org/Glossary#Theme) for displaying information other than the main [content](https://codex.wordpress.org/Glossary#Content) of the web page. Themes may provide one or more footer areas below the content. Footer areas usually contain [widgets](https://codex.wordpress.org/Glossary#Widget) that an administrator of the site can customize.
+A **footer area** is a horizontal area provided by a [theme](#theme) for displaying information other than the main [content](#content) of the web page. Themes may provide one or more footer areas below the content. Footer areas usually contain [widgets](#widget) that an administrator of the site can customize.
 
-In a theme, footer areas are generated by a [template](https://codex.wordpress.org/Glossary#Template) file, typically named *sidebar-footer.php*.
+In a theme, footer areas are generated by a [template](#template) file, typically named *sidebar-footer.php*.
 
--   See also: [Sidebar](https://codex.wordpress.org/Glossary#Sidebar)
--   Related articles: [Templates](https://codex.wordpress.org/Templates), [Customizing Your Sidebar](https://codex.wordpress.org/Customizing_Your_Sidebar), [Stepping Into Templates](https://codex.wordpress.org/Stepping_Into_Templates), [Template Hierarchy](https://codex.wordpress.org/Template_Hierarchy)
+-   See also: [Sidebar](#sidebar)
+-   Related articles: [Templates](https://developer.wordpress.org/themes/basics/template-files/), [Customizing Your Sidebar](https://codex.wordpress.org/Customizing_Your_Sidebar), [Stepping Into Templates](https://developer.wordpress.org/themes/basics/template-files/), [Template Hierarchy](https://developer.wordpress.org/themes/basics/template-hierarchy/)
 
 ## Front end
 
@@ -525,7 +525,7 @@ the most common way to upload files to a server.
 
 An FTP *client* is a program which can download files from, or upload files to, an FTP *server*.
 
-You may need to use an FTP client to upload your WordPress files to your [web server](https://codex.wordpress.org/Glossary#Web_server), particularly if you use a [hosting provider](https://codex.wordpress.org/Glossary#Hosting_provider).
+You may need to use an FTP client to upload your WordPress files to your [web server](#web-server), particularly if you use a [hosting provider](#hosting-provider).
 
 -   Related articles: [FTP Clients](https://codex.wordpress.org/FTP_Clients), [Uploading WordPress to a remote host](https://codex.wordpress.org/Uploading_WordPress_to_a_remote_host), [Using FileZilla](https://codex.wordpress.org/Using_FileZilla)
 
@@ -535,7 +535,7 @@ This refers to a collection of features that ultimately allows users to edit the
 
 ## Gallery
 
-As defined by Andy Skelton, **Gallery**, introduced with [WordPress 2.5](https://codex.wordpress.org/Version_2.5),
+As defined by Andy Skelton, **Gallery**, introduced with [WordPress 2.5](https://wordpress.org/documentation/wordpress-version/version-2-5/),
 is specifically an exposition of images attached to a post. In that
 same vein, an upload is “attached to a post” when you upload it while
 editing a post.
@@ -550,7 +550,7 @@ excluded from the gallery.
 
 Note: If you don’t see the “Insert gallery” button, it may be because you have not attached two images to the post.
 
-The pretty URLs for attachments are made only after you have published the post and should be composed as the post [permalink](https://codex.wordpress.org/Glossary#permalink) plus the attachment [slug](https://codex.wordpress.org/Glossary#slug).
+The pretty URLs for attachments are made only after you have published the post and should be composed as the post [permalink](#permalink) plus the attachment [slug](#slug).
 
 -   Related articles: [Gallery Shortcode](https://codex.wordpress.org/Gallery_Shortcode), [Shortcode API](https://codex.wordpress.org/Shortcode_API)
 
@@ -571,7 +571,7 @@ the user interface.
 
 **GMT** (“Greenwich Mean Time”, the time at the Royal Observatory
 in Greenwich, England) is the old name of the time zone from which all
-other time zones were measured. It has been replaced by [UTC](https://codex.wordpress.org/Glossary#UTC)
+other time zones were measured. It has been replaced by [UTC](#utc)
 (“Universal Time, Coordinated”), but for most practical purposes UTC
 and GMT are the same, so the term GMT is still commonly used.
 
@@ -579,12 +579,12 @@ and GMT are the same, so the term GMT is still commonly used.
 
 ## Gravatar
 
-A **gravatar** is a globally recognized [avatar](https://codex.wordpress.org/Glossary#Avatar)
+A **gravatar** is a globally recognized [avatar](#avatar)
 (a graphic image or picture that represents a user). Typically a user’s
 gravatar is associated with their email address, and using a service
 such as [Gravatar.com](http://en.gravatar.com/). The site owner to can configure their site so that a user’s gravatar is displayed along with their comments.
 
--   See also: [Avatar](https://codex.wordpress.org/Glossary#Avatar)
+-   See also: [Avatar](#avatar)
 -   Related articles: [How to Use Gravatars in WordPress](https://codex.wordpress.org/How_to_Use_Gravatars_in_WordPress), [Using Gravatars](https://codex.wordpress.org/Using_Gravatars)
 -   External links: [Gravatar at Wikipedia](http://en.wikipedia.org/wiki/Gravatar)
 
@@ -608,10 +608,10 @@ publishing, and work, for everyone, regardless of technical ability.
 
 A **hack** is a bit of code written to customize or extend the
 functionality of a software product. Older versions of WordPress used a
-hack-based extension system, but versions [1.2](https://codex.wordpress.org/Changelog/1.2) and above of WordPress use a [Plugin API](https://codex.wordpress.org/Plugin_API) with [hooks](https://codex.wordpress.org/Glossary#Hook) for extensions.
+hack-based extension system, but versions [1.2](https://codex.wordpress.org/Changelog/1.2) and above of WordPress use a [Plugin API](https://developer.wordpress.org/plugins/hooks/) with [hooks](#hook) for extensions.
 
--   See also: [Hacking](https://codex.wordpress.org/Glossary#Hacking), [Plugin](https://codex.wordpress.org/Glossary#Plugin)
--   Related articles: [Changelog](https://codex.wordpress.org/Changelog), [Plugin API](https://codex.wordpress.org/Plugin_API)
+-   See also: [Hacking](#hacking), [Plugin](#plugin)
+-   Related articles: [Changelog](https://codex.wordpress.org/Changelog), [Plugin API](https://developer.wordpress.org/plugins/hooks/)
 -   External links: [Open source at Wikipedia](http://en.wikipedia.org/wiki/Open_source)
 
 ## Hacking
@@ -627,8 +627,8 @@ from its popular mutation, and many have adopted the term *cracking*
 to replace the malicious interpretation. Because of the desire to
 reclaim the word, you will often find the term used in conjunction with [open source](http://en.wikipedia.org/wiki/Open_source) projects, intended in its benign form. For more information about the history of the term, please see [Wikipedia’s article on *Hacker*](http://en.wikipedia.org/wiki/Hacker).
 
--   See also: [Hack](https://codex.wordpress.org/Glossary#Hack)
--   Related articles: [Plugins](https://codex.wordpress.org/Plugins)
+-   See also: [Hack](#hack)
+-   Related articles: [Plugins](../manage/plugins.md)
 
 ## Header image
 
@@ -636,44 +636,44 @@ A **Header Image** is a wide picture that appears at the top of a WordPress webs
 
 ## Hook
 
-Hooks are specified, by the developer, in Actions and Filters. Here is a (hopefully) complete list of all [existing Hooks](https://codex.wordpress.org/Plugin_API/Action_Reference) within WordPress.
+Hooks are specified, by the developer, in Actions and Filters. Here is a (hopefully) complete list of all [existing Hooks](https://developer.wordpress.org/apis/hooks/action-reference/) within WordPress.
 
 Because Hooks are required by Actions and Filter you may hear the
 phrase “Action Hooks” and “Filter Hooks” used from time to time.
 
-In technical and strict terms: a Hook is an event, i.e. event as understood by [Observer pattern](http://en.wikipedia.org/wiki/Observer_pattern), invoked by the [do_action()](https://codex.wordpress.org/Function_Reference/do_action) or [apply_filters()](https://codex.wordpress.org/Function_Reference/apply_filters) call that afterwards triggers all the [action](https://codex.wordpress.org/Glossary#Action) or [filter](https://codex.wordpress.org/Glossary#Filter) functions, previously hooked to that event using [add_action()](https://codex.wordpress.org/Function_Reference/add_action) or [add_filter()](https://codex.wordpress.org/Function_Reference/add_filter), respectively.
+In technical and strict terms: a Hook is an event, i.e. event as understood by [Observer pattern](http://en.wikipedia.org/wiki/Observer_pattern), invoked by the [do_action()](https://developer.wordpress.org/reference/functions/do_action/) or [apply_filters()](https://developer.wordpress.org/reference/functions/apply_filters/) call that afterwards triggers all the [action](#action) or [filter](#filter) functions, previously hooked to that event using [add_action()](https://developer.wordpress.org/reference/functions/add_action/) or [add_filter()](https://developer.wordpress.org/reference/functions/add_filter/), respectively.
 
--   See also: [Action](https://codex.wordpress.org/Glossary#Action), [Filter](https://codex.wordpress.org/Glossary#Filter)
--   Related articles: [Hooks, Actions and Filters](https://codex.wordpress.org/Plugin_API#Hooks.2C_Actions_and_Filters), [Plugin API/Hooks](https://codex.wordpress.org/Plugin_API/Hooks)
+-   See also: [Action](#action), [Filter](#filter)
+-   Related articles: [Hooks, Actions and Filters](https://developer.wordpress.org/plugins/hooks/), [Plugin API/Hooks](https://codex.wordpress.org/Plugin_API/Hooks)
 
 ### Terminology confusion
 
-WordPress Codex and source code comments sometimes confuse the terms “[actions](https://codex.wordpress.org/Glossary#Action)/[filters](https://codex.wordpress.org/Glossary#Filter)” and “[hooks](https://codex.wordpress.org/Glossary#Hook)“.
+WordPress Codex and source code comments sometimes confuse the terms “[actions](#action)/[filters](#filter)” and “[hooks](#hook)“.
 
 Actions, Filters and Hooks are also occasionally referred to as “action/filter hooks” or “action/filter/hook functions”.
 
 ## Hosting provider
 
-A **hosting provider** is a company or organization which provides, usually for a fee, infrastructure for making information accessible via the web. This involves the use of a [web server](#web-server) (including web server software such as [Apache](https://codex.wordpress.org/Glossary#Apache)), and may involve one or more related technologies, such as [FTP](https://codex.wordpress.org/Glossary#FTP), [PHP](https://codex.wordpress.org/Glossary#PHP), [MySQL](https://codex.wordpress.org/Glossary#MySQL) or [MariaDB](https://codex.wordpress.org/Glossary#MariaDB), and operating system software such as [Linux](https://codex.wordpress.org/Glossary#Linux) or [Unix](https://codex.wordpress.org/Glossary#Unix).
+A **hosting provider** is a company or organization which provides, usually for a fee, infrastructure for making information accessible via the web. This involves the use of a [web server](#web-server) (including web server software such as [Apache](#apache)), and may involve one or more related technologies, such as [FTP](#ftp), [PHP](#php), [MySQL](#mysql) or [MariaDB](#mariadb), and operating system software such as [Linux](#linux) or [Unix](#unix).
 
 -   Related articles: [Hosting WordPress](https://wordpress.org/about/requirements/)
 
 ## .htaccess
 
-A **.htaccess** file is a granular configuration file for the [Apache](https://codex.wordpress.org/Glossary#Apache) [web server](https://codex.wordpress.org/Glossary#Web_server)
+A **.htaccess** file is a granular configuration file for the [Apache](#apache) [web server](#web-server)
 software, used to set or alter the server’s configuration settings for
 the directory in which it is present, and/or its child directories.
 
-WordPress uses an *.htaccess* file in conjunction with the [mod_rewrite](https://codex.wordpress.org/Glossary#mod_rewrite) [Apache](https://codex.wordpress.org/Glossary#Apache) module to produce [permalinks](https://codex.wordpress.org/Glossary#Permalink).
+WordPress uses an *.htaccess* file in conjunction with the [mod_rewrite](#mod_rewrite) [Apache](#apache) module to produce [permalinks](#permalink).
 
-Note that *.htaccess* is a *hidden file* in [Unix](https://codex.wordpress.org/Glossary#Unix)/[Linux](https://codex.wordpress.org/Glossary#Linux) (as dictated by the preceding period ‘.’), meaning it may not be visible using the default settings of some [FTP clients](https://codex.wordpress.org/FTP_Clients).
+Note that *.htaccess* is a *hidden file* in [Unix](#unix)/[Linux](#linux) (as dictated by the preceding period ‘.’), meaning it may not be visible using the default settings of some [FTP clients](https://codex.wordpress.org/FTP_Clients).
 
--   See also: [chmod](https://codex.wordpress.org/Glossary#chmod)
--   Related articles: [htaccess for subdirectories](https://codex.wordpress.org/htaccess_for_subdirectories), [Using Permalinks](https://codex.wordpress.org/Using_Permalinks), [UNIX Shell Skills](https://codex.wordpress.org/UNIX_Shell_Skills), [Changing File Permissions](https://codex.wordpress.org/Changing_File_Permissions)
+-   See also: [chmod](#chmod)
+-   Related articles: [htaccess for subdirectories](https://codex.wordpress.org/htaccess_for_subdirectories), [Using Permalinks](../manage/settings/permalinks.md), [UNIX Shell Skills](https://codex.wordpress.org/UNIX_Shell_Skills), [Changing File Permissions](https://developer.wordpress.org/advanced-administration/server/file-permissions/)
 
 ## HTML
 
-**HTML**, or **Hypertext Markup Language**, is a markup language used to describe the semantic content of web pages. It is usually used with [CSS](https://codex.wordpress.org/Glossary#CSS) and/or [JavaScript](https://codex.wordpress.org/Glossary#JavaScript). WordPress renders web pages to conform to the HTML5 standard. The standard is set by the World Wide Web Consortium ([W3C](http://www.w3.org)).
+**HTML**, or **Hypertext Markup Language**, is a markup language used to describe the semantic content of web pages. It is usually used with [CSS](#css) and/or [JavaScript](#javascript). WordPress renders web pages to conform to the HTML5 standard. The standard is set by the World Wide Web Consortium ([W3C](http://www.w3.org)).
 
 ## IDE
 
@@ -681,7 +681,7 @@ Acronym for Integrated Development Environment. Is an application that provides 
 An **IDE** usually includes:
 
 -   source code editor, which is similar to a [Text Editor](#text-editor)
--   debugger, in the case of WordPress, useful debuggers are those for [PHP](https://codex.wordpress.org/Glossary#PHP) and [Javascript](https://codex.wordpress.org/Glossary#Javascript) code
+-   debugger, in the case of WordPress, useful debuggers are those for [PHP](#php) and [Javascript](#javascript) code
 -   automated builder
 
 For our recommended IDEs, please see [Editing Files](https://github.com/WordPress/Advanced-administration-handbook/blob/main/wordpress/edit-files.md#ides).
@@ -702,18 +702,18 @@ addresses, and the permanence and duration of their assignment, differ
 according to the use of the computer and the circumstances of its
 internet use.
 
-Every [web server](https://codex.wordpress.org/Glossary#Web_server) is assigned an IP address as well, but often times [hosting providers](https://codex.wordpress.org/Glossary#Hosting_provider)
+Every [web server](#web-server) is assigned an IP address as well, but often times [hosting providers](#hosting-provider)
 will assign multiple IP addresses to one computer, in the event that
 multiple web sites reside on the same physical server. This is the case
 with most inexpensive ‘managed’ or ‘group’ hosting packages.
 
-[Domain names](https://codex.wordpress.org/Glossary#Domain_name)
+[Domain names](#domain-name)
 were created to provide an easier means of accessing internet resources
 than IP addresses, which are cumbersome to type and difficult to
 remember. Every domain name has at least one corresponding IP address,
 but only a small number of IP addresses have a domain name associated
 with them, since only computers that are servers require domain names.
-The domain name system ([DNS](https://codex.wordpress.org/Glossary#DNS)) is what maps domain names to IP addresses.
+The domain name system ([DNS](#dns)) is what maps domain names to IP addresses.
 
 -   External links: [IP address](http://en.wikipedia.org/wiki/IP_address) (Wikipedia)
 
@@ -722,7 +722,7 @@ The domain name system ([DNS](https://codex.wordpress.org/Glossary#DNS)) is what
 **ISAPI** (Internet Server Application Programming Interface) is a
 set of programming standards designed to allow programmers to quickly
 and easily develop efficient Web-based applications. Developed by
-Process Software and Microsoft Corporation, *ISAPI* is intended to replace [CGI](https://codex.wordpress.org/Glossary#CGI) programs.
+Process Software and Microsoft Corporation, *ISAPI* is intended to replace [CGI](#cgi) programs.
 
 -   External links: [ISAPI at Wikipedia](http://en.wikipedia.org/wiki/ISAPI)
 
@@ -735,13 +735,13 @@ example, when you reply to a comment in a WordPress blog, WordPress uses
 JavaScript to move the comment form inside the comment you are replying
 to.
 
--   See also: [AJAX](https://codex.wordpress.org/Glossary#AJAX), [HTML](https://codex.wordpress.org/Glossary#HTML), [XHTML](https://codex.wordpress.org/Glossary#XHTML)
+-   See also: [AJAX](#ajax), [HTML](#html), [XHTML](#xhtml)
 -   Related article: [Using Javascript](https://codex.wordpress.org/Using_Javascript)
 -   External link: [JavaScript](http://en.wikipedia.org/wiki/Javascript) (Wikipedia)
 
 ## Linux
 
-**Linux** is an [open source](http://en.wikipedia.org/wiki/Open_source) computer operating system, created by Linus Torvalds, similar in style to [Unix](https://codex.wordpress.org/Glossary#Unix). It is popular in [web server](https://codex.wordpress.org/Glossary#Web_server)
+**Linux** is an [open source](http://en.wikipedia.org/wiki/Open_source) computer operating system, created by Linus Torvalds, similar in style to [Unix](#unix). It is popular in [web server](#web-server)
 and other high-performance computing environments, and has recently
 begun to gain popularity in workstation environments as well.
 
@@ -756,7 +756,7 @@ See [Block Styles](#block-styles).
 **[Mac OS X](http://www.apple.com/macosx/)**
 is an operating system specifically for modern Macintosh computers. The
 operating system was commercially released in 2001. It consists of two
-main parts: Darwin, an open source [Unix](https://codex.wordpress.org/Glossary#Unix)-like
+main parts: Darwin, an open source [Unix](#unix)-like
 environment which is based on the BSD source tree and the Mach
 microkernel, adapted and further developed by Apple Computer with
 involvement from independent developers; and a proprietary GUI named
@@ -766,7 +766,7 @@ Aqua, developed by Apple.
 
 ## MariaDB
 
-MariaDB is a fork of the [MySQL](https://codex.wordpress.org/Glossary#MySQL) relational database system developed by most of the original developers of MySQL. It works equally well with WordPress.
+MariaDB is a fork of the [MySQL](#mysql) relational database system developed by most of the original developers of MySQL. It works equally well with WordPress.
 
 ## Menu
 
@@ -774,7 +774,7 @@ MariaDB is a fork of the [MySQL](https://codex.wordpress.org/Glossary#MySQL) rel
 
 ## Meta
 
-**Meta** has several meanings, but generally means **information about**. In WordPress, *meta* usually refers to **administrative** type information. As described in [Meta Tags in WordPress](https://codex.wordpress.org/Meta_Tags_in_WordPress), *meta* is the [HTML](https://codex.wordpress.org/Glossary#HTML) tag used to describe and define a web page to the outside world (search engines). In the article [Post Meta Data](https://codex.wordpress.org/Post_Meta_Data_Section), *meta* refers to information associated with each **post**, such as the author’s name and the date posted. [Meta Rules](https://codex.wordpress.org/Codex:Guidelines#Meta_Rules) define the general protocol to follow in using the Codex. Also, many WordPress based sites offer a *Meta* section, usually found in the sidebar, with links to login or register at that site. Finally, *Meta* is a [MediaWiki](http://www.mediawiki.org) [namespace](http://meta.wikimedia.org/wiki/Namespace) that refers to administrative functions within Codex.
+**Meta** has several meanings, but generally means **information about**. In WordPress, *meta* usually refers to **administrative** type information. As described in [Meta Tags in WordPress](https://codex.wordpress.org/Meta_Tags_in_WordPress), *meta* is the [HTML](#html) tag used to describe and define a web page to the outside world (search engines). In the article [Post Meta Data](https://codex.wordpress.org/Post_Meta_Data_Section), *meta* refers to information associated with each **post**, such as the author’s name and the date posted. [Meta Rules](https://codex.wordpress.org/Codex:Guidelines#Meta_Rules) define the general protocol to follow in using the Codex. Also, many WordPress based sites offer a *Meta* section, usually found in the sidebar, with links to login or register at that site. Finally, *Meta* is a [MediaWiki](http://www.mediawiki.org) [namespace](http://meta.wikimedia.org/wiki/Namespace) that refers to administrative functions within Codex.
 
 -   External links: [Wikipedia’s Article on Meta](http://en.wikipedia.org/wiki/Meta-)
 
@@ -787,7 +787,7 @@ programs to understand the meaning of specific parts of a web page
 content which is better recognized by humans. For example, a web page
 displaying a user’s profile could use microformats to make it easy for a
 program to extract the user’s contact information so that it can be
-added to an address book in a single operation. In WordPress, some [themes](https://codex.wordpress.org/Glossary#theme) and [plugins](https://codex.wordpress.org/Glossary#plugin) support some microformats.
+added to an address book in a single operation. In WordPress, some [themes](#theme) and [plugins](#plugin) support some microformats.
 
 -   Related: [Themes](https://wordpress.org/extend/themes/tags/microformats) and [plugins](https://wordpress.org/extend/plugins/tags/microformats) providing microformats support
 -   External links: [Microformats.org](http://microformats.org/)
@@ -809,36 +809,36 @@ the web and as a storage for rich content in some commercial products.
 
 ## Moblogging
 
-**Moblogging** is the act of posting to one’s [blog](https://codex.wordpress.org/Glossary#Blog) via a mobile device (e.g. mobile phone, smartphone, or tablet). It is pronounced as *mōbə-logging* or *mōb-logging*, or sometimes as *mŏb-logging* in reference to *smart mobs*.
+**Moblogging** is the act of posting to one’s [blog](#blog) via a mobile device (e.g. mobile phone, smartphone, or tablet). It is pronounced as *mōbə-logging* or *mōb-logging*, or sometimes as *mŏb-logging* in reference to *smart mobs*.
 
 -   Related articles: [Moblog Clients](https://codex.wordpress.org/Weblog_Client#Mobile), [Post to your blog using email](https://codex.wordpress.org/Post_to_your_blog_using_email)
 
 ## mod_rewrite
 
-**mod_rewrite** is an extension module of the [Apache](https://codex.wordpress.org/Glossary#Apache) [web server](https://codex.wordpress.org/Glossary#Web_server) software which allows for “rewriting” of [URLs](http://en.wikipedia.org/wiki/Url) on-the-fly. Rewrite *rules* use [regular expressions](http://en.wikipedia.org/wiki/Regular_expression)
+**mod_rewrite** is an extension module of the [Apache](#apache) [web server](#web-server) software which allows for “rewriting” of [URLs](http://en.wikipedia.org/wiki/Url) on-the-fly. Rewrite *rules* use [regular expressions](http://en.wikipedia.org/wiki/Regular_expression)
 to parse the requested URL from the client, translate it into a
 different URL, and serve the content of this new URL under the original
 URL or pointing the client to make the new URL request.
 
-WordPress uses *mod_rewrite* for its [permalink](https://codex.wordpress.org/Glossary#Permalink) structure, and also for [multisite](https://codex.wordpress.org/Glossary#Multisite) networks, which are both optional functionality.
+WordPress uses *mod_rewrite* for its [permalink](#permalink) structure, and also for [multisite](#multisite) networks, which are both optional functionality.
 
--   Related articles: [Using Permalinks](https://codex.wordpress.org/Using_Permalinks), [Create A Network](https://codex.wordpress.org/Create_A_Network)
+-   Related articles: [Using Permalinks](../manage/settings/permalinks.md), [Create A Network](https://developer.wordpress.org/advanced-administration/multisite/create-network/)
 
 ## Multisite
 
-**Multisite** is a feature of [WordPress 3.0](https://codex.wordpress.org/Version_3.0) and later versions that allows multiple virtual [sites](https://codex.wordpress.org/Glossary#Site)
+**Multisite** is a feature of [WordPress 3.0](https://wordpress.org/documentation/wordpress-version/version-3-0/) and later versions that allows multiple virtual [sites](#site)
 to share a single WordPress installation. When the multisite feature is
-activated, the original WordPress site can be converted to support a [network](https://codex.wordpress.org/Glossary#Network) of sites.
+activated, the original WordPress site can be converted to support a [network](#network) of sites.
 
 -   Related article: [Create A Network](https://github.com/WordPress/Advanced-administration-handbook/blob/main/multisite/create-network.md)
 
 ## MySQL
 
-**MySQL** is a popular [open source](http://en.wikipedia.org/wiki/Open_source) SQL (Structured Query Language) database implementation, available for many platforms, including Windows, [Unix](https://codex.wordpress.org/Glossary#Unix)/[Linux](https://codex.wordpress.org/Glossary#Linux) and [Mac OS X](https://codex.wordpress.org/Glossary#Mac_OS_X).
+**MySQL** is a popular [open source](http://en.wikipedia.org/wiki/Open_source) SQL (Structured Query Language) database implementation, available for many platforms, including Windows, [Unix](#unix)/[Linux](#linux) and [Mac OS X](#mac-os-x).
 
-WordPress requires a MySQL database to store all [blog](https://codex.wordpress.org/Glossary#Blog) information, including [posts](https://codex.wordpress.org/Glossary#Post), [comments](https://codex.wordpress.org/Glossary#Comments), [metadata](https://codex.wordpress.org/Glossary#Meta), and other information.
+WordPress requires a MySQL database to store all [blog](#blog) information, including [posts](#post), [comments](#comments), [metadata](#meta), and other information.
 
-WordPress also works with MySQL-compatible databases such as [MariaDB](https://codex.wordpress.org/Glossary#MariaDB) and Percona Server.
+WordPress also works with MySQL-compatible databases such as [MariaDB](#mariadb) and Percona Server.
 
 -   Related articles: [Database Description](https://codex.wordpress.org/Database_Description)
 -   External links: [MySQL](http://mysql.com/), [MariaDB](http://mariadb.org/), [Percona Server](http://www.percona.com/software/percona-server/)
@@ -856,23 +856,23 @@ A block that allows you to edit a site’s navigation menu, both in terms of str
 
 ## Network
 
-In the WordPress user interface, a **network** is a collection of separate [sites](https://codex.wordpress.org/Glossary#Site) created in a single WordPress installation by the [multisite](https://codex.wordpress.org/Glossary#Multisite)
+In the WordPress user interface, a **network** is a collection of separate [sites](#site) created in a single WordPress installation by the [multisite](#multisite)
 feature. The sites in a WordPress network are not interconnected like
 the things in other kinds of networks. They are very like the separate
 blogs at WordPress.com.
 
 In WordPress code the network is known as the *site* and the sites are known as *blogs*.
 
--   Related articles: [Create A Network](https://codex.wordpress.org/Create_A_Network)
+-   Related articles: [Create A Network](https://developer.wordpress.org/advanced-administration/multisite/create-network/)
 
 ## News reader
 
-A **news aggregator** or **news (feed) reader** is a computer program which tracks syndicated information [feeds](https://codex.wordpress.org/Glossary#Feed), via [RSS](https://codex.wordpress.org/Glossary#RSS), [RDF](https://codex.wordpress.org/Glossary#RDF), or [Atom](https://codex.wordpress.org/Glossary#Atom).
+A **news aggregator** or **news (feed) reader** is a computer program which tracks syndicated information [feeds](#feed), via [RSS](#rss), [RDF](#rdf), or [Atom](#atom).
 Most news aggregators allow one to ‘subscribe’ to a feed, and
 automatically keep track of the articles one has read, similar to an
 email client tracking read emails.
 
-Many [blogs](https://codex.wordpress.org/Glossary#Blog) make their content available in [feed](https://codex.wordpress.org/Glossary#Feed) form for the convenience of readers using news aggregators. WordPress can generate feeds in [RSS](https://codex.wordpress.org/Glossary#RSS) and/or [Atom](https://codex.wordpress.org/Glossary#Atom) formats.
+Many [blogs](#blog) make their content available in [feed](#feed) form for the convenience of readers using news aggregators. WordPress can generate feeds in [RSS](#rss) and/or [Atom](#atom) formats.
 
 -   External links: [News aggregator at Wikipedia](http://en.wikipedia.org/wiki/News_aggregator)
 
@@ -881,7 +881,7 @@ Many [blogs](https://codex.wordpress.org/Glossary#Blog) make their content avail
 **Nonce** is used for security purposes to protect against
 unexpected or duplicate requests that could cause undesired permanent or
 irreversible changes to the web site and particularly to its database.
-Specifically, a nonce is an one-time token generated by a [web site](https://codex.wordpress.org/Glossary#Web_site)
+Specifically, a nonce is an one-time token generated by a web site
 to identify future requests to that web site. When a request is
 submitted, the web site verifies if a previously generated nonce
 expected for this particular kind of request was sent along and decides
@@ -910,9 +910,9 @@ distributed under an *open source* [GNU General Public License (GPL)](http://www
 ## Options
 
 **Options** are pieces of data that WordPress uses to store various preferences and configuration settings.
-By using the [Options API](https://codex.wordpress.org/Options_API) that is a simple and standardized way of storing data in the database, options can be [added](https://codex.wordpress.org/Function_Reference/add_option), [changed](https://codex.wordpress.org/Function_Reference/update_option), [removed](https://codex.wordpress.org/Function_Reference/delete_option), and [retrieved](https://codex.wordpress.org/Function_Reference/get_option), from the [wp_options table](https://codex.wordpress.org/Database_Description#Table:_wp_options).
+By using the [Options API](https://developer.wordpress.org/apis/options/) that is a simple and standardized way of storing data in the database, options can be [added](https://developer.wordpress.org/reference/functions/add_option/), [changed](https://developer.wordpress.org/reference/functions/update_option/), [removed](https://developer.wordpress.org/reference/functions/delete_option/), and [retrieved](https://developer.wordpress.org/reference/functions/get_option/), from the [wp_options table](https://codex.wordpress.org/Database_Description#Table:_wp_options).
 
--   Related articles: [Option Reference](https://codex.wordpress.org/Option_Reference), [Transients API](https://codex.wordpress.org/Transients_API), [Options API](https://codex.wordpress.org/Options_API)
+-   Related articles: [Option Reference](https://codex.wordpress.org/Option_Reference), [Transients API](https://codex.wordpress.org/Transients_API), [Options API](https://developer.wordpress.org/apis/options/)
 
 ## Output compression
 
@@ -927,13 +927,13 @@ file size of the HTML document without changing the functionality.
 A **Page** is often used to present “static” information about
 yourself or your site. A good example of a Page is information you
 would place on an About Page. A Page should not be confused with the
-time-oriented objects called [posts](https://codex.wordpress.org/Glossary#Post). Pages are typically “timeless” in nature and live “outside” your blog.
+time-oriented objects called [posts](#post). Pages are typically “timeless” in nature and live “outside” your blog.
 
 The word “page” has long been used to describe any HTML document
 on the web. In WordPress, however, “Page” refers to a very specific
 feature first introduced in WordPress version 1.5.
 
--   Related articles: [Pages](https://codex.wordpress.org/Pages), [Write Page SubPanel](https://codex.wordpress.org/Write_Page_SubPanel)
+-   Related articles: [Pages](../write/create-a-page.md), [Write Page SubPanel](https://codex.wordpress.org/Write_Page_SubPanel)
 
 ## Patterns
 
@@ -949,52 +949,52 @@ Related articles: [Patterns](../design/patterns/README.md), [Comparing Patterns 
 **Perl** is an acronym for **Practical Extraction and Report Language**,
 but it’s most commonly spelled as a proper name. It’s a very popular
 and powerful scripting language used for web applications, although its
-use is being largely replaced by [PHP](https://codex.wordpress.org/Glossary#PHP) in the mainstream. One of its strengths lies in its speedy and effective use of [regular expressions](http://en.wikipedia.org/wiki/Regular_expression). Its unofficial motto is, “There’s More Than One Way To Do It,” or “TMTOWTDI,” owing to the extreme flexibility of the syntax.
+use is being largely replaced by [PHP](#php) in the mainstream. One of its strengths lies in its speedy and effective use of [regular expressions](http://en.wikipedia.org/wiki/Regular_expression). Its unofficial motto is, “There’s More Than One Way To Do It,” or “TMTOWTDI,” owing to the extreme flexibility of the syntax.
 
 WordPress does not use Perl, and it is therefore not required.
 
 ## Permalink
 
-A **permalink** is a [URL](http://en.wikipedia.org/wiki/Url) at which a resource or article will be permanently stored. Many pages driven by [Content Management Systems](https://codex.wordpress.org/Glossary#Content_Management_System)
+A **permalink** is a [URL](http://en.wikipedia.org/wiki/Url) at which a resource or article will be permanently stored. Many pages driven by [Content Management Systems](#content-management-system)
 contain excerpts of content which is frequently rotated, making linking
 to bits of information within them a game of chance. Permalinks allow
 users to bookmark full articles at a [URL](http://en.wikipedia.org/wiki/Url) they know will never change, and will always present the same content.
 
-Permalinks are optional in WordPress, but are highly recommended as they greatly increase the cleanliness of [URL](http://en.wikipedia.org/wiki/Url). WordPress uses the [Apache](https://codex.wordpress.org/Glossary#Apache) module *[mod_rewrite](https://codex.wordpress.org/Glossary#mod_rewrite)* to implement its permalink system.
+Permalinks are optional in WordPress, but are highly recommended as they greatly increase the cleanliness of [URL](http://en.wikipedia.org/wiki/Url). WordPress uses the [Apache](#apache) module *[mod_rewrite](#mod_rewrite)* to implement its permalink system.
 
--   Related articles: [Using Permalinks](https://codex.wordpress.org/Using_Permalinks)
+-   Related articles: [Using Permalinks](../manage/settings/permalinks.md)
 -   External links: [URL at Wikipedia](http://en.wikipedia.org/wiki/Url)
 
 ## Permissions
 
-**Permissions** are security settings restricting or allowing users to perform certain functions. In the case of files on [Unix](https://codex.wordpress.org/Glossary#Unix) or [Linux](https://codex.wordpress.org/Glossary#Linux) systems, there are three types of permissions: *read*, *write*, and *execute*. In the case of [MySQL](https://codex.wordpress.org/Glossary#MySQL) or [MariaDB](https://codex.wordpress.org/Glossary#MariaDB) databases, there are many more: `SELECT`, `INSERT`, `UPDATE`, `DELETE`, etc., although MySQL/MariaDB refer to them as *privileges*.
+**Permissions** are security settings restricting or allowing users to perform certain functions. In the case of files on [Unix](#unix) or [Linux](#linux) systems, there are three types of permissions: *read*, *write*, and *execute*. In the case of [MySQL](#mysql) or [MariaDB](#mariadb) databases, there are many more: `SELECT`, `INSERT`, `UPDATE`, `DELETE`, etc., although MySQL/MariaDB refer to them as *privileges*.
 
--   Related articles: [Changing File Permissions](https://codex.wordpress.org/Changing_File_Permissions)
+-   Related articles: [Changing File Permissions](https://developer.wordpress.org/advanced-administration/server/file-permissions/)
 
 ## PHP
 
-**PHP** is a recursive acronym for **PHP: Hypertext Preprocessor**. It is a popular server-side scripting language designed specifically for integration with [HTML](https://codex.wordpress.org/Glossary#HTML), and is used (often in conjunction with [MySQL](https://codex.wordpress.org/Glossary#MySQL) or [MariaDB](https://codex.wordpress.org/Glossary#MariaDB)) in [Content Management Systems](https://codex.wordpress.org/Glossary#Content_Management_System) and other web applications. It is available on many platforms, including Windows, [Unix](https://codex.wordpress.org/Glossary#Unix)/[Linux](https://codex.wordpress.org/Glossary#Linux) and [Mac OS X](https://codex.wordpress.org/Glossary#Mac_OS_X), and is [open source](http://en.wikipedia.org/wiki/Open_source) software.
+**PHP** is a recursive acronym for **PHP: Hypertext Preprocessor**. It is a popular server-side scripting language designed specifically for integration with [HTML](#html), and is used (often in conjunction with [MySQL](#mysql) or [MariaDB](#mariadb)) in [Content Management Systems](#content-management-system) and other web applications. It is available on many platforms, including Windows, [Unix](#unix)/[Linux](#linux) and [Mac OS X](#mac-os-x), and is [open source](http://en.wikipedia.org/wiki/Open_source) software.
 
 WordPress is written using PHP and requires it for operation.
 
--   External links: [PHP Website](http://php.net/), [PHP for Designers](http://web.archive.org/web/20150402040826/http://www.digital-web.com/articles/php_for_designers/): by WordPress lead [developer](https://codex.wordpress.org/Glossary#Developer) [Matthew Mullenweg](https://codex.wordpress.org/User:Matt), [PHP at OnLAMP](http://www.onlamp.com/php/)
+-   External links: [PHP Website](http://php.net/), [PHP for Designers](http://web.archive.org/web/20150402040826/http://www.digital-web.com/articles/php_for_designers/): by WordPress lead [developer](#developer) [Matthew Mullenweg](https://codex.wordpress.org/User:Matt), [PHP at OnLAMP](http://www.onlamp.com/php/)
 
 ## phpMyAdmin
 
-**phpMyAdmin** is a popular, powerful web-based interface for administering [MySQL](https://codex.wordpress.org/Glossary#MySQL) or [MariaDB](https://codex.wordpress.org/Glossary#MariaDB) databases. It is [open source](http://en.wikipedia.org/wiki/Open_source), written in [PHP](https://codex.wordpress.org/Glossary#PHP), and is among the better tools available for working with [MySQL](https://codex.wordpress.org/Glossary#MySQL) or [MariaDB](https://codex.wordpress.org/Glossary#MariaDB) databases.
+**phpMyAdmin** is a popular, powerful web-based interface for administering [MySQL](#mysql) or [MariaDB](#mariadb) databases. It is [open source](http://en.wikipedia.org/wiki/Open_source), written in [PHP](#php), and is among the better tools available for working with [MySQL](#mysql) or [MariaDB](#mariadb) databases.
 
 -   Related articles: [phpMyAdmin](https://codex.wordpress.org/phpMyAdmin)
 -   External links: [phpMyAdmin web site](https://www.phpmyadmin.net/)
 
 ## Ping
 
-Within the WordPress interface, “ping” is sometimes used to refer to [Pingbacks](https://codex.wordpress.org/Glossary#Pingback) and [Trackbacks](https://codex.wordpress.org/Glossary#Trackback).
+Within the WordPress interface, “ping” is sometimes used to refer to [Pingbacks](#pingback) and [Trackbacks](#trackback).
 
-In general computer terms, “ping” is a common utility used in a TCP/IP environment to determine if a given [IP Address](https://codex.wordpress.org/Glossary#IP_address)
+In general computer terms, “ping” is a common utility used in a TCP/IP environment to determine if a given [IP Address](#ip-address)
 exists or is reachable. Typically, Ping is used to diagnose a network
 connection problem. Many times you will be asked, “Can you ping that
 address?”. That means, does the Ping utility return a success message
-trying to reach the “problem” [IP Address](https://codex.wordpress.org/Glossary#IP_address)?
+trying to reach the “problem” [IP Address](#ip-address)?
 
 -   External links: [Ping at Wikipedia](http://en.wikipedia.org/wiki/Ping)
 
@@ -1023,8 +1023,8 @@ be able to “turn it on” or Enable it from the “Plugins” page in the
 administration interface of your weblog. The WordPress source code
 contains hooks that can be used by plugins.
 
--   See also: [Hack](https://codex.wordpress.org/Glossary#Hack), [Hacking](https://codex.wordpress.org/Glossary#Hacking)
--   Related articles: [Plugins](https://codex.wordpress.org/Plugins)
+-   See also: [Hack](#hack), [Hacking](#hacking)
+-   Related articles: [Plugins](../manage/plugins.md)
 
 ## Port
 
@@ -1051,11 +1051,11 @@ A sidebar region containing metadata fields for the post, including scheduling, 
 
 A few lowercase words separated by dashes, describing a post and
 usually derived from the post title to create a user-friendly (that is,
-readable and without confusing characters) [permalink](https://codex.wordpress.org/Permalinks). Post slug substitutes the “%posttitle%” placeholder in a [custom permalink structure](https://codex.wordpress.org/Permalinks#Choosing_your_permalink_structure). Post slug should not be changed and is especially useful if the post title tends to be long or changes frequently.
+readable and without confusing characters) [permalink](../manage/settings/permalinks.md). Post slug substitutes the “%posttitle%” placeholder in a [custom permalink structure](../manage/settings/permalinks.md). Post slug should not be changed and is especially useful if the post title tends to be long or changes frequently.
 
 ## Post status
 
-The status of a post, as set in the [Administration Panel](https://codex.wordpress.org/Administration_Panels), [Write Post SubPanel](https://codex.wordpress.org/Write_Post_SubPanel) is either: **Published** (viewable by everyone), **Draft** (incomplete post viewable by anyone with proper [user level](https://codex.wordpress.org/User_Levels)), or **Private** (viewable only to WordPress users at Administrator level).
+The status of a post, as set in the [Administration Panel](../manage/dashboard/README.md), [Write Post SubPanel](https://codex.wordpress.org/Write_Post_SubPanel) is either: **Published** (viewable by everyone), **Draft** (incomplete post viewable by anyone with proper [user level](https://codex.wordpress.org/User_Levels)), or **Private** (viewable only to WordPress users at Administrator level).
 
 -   Related articles: [Post Status](https://codex.wordpress.org/Post_Status)
 
@@ -1063,7 +1063,7 @@ The status of a post, as set in the [Administration Panel](https://codex.wordpre
 
 Post type refers to the various structured data that is maintained in
 the WordPress posts table. Native (or built-in) registered post types
-are **post**, **page**, **attachment**, **revision**, and **nav-menu-item**. Custom post types are also supported in WordPress and can be defined with [register_post_type()](https://codex.wordpress.org/Function_Reference/register_post_type).
+are **post**, **page**, **attachment**, **revision**, and **nav-menu-item**. Custom post types are also supported in WordPress and can be defined with [register_post_type()](https://developer.wordpress.org/reference/functions/register_post_type/).
 Custom post types allow users to easily create and manage such things
 as portfolios, projects, video libraries, podcasts, quotes, chats, and
 whatever a user or developer can imagine.
@@ -1075,7 +1075,7 @@ whatever a user or developer can imagine.
 The process behind the scenes. See below. 🙂
 
 -   Related articles: *[Query Overview](https://codex.wordpress.org/Query_Overview)*, *[Custom Queries](https://codex.wordpress.org/Custom_Queries)*, *[WP Query](https://codex.wordpress.org/Class_Reference/WP_Query)*, *[WP User Query](https://codex.wordpress.org/Class_Reference/WP_User_Query)*
--   See also: *[query string](https://codex.wordpress.org/Glossary#Query_String)*, *[query variable](https://codex.wordpress.org/Glossary#Query_Variable)*
+-   See also: *[query string](#query-string)*, *[query variable](#query-variable)*
 
 ## Query block
 
@@ -1089,11 +1089,11 @@ parameters separated by ampersands. WordPress uses query strings to
 indicate criteria to search for specific posts or sets of posts in the
 database. The use of query strings is generally believed to impede the
 indexing of dynamic pages by search engines. For this reason, it is
-often desirable to use a method such as [mod_rewrite](https://codex.wordpress.org/Glossary#mod_rewrite) to reduce exposure of query strings to search engines and other site visitors.
+often desirable to use a method such as [mod_rewrite](#mod_rewrite) to reduce exposure of query strings to search engines and other site visitors.
 
 ## Query variable
 
-A variable passed through the [query string](https://codex.wordpress.org/Glossary#Query_string). For example, in the query string *?category_name=tech&feed=atom*, there are two query variables: *category_name* with a value of “tech”, and *feed* with a value of “atom”.
+A variable passed through the [query string](#query-string). For example, in the query string *?category_name=tech&feed=atom*, there are two query variables: *category_name* with a value of “tech”, and *feed* with a value of “atom”.
 
 ## QuickTag
 
@@ -1107,15 +1107,15 @@ Resource Description Framework. A language used to describe the locations of res
 
 **Recordset** refers to the group of records or result returned from a database query.
 
--   See also [MySQL](https://codex.wordpress.org/Glossary#MySQL), [wpdb](https://codex.wordpress.org/Class_Reference/wpdb) database class
+-   See also [MySQL](#mysql), [wpdb](https://codex.wordpress.org/Class_Reference/wpdb) database class
 
 ## Relative path
 
 A **relative path** is the location of a file in relation to the
 current working directory and does not begin with a slash (/). This is
-different from an [absolute path](https://codex.wordpress.org/Glossary#Absolute_Path) which gives an exact location.
+different from an [absolute path](#absolute-path) which gives an exact location.
 
--   See also: [Absolute Path](https://codex.wordpress.org/Glossary#Absolute_Path)
+-   See also: [Absolute Path](#absolute-path)
 -   External links: [Path_Computing at Wikipedia](http://en.wikipedia.org/wiki/Path_(computing))
 
 ## Relative URI
@@ -1152,7 +1152,7 @@ contain a summary of content or the full text, and makes it easier for
 people to keep up to date with sites they like in an automated manner
 (much like e-mail).
 
-The content of the feed can be read by using software called an [RSS or Feed reader](https://codex.wordpress.org/Glossary#News_reader).
+The content of the feed can be read by using software called an [RSS or Feed reader](#news-reader).
 Feed readers display hyperlinks, and include other metadata (information
 about information) that helps people decide whether they want to read
 more, follow a link, or move on.
@@ -1161,7 +1161,7 @@ The original intent of RSS is to make information come to you
 (via the feed reader) instead of you going out to look for it (via the
 Web).
 
-Programs called news aggregators permit users to view many feeds at once, providing ‘push’ content constantly. See [Category:Feeds](https://codex.wordpress.org/Category:Feeds) for Codex resources about bringing RSS feeds into WordPress. See also [RDF](https://codex.wordpress.org/Glossary#RDF) Site Summary.
+Programs called news aggregators permit users to view many feeds at once, providing ‘push’ content constantly. See [Category:Feeds](https://codex.wordpress.org/Category:Feeds) for Codex resources about bringing RSS feeds into WordPress. See also [RDF](#rdf) Site Summary.
 
 ## RTL
 
@@ -1173,14 +1173,14 @@ A written language is [Right-to-left](http://en.wikipedia.org/wiki/Right-to-left
 
 Web Robots are programs which traverse the Web automatically. They
 are also called Web Wanderers, Web Crawlers, and Spiders. Search Engines
-are the main Web Robots. Some Web Robots look for a file named **robots.txt** on your [web server](https://codex.wordpress.org/Glossary#Web_server) to see what and where they should look for content and files on your web server. Some Web Robots ignore this file.
+are the main Web Robots. Some Web Robots look for a file named **robots.txt** on your [web server](#web-server) to see what and where they should look for content and files on your web server. Some Web Robots ignore this file.
 
 -   Related articles: [Search Engine Optimization for WordPress](https://codex.wordpress.org/Search_Engine_Optimization_for_WordPress)
 -   External links: [Google information about robots.txt](http://www.google.com/support/webmasters/bin/answer.py?answer=40361), [The Web Robots Page](http://www.robotstxt.org/wc/robots.html)
 
 ## Role
 
-A **role** gives users permission to perform a group of tasks. When a user logs in and is authenticated, the user’s role determines which [capabilities](https://codex.wordpress.org/Glossary#Capabilities)
+A **role** gives users permission to perform a group of tasks. When a user logs in and is authenticated, the user’s role determines which [capabilities](#capabilities)
 the user has, and each capability is permission to perform one or more
 types of task. All users with the same role normally have the same
 capabilities. For example, users who have the Author role usually have
@@ -1193,7 +1193,7 @@ in its role-based access system. Plugins can modify the system.
 
 ## Screen
 
-In WordPress a **screen** is a web page used for managing part of a weblog ([site](https://codex.wordpress.org/Glossary#Site)) or [network](https://codex.wordpress.org/Glossary#Network). The term ‘screen’ is used to avoid confusion with ‘[page](https://codex.wordpress.org/Glossary#Page)‘, which has a specific and different meaning in WordPress. For example, the web page used to manage posts is known as the [Posts Screen](https://codex.wordpress.org/Posts_Screen).
+In WordPress a **screen** is a web page used for managing part of a weblog ([site](#site)) or [network](#network). The term ‘screen’ is used to avoid confusion with ‘[page](#page-post-type)‘, which has a specific and different meaning in WordPress. For example, the web page used to manage posts is known as the [Posts Screen](https://codex.wordpress.org/Posts_Screen).
 
 -   Related article: [Class_Reference/WP_Screen](https://codex.wordpress.org/Class_Reference/WP_Screen)
 
@@ -1207,14 +1207,14 @@ The panel on the right that contains the document and block settings. The sideba
 
 ## Shell
 
-A **shell** is a program which interacts directly with an operating system such as MS-DOS, [Unix](https://codex.wordpress.org/Glossary#Unix)/[Linux](https://codex.wordpress.org/Glossary#Linux), [Mac OS X](https://codex.wordpress.org/Glossary#Mac_OS_X), or others, but it is most commonly associated with [Unices](https://codex.wordpress.org/Glossary#Unix).
+A **shell** is a program which interacts directly with an operating system such as MS-DOS, [Unix](#unix)/[Linux](#linux), [Mac OS X](#mac-os-x), or others, but it is most commonly associated with [Unices](#unix).
 It is often referred to as a ‘console’ or ‘command line’, because it is
 controlled using typed commands rather than mouse or graphical
 interface input.
 
 Most often, when interacting with a remote computer (as one would
 when configuring WordPress), an additional “faux” shell is involved
-called [SSH](https://codex.wordpress.org/Glossary#SSH).
+called [SSH](#ssh).
 
 Some popular shell programs are:
 
@@ -1224,20 +1224,20 @@ Some popular shell programs are:
 
 ## Shortcode
 
-A [Shortcode](https://codex.wordpress.org/Shortcode) is a technique for embedding a snippet of [PHP](https://codex.wordpress.org/Glossary#PHP) code into the body of a page or other content item.
+A [Shortcode](https://codex.wordpress.org/Shortcode) is a technique for embedding a snippet of [PHP](#php) code into the body of a page or other content item.
 
 ## Sidebar
 
-A **sidebar** is a vertical column provided by a [theme](https://codex.wordpress.org/Glossary#Theme) for displaying information other than the main [content](https://codex.wordpress.org/Glossary#Content) of the web page. Themes usually provide at least one sidebar at the left or right of the content. Sidebars usually contain [widgets](https://codex.wordpress.org/Glossary#Widget) that an administrator of the site can customize.
+A **sidebar** is a vertical column provided by a [theme](#theme) for displaying information other than the main [content](#content) of the web page. Themes usually provide at least one sidebar at the left or right of the content. Sidebars usually contain [widgets](#widget) that an administrator of the site can customize.
 
-In a theme, sidebars are generated by a [template](https://codex.wordpress.org/Glossary#Template) file, typically named *sidebar.php*.
+In a theme, sidebars are generated by a [template](#template) file, typically named *sidebar.php*.
 
--   See also: [Footer area](https://codex.wordpress.org/Glossary#Footer_area)
--   Related articles: [Sidebars](https://codex.wordpress.org/Sidebars), [Templates](https://codex.wordpress.org/Templates), [Customizing Your Sidebar](https://codex.wordpress.org/Customizing_Your_Sidebar), [Stepping Into Templates](https://codex.wordpress.org/Stepping_Into_Templates), [Template Hierarchy](https://codex.wordpress.org/Template_Hierarchy)
+-   See also: [Footer area](#footer-area)
+-   Related articles: [Sidebars](https://codex.wordpress.org/Sidebars), [Templates](https://developer.wordpress.org/themes/basics/template-files/), [Customizing Your Sidebar](https://codex.wordpress.org/Customizing_Your_Sidebar), [Stepping Into Templates](https://developer.wordpress.org/themes/basics/template-files/), [Template Hierarchy](https://developer.wordpress.org/themes/basics/template-hierarchy/)
 
 ## Site
 
-In the WordPress user interface, a **site** can simply be the website created by WordPress, or it can be a virtual website created as part of a [network](https://codex.wordpress.org/Glossary#Network) by the [multisite](https://codex.wordpress.org/Glossary#Multisite)
+In the WordPress user interface, a **site** can simply be the website created by WordPress, or it can be a virtual website created as part of a [network](#network) by the [multisite](#multisite)
 feature. A site in a network is virtual in the sense that it does not
 have its own directory on the server, although it has its own URL and it
 might have its own domain name.
@@ -1246,7 +1246,7 @@ In WordPress code the site is the website created by WordPress.
 If multisite is in use, then the site is the network website and each
 virtual website is known as a *blog*.
 
--   Related article: [Create A Network](https://codex.wordpress.org/Create_A_Network)
+-   Related article: [Create A Network](https://developer.wordpress.org/advanced-administration/multisite/create-network/)
 
 ## Site Editor
 
@@ -1257,7 +1257,7 @@ The cohesive experience that allows you to directly edit and navigate between va
 A **slug** is a few words that describe a post or a page. Slugs
 are usually a URL friendly version of the post title (which has been
 automatically generated by WordPress), but a slug can be anything you
-like. Slugs are meant to be used with [permalinks](https://codex.wordpress.org/Glossary#Permalink) as they help describe what the content at the URL is.
+like. Slugs are meant to be used with [permalinks](#permalink) as they help describe what the content at the URL is.
 
 Example post permalink: *<https://wordpress.org/development/2006/06/wordpress-203/>*
 
@@ -1299,12 +1299,12 @@ blogs, as we call them, have been targeted by spammers to try to
 increase their site ratings in the search engines. Spammers use various
 methods to distribute their electronic junk mail, and employ bots, or
 computer programs to quickly and easily send email or comments to
-millions of addresses and [IPs](https://codex.wordpress.org/Glossary#IP_address) all over the world.
+millions of addresses and [IPs](#ip-address) all over the world.
 
-Spammers can be difficult to track down as they often hijack peoples’ email and [IP](https://codex.wordpress.org/Glossary#IP_address) addresses. When this happens, it may appear a friend sent you the spam, but in fact, the spammer’s [bot](http://en.wikipedia.org/wiki/Internet_bot) grabbed your friend’s email address and used it to hide the true source of the spam. WordPress [developers](https://codex.wordpress.org/Glossary#Developer) and community members are constantly working on more and better ways to combat these annoying **spammers**
+Spammers can be difficult to track down as they often hijack peoples’ email and [IP](#ip-address) addresses. When this happens, it may appear a friend sent you the spam, but in fact, the spammer’s [bot](http://en.wikipedia.org/wiki/Internet_bot) grabbed your friend’s email address and used it to hide the true source of the spam. WordPress [developers](#developer) and community members are constantly working on more and better ways to combat these annoying **spammers**
 as they clog the internet with their garbage. You can help by offering
 your talents, ideas, suggestions, or just by being vigilant and
-installing any of the [currently-available spam combating tools](https://codex.wordpress.org/Combating_Comment_Spam).
+installing any of the [currently-available spam combating tools](../write/comments/comment-spam.md).
 
 -   External links: [SPAM at Wikipedia](http://en.wikipedia.org/wiki/SPAM)
 
@@ -1312,7 +1312,7 @@ installing any of the [currently-available spam combating tools](https://codex.w
 
 **SSH** stands for Secure Shell. It is a communication protocol
 for connecting to remote computers over TCP/IP. Various authentication
-methods can be used which make SSH more secure than [Telnet](https://codex.wordpress.org/Glossary#Telnet).
+methods can be used which make SSH more secure than [Telnet](#telnet).
 
 ## SSL
 
@@ -1347,11 +1347,11 @@ These tags are used to customize WordPress permalinks. Structure tags are:
 %year%, %day%, %hour%, %minute%, %second%, %post_id%, %postname%, %category% and %author%.
 End permalink structure with either %post_id% or %postname%, so that each permalink points to an individual post.
 
--   Related articles: [Permalinks](https://codex.wordpress.org/Permalinks)
+-   Related articles: [Permalinks](../manage/settings/permalinks.md)
 
 ## Subversion
 
-[Subversion](http://subversion.tigris.org/) is an [open-source](https://codex.wordpress.org/Glossary#Open_Source) [version control](http://en.wikipedia.org/wiki/Revision_control) software tool used by the [WordPress Developers](https://codex.wordpress.org/Copyright_Holders) to maintain and track the changes and updates to the various WordPress versions.
+[Subversion](http://subversion.tigris.org/) is an [open-source](#open-source) [version control](http://en.wikipedia.org/wiki/Revision_control) software tool used by the [WordPress Developers](https://codex.wordpress.org/Copyright_Holders) to maintain and track the changes and updates to the various WordPress versions.
 
 -   Related articles: [Using Subversion](https://codex.wordpress.org/Using_Subversion)
 -   External links: [Subversion access at WordPress.org](https://wordpress.org/download/svn/), [Subversion book at red-bean.com](http://svnbook.red-bean.com/)
@@ -1365,11 +1365,11 @@ circuit that is temporary turned on during a session of data transfer.
 
 ## Syndication
 
-See RSS: [Really Simple Syndication](https://codex.wordpress.org/Glossary#RSS)
+See RSS: [Really Simple Syndication](#rss)
 
 ## Tag
 
-A Tag is a keyword which describes all or part of a Post. Think of it like a [Category](https://codex.wordpress.org/Glossary#Category),
+A Tag is a keyword which describes all or part of a Post. Think of it like a [Category](#category),
 but smaller in scope. A Post may have several tags, many of which
 relate to it only peripherally. Like Categories, Tags are usually linked
 to a page which shows all Posts having the same Tag. Tags can be
@@ -1411,23 +1411,23 @@ WordPress, there are two built-in taxonomies, categories and tags.
 These taxonomies help further classify posts and custom post types.
 Also, custom taxonomies can be defined.
 
--   See also: [Category](https://codex.wordpress.org/Glossary#Category), [Tag](https://codex.wordpress.org/Glossary#Tag)
--   External links: [Taxonomy at Wikipedia](http://en.wikipedia.org/wiki/Taxonomy), [register_taxonomy()](https://codex.wordpress.org/Function_Reference/register_taxonomy)
+-   See also: [Category](#category), [Tag](#tag)
+-   External links: [Taxonomy at Wikipedia](http://en.wikipedia.org/wiki/Taxonomy), [register_taxonomy()](https://developer.wordpress.org/reference/functions/register_taxonomy/)
 
 ## Telnet
 
 Telnet is a [communications protocol](http://en.wikipedia.org/wiki/Internet_protocol_suite) used to establish a connection to another computer. *Telnet* runs on top of [TCP](http://en.wikipedia.org/wiki/Transmission_Control_Protocol)/[IP](http://en.wikipedia.org/wiki/Internet_Protocol)
 and is typically used in conjuction with terminal emulation software to
 login to remote computers. Telnet is inherently insecure and has
-largely been replaced by [SSH](https://codex.wordpress.org/Glossary#SSH)
+largely been replaced by [SSH](#ssh)
 
 -   External links: [Telnet at Wikipedia](http://en.wikipedia.org/wiki/Telnet)
 
 ## Template
 
-In WordPress a **template** is a file that defines an area of the web pages generated by a [theme](https://codex.wordpress.org/Glossary#Theme). For example, there is typically a template for the header area at the top of the web pages, a template for the [content](https://codex.wordpress.org/Glossary#Content), a template for the [sidebars](https://codex.wordpress.org/Glossary#Sidebar), and so on. The templates are like building blocks that make up the complete web page.
+In WordPress a **template** is a file that defines an area of the web pages generated by a [theme](#theme). For example, there is typically a template for the header area at the top of the web pages, a template for the [content](#content), a template for the [sidebars](#sidebar), and so on. The templates are like building blocks that make up the complete web page.
 
--   Related articles: [Templates](https://codex.wordpress.org/Templates), [Stepping Into Templates](https://codex.wordpress.org/Stepping_Into_Templates), [Template Hierarchy](https://codex.wordpress.org/Template_Hierarchy)
+-   Related articles: [Templates](https://developer.wordpress.org/themes/basics/template-files/), [Stepping Into Templates](https://developer.wordpress.org/themes/basics/template-files/), [Template Hierarchy](https://developer.wordpress.org/themes/basics/template-hierarchy/)
 
 ## Template editing mode
 
@@ -1435,31 +1435,31 @@ A scaled down direct editing experience allowing you to edit/change/create the t
 
 ## Template tag
 
-In a WordPress Theme, [template tags](https://codex.wordpress.org/Template_Tags)
+In a WordPress Theme, [template tags](https://developer.wordpress.org/themes/basics/template-tags/)
 are used in template files to generate specific programming
 instructions. They are used to display generated content and information
 on a WordPress site. Template tags are short programming words, also
 known as functions, that tap into the WordPress core for instructions.
-For example, the HTML title tag of a WordPress site may hold the [bloginfo()](https://codex.wordpress.org/Function_Reference/bloginfo)
+For example, the HTML title tag of a WordPress site may hold the [bloginfo()](https://developer.wordpress.org/reference/functions/bloginfo/)
 template tag that requests the site title, site tagline, and other site
 information set by the template tag parameters. Using this in the title HTML tag allows the Theme to be used on multiple sites and the information displayed will change easily with each site.
 
 Other template tags are more sophisticated, generating post content, queries, and site data.
 
--   Related articles: [Stepping Into Template Tags](https://codex.wordpress.org/Stepping_Into_Template_Tags), [Anatomy of a Template Tag](https://codex.wordpress.org/Anatomy_of_a_Template_Tag), [How to Pass Tag Parameters](https://codex.wordpress.org/How_to_Pass_Tag_Parameters), [Include Tags](https://codex.wordpress.org/Include_Tags), [Conditional Tags](https://codex.wordpress.org/Conditional_Tags), [Function Reference](https://codex.wordpress.org/Function_Reference), [Templates](https://codex.wordpress.org/Templates)
+-   Related articles: [Stepping Into Template Tags](https://codex.wordpress.org/Stepping_Into_Template_Tags), [Anatomy of a Template Tag](https://codex.wordpress.org/Anatomy_of_a_Template_Tag), [How to Pass Tag Parameters](https://codex.wordpress.org/How_to_Pass_Tag_Parameters), [Include Tags](https://codex.wordpress.org/Include_Tags), [Conditional Tags](https://codex.wordpress.org/Conditional_Tags), [Function Reference](https://codex.wordpress.org/Function_Reference), [Templates](https://developer.wordpress.org/themes/basics/template-files/)
 
 ## Term
 
-In WordPress, a **term** is a classification, group or subset of a [Taxonomy](https://codex.wordpress.org/Glossary#Taxonomy), where the latter can be a [Category](https://codex.wordpress.org/Glossary#Category), [Tag](https://codex.wordpress.org/Glossary#Tag)
+In WordPress, a **term** is a classification, group or subset of a [Taxonomy](#taxonomy), where the latter can be a [Category](#category), [Tag](#tag)
 or Custom Taxonomy. By default, terms have a title, a slug and a
 description. Hierarchical taxonomies like categories can define a parent
 term.
 
--   Related articles: [Taxonomies](https://codex.wordpress.org/Taxonomies), [the_terms()](https://codex.wordpress.org/Function_Reference/the_terms)
+-   Related articles: [Taxonomies](https://codex.wordpress.org/Taxonomies), [the_terms()](https://developer.wordpress.org/reference/functions/the_terms/)
 
 ## Text editor
 
-A **text editor** is a program which edits files in *plain text* format, as compared to *binary* format. Using a non-text based word processing program (e.g. using Microsoft Word to edit [PHP](https://codex.wordpress.org/Glossary#PHP)
+A **text editor** is a program which edits files in *plain text* format, as compared to *binary* format. Using a non-text based word processing program (e.g. using Microsoft Word to edit [PHP](#php)
 scripts) can cause major problems in your code. This is because
 non-text based word processing programs insert extra formatting into
 text files, and can corrupt the files when they need to be interpreted
@@ -1470,11 +1470,11 @@ formatting.
 
 Some examples of file formats which need to be edited as plain text:
 
--   [HTML](https://codex.wordpress.org/Glossary#HTML) documents
--   [PHP](https://codex.wordpress.org/Glossary#PHP) scripts
--   [Perl](https://codex.wordpress.org/Glossary#Perl) scripts
+-   [HTML](#html) documents
+-   [PHP](#php) scripts
+-   [Perl](#perl) scripts
 -   Rich Text Format documents
--   [JavaScript](https://codex.wordpress.org/Glossary#JavaScript) scripts
+-   [JavaScript](#javascript) scripts
 
 For our recommended Text Editors, please see [Editing Files](https://github.com/WordPress/Advanced-administration-handbook/blob/main/wordpress/edit-files.md#text-editors).
 
@@ -1504,7 +1504,7 @@ influences the design, changing it with each generated page view based
 upon the programming with PHP, WordPress template tags, WordPress
 conditional tags, and CSS.
 
--   Related articles: [Theme Development](https://codex.wordpress.org/Theme_Development), [Using Themes](https://codex.wordpress.org/Using_Themes)
+-   Related articles: [Theme Development](https://codex.wordpress.org/Theme_Development), [Using Themes](../design/themes/README.md)
 
 ## Theme blocks
 
@@ -1518,10 +1518,10 @@ Blocks that accomplish everything possible in traditional templates using templa
 
 The **Toolbar** is an area of the screen just above that site that
 lists useful admininstration screen links such as add a new post or
-edit your profile. The Toolbar was added in [Version 3.1](https://codex.wordpress.org/Version_3.1) as [Admin Bar](https://codex.wordpress.org/Glossary#Admin_Bar) and in [Version 3.3](https://codex.wordpress.org/Version_3.3) it was replaced by the [Toolbar](https://codex.wordpress.org/Glossary#Toolbar). The toolbar can be turned on/off from the [User Profile Screen](https://codex.wordpress.org/Users_Your_Profile_SubPanel).
+edit your profile. The Toolbar was added in [Version 3.1](https://wordpress.org/documentation/wordpress-version/version-3-1/) as [Admin Bar](#admin-bar) and in [Version 3.3](https://wordpress.org/documentation/wordpress-version/version-3-3/) it was replaced by the [Toolbar](#toolbar). The toolbar can be turned on/off from the [User Profile Screen](https://codex.wordpress.org/Users_Your_Profile_SubPanel).
 
 -   Related articles: [Toolbar](https://codex.wordpress.org/Toolbar)
--   See also: [Admin Bar](https://codex.wordpress.org/Glossary#Admin_Bar), [Your Profile Screen](https://codex.wordpress.org/Users_Your_Profile_SubPanel)
+-   See also: [Admin Bar](#admin-bar), [Your Profile Screen](https://codex.wordpress.org/Users_Your_Profile_SubPanel)
 
 ## Toolbar (in FSE)
 
@@ -1543,9 +1543,9 @@ paper, or a chapter in a textbook.
 
 ## Transient
 
-A **Transient** is temporal data identified by a custom name, stored in the [web server](https://codex.wordpress.org/Glossary#Web_server) database or memory for fast access. This temporal nature and use of fast memory caching is their primary distinction from [Options](https://codex.wordpress.org/Glossary#Options).
+A **Transient** is temporal data identified by a custom name, stored in the [web server](#web-server) database or memory for fast access. This temporal nature and use of fast memory caching is their primary distinction from [Options](#options).
 
--   Related articles: [Transients API](https://codex.wordpress.org/Transients_API), [Options API](https://codex.wordpress.org/Options_API)
+-   Related articles: [Transients API](https://codex.wordpress.org/Transients_API), [Options API](https://developer.wordpress.org/apis/options/)
 
 ## Unicode
 
@@ -1577,9 +1577,9 @@ you should probably know is:
 **Unix**, or **UNIX**, is a computer operating system developed
 at AT&T’s Bell Laboratories starting back in 1969. Initially
 designed with the objective of creating an OS written in a high level
-language rather than assembly, a majority of [web servers](https://codex.wordpress.org/Glossary#Web_server) currently run on different “flavors” of this high-performance OS, or on [Linux](https://codex.wordpress.org/Glossary#Linux), developed as a Unix-like operating system.
+language rather than assembly, a majority of [web servers](#web-server) currently run on different “flavors” of this high-performance OS, or on [Linux](#linux), developed as a Unix-like operating system.
 
--   See also: [UNIX Shell Skills](https://codex.wordpress.org/UNIX_Shell_Skills), [Mac OS X](https://codex.wordpress.org/Glossary#Mac_OS_X)
+-   See also: [UNIX Shell Skills](https://codex.wordpress.org/UNIX_Shell_Skills), [Mac OS X](#mac-os-x)
 
 ## Unix time
 
@@ -1609,17 +1609,17 @@ An address of a specific Web site or file on the Internet.
 
 **UTC** (“Universal Time, Coordinated”) is the basis of
 international time standards from which time zones around the world are
-calculated. For most purposes it is the same as the older [GMT](https://codex.wordpress.org/Glossary#GMT) standard.
+calculated. For most purposes it is the same as the older [GMT](#gmt) standard.
 
 -   External link: [UTC](http://en.wikipedia.org/wiki/Coordinated_Universal_Time) (Wikipedia)
 
 ## Web server
 
-A **web server** is a computer containing software for, and connected to infrastructure for, *hosting*, or serving, web sites written in [HTML](https://codex.wordpress.org/Glossary#HTML). The most common web server software on the internet is [Apache](https://codex.wordpress.org/Glossary#Apache), which is frequently used in conjunction with [PHP](https://codex.wordpress.org/Glossary#PHP), [Perl](https://codex.wordpress.org/Glossary#Perl), and other scripting languages.
+A **web server** is a computer containing software for, and connected to infrastructure for, *hosting*, or serving, web sites written in [HTML](#html). The most common web server software on the internet is [Apache](#apache), which is frequently used in conjunction with [PHP](#php), [Perl](#perl), and other scripting languages.
 
 It is possible to create one’s own web server, hosted on any
 speed of internet connection, but many people choose to purchase
-packages from [hosting providers](https://codex.wordpress.org/Glossary#Hosting_provider),
+packages from [hosting providers](#hosting-provider),
 who have the capacity and facilities to provide adequate bandwidth,
 uptime, hardware, and maintenance for frequently-visited web sites.
 
@@ -1630,7 +1630,7 @@ uptime, hardware, and maintenance for frequently-visited web sites.
 In WordPress a **widget** is a self-contained area of a web page
 that performs a specific function, or the code that generates such a
 self-contained area. For example, WordPress has a built-in widget that
-displays a list of pages in a weblog’s [sidebar](https://codex.wordpress.org/Glossary#Sidebar), and it has another built-in widget that displays a list of recent comments in the [Dashboard](https://codex.wordpress.org/Glossary#Dashboard). Plugins and themes can provide additional widgets.
+displays a list of pages in a weblog’s [sidebar](#sidebar), and it has another built-in widget that displays a list of recent comments in the [Dashboard](#dashboard). Plugins and themes can provide additional widgets.
 
 -   Related articles: [WordPress Widgets](https://codex.wordpress.org/WordPress_Widgets), [Widgets API](https://codex.wordpress.org/Widgets_API), [Dashboard Widgets API](https://codex.wordpress.org/Dashboard_Widgets_API)
 
@@ -1645,7 +1645,7 @@ of your WordPress Theme, that allows users to place Widgets into.
 
 ## XHTML
 
-**XHTML**, or **Extensible HyperText Markup Language**, is the successor to [HTML](https://codex.wordpress.org/Glossary#HTML) as the [W3C](http://www.w3.org) standard language with which all web pages are created. It is often used in conjunction with [CSS](https://codex.wordpress.org/Glossary#CSS) and [JavaScript](https://codex.wordpress.org/Glossary#JavaScript).
+**XHTML**, or **Extensible HyperText Markup Language**, is the successor to [HTML](#html) as the [W3C](http://www.w3.org) standard language with which all web pages are created. It is often used in conjunction with [CSS](#css) and [JavaScript](#javascript).
 
 WordPress strives to conform to the XHTML 1.0 Transitional standard.
 
@@ -1657,7 +1657,7 @@ WordPress strives to conform to the XHTML 1.0 Transitional standard.
 Standard Generalized Markup Language (SGML) and essentially allows you
 to define your own markup language. XML is extremely useful in
 describing, sharing, and transmitting data across the Internet.
-Typically used in conjunction with [HTML](https://codex.wordpress.org/Glossary#HTML), XML defines data and [HTML](https://codex.wordpress.org/Glossary#HTML) displays that data.
+Typically used in conjunction with [HTML](#html), XML defines data and [HTML](#html) displays that data.
 
 -   External links: [Extensible Markup Language (XML) Resources at W3C org](http://www.w3.org/XML) [The XML FAQ](https://xml.silmaril.ie/), [Overview of SGML Resources at W3C org](http://www.w3.org/MarkUp/SGML/)
 
@@ -1666,7 +1666,7 @@ Typically used in conjunction with [HTML](https://codex.wordpress.org/Glossary#H
 **XML-RPC** is **Extensible Markup Language-Remote Procedure Call**.
 A Remote Procedure Call (RPC) allows you to call (or request) another
 application and expect that application to honor the request (answer the
-call). So, **XML-RPC** allows a user (or [developer](https://codex.wordpress.org/Glossary#Developer)) to send a request, formatted in [XML](https://codex.wordpress.org/Glossary#XML), to an external application.
+call). So, **XML-RPC** allows a user (or [developer](#developer)) to send a request, formatted in [XML](#xml), to an external application.
 
 -   Related articles: [XML-RPC Support](https://codex.wordpress.org/XML-RPC_Support)
 -   External links: [Dave Winer’s XML-RPC for Newbies](http://davenet.scripting.com/1998/07/14/xmlRpcForNewbies), [XML-RPC Home Page](http://www.xmlrpc.com), [Apache XML-RPC](http://ws.apache.org/xmlrpc/), [XML-RPC for PHP Homepage](http://phpxmlrpc.sourceforge.net), [XML-RPC at Wikipedia](http://en.wikipedia.org/wiki/XML-RPC)

@@ -86,7 +86,7 @@ Just like the option above, you can enable your site to accept pingbacks and tra
 
 You can experiment with **Comment Moderation and Comment Blacklist** to catch spam that contains certain words or is posted from a particular IP address. Comments caught through blacklisting are not deleted but instead [moved to your spam folder](comment-moderation.md).
 
-Because spam is pervasive on the Web, some of the comments you receive will most likely be spam. However, WordPress developers and administrators have already developed a number of [successful strategies to help you prevent spam comments](../../get-started/the-wordpress-project.md) from appearing on your site. In addition to experimenting with different options in [Settings](../../manage/settings/general.md) > [Discussion](../../manage/settings/discussion.md), you can install a [WordPress Plugin](https://wordpress.org/plugins/) like [Akismet](http://akismet.com/) or [make other changes](https://codex.wordpress.org/Combating_Comment_Spam) to help you keep spam comments under control.
+Because spam is pervasive on the Web, some of the comments you receive will most likely be spam. However, WordPress developers and administrators have already developed a number of [successful strategies to help you prevent spam comments](../../get-started/the-wordpress-project.md) from appearing on your site. In addition to experimenting with different options in [Settings](../../manage/settings/general.md) > [Discussion](../../manage/settings/discussion.md), you can install a [WordPress Plugin](https://wordpress.org/plugins/) like [Akismet](http://akismet.com/) or [make other changes](comment-spam.md) to help you keep spam comments under control.
 
 ### Avatars
 

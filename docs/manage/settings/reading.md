@@ -9,7 +9,7 @@ redirect_from:
 
 # Reading settings
 
-The options in the **Reading Settings** **Screen** are few in number, but still important. You can decide if you want your latest [posts](../../classic/classic-editor/write-posts-classic.md) or a “static” [P](https://codex.wordpress.org/Pages)[a](../../write/create-a-page.md)[ge](https://codex.wordpress.org/Pages) displayed as your website’s front (home) page. You can also adjust how many posts are displayed on that home page. In addition, you can adjust [syndication feed](../../get-started/glossary.md#feed) features to determine how the information from your site is sent to a reader’s web browser or other applications.
+The options in the **Reading Settings** **Screen** are few in number, but still important. You can decide if you want your latest [posts](../../classic/classic-editor/write-posts-classic.md) or a “static” [P](../../write/create-a-page.md)[a](../../write/create-a-page.md)[ge](../../write/create-a-page.md) displayed as your website’s front (home) page. You can also adjust how many posts are displayed on that home page. In addition, you can adjust [syndication feed](../../get-started/glossary.md#feed) features to determine how the information from your site is sent to a reader’s web browser or other applications.
 
 ## Reading settings
 
@@ -23,7 +23,7 @@ Your website’s front page uses these settings to determine if your posts or a 
 -   **A static page (select below)** – Check this radio button to have a “static” [Page](../../write/create-a-page.md) be displayed as your blog’s home page. At the same time, choose the Page that will display your actual Posts. The Home page and Posts page cannot be the same.
 
 -   **Home page** – In the drop-down box, select the actual [Page](../../write/create-a-page.md) that you want displayed as your front page. If you do not select a choice here, then effectively your blog will show your posts on both the blog’s front page and on the **Posts page** you specify. If you would like to create a static home page template file, **do not** name it home.php, otherwise you will encounter problems when you try to view the “blog”/”posts” section of your site. To get around this, just name it anything but home.php, for example, myhome.php
--   **Posts page** – In the drop-down box, select the name of the [Page](https://codex.wordpress.org/Pages) that will now contain your Posts. If you do not select a Page here, your Posts will only be accessible via other navigation features such as category, calendar, or archive links. Even if the selected Page is password protected, visitors will NOT be prompted for a password when viewing the Posts Page. Also, any Template assigned to the Page will be ignored and the theme’s *index.php* (or *home.php* if it exists) will control the display of the posts.
+-   **Posts page** – In the drop-down box, select the name of the [Page](../../write/create-a-page.md) that will now contain your Posts. If you do not select a Page here, your Posts will only be accessible via other navigation features such as category, calendar, or archive links. Even if the selected Page is password protected, visitors will NOT be prompted for a password when viewing the Posts Page. Also, any Template assigned to the Page will be ignored and the theme’s *index.php* (or *home.php* if it exists) will control the display of the posts.
 
 See [Creating a Static Front Page](../../write/organize/static-front-page.md) for more detail.
 
@@ -42,13 +42,13 @@ Determines whether or not the feed will include the full article or just an exce
 -   **Full text** – Click this radio button to include the full content of each post.
 -   **Excerpt** – Click this radio button to include an excerpt of the post. This could save bandwidth.
 
-**Encoding for pages and feeds *(Removed as of [Version 3.5.0](https://codex.wordpress.org/Version_3.5))***
+**Encoding for pages and feeds *(Removed as of [Version 3.5.0](https://wordpress.org/documentation/wordpress-version/version-3-5/))***
 
-Enter the character encoding to set the choice of languages in which you, the other authors, and your commenters, can write. The default (and safe choice) is “UTF-8” (see [Unicode](https://codex.wordpress.org/Glossary#Unicode)), as that encoding supports a wide variety of languages. If you wish to use some other character encoding (for example you have imported or will import articles written using a different character encoding) then specify that here. Caution should be used when changing this field as it may change the way information is displayed on your blog. For a more in-depth article on character encoding see [Wikipedia:Character encoding](http://en.wikipedia.org/wiki/Character_encoding).
+Enter the character encoding to set the choice of languages in which you, the other authors, and your commenters, can write. The default (and safe choice) is “UTF-8” (see [Unicode](../../get-started/glossary.md#unicode)), as that encoding supports a wide variety of languages. If you wish to use some other character encoding (for example you have imported or will import articles written using a different character encoding) then specify that here. Caution should be used when changing this field as it may change the way information is displayed on your blog. For a more in-depth article on character encoding see [Wikipedia:Character encoding](http://en.wikipedia.org/wiki/Character_encoding).
 
-**Search Engine Visibility *(New as of [Version 3.5.0](https://codex.wordpress.org/Version_3.5))***
+**Search Engine Visibility *(New as of [Version 3.5.0](https://wordpress.org/documentation/wordpress-version/version-3-5/))***
 
-Note: the Settings → Privacy screen has been removed from WordPress as of [Version 3.5.0](https://codex.wordpress.org/Version_3.5)).
+Note: the Settings → Privacy screen has been removed from WordPress as of [Version 3.5.0](https://wordpress.org/documentation/wordpress-version/version-3-5/)).
 
 Check the *Discourage search engines from indexing this site* box to ask search engines not to index this site. When the option is checked, the following happens:
 
@@ -64,7 +64,7 @@ Disallow: /
 
 -   Stops pings to ping-o-matic and any other RPC ping services specified in the [Update Services](writing.md#update-services) of [Administration](../dashboard/README.md) > [Settings](../dashboard/README.md#writing) >[Writing](writing.md). This works by having the function privacy_ping_filter() remove the sites to ping from the list. This filter is added by having add_filter(‘option_ping_sites’,’privacy_ping_filter’); in the default-filters. When the generic_pingfunction attempts to get the “ping_sites” option, this filter blocks it from returning anything.
 
--   Hides the [Update Services](writing.md#update-services) option entirely on the [Administration](https://codex.wordpress.org/Administration_Screens) > [Settings](../dashboard/README.md#writing) > [Writing](writing.md) screen with the message “WordPress is not notifying any Update Services because of your blog’s privacy settings.”
+-   Hides the [Update Services](writing.md#update-services) option entirely on the [Administration](../dashboard/README.md) > [Settings](../dashboard/README.md#writing) > [Writing](writing.md) screen with the message “WordPress is not notifying any Update Services because of your blog’s privacy settings.”
 
 -   Allows normal visitors.
 

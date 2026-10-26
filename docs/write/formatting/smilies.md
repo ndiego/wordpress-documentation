@@ -103,7 +103,7 @@ Some FTP programs have an **auto-detect** setting which will upload files in the
 
 ## Smiley CSS
 
-The smiley images in WordPress are automatically given a [CSS](https://codex.wordpress.org/Glossary#CSS) class of **wp-smiley** when they are displayed in a post. You can use this class to style your smileys differently from other post images.
+The smiley images in WordPress are automatically given a [CSS](../../get-started/glossary.md#css) class of **wp-smiley** when they are displayed in a post. You can use this class to style your smileys differently from other post images.
 
 For example, it’s not uncommon to set up images in a post to appear on the left-hand side of the content with text flowing around the image. The CSS for that might look like this:
 

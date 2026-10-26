@@ -9,9 +9,9 @@ redirect_from:
 
 # Roles and capabilities
 
-WordPress uses a concept of [Roles](#roles), designed to give the [site](../../get-started/glossary.md#site) owner the ability to control what users can and cannot do within the site. A site owner can manage the user access to such tasks as [writing and editing posts](../../classic/classic-editor/write-posts-classic.md), [creating Pages](../../write/create-a-page.md), [creating categories](https://codex.wordpress.org/Posts_Categories_SubPanel), [moderating comments](https://codex.wordpress.org/Comment_Moderation), [managing plugins](../plugins.md), [managing themes](../../design/themes/README.md), and [managing other users](https://codex.wordpress.org/Users_Screen), by assigning a specific role to each of the users.
+WordPress uses a concept of [Roles](#roles), designed to give the [site](../../get-started/glossary.md#site) owner the ability to control what users can and cannot do within the site. A site owner can manage the user access to such tasks as [writing and editing posts](../../classic/classic-editor/write-posts-classic.md), [creating Pages](../../write/create-a-page.md), [creating categories](https://codex.wordpress.org/Posts_Categories_SubPanel), [moderating comments](../../write/comments/comment-moderation.md), [managing plugins](../plugins.md), [managing themes](../../design/themes/README.md), and [managing other users](users-screen.md), by assigning a specific role to each of the users.
 
-WordPress has six pre-defined roles: [Super Admin](#super-admin), [Administrator](#administrator), [Editor](#editor), [Author](#author), [Contributor](#contributor) and [Subscriber](#subscriber). Each role is allowed to perform a set of tasks called [Capabilities](../../get-started/glossary.md#capabilities). There are many capabilities including “[publish_posts](#publish_posts)“, “[moderate_comments](#moderate_comments)“, and “[edit_users](#edit_users)“. [A default set](#capability-vs-role-table) of capabilities is pre-assigned to each role, but other capabilities can be assigned or removed using the [add_cap()](https://codex.wordpress.org/Function_Reference/add_cap) and [remove_cap()](https://codex.wordpress.org/Function_Reference/remove_cap) functions. New roles can be introduced or removed using the [add_role()](https://codex.wordpress.org/Function_Reference/add_role) and [remove_role()](https://codex.wordpress.org/Function_Reference/remove_role) functions.
+WordPress has six pre-defined roles: [Super Admin](#super-admin), [Administrator](#administrator), [Editor](#editor), [Author](#author), [Contributor](#contributor) and [Subscriber](#subscriber). Each role is allowed to perform a set of tasks called [Capabilities](../../get-started/glossary.md#capabilities). There are many capabilities including “[publish_posts](#publish_posts)“, “[moderate_comments](#moderate_comments)“, and “[edit_users](#edit_users)“. [A default set](#capability-vs-role-table) of capabilities is pre-assigned to each role, but other capabilities can be assigned or removed using the [add_cap()](https://developer.wordpress.org/reference/functions/add_cap/) and [remove_cap()](https://developer.wordpress.org/reference/functions/remove_cap/) functions. New roles can be introduced or removed using the [add_role()](https://developer.wordpress.org/reference/functions/add_role/) and [remove_role()](https://developer.wordpress.org/reference/functions/remove_role/) functions.
 
 The [Super Admin](#super-admin) role allows a user to perform all possible capabilities. Each of the other roles has a decreasing number of allowed capabilities. For instance, the [Subscriber](#subscriber) role has just the “[read](#read)” capability. One particular role should not be considered to be senior to another role. Rather, consider that roles define the user’s responsibilities within the site.
 
@@ -637,43 +637,43 @@ Only grant the capabilities required for the tasks the role is intended to perfo
 
 -   Since 3.0
 -   Multi-site only
--   Allows access to [Network Sites](https://codex.wordpress.org/Network_Admin#Sites) menu
+-   Allows access to [Network Sites](https://developer.wordpress.org/advanced-administration/multisite/admin/) menu
 -   Allows user to add, edit, delete, archive, unarchive, activate, deactivate, spam and unspam new site/blog in the network
 
 ### manage_network_users
 
 -   Since 3.0
 -   Multi-site only
--   Allows access to [Network Users](https://codex.wordpress.org/Network_Admin#Users) menu
+-   Allows access to [Network Users](https://developer.wordpress.org/advanced-administration/multisite/admin/) menu
 
 ### manage_network_themes
 
 -   Since 3.0
 -   Multi-site only
--   Allows access to [Network Themes](https://codex.wordpress.org/Network_Admin#Themes) menu
+-   Allows access to [Network Themes](https://developer.wordpress.org/advanced-administration/multisite/admin/) menu
 
 ### manage_network_options
 
 -   Since 3.0
 -   Multi-site only
--   Allows access to [Network Options](https://codex.wordpress.org/Network_Admin#Settings) menu
+-   Allows access to [Network Options](https://developer.wordpress.org/advanced-administration/multisite/admin/) menu
 
 ### manage_network_plugins
 
 -   Multi-site only
--   Allows access to [Network Plugins](https://codex.wordpress.org/Network_Admin#Plugins) menu
+-   Allows access to [Network Plugins](https://developer.wordpress.org/advanced-administration/multisite/admin/) menu
 
 ### upload_plugins
 
 -   Since 4.0
 -   Multi-site only
--   Allows user to upload plugin ZIP files from the [Network Plugins](https://codex.wordpress.org/Network_Admin#Plugins) -> Add New menu
+-   Allows user to upload plugin ZIP files from the [Network Plugins](https://developer.wordpress.org/advanced-administration/multisite/admin/) -> Add New menu
 
 ### upload_themes
 
 -   Since 4.0
 -   Multi-site only
--   Allows user to upload theme ZIP files from the [Network Themes](https://codex.wordpress.org/Network_Admin#Themes) -> Add New menu
+-   Allows user to upload theme ZIP files from the [Network Themes](https://developer.wordpress.org/advanced-administration/multisite/admin/) -> Add New menu
 
 ### upgrade_network
 
