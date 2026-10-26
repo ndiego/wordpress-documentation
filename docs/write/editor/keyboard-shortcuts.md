@@ -121,7 +121,7 @@ You can access the list of all the available shortcuts by clicking **Shift + Alt
 | [Make the selected text bold](#transform-blocks) | **⌘ + B** |
 | [Make the selected text italic](#transform-blocks) | **⌘ + I** |
 | [Convert the selected text into a link](#transform-blocks) | **⌘ + K** |
-| [Add a link selected from available links](https://wordpress.org/support/wp-admin/post.php?post=13981395&action=edit#add-a-link-from-available-links) | **[[** |
+| Add a link selected from available links | **[[** |
 | [Remove a link](#transform-blocks) | **⇧ + ⌘ + K** |
 | [Underline the selected text](#transform-blocks) | **⌘ + U** |
 

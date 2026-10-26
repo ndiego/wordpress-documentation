@@ -741,6 +741,8 @@ def rewrite_links(line, src, dst, problems):
     def repl(m):
         bang, label, url, title = m.group(1), m.group(2), m.group(3), m.group(4)
         u = url.strip("<>")
+        if not bang and re.search(r"/wp-admin/post\.php\?", u):
+            return label  # a link into someone's wp-admin editor, not a page
         if not u or u.startswith("#") or re.match(r"^[a-z][a-z0-9+.-]*:", u):
             return m.group(0)
         path, _, frag = u.partition("#")
