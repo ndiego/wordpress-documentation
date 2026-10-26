@@ -28,7 +28,7 @@ To better understand this diagram, you can [interact with it](https://wphierarch
 
 WordPress currently comes with twelve themes: the default [Twenty Twenty Two theme](https://wordpress.org/themes/twentytwentytwo/) ([demo](https://2022.wordpress.net/)), and the previous defaults [Twenty Twenty One theme](https://wordpress.org/themes/twentytwentyone/) ([demo](https://2021.wordpress.net/)) [Twenty Twenty](default-themes/twenty-twenty.md) ([demo](http://2020.wordpress.net/)) [Twenty Nineteen](default-themes/twenty-nineteen.md) ([demo](http://2019.wordpress.net/)) [Twenty Seventeen](default-themes/twenty-seventeen.md) ([demo](http://2017.wordpress.net/)) [Twenty Sixteen](default-themes/twenty-sixteen.md) ([demo](https://twentysixteendemo.wordpress.com/)) [Twenty Fifteen](default-themes/twenty-fifteen.md) ([demo](https://twentyfifteendemo.wordpress.com/)) [Twenty Fourteen](https://wordpress.org/themes/twentyfourteen/) ([demo](https://twentyfourteendemo.wordpress.com/)) [Twenty Thirteen](https://wordpress.org/themes/twentythirteen/) ([demo](https://twentythirteendemo.wordpress.com/)) [Twenty Twelve](https://wordpress.org/themes/twentytwelve/) ([demo](https://twentytwelvedemo.wordpress.com/)) [Twenty Eleven](https://wordpress.org/themes/twentyeleven/) ([demo](https://twentyelevendemo.wordpress.com/)) [Twenty Ten](https://wordpress.org/themes/twentyten/) ([demo](https://twentytendemo.wordpress.com/)).
 
-The Twenty Twenty Two theme is the first ever default [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/). It currently only works if you are using WordPress 5.9 and above or if you install the Gutenberg plugin alongside prior WordPress versions.
+The Twenty Twenty Two theme is the first ever default [block theme](block-themes.md). It currently only works if you are using WordPress 5.9 and above or if you install the Gutenberg plugin alongside prior WordPress versions.
 
 ***NOTE***: All default themes now come bundled with [block patterns](../patterns/README.md), which allow you to easily create beautiful layouts. Find out which patterns are added to themes on the [Make WordPress Blog](https://make.wordpress.org/core/2021/06/21/bundled-themes-changes-in-wordpress-5-8/).
 
@@ -42,7 +42,7 @@ You can switch between Themes from the Appearance menu in the Administration Scr
 
 The [WordPress Theme Directory](https://wordpress.org/themes/) is the official site for WordPress Themes. Every theme in this directory is reviewed by a dedicated team and tested against a wide range of rules, all of which ensure a secure and pleasant experience for theme users.
 
-With over 9,000 themes in the directory, you can easily find the right one for your site with an advanced search feature using filters for layout, subject, and specific theme features. This includes finding [Block themes](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) which support full site editing features.
+With over 9,000 themes in the directory, you can easily find the right one for your site with an advanced search feature using filters for layout, subject, and specific theme features. This includes finding [Block themes](block-themes.md) which support full site editing features.
 
 [![Themes Directory - Feature Filter](https://wordpress.org/documentation/files/2021/06/themes-feature-filter.png)](https://wordpress.org/documentation/article/using-themes/themes-feature-filter-2/)
 
@@ -60,7 +60,7 @@ Most themes in the [WordPress Theme Directory](https://wordpress.org/themes/) co
 
 ### Adding Block themes
 
-A [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) is a theme that uses blocks for all parts of a site, including navigation menus, header, content, and site footer. These themes are built for the newest features coming to WordPress that allow you to edit and customize all parts of your site.
+A [block theme](block-themes.md) is a theme that uses blocks for all parts of a site, including navigation menus, header, content, and site footer. These themes are built for the newest features coming to WordPress that allow you to edit and customize all parts of your site.
 
 Currently, you can add block themes in the same way you would any other theme. You can use Live Preview to preview a block theme in the Site Editor before activating it. If you want to test a theme more thoroughly before using it on a live site, you may still wish to [set up a test site](https://github.com/WordPress/Advanced-administration-handbook/blob/main/debug/test-driving.md). Block themes do not use the Customizer in the same way as classic themes, since they rely on the [Site Editor](../site-editor/README.md) to edit all parts of your site.
 

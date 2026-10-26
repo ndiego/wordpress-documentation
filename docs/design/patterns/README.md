@@ -44,8 +44,6 @@ To unlock full editing capabilities for the individual blocks inside the pattern
 
 [Watch the video on VideoPress](https://videopress.com/v/vieUNG8x)
 
-https://videopress.com/v/vieUNG8x
-
 ## How to create a block pattern
 
 Since WordPress 6.3, you can create your own patterns.
@@ -222,7 +220,7 @@ In this demo, we insert Synced Patterns in the three ways described above (Block
 Since WordPress version 6.3, it is possible to create and manage your site’s [Patterns and template parts](README.md) via the Site Editor’s sidebar. You can learn about the Site Editor in this article: [Site Editor](../site-editor/README.md).
 
 > [!NOTE]
-> The Site Editor Patterns menu is **only** available when you install and activate a [Block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) on your site.
+> The Site Editor Patterns menu is **only** available when you install and activate a [Block theme](../themes/block-themes.md) on your site.
 
 ### Working with patterns
 

@@ -12,7 +12,7 @@ redirect_from:
 The Template Editor allows you to edit and create templates, using [blocks](../../blocks/README.md). These templates control the layout of the posts, pages, or page types on your site.
 
 > [!NOTE]
-> The Template Editor is **only** available if your site is using a [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) or a classic theme that has enabled the Template Editor on the backend.
+> The Template Editor is **only** available if your site is using a [block theme](../themes/block-themes.md) or a classic theme that has enabled the Template Editor on the backend.
 
 ## About templates
 
@@ -33,9 +33,9 @@ In the Template Editor, you can find all the templates on your site, including a
 
 ## What you need to use the Template Editor
 
-To work with the Template Editor, you need to use a [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) on your site (or a classic theme that has enabled the Template Editor on the backend). A block theme is a theme that uses [blocks](../../blocks/README.md) for all parts of a site, including navigation menus, header, content, and site footer.
+To work with the Template Editor, you need to use a [block theme](../themes/block-themes.md) on your site (or a classic theme that has enabled the Template Editor on the backend). A block theme is a theme that uses [blocks](../../blocks/README.md) for all parts of a site, including navigation menus, header, content, and site footer.
 
-All [blocks](../../blocks/README.md) that are available in the [WordPress Block editor](../../write/editor/README.md) can be used in the Template Editor. To find block themes, from the WordPress dashboard, go to **Appearance** > **Themes** and click **Add New**. In the **Add Themes** page, select **Block Themes** to find the growing list of [Block themes](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) in the [WordPress theme directory](https://wordpress.org/themes/tags/full-site-editing/).
+All [blocks](../../blocks/README.md) that are available in the [WordPress Block editor](../../write/editor/README.md) can be used in the Template Editor. To find block themes, from the WordPress dashboard, go to **Appearance** > **Themes** and click **Add New**. In the **Add Themes** page, select **Block Themes** to find the growing list of [Block themes](../themes/block-themes.md) in the [WordPress theme directory](https://wordpress.org/themes/tags/full-site-editing/).
 
 ![How to find a block theme](https://wordpress.org/documentation/files/2022/10/Screen-Shot-2022-10-17-at-9.36.15-AM-2.png)
 
@@ -47,7 +47,7 @@ Once you install and activate a Block theme on your site, go to **Appearance** >
 
 There are two different ways you can access the Template Editor depending on what type of theme you are using:
 
--   If you are using a [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/), you can access the Template Editor when editing posts or pages via the [WordPress Block Editor](../../write/editor/README.md) and also via the [Site Editor](README.md).
+-   If you are using a [block theme](../themes/block-themes.md), you can access the Template Editor when editing posts or pages via the [WordPress Block Editor](../../write/editor/README.md) and also via the [Site Editor](README.md).
 -   If you are using a classic theme that has enabled the Template Editor on the backend, you can access the Template Editor only when editing posts or pages via the [WordPress Block Editor](../../write/editor/README.md).
 
 ### How to use the template editor via the WordPress block editor
@@ -72,8 +72,6 @@ There are two different ways you can access the Template Editor depending on wha
 
 [Watch the video on VideoPress](https://videopress.com/v/uriQPJiZ)
 
-https://videopress.com/v/uriQPJiZ
-
 > [!NOTE]
 > When you make changes to a template, the editor updates the blocks on all pages/posts that use the template
 
@@ -87,7 +85,7 @@ https://videopress.com/v/uriQPJiZ
 ![Location of Create new template button in Post Settings sidebar](https://wordpress.org/documentation/files/2021/07/create-new-template-from-post.jpg)
 
 > [!NOTE]
-> This option is **only** available if you are using a [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) that lets you create custom templates.
+> This option is **only** available if you are using a [block theme](../themes/block-themes.md) that lets you create custom templates.
 
 5.  This opens a dialog box where you can give a name for the custom template you are about to create. Make sure to give it a descriptive name that describes the purpose of the template example: Full Width.
 6.  Click **Create** to open the Template Editor and go to the template editing mode where you can build the custom template using [blocks](../../blocks/README.md). To go back to the WordPress Block Editor and continue making content changes, click the **Back** link at the top left corner.
@@ -95,8 +93,6 @@ https://videopress.com/v/uriQPJiZ
 8.  Click **Save** to confirm the changes.
 
 [Watch the video on VideoPress](https://videopress.com/v/YRzUBiec)
-
-https://videopress.com/v/YRzUBiec
 
 #### Viewing the template in the block editor
 
@@ -164,8 +160,6 @@ If you already added a template from the Template Editor (for example: Front Pag
 Once you select the template to add, you will be shown an option to start the template with content from one of the existing patterns in the site. This means you can start with content already in the template, or start from scratch. You can design the layout further by adding or removing blocks from the template.
 
 [Watch the video on VideoPress](https://videopress.com/v/O4T3hDWU)
-
-https://videopress.com/v/O4T3hDWU
 
 #### Add a new Page template
 
@@ -239,7 +233,7 @@ There are two ways you can rename custom templates:
 -   This will open a dialog box where you can type in a new name for the custom template you selected. Make sure the name describes the template example: Post with sidebar.
 -   Click **Save** to save the custom template with the new name.
 
-![Renaming a custom template in the site editor by clicking on the three dot menu and choosing rename](https://wordpress.org/documentation/files/2021/07/rename-custom-template.jpg)
+![Renaming a custom template in the Site Editor by clicking on the three dot menu and choosing rename](https://wordpress.org/documentation/files/2021/07/rename-custom-template.jpg)
 
 ## Clear customizations to templates in your block theme
 
@@ -255,7 +249,7 @@ There are two ways you can clear customizations:
 
 ![Arrow pointing to a three dot menu that is open to show a reset option for a Blog Home template](https://wordpress.org/documentation/files/2021/07/site-editor-reset-template.jpg)
 
-*Reseting a template from the site editor*
+*Reseting a template from the Site Editor*
 
 ### From the Settings sidebar within a template
 

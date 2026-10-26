@@ -63,8 +63,6 @@ You could also choose to remove the missing block and choose another one from th
 
 [Watch the video on VideoPress](https://videopress.com/v/RpDhdRqj)
 
-https://videopress.com/v/RpDhdRqj
-
 This video shows you how the Block Directory works. It starts at the 3:00 time stamp. Start it at the beginning if you are new to the block editor and need a refresher.
 
 *On* [Learn.WordPress.org](https://learn.wordpress.org/), *contributors started creating workshop videos for self-study and [scheduled discussion groups online](https://www.meetup.com/learn-wordpress-discussions). Check it out.*

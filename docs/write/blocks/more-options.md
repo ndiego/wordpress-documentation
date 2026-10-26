@@ -47,8 +47,6 @@ Use this option to insert a new block after the selected block(s). It creates an
 
 [Watch the video on VideoPress](https://videopress.com/v/yRgqNToB)
 
-https://videopress.com/v/yRgqNToB
-
 The **Edit as HTML** option allows you to edit the block using HTML code. You can click on **Edit visually** to exit this mode, but the block editor might no longer recognize the original block, depending on your code changes.
 
 ## Copy styles and Paste styles

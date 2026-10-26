@@ -50,7 +50,7 @@ To change the design, you must first open the template in the Site Editor and se
 
 [Watch the video](https://wordpress.org/documentation/files/2024/10/tt5-switch-template.mp4)
 
-*How to switch template designs in the site editor.*
+*How to switch template designs in the Site Editor.*
 
 ### Personal blog (default)
 

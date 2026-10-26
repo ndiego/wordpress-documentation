@@ -20,7 +20,9 @@ What it does to each page:
 Retired pages are not written; their redirect_from entries move to the page they redirect to. Pages owned by
 another author (OTHER below) are not written either; their redirects are printed so they can be added there.
 
-Usage: python3 -I scripts/port.py [--src PATH] [--dry-run]
+Pages listed in HAND_EDITED were edited by hand after the port and are left alone unless --force is given.
+
+Usage: python3 -I scripts/port.py [--src PATH] [--dry-run] [--force]
 """
 import argparse
 import os
@@ -113,6 +115,15 @@ RULES = [
     ("administration/security/", "manage/security/", None),
     ("classic/", "classic/", None),
 ]
+
+# Old WordPress.org paths (from every redirect_from) to the page here; filled in main().
+OLD_URLS = {}
+
+# Pages edited by hand after the port. The port does not overwrite them (pass --force to do so anyway).
+HAND_EDITED = {
+    "get-started/glossary.md",
+    "write/editor/keyboard-shortcuts.md",
+}
 
 # Hub sections that are not part of this repository, and where their pages live on developer.wordpress.org.
 EXTERNAL = {
@@ -743,6 +754,12 @@ def rewrite_links(line, src, dst, problems):
         u = url.strip("<>")
         if not bang and re.search(r"/wp-admin/post\.php\?", u):
             return label  # a link into someone's wp-admin editor, not a page
+        old = re.match(r"^https?://(?:www\.)?wordpress\.org(/(?:documentation|support)/(?:article|category)/[^#?]*?)/?(?:↗)?(#.*)?$", u)
+        if old and not bang:
+            key = old.group(1).replace("/support/", "/documentation/") + "/"
+            if key in OLD_URLS:
+                newrel = os.path.relpath(OLD_URLS[key], os.path.dirname(dst) or ".")
+                return f"[{label}]({newrel}{title})"
         if not u or u.startswith("#") or re.match(r"^[a-z][a-z0-9+.-]*:", u):
             return m.group(0)
         path, _, frag = u.partition("#")
@@ -759,6 +776,10 @@ def rewrite_links(line, src, dst, problems):
             if rel.split("/")[0] in SECTIONS:
                 problems.append(f"{src}: link to {u} has no target here")
                 return m.group(0)
+            if rel == "themes/getting-started/what-is-a-theme.md" and re.search(r"block theme", label, re.I):
+                # The user documentation has its own page for this; the theme handbook is for developers.
+                newrel = os.path.relpath("design/themes/block-themes.md", os.path.dirname(dst) or ".")
+                return f"[{label}]({newrel}{title})"
             ext = external_for(rel)
             return f"{bang}[{label}]({ext}{title})"
         if new == dst and frag:
@@ -891,10 +912,28 @@ def drop_boilerplate(lines, dst):
         if re.match(r"^\[?Back to the Top\]?(\([^)]*\))?\s*$", line, re.I):
             continue
         out.append(line)
+    # A bare video URL right after a link to the same URL (the oEmbed form) duplicates it; keep the link.
+    dedup = []
+    for line in out:
+        bare = line.strip()
+        if re.fullmatch(r"https?://\S+", bare):
+            prev = next((x for x in reversed(dedup) if x.strip()), "")
+            if f"]({bare})" in prev:
+                continue
+        dedup.append(line)
+    out = [fix_names(x) for x in dedup]
     # The Codex category box at the end of a page: "[Categories](...Special:Categories):" and its list.
     text = "\n".join(out)
     text = re.sub(r"\n\[Categories\]\(https://codex\.wordpress\.org/Special:Categories\):\n\n(?:-\s+\[[^\]]*\]\(https://codex\.wordpress\.org/Category:[^)]*\)\n?)+", "\n", text)
     return text.split("\n")
+
+
+def fix_names(line):
+    """Product names in prose: Site Editor. Leaves code, link targets and URLs alone."""
+    parts = re.split(r"(`[^`]*`|\]\([^)]*\)|https?://\S+)", line)
+    for i in range(0, len(parts), 2):
+        parts[i] = re.sub(r"\b[Ss]ite editor\b", "Site Editor", parts[i])
+    return "".join(parts)
 
 
 def collapse_blank(lines):
@@ -1095,6 +1134,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--src", default=DEFAULT_SRC)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--force", action="store_true", help="also overwrite the pages in HAND_EDITED")
     a = ap.parse_args()
     SRC = a.src
     sources = []
@@ -1123,11 +1163,21 @@ def main():
                 extra.setdefault(dst, []).extend(reds)
         elif kind == "other":
             other_redirects.setdefault(dst, []).extend(reds)
+    for dst, src in plan.items():
+        fm, _ = parse_front_matter(open(os.path.join(SRC, src), encoding="utf-8").read())
+        for r in (fm.get("redirect_from") or []) + extra.get(dst, []):
+            if r.startswith("/"):
+                OLD_URLS[r if r.endswith("/") else r + "/"] = dst
+    for dst, reds in other_redirects.items():
+        for r in reds:
+            OLD_URLS[r if r.endswith("/") else r + "/"] = dst
     written = 0
     dropped_all = []
     for dst, src in sorted(plan.items()):
         content, dropped = port_file(src, dst, extra, problems)
         dropped_all += [(dst, d) for d in dropped]
+        if dst in HAND_EDITED and not a.force:
+            continue
         if not a.dry_run:
             path = os.path.join(DOCS, dst)
             os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -1137,7 +1187,8 @@ def main():
     if not a.dry_run:
         cache = {}
         for dst in sorted(plan):
-            fix_anchors(dst, problems, cache)
+            if dst not in HAND_EDITED or a.force:
+                fix_anchors(dst, problems, cache)
     print(f"ported {written} pages from {len(sources)} hub files")
     if other_redirects:
         print("\nredirect_from for pages written by another author (add them there):")

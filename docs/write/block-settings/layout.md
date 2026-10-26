@@ -46,8 +46,6 @@ Some blocks, like the [Buttons block](../../blocks/design/buttons.md), include a
 
 [Watch the video on VideoPress](https://videopress.com/v/E8BCQp3S)
 
-https://videopress.com/v/E8BCQp3S
-
 ### Orientation
 
 When you first add multiple blocks to a parent block, the child blocks will be displayed next to each other horizontally.
@@ -55,8 +53,6 @@ When you first add multiple blocks to a parent block, the child blocks will be d
 Another option is to display the child blocks vertically, or stacked. When you choose vertical orientation for the button block, you will also see a **Justification** setting for **Stretch items** which will fill the available horizontal space with the button.
 
 [Watch the video on VideoPress](https://videopress.com/v/Vhpf51dS)
-
-https://videopress.com/v/Vhpf51dS
 
 ### Allowing child blocks to wrap
 
@@ -81,8 +77,6 @@ To view **Content width**, **Wide width**, and **Justification** options, click 
 You can change the values and set the unit in PX, %, EM, REM, VW, or VH for the **Content width** and **Wide width**. You can also change the **Justification** for the nested elements to left, center or right aligned within the parent container.
 
 [Watch the video on VideoPress](https://videopress.com/v/UxPNToqL)
-
-https://videopress.com/v/UxPNToqL
 
 ### Grid column options
 

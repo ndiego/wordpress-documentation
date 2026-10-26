@@ -211,8 +211,6 @@ Select **Save** to apply your changes, or **Cancel** to discard them and close t
 
 [Watch the video on VideoPress](https://videopress.com/v/jymoNgwu)
 
-https://videopress.com/v/jymoNgwu
-
 #### Undo changes
 
 While editing, use **Reset**, **Undo**, and **Redo** at the bottom of the media editor.

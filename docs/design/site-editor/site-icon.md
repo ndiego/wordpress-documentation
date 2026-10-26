@@ -54,7 +54,7 @@ Follow the steps below to use Site Icon to set up a favicon for your site.
 In the Site Editor, there is an Identity section where you can add and edit your Site Title, Site Tagline, Site Logo, and Site Icon at a high level without needing to edit any blocks directly. You can also edit these directly in the canvas of the Site Editor. Any changes you make in the Identity section will be reflected on the canvas and available after saving on your site.
 
 > [!NOTE]
-> The Site Editor Identity menu is **only** available when you install and activate a [Block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) on your site. You can learn about the Site Editor in this support article: [Site Editor](README.md).
+> The Site Editor Identity menu is **only** available when you install and activate a [Block theme](../themes/block-themes.md) on your site. You can learn about the Site Editor in this support article: [Site Editor](README.md).
 
 ### How to access the Identity section
 
@@ -78,8 +78,6 @@ For the Site Logo and Site Icon, you can replace any image you add and remove it
 ### Demo
 
 [Watch the video on VideoPress](https://videopress.com/v/dvBHYnNg)
-
-https://videopress.com/v/dvBHYnNg
 
 ### Resource links
 

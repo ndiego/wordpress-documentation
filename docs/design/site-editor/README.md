@@ -12,18 +12,18 @@ redirect_from:
 
 # The Site Editor
 
-The Site editor allows you to design the entire site including the header, footer, and everything in between, with [blocks](../../blocks/README.md). It gives you greater control over how your site looks.
+The Site Editor allows you to design the entire site including the header, footer, and everything in between, with [blocks](../../blocks/README.md). It gives you greater control over how your site looks.
 
 > [!NOTE]
-> The Site Editor is **only** available when you install and activate a [Block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) on your site.
+> The Site Editor is **only** available when you install and activate a [Block theme](../themes/block-themes.md) on your site.
 
-## How to access the Site editor
+## How to access the Site Editor
 
-To work with the Site editor, you need to use a [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) on your site. A block theme is a theme that uses [blocks](../../blocks/README.md) for all parts of a site, including navigation menus, header, content, and site footer.
+To work with the Site Editor, you need to use a [block theme](../themes/block-themes.md) on your site. A block theme is a theme that uses [blocks](../../blocks/README.md) for all parts of a site, including navigation menus, header, content, and site footer.
 
-All [blocks](../../blocks/README.md) that are available in the [WordPress Block editor](../../write/editor/README.md) can be used in the Site editor. A set of blocks called [Theme blocks](../../blocks/README.md#theme-blocks) are specifically built for the Site editor.
+All [blocks](../../blocks/README.md) that are available in the [WordPress Block editor](../../write/editor/README.md) can be used in the Site Editor. A set of blocks called [Theme blocks](../../blocks/README.md#theme-blocks) are specifically built for the Site Editor.
 
-To find block themes, from the WordPress dashboard, go to **Appearance** > **Themes** and click **Add New**. In the **Add Themes** page, select **Block Themes** to find the growing list of [Block themes](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) in the [WordPress theme directory](https://wordpress.org/themes/tags/full-site-editing/).
+To find block themes, from the WordPress dashboard, go to **Appearance** > **Themes** and click **Add New**. In the **Add Themes** page, select **Block Themes** to find the growing list of [Block themes](../themes/block-themes.md) in the [WordPress theme directory](https://wordpress.org/themes/tags/full-site-editing/).
 
 ![Appearance > Themes showing block theme options](https://wordpress.org/documentation/files/2022/01/Appearance-Themes-showing-block-themes.png)
 
@@ -41,7 +41,7 @@ Once you enter the Site Editor, you will see five menu items.
 
 ![Main menu screen in the Site Editor.](https://wordpress.org/documentation/files/2026/08/site-editor.jpg)
 
--   [Identity](https://wordpress.org/documentation/article/site-editor-identity/↗): Allows you to set Site Title, Site Tagline, Site Logo, and Site Icon at a high level.
+-   [Identity](site-icon.md): Allows you to set Site Title, Site Tagline, Site Logo, and Site Icon at a high level.
 -   [Styles](styles.md): Provides a direct access to edit your site’s style variations.
 -   [Pages](README.md): Allows you to edit the content of your pages inside the Site Editor itself.
 -   [Navigation](navigation.md): Allows you to browse your menus and make basic changes.
@@ -56,15 +56,15 @@ Below is an overview of the different sections in the Site Editor.
 
 ## The Site Editor workspace
 
-The Site editor loads the home page of your site (based on what you have set in the [Reading Settings](../../manage/settings/reading.md#reading-settings)) to start editing.
+The Site Editor loads the home page of your site (based on what you have set in the [Reading Settings](../../manage/settings/reading.md#reading-settings)) to start editing.
 
-The top menu in the Site editor includes the following options:
+The top menu in the Site Editor includes the following options:
 
-![Site editor toolbar with numbers indicating various options to explore.](https://wordpress.org/documentation/files/2026/08/site-editor-persistent-admin-bar-marked-1.jpg)
+![Site Editor toolbar with numbers indicating various options to explore.](https://wordpress.org/documentation/files/2026/08/site-editor-persistent-admin-bar-marked-1.jpg)
 
 1.  **Back:** Click the left-chevron Back button to leave the current editing view and return to the previous Site Editor screen. The WordPress Toolbar remains visible above the Site Editor and provides access to WordPress and site navigation.
 
-2.  **The + Block inserter button**: Add a new [block](../../blocks/README.md), [block pattern](../patterns/README.md), Media, or synced pattern (if the site has synched patterns) to the Site editor.
+2.  **The + Block inserter button**: Add a new [block](../../blocks/README.md), [block pattern](../patterns/README.md), Media, or synced pattern (if the site has synched patterns) to the Site Editor.
 
 ![Block Inserter Panel](https://wordpress.org/documentation/files/2023/08/6-3-inserter.png)
 
@@ -77,8 +77,6 @@ The top menu in the Site editor includes the following options:
 
 [Watch the video on VideoPress](https://videopress.com/v/pPGxe58s)
 
-https://videopress.com/v/pPGxe58s
-
 7.  **Preview**: Preview changes before saving them. Here you can also save changes as a Responsive styles for a specific viewport.
 
 ![Screenshot of the Preview dropdown in Site Editor](https://wordpress.org/documentation/files/2026/08/site-editor-preview.jpg)
@@ -88,7 +86,7 @@ https://videopress.com/v/pPGxe58s
 [Watch the video](https://wordpress.org/documentation/files/2023/08/site-editor-reset-customizations.mp4)
 
 9.  [**Styles**](styles.md): Browse style variations available for the theme you have, set the typography, color palettes, and layout for the entire site, or customize the appearance of specific blocks for the whole site.
-10. **Save:** Save the changes you made in the Site editor.
+10. **Save:** Save the changes you made in the Site Editor.
     -   When you click the **Save** button, you will get a list of all the [synced patterns](../patterns/README.md), [navigation menus](navigation.md), [templates](templates.md) and [template parts](../../blocks/theme/template-part.md) where you have made changes.
     -   You can choose to save all or just some of them.
     -   Note that some changes (like changes to the Header and Footer templates) will apply to all pages of your site that use those templates, and not just the page you were working on.
@@ -97,7 +95,7 @@ https://videopress.com/v/pPGxe58s
 
 11. **More Options:** Click the three vertical dots icon to open additional settings and tools.
 
-![Site editor with an arrow pointing to the three dot menu where extra settings can be found.](https://wordpress.org/documentation/files/2023/08/Site-Editor-More-options.png)
+![Site Editor with an arrow pointing to the three dot menu where extra settings can be found.](https://wordpress.org/documentation/files/2023/08/Site-Editor-More-options.png)
 
 12. **Admin bar**: WordPress 7.1 brings a persistent Admin bar into every Site Editor screen. It provides consistent access to WordPress and site navigation while you work in the editor. If a Site Icon is set, it is displayed in the Toolbar. The Toolbar is hidden when Distraction Free mode is enabled.
 
@@ -109,8 +107,6 @@ https://videopress.com/v/pPGxe58s
 
 [Watch the video on VideoPress](https://videopress.com/v/CgczRt4h)
 
-https://videopress.com/v/CgczRt4h
-
 **Spotlight mode**: All blocks are greyed out except for the one you’re working on so that you can focus on a single block at a time.
 
 ![Spotlight mode](https://wordpress.org/documentation/files/2022/05/Screen-Shot-2022-05-12-at-10.01.48-PM-1.png)
@@ -121,7 +117,7 @@ https://videopress.com/v/CgczRt4h
 
 **Editor**: By default, you will be in the **Visual editor**. Switch to the **Code editor** to view the entire page in HTML code editor.
 
-**Plugins**: Here, you can switch between **Settings** and **Styles** in the Site editor Sidebar.
+**Plugins**: Here, you can switch between **Settings** and **Styles** in the Site Editor Sidebar.
 
 **Tools**: Here, you can download your theme with the updated templates and styles (**Export**), learn [keyboard shortcuts](../../write/editor/keyboard-shortcuts.md), visit the Site Editor welcome guide, copy all blocks, or view additional support articles.
 
@@ -204,9 +200,9 @@ Next, remove top padding of content area.
 
 ### To browse the templates and template parts
 
-From the Site editor, you can easily browse the [templates](templates.md) and [templates parts](../../blocks/theme/template-part.md) available for your site.
+From the Site Editor, you can easily browse the [templates](templates.md) and [templates parts](../../blocks/theme/template-part.md) available for your site.
 
--   Go to **Appearance** > **Editor** to open the Site editor. This will bring you to a view where you can choose to browse your templates or template parts.
+-   Go to **Appearance** > **Editor** to open the Site Editor. This will bring you to a view where you can choose to browse your templates or template parts.
 -   Click on **Templates** to preview the list of templates available for your site.
 -   Click on **Patterns** to preview the list of template parts.
 
@@ -273,8 +269,6 @@ You can open the Command Palette from the WordPress Admin bar while working in t
 
 [Watch the video on VideoPress](https://videopress.com/v/pPGxe58s)
 
-https://videopress.com/v/pPGxe58s
-
 > [!NOTE]
 > Learn more about the Command Palette in this support article: [Site Editor Command Palette](command-palette.md).
 
@@ -289,7 +283,7 @@ List View helps you navigate complex block layouts and nested block structures. 
 
 ### Block patterns
 
-Block Patterns are a collection of predefined blocks that you can insert into posts and pages. You can then customize them further. WordPress comes with a set of standard Block Patterns. You can also find Block Patterns bundled with the [block themes](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/).
+Block Patterns are a collection of predefined blocks that you can insert into posts and pages. You can then customize them further. WordPress comes with a set of standard Block Patterns. You can also find Block Patterns bundled with the [block themes](../themes/block-themes.md).
 
 > [!NOTE]
 > Learn more about Block Patterns in this support article: [Block Pattern](../patterns/README.md).
@@ -404,7 +398,7 @@ Fore more details, refer [Styles Overview](styles.md).
 Site Editor Pages is a page editing and page management tool in the Site Editor where you can create, view, edit, and trash pages. It shows your page content as part of the template instead of using placeholder content.
 
 > [!NOTE]
-> The Site Editor Pages menu is **only** available when you install and activate a [Block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) on your site. You can learn about the Site Editor in this support article: [Site Editor](README.md).
+> The Site Editor Pages menu is **only** available when you install and activate a [Block theme](../themes/block-themes.md) on your site. You can learn about the Site Editor in this support article: [Site Editor](README.md).
 
 In Site Editor Pages, you can edit both the page content and the template. The template is locked until you enable the template editing option.
 
@@ -592,18 +586,14 @@ When editing a page while using a block theme, choose **Show template** to view 
 
 [Watch the video on VideoPress](https://videopress.com/v/WFbkdPm1)
 
-https://videopress.com/v/WFbkdPm1
-
 > [!NOTE]
 > The Zoom out icon is only visible when **Show Template** is activated within the Preview setting.
 
 #### In the Site Editor
 
-When you insert a pattern into a template while using the site editor, you will automatically enter Zoom out mode. Press the Zoom out toggle button to return to the default view.
+When you insert a pattern into a template while using the Site Editor, you will automatically enter Zoom out mode. Press the Zoom out toggle button to return to the default view.
 
 [Watch the video on VideoPress](https://videopress.com/v/UYoUOaIm)
-
-https://videopress.com/v/UYoUOaIm
 
 > [!NOTE]
 > [Learn more about the Site Editor.](README.md)

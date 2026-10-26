@@ -16,8 +16,6 @@ The Template Part block is used while creating and editing templates to manage b
 
 [Watch the video on VideoPress](https://videopress.com/v/GEDQAobI)
 
-https://videopress.com/v/GEDQAobI
-
 ## Add a template part
 
 You can add templates when using the [Template Editor](../../design/site-editor/templates.md) or [Site Editor](../../design/site-editor/README.md) to edit templates directly. In order to add a Template Part block, click on the add block button and select the Template Part block. You can also type `/template part` and hit enter in a new paragraph block to add one quickly.
@@ -55,8 +53,6 @@ You can choose to create one of the following Template Parts:
 ## Edit template parts
 
 [Watch the video on VideoPress](https://videopress.com/v/ea2a8vn6)
-
-https://videopress.com/v/ea2a8vn6
 
 After adding or selecting a Template Part block, you can customize in various ways by adding additional blocks within it. To make it easier to find current template parts to edit, it’s recommended that you use [List View](../../write/blocks/list-view.md).
 

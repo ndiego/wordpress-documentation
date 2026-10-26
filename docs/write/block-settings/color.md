@@ -43,8 +43,6 @@ WordPress 7.1 introduced the Elements panel where you can customize colors for l
 
 [Watch the video on VideoPress](https://videopress.com/v/m3lpI36x)
 
-https://videopress.com/v/m3lpI36x
-
 ## Type of settings
 
 Each supported block comes with different color settings.
@@ -79,8 +77,6 @@ Some blocks such as the [Heading block](../../blocks/text/heading.md) allow you 
 
 [Watch the video on VideoPress](https://videopress.com/v/4O9MDUID)
 
-https://videopress.com/v/4O9MDUID
-
 A slider will appear that shows the two color points that make up the gradient.
 
 ![Color points in the gradient](https://wordpress.org/documentation/files/2026/09/image-2-edited.png)
@@ -112,8 +108,6 @@ You can also pick your own colors for the shadows and highlights by clicking on 
 If you want to remove the duotone filter you can click the **Clear** button found at the bottom-right of the color palette or by removing clearing the **Filters** option in the **Block Settings** sidebar.
 
 [Watch the video on VideoPress](https://videopress.com/v/0885znCX)
-
-https://videopress.com/v/0885znCX
 
 ## Reset settings
 

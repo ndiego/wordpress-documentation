@@ -9,13 +9,11 @@ redirect_from:
 
 # Social Icons
 
-The Social Icons block allows you to add icons linking to your social media profiles or sites. This helps to increase the visibility of your social media profiles and drive traffic to them. You can add icons to a page, post or a site-wide template or pattern using the [Site editor](../../design/site-editor/README.md).
+The Social Icons block allows you to add icons linking to your social media profiles or sites. This helps to increase the visibility of your social media profiles and drive traffic to them. You can add icons to a page, post or a site-wide template or pattern using the [Site Editor](../../design/site-editor/README.md).
 
 ![A screenshot of the social icons block filled with social icons](https://wordpress.org/documentation/files/2020/11/social_icons.png)
 
 [Watch the video on VideoPress](https://videopress.com/v/NWPtz7kp)
-
-https://videopress.com/v/NWPtz7kp
 
 ## Add a Social Icons block
 

@@ -13,8 +13,6 @@ List view is a navigation tool that displays all the blocks in your post or page
 
 [Watch the video on VideoPress](https://videopress.com/v/5Ns9rJJH)
 
-https://videopress.com/v/5Ns9rJJH
-
 ## How to use List view
 
 ![Document overview button location](https://wordpress.org/documentation/files/2021/07/Screenshot-2026-09-04-at-3.59.41-PM.png)

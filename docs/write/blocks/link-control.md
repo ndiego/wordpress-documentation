@@ -30,8 +30,6 @@ Start typing a keyword, page title, or post title to search for content on your 
 
 [Watch the video on VideoPress](https://videopress.com/v/pIgB8OPb)
 
-https://videopress.com/v/pIgB8OPb
-
 ### Keyboard shortcut
 
 Highlight and select the text you want to link and use the **Ctrl+K** (or **⌘+K**) keyboard shortcut to quickly add a link.

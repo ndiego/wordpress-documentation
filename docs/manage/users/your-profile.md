@@ -35,7 +35,7 @@ All of the other personal information asked for here is *optional*, and, again, 
 
 *Color scheme of Administration Screens*
 
--   **Keyboard Shortcuts** – Checking this box **Enables keyboard shortcuts for comment moderation**. Keyboard shortcuts are designed to allow you to rapidly navigate and perform actions on comments. The [Keyboard Shortcuts article](../../write/editor/keyboard-shortcuts.md#classic-editor) describes the various shortcuts in detail.
+-   **Keyboard Shortcuts** – Checking this box **Enables keyboard shortcuts for comment moderation**. Keyboard shortcuts are designed to allow you to rapidly navigate and perform actions on comments. The [Keyboard Shortcuts article](../../write/editor/keyboard-shortcuts.md#classic-editor-shortcuts) describes the various shortcuts in detail.
 -   **Toolbar** – Check the box to display the [Toolbar](https://codex.wordpress.org/Toolbar) when you are viewing your site.
 -   **Language** – You can select the language you wish to use while using the [Administration Screen](../dashboard/README.md) without affecting the language site visitors see.
 

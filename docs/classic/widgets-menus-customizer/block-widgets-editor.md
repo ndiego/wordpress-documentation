@@ -64,8 +64,6 @@ A user may install and activate [the Classic Widgets plugin](https://wordpress.o
 
 [Watch the video on VideoPress](https://videopress.com/v/63dxpgzD)
 
-https://videopress.com/v/63dxpgzD
-
 *Demonstration of the block-based Widgets Editor and blocks in Customizer experience*
 
 ## Resources

@@ -151,8 +151,6 @@ Use the Post Date block to display the publication date of a post or page. You c
 
 [Watch the video on VideoPress](https://videopress.com/v/lGL1k8QW)
 
-https://videopress.com/v/lGL1k8QW
-
 *Adding a Post Date block to a single post*
 
 ### Add a Post Date block
@@ -171,8 +169,6 @@ You can also quickly add the Post Date block by typing `/post date` and pressing
 The Post Date block can be added to a template in the [Site Editor](../../design/site-editor/README.md) to easily reflect the published date of a page or post across your website.
 
 [Watch the video on VideoPress](https://videopress.com/v/WvGLmeK3)
-
-https://videopress.com/v/WvGLmeK3
 
 ### Block toolbar
 
@@ -302,8 +298,6 @@ Use the Modified Date block to display the last modified date of a post or page.
 You can add this block directly to a page template in the [Site Editor](../../design/site-editor/README.md), such as the Single Post or Page template, to ensure a consistent layout across your site. You can also add it inside a [Query Loop block](query.md) to customize the appearance and layout of your post feeds.
 
 [Watch the video on VideoPress](https://videopress.com/v/zaXjRgMP)
-
-https://videopress.com/v/zaXjRgMP
 
 ### Add a Modified Date block
 

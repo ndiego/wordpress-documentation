@@ -124,8 +124,6 @@ The Crop button only appears in the block toolbar after you have inserted an ima
 
 [Watch the video on VideoPress](https://videopress.com/v/jymoNgwu)
 
-https://videopress.com/v/jymoNgwu
-
 ### Replace
 
 ![The replace button](https://wordpress.org/documentation/files/2023/04/replace.png)

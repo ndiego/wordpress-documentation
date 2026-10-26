@@ -11,7 +11,7 @@ redirect_from:
 
 Use the Archives block to display a date archive of your posts.
 
-![The archive block in the site editor](https://wordpress.org/documentation/files/2023/02/archive-block.png)
+![The archive block in the Site Editor](https://wordpress.org/documentation/files/2023/02/archive-block.png)
 
 To add the Archives block to a page, click the **block inserter** (+) icon to open the block inserter pop-up window and choose the Archives block.
 
@@ -85,7 +85,7 @@ The Options button on a block toolbar gives you more features to customize the b
 
 The block settings panel contains customization options specific to the block. To open it, select the block and click the **Settings** icon next to the **Publish** button.
 
-![Block settings icon on the site editor](https://wordpress.org/documentation/files/2023/02/settings-icon.png)
+![Block settings icon on the Site Editor](https://wordpress.org/documentation/files/2023/02/settings-icon.png)
 
 **Settings**
 

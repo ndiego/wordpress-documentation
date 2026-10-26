@@ -12,7 +12,7 @@ redirect_from:
 
 Every year or so, WordPress ships a new default theme named after the year it was designed for. This section covers all of them, newest first. Each page describes the theme's features, how to customise it and links to its changelog.
 
-Twenty Twenty-Two and later are [block themes](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/): you customise them in the [Site Editor](../../site-editor/README.md). Twenty Twenty-One and earlier are classic themes: you customise them with the [Customizer, widgets and menus](../../../classic/widgets-menus-customizer/README.md). All of them still receive security and compatibility updates and remain available from the theme directory.
+Twenty Twenty-Two and later are [block themes](../block-themes.md): you customise them in the [Site Editor](../../site-editor/README.md). Twenty Twenty-One and earlier are classic themes: you customise them with the [Customizer, widgets and menus](../../../classic/widgets-menus-customizer/README.md). All of them still receive security and compatibility updates and remain available from the theme directory.
 
 ## Block themes
 

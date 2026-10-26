@@ -287,8 +287,6 @@ If you do not see this section, change Query type from Default to Custom.
 
 [Watch the video on VideoPress](https://videopress.com/v/yeTHpJHb)
 
-https://videopress.com/v/yeTHpJHb
-
 *Exclude current post from query*
 
 Depending on your site, you may also see filters for custom taxonomies added by a theme or plugin, such as [WooCommerce](https://wordpress.org/plugins/woocommerce/) product categories. These filters work like categories or tags and let you show content assigned to specific taxonomy terms.

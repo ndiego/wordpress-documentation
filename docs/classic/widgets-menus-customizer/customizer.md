@@ -15,7 +15,7 @@ If you select Appearance -> Customize menu from the [Administration Screens](../
 
 **Important Note**:
 
-The Customizer is only available if the active theme supports a Customize ability. For [Block themes](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) that support building your site with blocks, this means you will not need to use the Customizer causing it to be hidden except if you are using a plugin that requires it. In addition, this screen will likely be different for each Theme that enables and builds it. The Customizer for [WordPress Twenty Twenty-One theme](../../design/themes/default-themes/twenty-twenty-one.md), for example, provides options to change the background colors, select a background image and turn on the Dark Mode.
+The Customizer is only available if the active theme supports a Customize ability. For [Block themes](../../design/themes/block-themes.md) that support building your site with blocks, this means you will not need to use the Customizer causing it to be hidden except if you are using a plugin that requires it. In addition, this screen will likely be different for each Theme that enables and builds it. The Customizer for [WordPress Twenty Twenty-One theme](../../design/themes/default-themes/twenty-twenty-one.md), for example, provides options to change the background colors, select a background image and turn on the Dark Mode.
 
 ![Twenty Twenty-One Customizer](https://wordpress.org/documentation/files/2021/06/customizer-twenty-twenty-one.png)
 

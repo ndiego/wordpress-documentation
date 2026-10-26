@@ -34,8 +34,6 @@ _Adding the Gallery block with */gallery* shortcut_
 
 [Watch the video on VideoPress](https://videopress.com/v/Pj4XiuBr)
 
-https://videopress.com/v/Pj4XiuBr
-
 Select the **Use attached images** button after adding a gallery block to create a dynamic gallery that will automatically add images that are attached to your post. If you add a new image, the gallery will automatically update.
 
 ![Gallery initial state with Upload, Media Library and Use Attached images options.](https://wordpress.org/documentation/files/2019/03/Screenshot-2026-09-18-at-2.42.27-PM.png)
@@ -169,8 +167,6 @@ The Gallery block settings panel is divided into three tabs – **List View**, *
 The **List View** tab allows you to drag and drop images within the gallery to reorder them. When hovering over an image in List View, click on the More options (three dots) button for additional block controls like copy, duplicate, hide, delete, and more.
 
 [Watch the video on VideoPress](https://videopress.com/v/oHegtvHd)
-
-https://videopress.com/v/oHegtvHd
 
 > [!NOTE]
 > [Learn about the More options menu](../../write/blocks/more-options.md).

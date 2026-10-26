@@ -9,7 +9,7 @@ redirect_from:
 
 # Content
 
-Use the *Content* block to display the contents of a post or page. This block is a child block of the [*Query Loop*](query.md) block and helps to customize the appearance of the query loop. **The option to add this block is only available in [Site editor](../../design/site-editor/README.md).**
+Use the *Content* block to display the contents of a post or page. This block is a child block of the [*Query Loop*](query.md) block and helps to customize the appearance of the query loop. **The option to add this block is only available in [Site Editor](../../design/site-editor/README.md).**
 
 To add a *Content* block, first ensure that you are editing the page or post template.
 

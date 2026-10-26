@@ -13,8 +13,6 @@ Grid block is one of the container blocks that can be used to organize multiple 
 
 [Watch the video on VideoPress](https://videopress.com/v/Xqq2iyJ4)
 
-https://videopress.com/v/Xqq2iyJ4
-
 ## Add a Grid block
 
 To add a Grid block, click the **+ Block Inserter** button in the top-left corner of the editor. Search for the Grid block and click on the block to add it to the page

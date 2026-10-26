@@ -13,7 +13,7 @@ redirect_from:
 
 ![Image showing two different views of the Twenty Twenty-Two templates including an about page and a post category template.](https://wordpress.org/documentation/files/2022/01/image-1.jpeg)
 
-Everyone deserves a truly unique website, built on a solid, well-designed foundation. Twenty Twenty-Two aims to help you achieve that by offering a wide set of patterns, templates, headers, footers, and custom color palettes. As the first-ever default [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/), Twenty Twenty-Two invites you to explore full site editing and create a site that reflects your individual vision.
+Everyone deserves a truly unique website, built on a solid, well-designed foundation. Twenty Twenty-Two aims to help you achieve that by offering a wide set of patterns, templates, headers, footers, and custom color palettes. As the first-ever default [block theme](../block-themes.md), Twenty Twenty-Two invites you to explore full site editing and create a site that reflects your individual vision.
 
 ## Quick specs
 

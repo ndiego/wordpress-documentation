@@ -40,8 +40,6 @@ There are several ways to add blocks to a post or page. The video below shows th
 
 [Watch the video on VideoPress](https://videopress.com/v/oNubbmNy)
 
-https://videopress.com/v/oNubbmNy
-
 > [!NOTE]
 > [Detailed instructions on adding blocks](add-a-block.md)
 
@@ -166,8 +164,6 @@ For example, blocks such as Image, Gallery, Quote, Separator, Table, and Buttons
 To preview a style, hover over one of the style buttons. Select a style button to apply that style to the block.
 
 [Watch the video on VideoPress](https://videopress.com/v/F7Yw13DP)
-
-https://videopress.com/v/F7Yw13DP
 
 #### How to reset settings
 
@@ -336,8 +332,6 @@ It’s easier to select multiple blocks in List View, especially when blocks are
 You can quickly add links to existing an post or page in your content. Type two open brackets `[[` in your content to show a list of posts and pages and you can select the one to link to, from the list.
 
 [Watch the video on VideoPress](https://videopress.com/v/xCyVgcmI)
-
-https://videopress.com/v/xCyVgcmI
 
 ### Creating patterns
 

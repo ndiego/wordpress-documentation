@@ -141,8 +141,6 @@ Site administrators can fine-tune notifications with plugins or custom code by [
 
 [Watch the video on VideoPress](https://videopress.com/v/LU5RRu2J)
 
-https://videopress.com/v/LU5RRu2J
-
 ## Troubleshooting
 
 **I don’t see Notes:**

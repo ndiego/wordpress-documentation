@@ -138,5 +138,3 @@ Because these are standard block settings, you can also set them once for every 
 The demo below shows an example of styling the various pieces of a tabs block.
 
 [Watch the video on VideoPress](https://videopress.com/v/MwTNElXP)
-
-https://videopress.com/v/MwTNElXP

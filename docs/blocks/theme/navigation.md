@@ -72,8 +72,6 @@ Alternatively, drag and drop the menu item into a new position in the List View 
 
 [Watch the video on VideoPress](https://videopress.com/v/8uCgy1fb)
 
-https://videopress.com/v/8uCgy1fb
-
 > [!NOTE]
 > The following procedures use the block toolbar. The same actions can also be performed from the List View in the settings sidebar.
 
@@ -224,8 +222,6 @@ You can customize the dialog that opens when a visitor selects the menu button. 
 The following video demonstrates the default mobile menu and a customized mobile menu created using an overlay template.
 
 [Watch the video on VideoPress](https://videopress.com/v/JD5opVK7)
-
-https://videopress.com/v/JD5opVK7
 
 ### Advanced
 

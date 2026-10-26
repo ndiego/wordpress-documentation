@@ -11,12 +11,12 @@ redirect_from:
 
 WordPress version 6.3 introduces the possibility to edit your site’s menus via the Site Editor.
 
-You can view, manage, and modify your menus without having to find them in a specific template in the site editor. If your site has several menus, they will all be listed together and you will be able to edit them from there.
+You can view, manage, and modify your menus without having to find them in a specific template in the Site Editor. If your site has several menus, they will all be listed together and you will be able to edit them from there.
 
 You can learn about the Site Editor in this support article: [Site Editor](README.md).
 
 > [!NOTE]
-> The Site Editor navigation is **only** available when you install and activate a [Block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) on your site.
+> The Site Editor navigation is **only** available when you install and activate a [Block theme](../themes/block-themes.md) on your site.
 
 You can do the follow actions using the Site Editor Navigation:
 

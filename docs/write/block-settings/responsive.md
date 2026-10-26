@@ -9,7 +9,7 @@ redirect_from:
 
 # Responsive styles
 
-Responsive styles let you give a block different settings depending on the screen size it’s viewed on. For example, you can change the font size to be smaller on mobile viewports or make padding tighter on tablet viewports. It’s only included in [block themes](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) and requires WordPress 7.1 or higher.
+Responsive styles let you give a block different settings depending on the screen size it’s viewed on. For example, you can change the font size to be smaller on mobile viewports or make padding tighter on tablet viewports. It’s only included in [block themes](../../design/themes/block-themes.md) and requires WordPress 7.1 or higher.
 
 You can set responsive styles two ways: for a block *type* everywhere it’s used on your site, or for a single block in one post, page, template, or pattern. Both options allow you to make changes to typography, color, background, border, dimensions, spacing, and layout settings, whether you’re in the [Styles panel](../../design/site-editor/styles.md) or in an individual block’s Settings sidebar. What styling options are available depends on what a block supports.
 
@@ -69,7 +69,7 @@ While **Responsive styles** are on and you’re viewing Tablet or Mobile, the se
 
 Switch back to **Desktop** at any point to confirm the block’s default style is unchanged, or back to Tablet/Mobile to confirm your override is still there. Turning **Responsive styles** off returns you to editing the block’s default style, whichever device view you’re in.
 
-This works the same way in the Post editor, the Template and Site editor, the Pattern editor, and the Navigation editor.
+This works the same way in the Post editor, the Template and Site Editor, the Pattern editor, and the Navigation editor.
 
 ## Checking contrast
 
@@ -82,5 +82,3 @@ If you don’t see the **Viewport** group in the States dropdown, or the **Respo
 ## Demo
 
 [Watch the video on VideoPress](https://videopress.com/v/O1hWGk3l)
-
-https://videopress.com/v/O1hWGk3l

@@ -49,8 +49,6 @@ Because this mode is built for writing, you can create new paragraphs by hitting
 
 [Watch the video on VideoPress](https://videopress.com/v/G2qkhryC)
 
-https://videopress.com/v/G2qkhryC
-
 **Changelog:**
 
 -   Updated 2026-10-05

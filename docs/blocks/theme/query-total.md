@@ -15,9 +15,9 @@ This new block displays the total number of results within a query, making it ea
 
 The Query Total block is designed to be used inside a Query Loop block. It automatically counts the total number of posts retrieved by the query and displays the result in a user-friendly manner. For example, if a Query Loop retrieves 12 posts, the Query Total block will display:
 
-![The Query total block on the site editor](https://wordpress.org/documentation/files/2025/04/query-total-intro.png)
+![The Query total block on the Site Editor](https://wordpress.org/documentation/files/2025/04/query-total-intro.png)
 
-*The Query total block on the site editor*
+*The Query total block on the Site Editor*
 
 > [!NOTE]
 > You can only insert the Query Total Block inside a Query Loop block.

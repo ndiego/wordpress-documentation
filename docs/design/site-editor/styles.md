@@ -9,7 +9,7 @@ redirect_from:
 
 # Styles
 
-Styles is a feature that allows you to set the overall aesthetics and layout of your site at a global level, instead of editing individual blocks or pages. It is included in [block themes](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) and requires WordPress 5.9 or higher.
+Styles is a feature that allows you to set the overall aesthetics and layout of your site at a global level, instead of editing individual blocks or pages. It is included in [block themes](../themes/block-themes.md) and requires WordPress 5.9 or higher.
 
 You can set the colors, typography, layout, spacing, and more across the entire site, giving your website a cohesive look that showcases your brand.
 
@@ -55,12 +55,12 @@ If you want to access the **Welcome Guide** in the future, you can find it by cl
 
 ![How to use the style variations](https://wordpress.org/documentation/files/2022/10/Screen-Shot-2022-10-13-at-12.04.54-PM.png)
 
-Style variations are a new feature of [block themes](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) that were introduced in WordPress 6.0.
+Style variations are a new feature of [block themes](../themes/block-themes.md) that were introduced in WordPress 6.0.
 
-With these style variations, you are presented with alternate versions of your [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) with different combinations of colors, fonts, typography, spacing, block settings, and more. You can easily swap the style variations and change the look and feel of your site without changing your theme.
+With these style variations, you are presented with alternate versions of your [block theme](../themes/block-themes.md) with different combinations of colors, fonts, typography, spacing, block settings, and more. You can easily swap the style variations and change the look and feel of your site without changing your theme.
 
 1.  In the **Styles** panel, you can find a screenshot of the Style variation that your site is currently using.
-2.  Select **Browse styles** at the bottom of the screenshot to explore the different style variations available with your [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/). From the available choices, you can pick a different style combination and instantly see how your site looks with this style variation in the Editor.
+2.  Select **Browse styles** at the bottom of the screenshot to explore the different style variations available with your [block theme](../themes/block-themes.md). From the available choices, you can pick a different style combination and instantly see how your site looks with this style variation in the Editor.
 3.  Click the left arrow icon to go back to the **Styles** panel.
 
 [Watch the video](https://wordpress.org/documentation/files/2022/10/Screen-Recording-2022-10-13-at-12.13.07-PM.mp4)

@@ -130,9 +130,9 @@ This setting controls which template is used by the page/post. A template define
 
 You can change the template by clicking on the dropdown list and selecting a different template. All your theme’s templates will be displayed in the drop down list.
 
-If you are using a [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/), you will have the option to edit the current template. Click **Edit template** at the bottom of the dropdown list which will open the current template in the [Template Editor](../../design/site-editor/templates.md). Here you can make changes to the selected template.
+If you are using a [block theme](../../design/themes/block-themes.md), you will have the option to edit the current template. Click **Edit template** at the bottom of the dropdown list which will open the current template in the [Template Editor](../../design/site-editor/templates.md). Here you can make changes to the selected template.
 
-You will also have the option to create a new template if you are using a [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/). Click the add template icon in the top right corner (next to the **X** icon). This will open a dialog box where you can give a name for the new template you are about to create and click **Create** to open the [Template Editor](../../design/site-editor/templates.md#create-a-new-custom-template) where you can build out the new template.
+You will also have the option to create a new template if you are using a [block theme](../../design/themes/block-themes.md). Click the add template icon in the top right corner (next to the **X** icon). This will open a dialog box where you can give a name for the new template you are about to create and click **Create** to open the [Template Editor](../../design/site-editor/templates.md#create-a-new-custom-template) where you can build out the new template.
 
 > [!NOTE]
 > The Edit template and Add template options are NOT available if you have Editor permissions
@@ -203,9 +203,9 @@ You can change which sections appear in the sidebar of the WordPress Editor by u
 
 ## The Site Editor settings sidebar
 
-The settings sidebar in the [Site Editor](../../design/site-editor/README.md) (**only** available if your site is using a [block theme](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/)) is shown below:
+The settings sidebar in the [Site Editor](../../design/site-editor/README.md) (**only** available if your site is using a [block theme](../../design/themes/block-themes.md)) is shown below:
 
-![Settings sidebar in site editor](https://wordpress.org/documentation/files/2022/10/Screen-Shot-2022-10-27-at-2.25.23-PM.png)
+![Settings sidebar in Site Editor](https://wordpress.org/documentation/files/2022/10/Screen-Shot-2022-10-27-at-2.25.23-PM.png)
 
 -   You can find the name of the Template and what it’s purpose is. Under **Areas,** the Template Parts that make up the Template are listed.
 -   Clicking on any one of the Template Parts in the list will navigate you to where that Template Part is located on the template page. It will also open up a new panel in the sidebar showing the details for that Template Part as shown below:
@@ -215,4 +215,4 @@ The settings sidebar in the [Site Editor](../../design/site-editor/README.md) (*
 -   Under the **Advanced** section, you can change the Title, Area, HTML element for the Template Part and also add additional CSS classes.
 -   If you are viewing a template that came bundled with your block theme and you have made changes to the template, you can clear the customizations by clicking the three-dot menu icon in the top right corner of the Template settings sidebar. This will open a drop-down menu. Select **Clear customizations**. This will reset the template to the default state and you will lose the changes you made to that template.
 
-![Clear customizations in the sidebar for site editor](https://wordpress.org/documentation/files/2022/10/Screen-Shot-2022-10-27-at-4.50.45-PM.png)
+![Clear customizations in the sidebar for Site Editor](https://wordpress.org/documentation/files/2022/10/Screen-Shot-2022-10-27-at-4.50.45-PM.png)

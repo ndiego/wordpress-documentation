@@ -15,8 +15,6 @@ The typography settings are available when you use the [block editor](../editor/
 
 [Watch the video on VideoPress](https://videopress.com/v/ZgeBsjsl)
 
-https://videopress.com/v/ZgeBsjsl
-
 ## Access typography settings
 
 The typography settings can be found in the Block Settings sidebar of a [block](../../blocks/README.md) under the section **Typography**.
@@ -53,8 +51,6 @@ You may see a warning if your text color does not have enough contrast compared 
 
 [Watch the video on VideoPress](https://videopress.com/v/Cwg0iNQ4)
 
-https://videopress.com/v/Cwg0iNQ4
-
 > [!NOTE]
 > [Learn more about color settings.](color.md)
 
@@ -63,8 +59,6 @@ https://videopress.com/v/Cwg0iNQ4
 Font size allows you to adjust the size of your text. You can choose from preset sizes like (**S**)small, (**M**)medium, (**L**)large and (**XL**)extra large. You can also set a custom value by clicking the slider icon directly above the default selections.
 
 [Watch the video on VideoPress](https://videopress.com/v/gA6926aC)
-
-https://videopress.com/v/gA6926aC
 
 You can change the unit of the font size by clicking the **px** icon on the right. You can choose between **px**, **em**, **rem**.
 

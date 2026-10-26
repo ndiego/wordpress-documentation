@@ -147,7 +147,7 @@ The following Advanced settings options are available: HTML Anchor, Additional C
 
 Use the *Archive Title block* to display the name of the Category, Tag, or custom Taxonomy, on the archive pages.
 
-![The archive title block on the site editor](https://wordpress.org/documentation/files/2023/02/archive-title-block.png)
+![The archive title block on the Site Editor](https://wordpress.org/documentation/files/2023/02/archive-title-block.png)
 
 > [!NOTE]
 > This block works only in the archive pages and will not be visible on other pages of the website. This block should be used only in the [Site Editor](../../design/site-editor/README.md) to edit the archive page templates.

@@ -13,8 +13,6 @@ The WordPress revisions system stores a record of each saved draft or published 
 
 [Watch the video on VideoPress](https://videopress.com/v/4AXIEeKG)
 
-https://videopress.com/v/4AXIEeKG
-
 ## View revisions
 
 To view revisions:

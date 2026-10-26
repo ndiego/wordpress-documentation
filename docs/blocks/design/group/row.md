@@ -13,8 +13,6 @@ Row block is one of the container blocks that can be used to arrange blocks in a
 
 [Watch the video on VideoPress](https://videopress.com/v/Bta2lzVx)
 
-https://videopress.com/v/Bta2lzVx
-
 ## Add a Row block
 
 To add a Row block, click the **+ Block Inserter** button in the top-left corner of the editor. Search for the Row block and click on the block to add it to the page.

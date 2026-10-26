@@ -26,8 +26,6 @@ A Static Front Page, on the other hand, is **a specific page** that you manually
 
 [Watch the video on VideoPress](https://videopress.com/v/MFhssVqN)
 
-https://videopress.com/v/MFhssVqN
-
 ## How to set a static front page
 
 *Reminder: to create a page, go to **Pages > Add New***
@@ -45,8 +43,6 @@ There are two places you can set your static front page, depending on your theme
 ![How to create a Static Front Page](https://wordpress.org/documentation/files/2021/06/Screen-Shot-2021-06-23-at-2.04.35-PM.png)
 
 [Watch the video on VideoPress](https://videopress.com/v/CbDPoRL9)
-
-https://videopress.com/v/CbDPoRL9
 
 #### Option 2: Using the Customizer
 

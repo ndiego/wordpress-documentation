@@ -191,5 +191,3 @@ Yes. Both the waveform and the waveform background accept solid colors and gradi
 Below is a demo of styling a playlist block.
 
 [Watch the video on VideoPress](https://videopress.com/v/0df4Ju5h)
-
-https://videopress.com/v/0df4Ju5h

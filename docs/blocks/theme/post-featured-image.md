@@ -201,6 +201,6 @@ The following Advanced settings options are available: HTML Anchor, Additional C
 
 ## Inside the site templates
 
-Featured image block can be added and managed inside [site templates](../../design/site-editor/templates.md), if the theme supports [the site editor](../../design/site-editor/README.md).
+Featured image block can be added and managed inside [site templates](../../design/site-editor/templates.md), if the theme supports [the Site Editor](../../design/site-editor/README.md).
 
 Block settings here have a little more options than in a post or page editor, such as scale settings.

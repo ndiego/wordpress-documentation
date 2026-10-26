@@ -170,8 +170,6 @@ Select **Save** to apply your changes, or **Cancel** to discard them and close t
 
 [Watch the video on VideoPress](https://videopress.com/v/jymoNgwu)
 
-https://videopress.com/v/jymoNgwu
-
 ### More options
 
 These controls give you the option to copy, duplicate, and edit your block as HTML.

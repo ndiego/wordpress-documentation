@@ -9,7 +9,7 @@ redirect_from:
 
 # Fonts
 
-The Font Library lets you upload font files, install fonts from Google Fonts, and manage the fonts available on your site.. Starting in 7.0, it is available globally for [block themes](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/) and classic themes.
+The Font Library lets you upload font files, install fonts from Google Fonts, and manage the fonts available on your site.. Starting in 7.0, it is available globally for [block themes](../themes/block-themes.md) and classic themes.
 
 ## Using the Font Library
 

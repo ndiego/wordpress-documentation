@@ -13,8 +13,6 @@ Stack block is one of the container blocks that can be used to nest other blocks
 
 [Watch the video on VideoPress](https://videopress.com/v/b5FAgM88)
 
-https://videopress.com/v/b5FAgM88
-
 ## Add a Stack block
 
 Click the block inserter **(+)** icon to open the block inserter pop-up window and search for the *Stack* block.

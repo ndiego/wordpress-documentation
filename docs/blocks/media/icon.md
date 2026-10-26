@@ -13,8 +13,6 @@ The Icon block lets you easily add icons to your pages, posts, templates, and te
 
 [Watch the video on VideoPress](https://videopress.com/v/p53kL5Ma)
 
-https://videopress.com/v/p53kL5Ma
-
 ## Add an Icon block
 
 To add an Icon block, open the Block Inserter tool by clicking the Block Inserter + icon in the top toolbar. Look for the Icon block by using the search bar to find the right block to add. Then, click the icon to insert the Icon block into the editor.

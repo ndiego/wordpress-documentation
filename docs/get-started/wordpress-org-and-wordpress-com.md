@@ -33,8 +33,6 @@ This video is an overview of the differences between WordPress and WordPress.com
 
 [Watch the video on VideoPress](https://videopress.com/v/FmtB9Wcw)
 
-https://videopress.com/v/FmtB9Wcw
-
 *See more here: https://learn.wordpress.org/workshop/what-is-the-difference-between-wordpress-org-and-com/*
 
 ## FAQ

@@ -15,15 +15,15 @@ The View feature combines the Desktop, Tablet, and Mobile preview presets with a
 
 The View menu is also where you can enable **Responsive editing** when you want to edit supported block styles for a specific viewport.
 
-To save changes, click the **Save** button in the top right corner of the [Block editor](README.md) [or Site editor](../../design/site-editor/README.md).
+To save changes, click the **Save** button in the top right corner of the [Block editor](README.md) [or Site Editor](../../design/site-editor/README.md).
 
 ![Save button in Block editor](https://wordpress.org/documentation/files/2020/08/block-editor-save.jpg)
 
 *Save button in Block editor*
 
-![Save button in Site editor](https://wordpress.org/documentation/files/2020/08/site-editor-save.jpg)
+![Save button in Site Editor](https://wordpress.org/documentation/files/2020/08/site-editor-save.jpg)
 
-*Save button in Site editor*
+*Save button in Site Editor*
 
 ## Open the View menu
 
@@ -43,11 +43,11 @@ It also provides options for viewing your content on the front end and, when ava
 
 *View menu in Block editor.*
 
-**Site editor**
+**Site Editor**
 
 ![View menu in the Site Editor showing Desktop, Tablet, Mobile, and Responsive editing options.](https://wordpress.org/documentation/files/2020/08/site-editor-preview.jpg)
 
-*View menu in Site editor.*
+*View menu in Site Editor.*
 
 ## Preview at desktop, tablet, and mobile widths
 
@@ -95,8 +95,6 @@ If you want to manually resize the canvas, first select **Tablet** or **Mobile**
 
 [Watch the video on VideoPress](https://videopress.com/v/H8bSIs4a)
 
-https://videopress.com/v/H8bSIs4a
-
 *Resizing the canvas in the Block editor.*
 
 ## Use Responsive editing
@@ -114,7 +112,5 @@ In the Site Editor, use **View site** to open the site on the front end in a new
 Viewing the content in a new tab lets you check the actual front-end appearance separately from the editor canvas.
 
 [Watch the video on VideoPress](https://videopress.com/v/RTO4j48Q)
-
-https://videopress.com/v/RTO4j48Q
 
 *Previewing content at preset and custom canvas widths and opening the preview on the front end.*
