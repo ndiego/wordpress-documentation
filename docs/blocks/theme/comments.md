@@ -28,7 +28,7 @@ To add the *Comments* block, open the block inserter by clicking the (**+**) ico
 Alternatively, you can type <kbd>/comments</kbd>on the editor to insert the *Comments* block manually.
 
 > [!NOTE]
-> Detailed instructions on adding blocks can be found [here](../../write/blocks/add-a-block.md).
+> See [Add a block](../../write/blocks/add-a-block.md) for detailed instructions.
 
 ## Block toolbar
 
@@ -143,7 +143,7 @@ To add a *Comment Template* block, click the block inserter icon (**+**) inside 
 You can also use the keyboard shortcut<kbd>/comment-template</kbd> to insert a *Comment Template* block quickly.
 
 > [!NOTE]
-> Check the detailed instructions on how to add a block [here](../../write/blocks/add-a-block.md).
+> See [Add a block](../../write/blocks/add-a-block.md) for detailed instructions.
 
 When the *Comments* block is added in the post editor, the *Comment Template* block will display the actual comments on the post and use a “No results found” placeholder when there’s no comment on the post yet.
 
@@ -916,7 +916,7 @@ To add a **Comments Title** block, click the (+) icon inside the Comments block 
 Alternatively, you can manually insert the **Comments Title** block using the keyboard shortcut <kbd>/comments-title.</kbd>
 
 > [!NOTE]
-> Detailed instructions on adding blocks can be found [here](../../write/blocks/add-a-block.md).
+> See [Add a block](../../write/blocks/add-a-block.md) for detailed instructions.
 
 ### Block toolbar
 
@@ -1062,7 +1062,7 @@ To drag and drop the block to a new location, click and hold the rectangle of do
 ![](https://wordpress.org/documentation/files/2025/11/comments-count-drag-1.png)
 
 > [!NOTE]
-> Detailed instructions on moving a block within the editor can be found [here](../../write/blocks/move-blocks.md)
+> See [Move blocks](../../write/blocks/move-blocks.md) for detailed instructions.
 
 #### Move arrows
 
@@ -1159,7 +1159,7 @@ The up and down arrow icons can be used to move the block up and down on the pag
 ![The Up and Down arrows of the Comments Link block is selected.](https://wordpress.org/documentation/files/2025/11/comment-link-move-arrows.png)
 
 > [!NOTE]
-> Detailed instructions on moving a block within the editor can be found [here](../../write/blocks/move-blocks.md)
+> See [Move blocks](../../write/blocks/move-blocks.md) for detailed instructions.
 
 #### Align
 

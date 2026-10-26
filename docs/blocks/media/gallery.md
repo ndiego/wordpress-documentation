@@ -452,7 +452,7 @@ When you click any area of the image gallery, icon buttons appear top of the are
 
 Above steps generates Gallery shortcode with image ids and other options, and embedded into the Post or Page, like this:
 
-```json
+```text
 [gallery ids="729,732,731,720"]
 ```
 
@@ -462,7 +462,7 @@ You can specify options direct to this shortcode.
 
 There are several options that may be specified using this syntax:
 
-```json
+```text
 [gallery option1="value1" option2="value2"]
 ```
 
@@ -486,7 +486,7 @@ Options:
 
 Specifies the sort order used to display thumbnails. ASC or DESC. For example, to sort by ID, use DESC:
 
-```json
+```text
 [gallery order="DESC" orderby="ID"]
 ```
 
@@ -494,7 +494,7 @@ Specifies the sort order used to display thumbnails. ASC or DESC. For example, t
 
 Specifies the number of columns. The gallery will include a break tag at the end of each row, and calculate the column width as appropriate. The default value is 3. If columns is set to 0, no row breaks will be included. For example, to display a 4 column gallery:
 
-```json
+```text
 [gallery columns="4"]
 ```
 
@@ -502,7 +502,7 @@ Specifies the number of columns. The gallery will include a break tag at the end
 
 Specifies the post ID. The gallery will display images which are attached to that post. The default behavior, if no ID is specified, is to display images attached to the current post. For example, to display images attached to post 123:
 
-```json
+```text
 [gallery id="123"]
 ```
 
@@ -510,7 +510,7 @@ Specifies the post ID. The gallery will display images which are attached to tha
 
 Specifies the image size to use for the thumbnail display. Valid values include “thumbnail,” “medium,” “large,” “full” or any other additional image size that was registered with  [add_image_size()](https://developer.wordpress.org/reference/functions/add_image_size). The default value is “thumbnail.” The size of the images for “thumbnail,” “medium,” and “large” can be configured in the WordPress admin panel under Settings > Media. For example, to display a gallery of medium sized images:
 
-```json
+```text
 [gallery size="medium"]
 ```
 
@@ -528,7 +528,7 @@ The name of the XHTML tag used to enclose each thumbnail icon in the gallery. Th
 
 The name of the XHTML tag used to enclose each caption. The default is “dd.” For example, to change the gallery markup to use div, span and p tags:
 
-```json
+```text
 [gallery itemtag="div" icontag="span" captiontag="p"]
 ```
 
@@ -539,7 +539,7 @@ Specify where you want the image to link. The default value links to the attachm
 -   **file** – Link directly to the image file.
 -   **none** – No link.
 
-```json
+```text
 [gallery link="file"]
 ```
 
@@ -547,7 +547,7 @@ Specify where you want the image to link. The default value links to the attachm
 
 Comma-separated attachment IDs that include only the images from these attachments.
 
-```json
+```text
 [gallery include="23,39,45"]
 ```
 
@@ -555,7 +555,7 @@ Comma-separated attachment IDs that include only the images from these attachmen
 
 Comma-separated attachment IDs that exclude specific images from these attachments. Please note that **include** and **exclude** cannot be used together.
 
-```json
+```text
 [gallery exclude="21,32,43"]
 ```
 

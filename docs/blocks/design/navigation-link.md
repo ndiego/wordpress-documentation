@@ -26,7 +26,7 @@ You can insert multiple Custom Link blocks in one **Navigation** section. Hit en
 ![One Custom Link block selected, Bold and Italics text formatting applied to it, and Options section expanded to click Duplicate.](https://wordpress.org/documentation/files/2022/12/customizing-custom-link.gif)
 
 > [!NOTE]
-> Detailed instructions on adding blocks can be found [here](../../write/blocks/add-a-block.md).
+> See [Add a block](../../write/blocks/add-a-block.md) for detailed instructions.
 
 ## Block toolbar
 

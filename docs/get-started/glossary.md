@@ -1509,7 +1509,7 @@ conditional tags, and CSS.
 
 ## Theme blocks
 
-Blocks that accomplish everything possible in traditional templates using template tags (ex: Post Author Block). A full list can be found [here](https://github.com/WordPress/gutenberg/issues/22724).
+Blocks that accomplish everything possible in traditional templates using template tags (ex: Post Author Block). The [Gutenberg repository](https://github.com/WordPress/gutenberg/issues/22724) has the full list.
 
 ## TinyMCE
 

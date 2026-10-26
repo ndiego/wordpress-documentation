@@ -20,7 +20,7 @@ _Block toolbar with the drop-down for **More rich text options**_
 The *Footnote* option will insert notes in your text. These notes will link to a new block that will be added at the bottom of your page. You will able to add the content of your notes in that new block and links will be added automatically.
 
 > [!NOTE]
-> Read more about the Footnotes block [here](../../blocks/text/footnotes.md).
+> Read more about the [Footnotes block](../../blocks/text/footnotes.md).
 
 ![](https://wordpress.org/documentation/files/2023/08/footnote-block.png)
 

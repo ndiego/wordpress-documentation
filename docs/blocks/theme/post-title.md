@@ -15,7 +15,7 @@ Title block (formerly known as Post Title block) displays the title of a post or
 ![Title block in the Query Loop block.](https://wordpress.org/documentation/files/2025/08/title-6.8-1.jpg)
 
 > [!NOTE]
-> See [here](../../write/blocks/README.md) for a description of how to use blocks in general and each component such as toolbars, settings panel, etc.
+> See [Working with blocks](../../write/blocks/README.md) for a description of how to use blocks in general and each component such as toolbars, settings panel, etc.
 
 ## Block settings
 

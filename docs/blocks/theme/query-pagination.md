@@ -22,7 +22,7 @@ You can also use the keyboard shortcut <kbd>/pagination</kbd> in a new paragraph
 ![How to quickly add a pagination block via shortcut](https://wordpress.org/documentation/files/2022/12/How-to-quickly-add-a-pagination-block-via-shortcut.png)
 
 > [!NOTE]
-> Detailed instructions on adding blocks can be found [here](../../write/blocks/add-a-block.md).
+> See [Add a block](../../write/blocks/add-a-block.md) for detailed instructions.
 
 ## Block toolbar
 

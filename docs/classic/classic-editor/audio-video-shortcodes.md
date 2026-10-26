@@ -12,7 +12,7 @@ redirect_from:
 
 The Audio feature allows you to embed audio files and play them back using a simple Shortcode. This was added as of WordPress 3.6 and is used like this:
 
-```json
+```text
 [ audio]
 ```
 
@@ -31,7 +31,7 @@ More cool content
 
 I have an old post that has an audio file in the Media Library attached to it, and I want to use the new shortcode:
 
-```json
+```text
 [ audio]
 ```
 
@@ -40,13 +40,13 @@ I have an old post that has an audio file in the Media Library attached to it, a
 
 I have the URL for an MP3, from the Media Library or external, that I want to play:
 
-```json
+```text
 [audio src="audio-source.mp3"]
 ```
 
 I have a source URL and fallbacks for other HTML5-supported filetypes:
 
-```json
+```text
 [audio mp3="source.mp3" ogg="source.ogg" wav="source.wav"]
 ```
 
@@ -100,7 +100,7 @@ WordPress Shortcodes: [video](audio-video-shortcodes.md), [caption](https://code
 
 The **Video** feature allows you to embed video files and play them back using a simple shortcode. This was added as of WordPress [Version 3.6](https://wordpress.org/documentation/wordpress-version/version-3-6/) and is used like this:
 
-```json
+```text
 [video]
 ```
 
@@ -116,7 +116,7 @@ More cool content
 
 I have an old post that has an audio file in the Media Library attached to it, and I want to use the new shortcode:
 
-```json
+```text
 [video]
 ```
 
@@ -125,13 +125,13 @@ I have an old post that has an audio file in the Media Library attached to it, a
 
 I have the URL for an MP3, from the Media Library or external, that I want to play:
 
-```json
+```text
 [video src="video-source.mp4"]
 ```
 
 I have a source URL and fallbacks for other HTML5-supported filetypes:
 
-```json
+```text
 [video mp4="source.mp4" webm="source.webm" ogv="source.ogv"]
 ```
 

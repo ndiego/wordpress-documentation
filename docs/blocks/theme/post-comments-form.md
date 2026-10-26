@@ -26,7 +26,7 @@ If your post has comments disabled, you can still add the **Post Comments Form**
 ![Enabling comments from within the Post Comments Form block](https://lh4.googleusercontent.com/9mVrApf7xB7viAPBvTHVxXOgJjWhAAiIkHUowL6NURi5OzGoVoNNVzt7Fz2g0JParre8SouBciYcch2TUotOdrKkrJRY6ryuW6jJrZo_izqlFKjFhK-IxVkvFYXPqHJLdxOPp0YUeAU0YWSya9O6R-nA2ksfvWvKGLaVRy3O1zEOTJayN1AFrwh0yX9_4g)
 
 > [!NOTE]
-> Detailed instructions on adding blocks can be found [here](../../write/blocks/add-a-block.md).
+> See [Add a block](../../write/blocks/add-a-block.md) for detailed instructions.
 
 ## Block toolbar
 

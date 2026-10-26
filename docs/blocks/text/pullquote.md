@@ -22,7 +22,7 @@ You can also quickly add one by typing `/pullquote` in a blank paragraph block a
 ![Screenshot of Pullquote block appearing in block insterter options when typing /pull.](https://wordpress.org/documentation/files/2019/03/pullquote-inserter.jpg)
 
 > [!NOTE]
-> *Detailed instructions on adding blocks can be found [here](../../write/blocks/add-a-block.md).*
+> *See [Add a block](../../write/blocks/add-a-block.md) for detailed instructions.*
 
 In this video, you can see how you can use the pullquote block and the different settings to modify how your pullquote will appear.
 

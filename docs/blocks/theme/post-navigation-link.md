@@ -22,7 +22,7 @@ Click the (**+**) icon to open the block inserter pop-up window and search for t
 You can also use the keyboard shortcut <kbd>/next-post</kbd> or <kbd>/previous-post</kbd> to quickly insert a preferred *Post Navigation Link* block.
 
 > [!NOTE]
-> Detailed instructions on adding blocks can be found [here](../../write/blocks/add-a-block.md).
+> See [Add a block](../../write/blocks/add-a-block.md) for detailed instructions.
 
 ## Block toolbar
 
@@ -59,7 +59,7 @@ To drag and drop the block to a new location on the page template, click and hol
 The **up** and **down** arrow icons can be used to move the block up and down on the page.
 
 > [!NOTE]
-> Detailed instructions on moving a block within the editor can be found [here](../../write/blocks/move-blocks.md)
+> See [Move blocks](../../write/blocks/move-blocks.md) for detailed instructions.
 
 **Change text alignment**
 
@@ -130,7 +130,7 @@ Click the (**+**) icon to open the block inserter pop-up window and search for t
 You can also use the keyboard shortcut */previous-post* to quickly add the *Previous Post* block.
 
 > [!NOTE]
-> Detailed instructions on adding blocks can be found [here](../../write/blocks/add-a-block.md).
+> See [Add a block](../../write/blocks/add-a-block.md) for detailed instructions.
 
 ### Block toolbar
 
@@ -169,7 +169,7 @@ To drag and drop the block to a new location on the page template, click and hol
 The **up** and **down** arrow icons can be used to move the block up and down on the page.
 
 > [!NOTE]
-> Detailed instructions on moving a block within the editor can be found [here](../../write/blocks/move-blocks.md).
+> See [Move blocks](../../write/blocks/move-blocks.md) for detailed instructions.
 
 #### Change text alignment
 
@@ -301,7 +301,7 @@ To drag and drop the block to a new location on the page template, click and hol
 The up and down arrow icons can be used to move the block up and down on the page.
 
 > [!NOTE]
-> Detailed instructions on moving a block within the editor can be found [here](../../write/blocks/move-blocks.md).
+> See [Move blocks](../../write/blocks/move-blocks.md) for detailed instructions.
 
 **Align text**
 

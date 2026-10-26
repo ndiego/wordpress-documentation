@@ -20,7 +20,7 @@ Click the block inserter **(+)** icon to open the block inserter pop-up window a
 You can also use the keyboard shortcut <kbd>/stack-block</kbd> to quickly insert a *Stack* block.
 
 > [!NOTE]
-> Detailed instructions on adding blocks can be found [here](../../../write/blocks/add-a-block.md).
+> See [Add a block](../../../write/blocks/add-a-block.md) for detailed instructions.
 
 ## Block toolbar
 

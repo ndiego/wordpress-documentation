@@ -22,7 +22,7 @@ Click **Block inserter** (**+**) icon to open the block inserter pop-up window a
 You can also use the keyboard shortcut <kbd>/search</kbd> to quickly insert a *Search block*.
 
 > [!NOTE]
-> Detailed instructions on adding blocks can be found [here](../../write/blocks/add-a-block.md).
+> See [Add a block](../../write/blocks/add-a-block.md) for detailed instructions.
 
 ## Block toolbar
 
@@ -70,7 +70,7 @@ To drag and drop the block to a new location on the page template, click and hol
 The **up** and **down** arrow icons can be used to shift a block up and down on the page.
 
 > [!NOTE]
-> Detailed instructions on moving a block within the editor can be found [here](../../write/blocks/move-blocks.md)
+> See [Move blocks](../../write/blocks/move-blocks.md) for detailed instructions.
 
 ### Change text alignment
 

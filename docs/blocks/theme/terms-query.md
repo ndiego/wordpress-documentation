@@ -87,7 +87,7 @@ The up and down arrow icons can be used to move the block up and down on the pag
 ![](https://wordpress.org/documentation/files/2025/11/move-handles-term-query-.png)
 
 > [!NOTE]
-> Detailed instructions on moving a block within the editor can be found [here](../../write/blocks/move-blocks.md)
+> See [Move blocks](../../write/blocks/move-blocks.md) for detailed instructions.
 
 ### Align
 

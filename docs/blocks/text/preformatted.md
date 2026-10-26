@@ -63,7 +63,7 @@ _Editor view of **Preformatted Block** as a group with **Color settings** contro
 
 The up and down arrow icons can be used to shift a block up and down in your document.
 
-Detailed instructions on moving a block within the editor can be found [here](../../write/blocks/move-blocks.md).
+See [Move blocks](../../write/blocks/move-blocks.md) for detailed instructions.
 
 ### Bold
 

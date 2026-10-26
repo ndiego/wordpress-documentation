@@ -58,7 +58,7 @@ The Group block shows three buttons in addition to the “Group” block icon.
 The up and down arrow icons can be used to shift a block up and down in your document.
 
 > [!NOTE]
-> Detailed instructions on moving a block within the editor can be found [here](../../../write/blocks/move-blocks.md).
+> See [Move blocks](../../../write/blocks/move-blocks.md) for detailed instructions.
 
 ### Change alignment
 

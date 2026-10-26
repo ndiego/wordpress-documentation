@@ -124,7 +124,7 @@ Here are some of the available commands:
 -   *Go to: Settings > Permalinks*
 -   *Go to: Settings > Privacy*
 
-An up-to-date list of all the available commands can be found [here](https://github.com/WordPress/gutenberg/tree/trunk/packages/edit-site/src/hooks/commands).
+The [Gutenberg repository](https://github.com/WordPress/gutenberg/tree/trunk/packages/edit-site/src/hooks/commands) has an up-to-date list of all the available commands.
 
 ## Demo
 
@@ -134,4 +134,4 @@ Please watch the demo below for more details.
 
 ## Registering custom commands
 
-It is possible to extend the Command Palette by registering your own commands. You can read more details on how to register your own commands [here](https://make.wordpress.org/core/2023/07/17/introducing-the-wordpress-command-palette-api/).
+It is possible to extend the Command Palette by registering your own commands. The [Command Palette developer guide](https://make.wordpress.org/core/2023/07/17/introducing-the-wordpress-command-palette-api/) explains how to register your own commands.
