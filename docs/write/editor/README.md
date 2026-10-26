@@ -11,15 +11,9 @@ redirect_from:
 
 # The editor
 
-The WordPress block editor also called the **block editor**, **WordPress editor** or **Gutenberg** **editor** is the new way of publishing content in WordPress.
+The editor is where you write and design posts and pages. Everything you add is a [block](../../blocks/README.md): a paragraph, a heading, an image, a list, a video. You add blocks, arrange them and change their settings, and the editor shows the result much as visitors will see it.
 
-Following the launch of WordPress 5.0 in December 2018, the WordPress block editor was set as the default editor and replaced the [classic editor](../../classic/classic-editor/write-posts-classic.md). To use the [classic editor](../../classic/classic-editor/write-posts-classic.md), you will need to install the [classic editor](https://wordpress.org/plugins/classic-editor/) plugin.
-
-The WordPress block editor offers an array of [blocks](../../blocks/README.md) that can be used to create media-rich pages and posts.
-
-[Blocks](../../blocks/README.md) are the content elements that you add to create content layouts. You can add [blocks](../../blocks/README.md) for paragraphs, images, headings, lists, videos, galleries, and more. You can control the layout of the blocks with ease, to build visually appealing web pages.
-
-WordPress has blocks for all common content elements, and more can be added through [WordPress plugins](https://wordpress.org/plugins/browse/blocks/).
+This page is a tour of the editor's workspace: the top toolbar, the content area and the settings sidebar. The editor is also called the block editor, and you may see its project name, Gutenberg. It has been the default editor since WordPress 5.0; sites that still use the older editor are covered in [Classic WordPress](../../classic/README.md).
 
 > [!NOTE]
 > [Visit the Gutenberg demo website to try the Block Editor.](https://wordpress.org/gutenberg/)
@@ -196,15 +190,3 @@ The Zoom out view is a powerful editing mode in the WordPress Site Editor that a
 -   [How to use the Preview function](preview.md)
 -   [How to set the Preferences](preferences.md)
 -   [Keyboard shortcuts in Block editor](keyboard-shortcuts.md)
-
-## Block editor
-
-<!-- TODO: merge: this section was absorbed from https://wordpress.org/documentation/category/block-editor/; edit it into the page. -->
-
-The block editor is where you write and design posts and pages. Every piece of content, from a
-paragraph to an image gallery, is a block.
-
-Start with the overview of the editor and its interface. **Working with blocks** explains the
-tools shared by all blocks, such as adding and moving blocks and the settings in the sidebar.
-**Patterns** covers ready-made groups of blocks, and **Blocks** is a reference for every core
-block.

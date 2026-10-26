@@ -12,10 +12,12 @@ redirect_from:
 
 # The Site Editor
 
-The Site Editor allows you to design the entire site including the header, footer, and everything in between, with [blocks](../../blocks/README.md). It gives you greater control over how your site looks.
+The Site Editor is where you design your whole site with blocks: the header and footer, the templates that lay out each kind of page, and the styles (colors, fonts, spacing) that apply everywhere. Where the post editor changes one post, the Site Editor changes what every page has in common.
+
+This page shows how to open the Site Editor, what is in its menu and workspace, and the tasks you do there. The pages in this group cover each part in depth: [templates](templates.md), [styles](styles.md), [fonts](fonts.md), [navigation](navigation.md), the [site icon](site-icon.md) and the [Command Palette](command-palette.md).
 
 > [!NOTE]
-> The Site Editor is **only** available when you install and activate a [Block theme](../themes/block-themes.md) on your site.
+> The Site Editor is **only** available when you install and activate a [block theme](../themes/block-themes.md) on your site.
 
 ## How to access the Site Editor
 
@@ -43,7 +45,7 @@ Once you enter the Site Editor, you will see five menu items.
 
 -   [Identity](site-icon.md): Allows you to set Site Title, Site Tagline, Site Logo, and Site Icon at a high level.
 -   [Styles](styles.md): Provides a direct access to edit your site’s style variations.
--   [Pages](README.md): Allows you to edit the content of your pages inside the Site Editor itself.
+-   **Pages**: Allows you to edit the content of your pages inside the Site Editor itself.
 -   [Navigation](navigation.md): Allows you to browse your menus and make basic changes.
 -   [Patterns](../patterns/README.md): Your Synced patterns and template parts can be managed here.
 -   [Templates](templates.md): Review the different default layouts for the different sections on your site, as well as custom pages (search results, 404, etc).
@@ -132,9 +134,9 @@ You can use the Site Editor to customize the styles for the entire website and f
 -   Go to **Appearance** > **Editor**.
 -   Click the Styles menu item or on the icon next to the block settings sidebar.
 
-![](https://wordpress.org/documentation/files/2023/08/site-editor-styles-menu.png)
+![The Styles item in the Site Editor menu.](https://wordpress.org/documentation/files/2023/08/site-editor-styles-menu.png)
 
-![](https://wordpress.org/documentation/files/2023/08/site-editor-styles-icon.png)
+![The Styles icon next to the settings icon in the Site Editor toolbar.](https://wordpress.org/documentation/files/2023/08/site-editor-styles-icon.png)
 
 In the **Styles** section, you can browse the style variations available for the theme you have, change the color palettes and typography, and layout across the entire site and also change the appearance of blocks which are also applicable across the whole site.
 
@@ -398,7 +400,7 @@ Fore more details, refer [Styles Overview](styles.md).
 Site Editor Pages is a page editing and page management tool in the Site Editor where you can create, view, edit, and trash pages. It shows your page content as part of the template instead of using placeholder content.
 
 > [!NOTE]
-> The Site Editor Pages menu is **only** available when you install and activate a [Block theme](../themes/block-themes.md) on your site. You can learn about the Site Editor in this support article: [Site Editor](README.md).
+> The Site Editor Pages menu is **only** available when you install and activate a [block theme](../themes/block-themes.md) on your site. You can learn about the Site Editor in this support article: [Site Editor](README.md).
 
 In Site Editor Pages, you can edit both the page content and the template. The template is locked until you enable the template editing option.
 

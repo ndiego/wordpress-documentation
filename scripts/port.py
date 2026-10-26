@@ -123,6 +123,12 @@ OLD_URLS = {}
 HAND_EDITED = {
     "get-started/glossary.md",
     "write/editor/keyboard-shortcuts.md",
+    "write/editor/README.md",
+    "design/site-editor/README.md",
+    "design/themes/README.md",
+    "design/themes/default-themes/README.md",
+    "design/themes/default-themes/twenty-thirteen.md",
+    "design/themes/default-themes/twenty-fourteen.md",
 }
 
 # Hub sections that are not part of this repository, and where their pages live on developer.wordpress.org.

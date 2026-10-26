@@ -10,6 +10,8 @@ redirect_from:
 
 # Themes
 
+A theme decides how your site looks: its layout, colors and fonts, and the templates for each kind of page. This page explains what a theme is, how to find and install one, and how to switch themes.
+
 ## What is a theme?
 
 Fundamentally, the WordPress Theme system is a way to “skin” your WordPress site. Yet, it is more than just a “skin”. Skinning your site implies that only the design is changed. WordPress Themes can provide much more control over the visual presentation of your content and other data on your WordPress site, as well as the behavior of certain site elements while interacting with visitors.
@@ -26,11 +28,9 @@ To better understand this diagram, you can [interact with it](https://wphierarch
 
 ## Default themes
 
-WordPress currently comes with twelve themes: the default [Twenty Twenty Two theme](https://wordpress.org/themes/twentytwentytwo/) ([demo](https://2022.wordpress.net/)), and the previous defaults [Twenty Twenty One theme](https://wordpress.org/themes/twentytwentyone/) ([demo](https://2021.wordpress.net/)) [Twenty Twenty](default-themes/twenty-twenty.md) ([demo](http://2020.wordpress.net/)) [Twenty Nineteen](default-themes/twenty-nineteen.md) ([demo](http://2019.wordpress.net/)) [Twenty Seventeen](default-themes/twenty-seventeen.md) ([demo](http://2017.wordpress.net/)) [Twenty Sixteen](default-themes/twenty-sixteen.md) ([demo](https://twentysixteendemo.wordpress.com/)) [Twenty Fifteen](default-themes/twenty-fifteen.md) ([demo](https://twentyfifteendemo.wordpress.com/)) [Twenty Fourteen](https://wordpress.org/themes/twentyfourteen/) ([demo](https://twentyfourteendemo.wordpress.com/)) [Twenty Thirteen](https://wordpress.org/themes/twentythirteen/) ([demo](https://twentythirteendemo.wordpress.com/)) [Twenty Twelve](https://wordpress.org/themes/twentytwelve/) ([demo](https://twentytwelvedemo.wordpress.com/)) [Twenty Eleven](https://wordpress.org/themes/twentyeleven/) ([demo](https://twentyelevendemo.wordpress.com/)) [Twenty Ten](https://wordpress.org/themes/twentyten/) ([demo](https://twentytendemo.wordpress.com/)).
+WordPress comes with a default theme, made by the WordPress project, and a new one has shipped most years since 2010. Twenty Twenty-Two was the first default [block theme](block-themes.md). [Default themes](default-themes/README.md) describes each of them.
 
-The Twenty Twenty Two theme is the first ever default [block theme](block-themes.md). It currently only works if you are using WordPress 5.9 and above or if you install the Gutenberg plugin alongside prior WordPress versions.
-
-***NOTE***: All default themes now come bundled with [block patterns](../patterns/README.md), which allow you to easily create beautiful layouts. Find out which patterns are added to themes on the [Make WordPress Blog](https://make.wordpress.org/core/2021/06/21/bundled-themes-changes-in-wordpress-5-8/).
+All default themes include [patterns](../patterns/README.md) you can insert to build a layout quickly.
 
 You can switch between Themes from the Appearance menu in the Administration Screen. Themes you add to the theme directory will appear in the [Administration Screen](../../manage/dashboard/README.md) > [Appearance](../../manage/dashboard/README.md#appearance--change-the-look-of-your-blog) > [Themes](../../manage/dashboard/README.md#themes) as additional selections.
 
@@ -141,15 +141,3 @@ If you are interested in creating your own Theme for distribution, or learning m
 If you simply want to customize your current Theme for your own use, consider creating a [Child Theme](https://developer.wordpress.org/themes/advanced-topics/child-themes/).
 
 Whichever the case, you are welcome to join the [Themes Team](https://make.wordpress.org/themes/) and their dedicated [#themereview](https://wordpress.slack.com/messages/themereview) Slack channel. In that channel, you can ask for help on developing themes for the [WordPress Theme Directory](https://wordpress.org/themes/) or even [start reviewing themes](https://make.wordpress.org/themes/handbook/get-involved/become-a-reviewer/) yourself.
-
-## Themes
-
-<!-- TODO: merge: this section was absorbed from https://wordpress.org/documentation/category/appearance/; edit it into the page. -->
-
-Themes control how your site looks. Learn how to find, install and switch themes (including the
-Appearance > Themes screen), what makes a block theme different from a classic theme, and how to
-add a site icon.
-
-**Default themes** documents the block themes made by the WordPress project, from Twenty
-Twenty-Five back to Twenty Twenty-Two, with a changelog for each. The classic default themes are in
-**Classic WordPress**.
