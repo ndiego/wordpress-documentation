@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540" role="img" aria-labelledby="t d">
+<title id="t">How a WordPress page is built</title>
+<desc id="d">Content such as posts, pages, media and comments is made of blocks. A template from the theme places those blocks, together with template parts such as the header and footer. The theme's styles set colors, fonts, spacing and layout. The result is the page a visitor sees. Plugins can add blocks and features at every step. Content and settings are stored in the database; WordPress, themes, plugins and uploads are stored as files.</desc>
+<rect width="960" height="540" fill="#ffffff"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#3858e9"/></marker></defs>
+<text x="480" y="52" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="600" fill="#1e1e1e">How a WordPress page is built</text>
+<text x="480" y="84" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Your content is made of blocks, placed by a template and styled by the theme.</text>
+<rect x="20" y="120" width="160" height="220" rx="12" fill="#ffffff" stroke="#3858e9" stroke-width="2"/>
+<text x="100.0" y="162" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#1e1e1e">Content</text>
+<line x1="44" y1="180" x2="156" y2="180" stroke="#dcdcde" stroke-width="1"/>
+<text x="100.0" y="215" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Posts</text>
+<text x="100.0" y="245" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Pages</text>
+<text x="100.0" y="275" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Media</text>
+<text x="100.0" y="305" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Comments</text>
+<line x1="184" y1="230.0" x2="206" y2="230.0" stroke="#3858e9" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="210" y="120" width="160" height="220" rx="12" fill="#ffffff" stroke="#3858e9" stroke-width="2"/>
+<text x="290.0" y="162" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#1e1e1e">Blocks</text>
+<line x1="234" y1="180" x2="346" y2="180" stroke="#dcdcde" stroke-width="1"/>
+<text x="290.0" y="215" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Paragraph</text>
+<text x="290.0" y="245" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Heading</text>
+<text x="290.0" y="275" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Image</text>
+<text x="290.0" y="305" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">and many more</text>
+<line x1="374" y1="230.0" x2="396" y2="230.0" stroke="#3858e9" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="400" y="120" width="160" height="220" rx="12" fill="#ffffff" stroke="#3858e9" stroke-width="2"/>
+<text x="480.0" y="162" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#1e1e1e">Templates</text>
+<line x1="424" y1="180" x2="536" y2="180" stroke="#dcdcde" stroke-width="1"/>
+<text x="480.0" y="215" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Single post</text>
+<text x="480.0" y="245" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Page</text>
+<text x="480.0" y="275" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Header part</text>
+<text x="480.0" y="305" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Footer part</text>
+<line x1="564" y1="230.0" x2="586" y2="230.0" stroke="#3858e9" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="590" y="120" width="160" height="220" rx="12" fill="#ffffff" stroke="#3858e9" stroke-width="2"/>
+<text x="670.0" y="162" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#1e1e1e">Theme</text>
+<line x1="614" y1="180" x2="726" y2="180" stroke="#dcdcde" stroke-width="1"/>
+<text x="670.0" y="215" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Colors</text>
+<text x="670.0" y="245" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Fonts</text>
+<text x="670.0" y="275" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Spacing</text>
+<text x="670.0" y="305" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#50575e">Layout</text>
+<line x1="754" y1="230.0" x2="776" y2="230.0" stroke="#3858e9" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="780" y="120" width="160" height="220" rx="12" fill="#3858e9" stroke="#3858e9" stroke-width="2"/>
+<text x="860.0" y="162" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#ffffff">The page</text>
+<text x="860.0" y="215" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#ffffff">What a visitor</text>
+<text x="860.0" y="245" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#ffffff">sees in the</text>
+<text x="860.0" y="275" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#ffffff">browser</text>
+<rect x="20" y="370" width="920" height="56" rx="10" fill="#ffffff" stroke="#3858e9" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="480" y="404" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" fill="#1e1e1e"><tspan font-weight="600">Plugins</tspan> can add blocks, templates, styles and features at every step</text>
+<rect x="20" y="446" width="450" height="64" rx="10" fill="#f0f0f1"/>
+<text x="245" y="473" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600" fill="#1e1e1e">Database</text>
+<text x="245" y="497" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#50575e">Content, users, settings, your style changes</text>
+<rect x="490" y="446" width="450" height="64" rx="10" fill="#f0f0f1"/>
+<text x="715" y="473" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600" fill="#1e1e1e">Files</text>
+<text x="715" y="497" text-anchor="middle" font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#50575e">WordPress, themes, plugins, uploaded media</text>
+</svg>
