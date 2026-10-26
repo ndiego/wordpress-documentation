@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+screenshots/node_modules/
+screenshots/.wp-screenshots/
+screenshots/.wp-shots/
+.DS_Store
