@@ -48,12 +48,3 @@ Because this mode is built for writing, you can create new paragraphs by hitting
 ## Demonstration of distraction free mode
 
 [Watch the video on VideoPress](https://videopress.com/v/G2qkhryC)
-
-**Changelog:**
-
--   Updated 2026-10-05
-    -   Updated screenshot and recording for 7.1
--   Updated 2024-11-04
-    -   Updated the screenshot as it appears in the latest Gutenberg editor.
-    -   Updated the video record with one that shows how to navigate the top tool bar while in distraction free mode.
--   2023-04-16 Created

@@ -808,7 +808,22 @@ def drop_changelog(lines):
     out, i = [], 0
     while i < len(lines):
         line = lines[i]
-        h = re.match(r"^(#{1,6})\s*\**changelog\**:?\s*$", line, re.I) or re.match(r"^\**changelog\**:?\s*$", line, re.I)
+        # A changelog inside a blockquote or alert: drop the whole quote.
+        if re.match(r"^>\s*\**change ?log\**:?\s*$", line, re.I):
+            while out and out[-1].startswith(">"):
+                out.pop()
+            while i < len(lines) and lines[i].startswith(">"):
+                i += 1
+            continue
+        # A one-cell table holding a changelog.
+        if line.startswith("|") and re.search(r"\*\*change ?log\*\*", line, re.I):
+            while out and out[-1].startswith("|"):
+                out.pop()
+            i += 1
+            while i < len(lines) and lines[i].startswith("|"):
+                i += 1
+            continue
+        h = re.match(r"^(#{1,6})\s*(?:[\w-]+\s+)?\**change ?log\**:?\s*$", line, re.I) or re.match(r"^\**change ?log:?\**:?\s*$", line, re.I)
         if h:
             lvl = len(h.group(1)) if h.re.pattern.startswith("^(#") else 7
             j = i + 1
@@ -908,6 +923,10 @@ def drop_boilerplate(lines, dst):
         if re.search(r"go back to the list of blocks", line, re.I) and len(line) < 200:
             continue
         if re.match(r"^You can also read \[the theme.s changelog\]\([^)]*\)\.?\s*$", line):
+            continue
+        # A link to the page itself labelled as its changelog (the changelog pages were merged into it).
+        me = re.escape(os.path.basename(dst))
+        if len(line) < 140 and re.search(r"changelog", line, re.I) and re.search(rf"\]\({me}\)", line):
             continue
         if re.match(r"^\[?Back to the Top\]?(\([^)]*\))?\s*$", line, re.I):
             continue

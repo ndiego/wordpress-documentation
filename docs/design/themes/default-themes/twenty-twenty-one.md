@@ -331,5 +331,3 @@ The editor will by default respect your operating system’s color scheme settin
 ## Support and resources
 
 [Get community help with Twenty Twenty-One in its support forum](https://wordpress.org/support/theme/twentytwentyone/).
-
-You can also [read the theme’s changelog](twenty-twenty-one.md).

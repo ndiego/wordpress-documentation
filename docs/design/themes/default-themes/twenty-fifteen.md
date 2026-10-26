@@ -140,4 +140,3 @@ You can also select a gradient option for certain blocks that fit the theme colo
 ## Links
 
 -   [Twenty Fifteen Demo and Download](https://wordpress.org/themes/twentyfifteen/)
--   [Twenty Fifteen Changelog](twenty-fifteen.md)

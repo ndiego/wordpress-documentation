@@ -116,5 +116,3 @@ Get community help with Twenty Twenty-Three in its [support forum.](https://word
 Learn how to take full advantage of full site editing with the [Simple Site Design with Full Site Editing Learn WordPress course](https://learn.wordpress.org/course/simple-site-design-with-full-site-editing/).
 
 Read more about the Twenty Twenty-Three theme in [the introduction post](https://wordpress.org/documentation/wordpress-version/version-6-1//).
-
-[Twenty Twenty-Three changelog.](twenty-twenty-three.md)

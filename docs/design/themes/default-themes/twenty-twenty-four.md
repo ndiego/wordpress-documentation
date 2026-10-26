@@ -155,5 +155,3 @@ Should you wish – you can also view a more [complete list of the spacing, colo
 Learn how to take full advantage of full site editing with the [Simple Site Design with Full Site Editing course on Learn.WordPress.org](https://learn.wordpress.org/course/simple-site-design-with-full-site-editing/).
 
 Read more about the Twenty Twenty-Four theme in [the introduction post](https://make.wordpress.org/core/2023/08/24/introducing-twenty-twenty-four/).
-
-[Twenty Twenty-Four changelog.](twenty-twenty-four.md)

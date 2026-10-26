@@ -112,4 +112,3 @@ Linking to any of the following sites will automatically display its icon in you
 ## Links
 
 -   [Twenty Sixteen Demo and Download](https://wordpress.org/themes/twentysixteen/)
--   [Twenty Sixteen Changelog](twenty-sixteen.md)

@@ -209,5 +209,3 @@ You can use the Query Loop block to list posts with a specific format.
 Learn how to take full advantage of full site editing with the [Simple Site Design with Full Site Editing course on Learn.WordPress.org](https://learn.wordpress.org/course/simple-site-design-with-full-site-editing/).
 
 Read more about the Twenty Twenty-Five theme in [the introduction post](https://make.wordpress.org/core/2024/08/15/introducing-twenty-twenty-five/).
-
-[Twenty Twenty-Five changelog.](twenty-twenty-five.md)

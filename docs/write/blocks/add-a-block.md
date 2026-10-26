@@ -150,33 +150,3 @@ When you use the [slash command](#how-to-add-blocks-using-the-slash-command) to 
 ## How to move blocks
 
 For information on how to move blocks, check out this article: [Moving blocks.](move-blocks.md)
-
-> [!NOTE]
-> **Changelog**
->
-> -   2024-04-23
->     -   Added missing ALT texts to a couple of images
-> -   2023-03-28
->     -   Updated images and videos for 6.2
->     -   Added information about adding patterns, media, and reusable blocks
-> -   2022-08-07
->     -   Removed the Moving block section to a separate page.
-> -   2022-07-20
->     -   Updated for 6.0 with content, videos, and screenshots
->     -   Added section for nested block and block directory
->     -   Added ALT tags for the images
-> -   2020-06-04
->     -   Corrected several typos.
->     -   Changed Inserter right of an empty block to the left of an empty block.
->     -   Removed Inserter between blocks section
->     -   Improved slash command option
->     -   Changed date format in the changelog
-> -   2019-12-21
->     -   Added summary paragraph at the top
->     -   Added a short video to demonstrate the search box of the inserter modal
->     -   Tightened up the language a bit.
-> -   2019-12-20
->     -   Updated graphics with a newer interface (WP 5.3)
->     -   Added videos for demo purposes
->     -   Updated headings for better readability
->     -   Added text about Inserter and Move handles

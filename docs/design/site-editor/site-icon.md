@@ -43,10 +43,6 @@ Follow the steps below to use Site Icon to set up a favicon for your site.
 
 ![customizer-siteicon](https://wordpress.org/documentation/files/2018/11/customizer-siteicon.jpg)
 
-|  |
-| --- |
-| **Changelog** **April 25, 2025** – Added the update for 6.5 and removed outdated sections: – Creating a Favicon – Installing a Favicon in WordPress – How to create a favicon with a transparent background – Advantages of using .ico over .png or .gif |
-
 ## Site Editor identity
 
 <!-- TODO: merge: this section was absorbed from https://wordpress.org/documentation/article/site-editor-identity/; edit it into the page. -->

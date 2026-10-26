@@ -85,5 +85,3 @@ Get community help with Twenty Twenty-Two in its [support forum](https://wordpre
 Learn how to take full advantage of full site editing with the [Simple Site Design with Full Site Editing Learn WordPress course](https://learn.wordpress.org/course/simple-site-design-with-full-site-editing/).
 
 Read more about the Twenty Twenty-Two theme [in the introduction post](https://make.wordpress.org/core/2021/10/06/introducing-twenty-twenty-two/).
-
-[Twenty Twenty-Two changelog](twenty-twenty-two.md).

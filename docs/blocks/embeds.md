@@ -109,54 +109,6 @@ WordPress can embed content from the services listed below:
 
 -   [oEmbed.com](http://oembed.com/) – Official oEmbed website with technical details of the spec
 
-## Embeds changelog
-
--   [2.9](https://codex.wordpress.org/Version_2.9) :
-    -   Introduction of the builtin Embeds support.
--   [3.0](https://codex.wordpress.org/Version_3.0) :
-    -   Added: SmugMug, FunnyOrDie
--   [3.4](https://codex.wordpress.org/Version_3.4) :
-    -   Added: Twitter
--   [3.5](https://codex.wordpress.org/Version_3.5) :
-    -   Embed options were removed from the [Settings Media Screen](https://codex.wordpress.org/Settings_Media_Screen).
-    -   Added: Instagram, SoundCloud, SlideShare
--   [3.6](https://codex.wordpress.org/Version_3.6) :
-    -   Added: Rdio, Spotify
--   [3.9](https://codex.wordpress.org/Version_3.9) :
-    -   Removed: Qik (the service shutting down in April 2014)
--   [4.0](https://codex.wordpress.org/Version_4.0) :
-    -   Major reworking of the preview code showing embeds within the editor [wp.mce.views](https://codex.wordpress.org/wp.mce.views).
-    -   Added: CollegeHumor, Issuu, Mixcloud, YouTube playlists, TED talks
-    -   Removed: Viddler (removed due to the service shutting down their oEmbed endpoint)
--   [4.1](https://codex.wordpress.org/Version_4.1) :
-    -   Added: Vine
--   [4.2](https://codex.wordpress.org/Version_4.2) :
-    -   Added: Kickstarter, Tumblr
-    -   Removed: Revision3
--   [4.4](https://codex.wordpress.org/Version_4.4) :
-    -   Added: ReverbNation, Cloudup, Reddit, SpeakerDeck, VideoPress
-    -   Removed: Blip
--   [4.4.1](https://codex.wordpress.org/Version_4.4.1) :
-    -   Removed: Rdio (Service shut down)
--   [4.5](https://codex.wordpress.org/Version_4.5) :
-    -   Added: Twitter Moment, collection
--   [4.7](https://codex.wordpress.org/Version_4.7) :
-    -   Added: Twitter profile, list, likes
-    -   Added: Facebook post, activity, photo, video, media, question, note
--   [5.1](https://codex.wordpress.org/Version_5.1) :
-    -   Renamed: PollDaddy service has been renamed to Crowdsignal
--   5.6 :
-    -   Added section about the Block Editor for embeds, created a new column for Block Editor documentation links, note about Facebook and Instagram ending OAuth, updated Codex links, added a new changelog and reordered page.
-    -   Added: TikTok
-    -   Removed: Blip, Hulu, CollegeHumor, FunnyOrDie.com and Vine
--   6.0:
-    -   Removed: Meetup.com, and Giphy,
-    -   Added Screencast, Pinterest, Wolfram
--   6.1:
-    -   Added: Pocket Casts
--   6.2:
-    -   Added: YouTube provider for live URLs
-
 ## Providers
 
 <!-- TODO: draft: one row per provider, drafted from the first paragraph of each provider's former page; check each description. -->

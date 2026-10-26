@@ -90,5 +90,3 @@ Left-aligned image and paragraph
 ## Support & resources
 
 Get community help with Twenty Twelve in its [forum](https://wordpress.org/support/theme/twentytwelve/).
-
-You can also read [the theme’s changelog.](twenty-twelve.md)
