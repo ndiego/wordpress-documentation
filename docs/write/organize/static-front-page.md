@@ -9,42 +9,42 @@ redirect_from:
 
 # Set a static front page
 
-The purpose of this document is to explain the process of setting up a static page on your WordPress site. This document doesn’t discuss the automatic display of posts on the Home page. It is a pre-requisite that you understand the difference between the [Pages](../create-a-page.md) and Posts.
+By default, the front page of a WordPress site lists your latest posts. You can show a page of your choice there instead, such as a welcome page, and list your posts on a separate page. This page shows how. If you are not sure how pages differ from posts, read [Create a page](../create-a-page.md) first.
 
-## What is a static front page
+## What a static front page is
 
 By default, WordPress displays your latest posts on the homepage of your site. This dynamic list updates automatically whenever new posts are published, meaning it is not a static page.
 
-A Static Front Page, on the other hand, is **a specific page** that you manually set as your homepage. Instead of displaying recent posts, this page remains unchanged unless edited, allowing you to create a custom landing page for your site.
+A static front page, on the other hand, is **a specific page** that you manually set as your homepage. Instead of displaying recent posts, this page remains unchanged unless edited, allowing you to create a custom landing page for your site.
 
-## Create a home page
+## Create the pages
 
-1.  Navigate to your WordPress dashboard.
-2.  Go to Pages > Add New.
-3.  Title this page (e.g., “Home”) and add the desired content.
-4.  Publish the page.
+1.  In the dashboard, go to **Pages > Add New Page**.
+2.  Give the page a title, such as “Home”, and add its content.
+3.  Publish the page.
+4.  If you want your posts listed on a page of their own, create and publish a second, empty page, such as “Blog”. WordPress fills it with your posts.
 
 [Watch the video on VideoPress](https://videopress.com/v/MFhssVqN)
 
-## How to set a static front page
-
-*Reminder: to create a page, go to **Pages > Add New***
+## Set the front page
 
 There are two places you can set your static front page, depending on your theme and preference: through **Reading Settings**, or through the **Customizer**.
 
-### Option 1: Using reading settings
+### Option 1: Reading settings
 
-1.  Navigate to Settings > Reading in your dashboard.
-2.  Under “Your homepage displays,” select “A static page.”
-3.  For “Homepage,” choose the “Home” page you created.
-4.  For “Posts page,” select the “Blog” page if required.
-5.  Save the changes.
+1.  Go to **Settings > Reading**.
+2.  Under **Your homepage displays**, select **A static page**.
+3.  For **Homepage**, choose the page you created, such as “Home”.
+4.  For **Posts page**, choose your posts page, such as “Blog”, if you made one.
+5.  Select **Save Changes**.
 
-![How to create a Static Front Page](https://wordpress.org/documentation/files/2021/06/Screen-Shot-2021-06-23-at-2.04.35-PM.png)
+![The Reading settings with A static page selected and a homepage and posts page chosen.](https://wordpress.org/documentation/files/2021/06/Screen-Shot-2021-06-23-at-2.04.35-PM.png)
 
 [Watch the video on VideoPress](https://videopress.com/v/CbDPoRL9)
 
-#### Option 2: Using the Customizer
+### Option 2: The Customizer
+
+The Customizer is available with classic themes.
 
 1.  Go to **Appearance > Customize**.
 2.  Click on **Homepage Settings**.

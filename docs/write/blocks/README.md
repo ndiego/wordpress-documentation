@@ -10,11 +10,9 @@ redirect_from:
 
 # Working with blocks
 
-Each content in the [WordPress Block Editor](../editor/README.md) is a block. They are the building blocks of your post or page.
+Everything you add in the [editor](../editor/README.md) is a block: a paragraph, an image, a heading, a list. Blocks share the same tools, whichever block you pick: a toolbar above the block, settings in the sidebar, and ways to select, move, group and transform them.
 
-The WordPress Block Editor offers an array of [blocks](../../blocks/README.md) that can be used to create media-rich pages and posts. You can control the layout of the blocks with ease, to build visually appealing web pages.
-
-You can add blocks for paragraphs, images, headings, lists, videos, galleries, and more. WordPress has blocks for all common content elements, and more can be added by [WordPress plugins](https://wordpress.org/plugins/browse/blocks/).
+This page introduces those shared tools. The pages in this group explain each one in detail, and the [block reference](../../blocks/README.md) describes every block that comes with WordPress.
 
 ## The anatomy of a block
 
@@ -49,7 +47,7 @@ Each block has its own set of tools to customize the layout and appearance of th
 
 ### Block toolbar
 
-The block toolbar appears when you select a block. It includes essentials tools for editing, formatting, moving, or changing the selected block. The options you see depend on the block you select. Some blocks have many toolbar options, while others only have a few.
+The block toolbar appears when you select a block. It includes the essential tools for editing, formatting, moving, or changing the selected block. The options you see depend on the block you select. Some blocks have many toolbar options, while others only have a few.
 
 Many toolbar controls appear as icons. To learn what an icon does, hover over it or move keyboard focus to it to see the control label. Screen reader users can navigate through the toolbar to hear each control name.
 

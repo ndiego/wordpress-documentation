@@ -133,6 +133,8 @@ HAND_EDITED = {
     "write/comments/README.md",
     "write/blocks/block-error.md",
     "blocks/README.md",
+    "write/blocks/README.md",
+    "write/organize/static-front-page.md",
 }
 
 # Hub sections that are not part of this repository, and where their pages live on developer.wordpress.org.
