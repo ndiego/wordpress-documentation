@@ -651,7 +651,7 @@
 	},
 	"write/block-settings/background": {
 		"applies_to": [],
-		"description": "The Background settings allow you to customize the appearance of supported blocks using images, colors, and gradients.",
+		"description": "Give a block a background image, color or gradient with the background settings.",
 		"id": "write/block-settings/background",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/background.md",
 		"order": 50,
@@ -705,7 +705,7 @@
 	},
 	"write/block-settings/filters": {
 		"applies_to": [],
-		"description": "Use the filter settings to change image appearance with a duotone overlay.",
+		"description": "Change how the images in a block look with a duotone filter.",
 		"id": "write/block-settings/filters",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/write/block-settings/filters.md",
 		"order": 80,
@@ -1823,12 +1823,30 @@
 		"type": "reference",
 		"updated": ""
 	},
+	"blocks/design/navigation-link": {
+		"applies_to": [],
+		"description": "Add a link to a page, post, category or any URL inside a Navigation block with the Custom Link block.",
+		"id": "blocks/design/navigation-link",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/navigation-link.md",
+		"order": 40,
+		"parent": "blocks/design",
+		"path": "blocks/design/navigation-link/",
+		"redirect_from": [
+			"/documentation/article/custom-link-block/"
+		],
+		"section": "blocks",
+		"slug": "navigation-link-block",
+		"status": "",
+		"title": "Custom Link",
+		"type": "reference",
+		"updated": ""
+	},
 	"blocks/design/group": {
 		"applies_to": [],
 		"description": "Put blocks together in a Group block so you can style, move and lay them out as one unit.",
 		"id": "blocks/design/group",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/group/README.md",
-		"order": 40,
+		"order": 50,
 		"parent": "blocks/design",
 		"path": "blocks/design/group/",
 		"redirect_from": [
@@ -1900,7 +1918,7 @@
 		"description": "Add a link to your site's home page inside a Navigation block with the Home Link block.",
 		"id": "blocks/design/home-link",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/home-link.md",
-		"order": 50,
+		"order": 60,
 		"parent": "blocks/design",
 		"path": "blocks/design/home-link/",
 		"redirect_from": [
@@ -1918,7 +1936,7 @@
 		"description": "Show only the start of a post on your blog page, with a link to read the rest, using the More block.",
 		"id": "blocks/design/more",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/more.md",
-		"order": 60,
+		"order": 70,
 		"parent": "blocks/design",
 		"path": "blocks/design/more/",
 		"redirect_from": [
@@ -1928,24 +1946,6 @@
 		"slug": "more-block",
 		"status": "",
 		"title": "More",
-		"type": "reference",
-		"updated": ""
-	},
-	"blocks/design/navigation-link": {
-		"applies_to": [],
-		"description": "Add a link to a page, post, category or any URL inside a Navigation block with the Custom Link block.",
-		"id": "blocks/design/navigation-link",
-		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/design/navigation-link.md",
-		"order": 70,
-		"parent": "blocks/design",
-		"path": "blocks/design/navigation-link/",
-		"redirect_from": [
-			"/documentation/article/custom-link-block/"
-		],
-		"section": "blocks",
-		"slug": "navigation-link-block",
-		"status": "",
-		"title": "Navigation Link",
 		"type": "reference",
 		"updated": ""
 	},
@@ -2257,7 +2257,7 @@
 	},
 	"blocks/widgets/categories": {
 		"applies_to": [],
-		"description": "Show a list or dropdown of your post categories with the Categories List block.",
+		"description": "Show a list or dropdown of your categories or other terms with the Terms List block, formerly Categories List.",
 		"id": "blocks/widgets/categories",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/widgets/categories.md",
 		"order": 120,
@@ -2504,7 +2504,7 @@
 	},
 	"blocks/theme/navigation": {
 		"applies_to": [],
-		"description": "The Navigation block allows you to edit your site’s navigation menu, including its structure and design.",
+		"description": "Add a navigation menu to your header or anywhere else, and edit its links, with the Navigation block.",
 		"id": "blocks/theme/navigation",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/navigation.md",
 		"order": 120,
@@ -2690,7 +2690,7 @@
 	},
 	"blocks/theme/site-tagline": {
 		"applies_to": [],
-		"description": "Use the Site Tagline block to display the tagline of the site on the page or to edit the site tagline.",
+		"description": "Show your site's tagline with the Site Tagline block, and edit it in place.",
 		"id": "blocks/theme/site-tagline",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/site-tagline.md",
 		"order": 220,
@@ -2708,7 +2708,7 @@
 	},
 	"blocks/theme/site-title": {
 		"applies_to": [],
-		"description": "Use the Site Title block to display the name of the site on the page or to edit the site name.",
+		"description": "Show your site's title with the Site Title block, and edit it in place.",
 		"id": "blocks/theme/site-title",
 		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/blocks/theme/site-title.md",
 		"order": 230,
