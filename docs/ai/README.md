@@ -7,7 +7,7 @@ order: 60
 
 # WordPress and AI
 
-After reading this page you know what this section covers, which parts describe things you can do today, and which parts describe work in progress.
+After reading this page you know what this section covers, which parts describe things you can do today, and which parts describe work in progress. Edited locally.
 
 ## What this section covers
 
