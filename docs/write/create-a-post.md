@@ -7,7 +7,7 @@ order: 10
 
 # Create a post
 
-In this tutorial you write a complete post in the block editor and publish it. You add text, a heading and an image, set a category and a featured image, preview the post, and publish it. Along the way you learn the parts of the editor you will use every day. It takes about 15 minutes.
+In this tutorial you write a complete post in the block editor and publish it. You add text, a heading and an image, set a category and a featured image, preview the post, and publish it. Along the way you learn the parts of the editor you will use every day. It takes about ten minutes.
 
 You need to be logged in to a WordPress site with a role that can publish posts (Author, Editor or Administrator). Have an image on your computer ready to upload.
 
