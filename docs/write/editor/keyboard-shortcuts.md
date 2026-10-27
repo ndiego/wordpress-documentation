@@ -10,7 +10,7 @@ redirect_from:
 
 # Keyboard shortcuts
 
-Keyboard shortcuts let you work in the block editor without reaching for the mouse. To see the full list inside the editor, press <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>H</kbd> on Windows and Linux, or <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>H</kbd> on a Mac.
+Keyboard shortcuts let you work in the block editor without reaching for the mouse or trackpad. To see the full list inside the editor, press <kbd>Shift</kbd> + <kbd>Alt</kbd> + <kbd>H</kbd> on Windows and Linux, or <kbd>⌃</kbd> + <kbd>⌥</kbd> + <kbd>H</kbd> on a Mac.
 
 The tables list every shortcut; the sections after them show what some of them do. Shortcuts for the Classic Editor and for the Comments screen are at the end of the page.
 
