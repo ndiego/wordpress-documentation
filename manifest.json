@@ -201,6 +201,22 @@
 		"type": "reference",
 		"updated": ""
 	},
+	"get-started/keyboard-basics": {
+		"applies_to": [],
+		"description": "Why keyboard shortcuts are worth learning.",
+		"id": "get-started/keyboard-basics",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/get-started/keyboard-basics.md",
+		"order": 100,
+		"parent": "get-started",
+		"path": "get-started/keyboard-basics/",
+		"redirect_from": [],
+		"section": "get-started",
+		"slug": "keyboard-basics",
+		"status": "",
+		"title": "Keyboard basics",
+		"type": "guide",
+		"updated": ""
+	},
 	"write": {
 		"applies_to": [],
 		"description": "Write posts and pages in the block editor, work with blocks and media, publish, and organize what you publish.",
