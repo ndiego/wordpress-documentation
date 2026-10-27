@@ -1679,3 +1679,5 @@ More glossaries with collection of blogging terms, acronyms and abbreviations.
 -   [Giant Blogging Terms Glossary](http://www.quickonlinetips.com/archives/2006/06/the-giant-blogging-terms-glossary/)
 -   [Blogging Terms at Wikipedia](http://en.wikipedia.org/wiki/List_of_blogging_terms)
 -   [External WordPress glossary with additional terms](https://www.wpglossary.net)
+
+A paragraph added on GitHub.
