@@ -10,7 +10,7 @@ redirect_from:
 
 # Create a page
 
-In WordPress, you can put content on your site as either a *Post* or a *Page*.
+In WordPress, you can put content on your site as either a *Post* or a *Page*. Proposed from the editor.
 
 When you’re writing a regular blog entry, you write a *Post*. *Posts*, in a default setup, appear in reverse chronological order on your blog’s home page.
 
