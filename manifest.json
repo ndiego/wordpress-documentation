@@ -217,6 +217,22 @@
 		"type": "guide",
 		"updated": ""
 	},
+	"using-studio-with-ai": {
+		"applies_to": [],
+		"description": "",
+		"id": "using-studio-with-ai",
+		"markdown_source": "https://github.com/ndiego/wordpress-documentation/blob/trunk/docs/using-studio-with-ai.md",
+		"order": 10,
+		"parent": null,
+		"path": "using-studio-with-ai/",
+		"redirect_from": [],
+		"section": "using-studio-with-ai",
+		"slug": "using-studio-with-ai",
+		"status": "",
+		"title": "Using Studio with AI",
+		"type": "guide",
+		"updated": ""
+	},
 	"write": {
 		"applies_to": [],
 		"description": "Write posts and pages in the block editor, work with blocks and media, publish, and organize what you publish.",
