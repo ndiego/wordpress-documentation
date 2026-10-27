@@ -10,7 +10,7 @@ redirect_from:
 
 # Twenty Seventeen
 
-[Twenty Seventeen](https://wordpress.org/themes/twentyseventeen/) was the default theme for WordPress in 2017. Its business-oriented design highlights new video headers, and it has a front-page layout that can be created by combining page sections. The theme can be customized further using custom color options and by adding a site logo, social menu, and widgets.
+[Twenty Seventeen](https://wordpress.org/themes/twentyseventeen/) was the default theme for WordPress in 2017. Its business-oriented design highlights new video headers, and it has a front-page layout that can be created by combining page sections. The theme can be customized further using custom color options and by adding a site logo, social menu, and widgets. Saved from the block editor.
 
 ![Two screenshots of Twenty Seventeen, one for desktop and one for mobile.](https://wordpress.org/documentation/files/2018/10/twenty-seventeen-1058.jpg)
 
